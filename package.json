@@ -1,0 +1,20 @@
+{
+  "name": "illy",
+  "version": "1.0.0",
+  "description": "## 🛒 Shopify Liquid Theme",
+  "main": "index.js",
+  "scripts": {
+    "launch": "shopify theme dev --store=illy-au.myshopify.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/illy-coffee/illy-shopify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/illy-coffee/illy-shopify.git/issues"
+  },
+  "homepage": "https://github.com/illy-coffee/illy-shopify.git#readme"
+}
