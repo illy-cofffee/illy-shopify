@@ -1,0 +1,9 @@
+*.log
+.cache
+.env
+.nova
+.vscode
+.DS_*
+logs
+node_modules
+templates/*.json
