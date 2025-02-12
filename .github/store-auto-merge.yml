@@ -1,0 +1,19 @@
+name: AU
+
+on:
+  push:
+    branches:
+      - master
+      - "*"
+    paths-ignore:
+      - "templates/*.json"
+      - "config/*.json"
+      - "locales/*.json"
+
+  pull_request:
+    branches:
+      - master
+    paths-ignore:
+      - "templates/*.json"
+      - "config/*.json"
+      - "locales/*.json"
