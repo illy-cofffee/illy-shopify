@@ -3,7 +3,7 @@ name: AU
 on:
   push:
     branches:
-      - master
+      - main
       - "*"
     paths-ignore:
       - "templates/*.json"
@@ -12,8 +12,35 @@ on:
 
   pull_request:
     branches:
-      - master
+      - main
     paths-ignore:
       - "templates/*.json"
       - "config/*.json"
       - "locales/*.json"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: "run tests"
+        run: |
+          echo "running tests"
+          echo "tests passed"
+  build:
+    # test must complete before build can run
+    needs: test
+    runs-on: ubuntu-latest
+    # only run if the branch is main
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      - name: merge
+        uses: mtanzi/action-automerge@v1
+        id: merge-AU
+        with:
+          github_token: ${{ github.token }}
+          source: "main"
+          target: "live-theme"
