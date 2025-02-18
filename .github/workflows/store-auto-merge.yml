@@ -27,6 +27,11 @@ jobs:
         run: |
           echo "running tests"
           echo "tests passed"
+      - name: Verify token access
+        run: |
+          # Test basic token access
+          curl -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+               https://api.github.com/repos/${{ github.repository }}/actions/secrets
   build:
     # test must complete before build can run
     needs: test
