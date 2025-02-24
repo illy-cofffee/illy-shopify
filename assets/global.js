@@ -1271,7 +1271,7 @@ if (!customElements.get('bulk-add')) {
 // newsletter signup form validation
 document.addEventListener('DOMContentLoaded', function() {
   const checkbox = document.getElementById('privacy-policy-check');
-  const submitButton = document.querySelector('#email-subscribe-form button[type="submit"]');
+  const submitButton = document.querySelector('#ContactFooter button[type="submit"]');
   
   // Initialize button state
   updateButtonState();
