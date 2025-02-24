@@ -72,7 +72,67 @@
             </div>
           {%- when 'email_form' -%}
             <div {{ block.shopify_attributes }}>
-              {% form 'customer', class: 'newsletter-form' %}
+              <div class="newsletter-form">
+                <form action="/contact" method="post" id="email-subscribe-form">
+                  {% form 'customer' %}
+                    {% if form.errors %}
+                      <div class="form-message form-message-error">
+                        {{ form.errors | join ', ' }}
+                      </div>
+                    {% endif %}
+              
+                    <input 
+                      type="email"
+                      name="customer[email]"
+                      placeholder="{{ 'general.newsletter.form.email' | t }}"
+                      required="required"
+                    >
+              
+                    <div class="privacy-checkbox">
+                      <input 
+                        type="checkbox" 
+                        id="privacy-policy" 
+                        name="privacy-policy" 
+                        required="required"
+                        onclick="toggleSubmitButton()"
+                      >
+                      <label for="privacy-policy">
+                        I agree to the <a href="/policies/privacy-policy">Privacy Policy</a> and 
+                        <a href="/policies/terms-and-conditions">Terms & Conditions</a>
+                      </label>
+                    </div>
+              
+                    <button 
+                      type="submit" 
+                      id="subscribe-button" 
+                      disabled
+                    >
+                      {{ 'general.newsletter.form.button' | t }}
+                    </button>
+                  {% endform %}
+                </form>
+              
+                <script>
+                  function toggleSubmitButton() {
+                    const checkbox = document.getElementById('privacy-policy');
+                    const submitButton = document.getElementById('subscribe-button');
+                    
+                    if (checkbox.checked) {
+                      submitButton.disabled = false;
+                    } else {
+                      submitButton.disabled = true;
+                    }
+                  }
+              
+                  // Initialize button state on page load
+                  document.addEventListener('DOMContentLoaded', () => {
+                    toggleSubmitButton();
+                  });
+                </script>
+              </div>
+
+              
+              {% comment %} {% form 'customer', class: 'newsletter-form' %}
                 <input type="hidden" name="contact[tags]" value="newsletter">
                 <div class="newsletter-form__field-wrapper">
                   <div class="field">
@@ -134,7 +194,7 @@
                     {{- 'newsletter.success' | t }}
                   </h3>
                 {%- endif -%}
-              {% endform %}
+              {% endform %} {% endcomment %}
             </div>
         {%- endcase -%}
       {%- endfor -%}
