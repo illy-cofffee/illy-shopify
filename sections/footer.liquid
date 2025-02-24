@@ -209,6 +209,22 @@
                       </span>
                     </button>
                   </div>
+                  <div class="newsletter-input-group">
+                    <div class="privacy-checkbox">
+                      <input 
+                        type="checkbox" 
+                        id="privacy-policy-check" 
+                        name="privacy_policy_acceptance" 
+                        value="true"
+                        required
+                      >
+                      <label for="privacy-policy-check">
+                        By subscribing, I agree to the 
+                        <a href="{{ settings.privacy_policy_link }}" target="_blank">Privacy Policy</a> and 
+                        <a href="{{ settings.terms_link }}" target="_blank">Terms of Service</a>
+                      </label>
+                    </div>
+                  </div>
                   {%- if form.errors -%}
                     <small class="newsletter-form__message form__message" id="ContactFooter-error">
                       <span class="svg-wrapper">
