@@ -3596,40 +3596,39 @@ details-disclosure > details {
   }
 }
 
-.footer-newsletter {
-  .newsletter-input-group {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    max-width: 500px;
-    margin: 0 auto;
-    
-    @media (min-width: breakpoint('md')) {
-      flex-direction: row;
-    }
-  }
 
-  .privacy-checkbox {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+.newsletter-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+  
+  @media (min-width: breakpoint('md')) {
+    flex-direction: row;
+  }
+}
+
+.privacy-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  
+  label {
+    font-size: 0.875rem;
     
-    label {
-      font-size: 0.875rem;
+    a {
+      text-decoration: underline;
+      color: inherit;
       
-      a {
-        text-decoration: underline;
-        color: inherit;
-        
-        &:hover {
-          opacity: 0.8;
-        }
+      &:hover {
+        opacity: 0.8;
       }
     }
   }
+}
 
-  button[disabled] {
-    opacity: 0.5;
-    cursor: not-allowed;
-  }
+button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
