@@ -1267,3 +1267,21 @@ class BulkAdd extends HTMLElement {
 if (!customElements.get('bulk-add')) {
   customElements.define('bulk-add', BulkAdd);
 }
+
+// newsletter signup form validation
+document.addEventListener('DOMContentLoaded', function() {
+  const checkbox = document.getElementById('privacy-policy-check');
+  const submitButton = document.querySelector('#email-subscribe-form button[type="submit"]');
+  
+  // Initialize button state
+  updateButtonState();
+  
+  // Watch for checkbox changes
+  checkbox.addEventListener('change', function() {
+    updateButtonState();
+  });
+  
+  function updateButtonState() {
+    submitButton.disabled = !checkbox.checked;
+  }
+});
