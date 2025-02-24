@@ -3603,6 +3603,7 @@ details-disclosure > details {
   gap: 1rem;
   max-width: 500px;
   margin: 0 auto;
+  text-align: left;
   
   @media (min-width: breakpoint('md')) {
     flex-direction: row;
@@ -3615,7 +3616,7 @@ details-disclosure > details {
   gap: 0.5rem;
   
   label {
-    font-size: 0.875rem;
+    font-size: 1.2rem; */
     
     a {
       text-decoration: underline;
