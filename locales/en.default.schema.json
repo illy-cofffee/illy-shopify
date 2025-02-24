@@ -600,6 +600,11 @@
               "info": "Video plays in a pop-up if the section contains other blocks.",
               "placeholder": "Use a YouTube or Vimeo URL"
             },
+            "video_id": {
+              "label": "Video ID",
+              "info": "Video plays in a pop-up if the section contains other blocks.",
+              "placeholder": "Use a YouTube video id"
+            },
             "description": {
               "default": "Describe the video",
               "label": "Video alt text",
