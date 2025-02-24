@@ -87,7 +87,6 @@
               assign loop = '&loop=1&playlist=' | append: video_id
             endif
           -%}
-          {%- if section.settings.video_url.type == 'youtube' -%}
             <iframe
               src="https://www.youtube.com/embed/{{ video_id }}?enablejsapi=1&autoplay=1{{ loop }}"
               class="js-youtube"
@@ -95,15 +94,6 @@
               allowfullscreen
               title="{{ section.settings.description | escape }}"
             ></iframe>
-          {%- else -%}
-            <iframe
-              src="https://player.vimeo.com/video/{{ video_id }}?autoplay=1{{ loop }}"
-              class="js-vimeo"
-              allow="autoplay; encrypted-media"
-              allowfullscreen
-              title="{{ section.settings.description | escape }}"
-            ></iframe>
-          {%- endif -%}
         {%- else -%}
           {{
             section.settings.video
