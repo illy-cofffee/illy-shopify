@@ -176,13 +176,37 @@
                   <form id="email-subscribe-form" action="/contact" method="post">
                     {% form 'customer' %}
                       <div class="newsletter-input-group">
+                        
+                        <input
+                          id="NewsletterForm--{{ section.id }}"
+                          type="email"
+                          name="contact[email]"
+                          class="field__input"
+                          value="{{ form.email }}"
+                          aria-required="true"
+                          autocorrect="off"
+                          autocapitalize="off"
+                          autocomplete="email"
+                          {% if form.errors %}
+                            autofocus
+                            aria-invalid="true"
+                            aria-describedby="Newsletter-error--{{ section.id }}"
+                          {% elsif form.posted_successfully? %}
+                            aria-describedby="Newsletter-success--{{ section.id }}"
+                          {% endif %}
+                          placeholder="{{ 'newsletter.label' | t }}"
+                          required
+                        >
+                        <label class="field__label" for="NewsletterForm--{{ section.id }}">
+                          {{ 'newsletter.label' | t }}
+                        {% comment %} </label>
                         <input 
                           type="email" 
                           name="contact[email]" 
                           class="field__input"
                           placeholder="{{ 'newsletter.label' | t }}"
                           required
-                        >
+                        > {% endcomment %}
                         
                         <div class="privacy-checkbox">
                           <input 
