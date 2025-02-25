@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "sections": {
     "main": {
       "type": "main-article",
@@ -44,15 +44,15 @@
       ],
       "settings": {}
     },
-    "video_ekwRE8": {
+    "video_Ewkew3": {
       "type": "video",
       "settings": {
         "heading": "Video",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "{{ article.metafields.custom.blog_post_video.value }}",
-        "cover_image": "{{ article.metafields.custom.recipe_video_cover_image.value }}",
-        "description": "{{ article.metafields.custom.recipe_video_alt_text.value }}",
+        "video_url": "https://vimeo.com/74297336",
+        "cover_image": "shopify://shop_images/cq5dam.web.1280.1280.jpg",
+        "description": "",
         "full_width": false,
         "color_scheme": "",
         "padding_top": 36,
@@ -62,6 +62,6 @@
   },
   "order": [
     "main",
-    "video_ekwRE8"
+    "video_Ewkew3"
   ]
 }
