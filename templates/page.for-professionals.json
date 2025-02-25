@@ -15,9 +15,63 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "multicolumn_EV9WyM": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_JNVi9x": {
+          "type": "column",
+          "settings": {
+            "title": "Contact us",
+            "text": "<p>Fill out the form with your business details and you will be contacted as soon as possible by the illy team dedicated to professionals.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kQNHnP": {
+          "type": "column",
+          "settings": {
+            "title": "Your unique needs",
+            "text": "<p>Let us know about your business details and you will be contacted within 24 hours by the illy team dedicated to professionals.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Vhe6Lp": {
+          "type": "column",
+          "settings": {
+            "title": "Discover the benefits",
+            "text": "<p>Discover a world of exclusive experiences and benefits for professional illy coffee lovers.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_JNVi9x",
+        "column_kQNHnP",
+        "column_Vhe6Lp"
+      ],
+      "settings": {
+        "title": "illy for professionals",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Contact us",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "multicolumn_EV9WyM"
   ]
 }
