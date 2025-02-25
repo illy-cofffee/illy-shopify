@@ -76,14 +76,14 @@
         "padding_bottom": 36
       }
     },
-    "video_LGUcRQ": {
+    "video_rt3R4t": {
       "type": "video",
       "settings": {
         "heading": "Video",
         "heading_size": "h1",
         "enable_video_looping": false,
         "video_url": "https://vimeo.com/37861757",
-        "description": "This is a video about how to make a coffee",
+        "description": "",
         "full_width": false,
         "color_scheme": "",
         "padding_top": 36,
@@ -93,6 +93,7 @@
   },
   "order": [
     "image_banner",
-    "video_LGUcRQ"  
+    "featured_collection",
+    "video_rt3R4t"
   ]
 }
