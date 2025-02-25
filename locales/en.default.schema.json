@@ -605,11 +605,6 @@
               "label": "Video alt text",
               "info": "Describe the video for customers using screen readers. [Learn more](https://help.shopify.com/manual/online-store/themes/theme-structure/theme-features#video-block)"
             },
-            "video_id": {
-             "label": "Video ID",
-              "info": "Video plays in a pop-up if the section contains other blocks.",
-              "placeholder": "Use a YouTube video id"
-            }
           }, 
         }
       },
@@ -3007,6 +3002,11 @@
         },
         "video": {
           "label": "Video"
+        },
+        "video_id": {
+          "label": "Video ID",
+          "info": "Video plays in a pop-up if the section contains other blocks.",
+          "placeholder": "Use a YouTube video id"
         },
         "enable_video_looping": {
           "label": "Play video on loop"
