@@ -3005,8 +3005,8 @@
         },
         "video_id": {
           "label": "Video ID",
-          "info": "Video plays in a pop-up if the section contains other blocks.",
-          "placeholder": "Use a YouTube video id"
+          "info": "Use a YouTube video ID eg _9VUPq3SxOc",
+          "placeholder": ""
         },
         "enable_video_looping": {
           "label": "Play video on loop"
