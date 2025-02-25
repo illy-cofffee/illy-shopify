@@ -17,14 +17,45 @@
         "padding_bottom": 28
       }
     },
+    "rich_text_JXMfhg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_XqKNzj": {
+          "type": "heading",
+          "settings": {
+            "heading": "illy for Professionals",
+            "heading_size": "h1"
+          }
+        },
+        "text_jdcDcw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non leo ut neque dictum molestie. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XqKNzj",
+        "text_jdcDcw"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "multicolumn_EV9WyM": {
       "type": "multicolumn",
       "blocks": {
         "column_JNVi9x": {
           "type": "column",
           "settings": {
-            "title": "Contact us",
-            "text": "<p>Fill out the form with your business details and you will be contacted as soon as possible by the illy team dedicated to professionals.</p>",
+            "image": "shopify://shop_images/restaurants.jpg",
+            "title": "Restaurants & Cafes",
+            "text": "<p>Perfect for every restaurant,  from those who serve hundreds of cups of coffee a day to those who serve only a few, we wish for every meal to end with the finishing touch they deserve.</p>",
             "link_label": "",
             "link": ""
           }
@@ -32,17 +63,9 @@
         "column_kQNHnP": {
           "type": "column",
           "settings": {
-            "title": "Your unique needs",
-            "text": "<p>Let us know about your business details and you will be contacted within 24 hours by the illy team dedicated to professionals.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_Vhe6Lp": {
-          "type": "column",
-          "settings": {
-            "title": "Discover the benefits",
-            "text": "<p>Discover a world of exclusive experiences and benefits for professional illy coffee lovers.</p>",
+            "image": "shopify://shop_images/offices.jpg",
+            "title": "Offices",
+            "text": "<p>The coffee break for every professional environment. Treat your colleagues to an amazing Italian coffee experience, cup after cup, perfect every time.</p>",
             "link_label": "",
             "link": ""
           }
@@ -50,15 +73,14 @@
       },
       "block_order": [
         "column_JNVi9x",
-        "column_kQNHnP",
-        "column_Vhe6Lp"
+        "column_kQNHnP"
       ],
       "settings": {
-        "title": "illy for professionals",
+        "title": "Our solutions",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 2,
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "Contact us",
@@ -68,48 +90,6 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "rich_text_JXMfhg": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_XqKNzj": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text_jdcDcw": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_KnDJNq": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_XqKNzj",
-        "text_jdcDcw",
-        "button_KnDJNq"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     }
   },
