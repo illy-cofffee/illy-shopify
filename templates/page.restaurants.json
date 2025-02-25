@@ -17,34 +17,116 @@
         "padding_bottom": 28
       }
     },
-    "rich_text_JXMfhg": {
-      "type": "rich-text",
+    "image_banner_9MP4bw": {
+      "type": "image-banner",
       "blocks": {
-        "heading_XqKNzj": {
+        "heading_zk9Yzp": {
           "type": "heading",
           "settings": {
-            "heading": "illy for Professionals",
+            "heading": "illy for Restaurants & Cafes",
             "heading_size": "h1"
           }
         },
-        "text_jdcDcw": {
+        "text_XaNaJQ": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non leo ut neque dictum molestie. </p>"
+            "text": "illy in your restaurant, a fine finishing touch for any menu.",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading_XqKNzj",
-        "text_jdcDcw"
+        "heading_zk9Yzp",
+        "text_XaNaJQ"
       ],
       "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
+        "image": "shopify://shop_images/restaurants-header.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
         "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_with_text_MEDERr": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_x6zptY": {
+          "type": "heading",
+          "settings": {
+            "heading": "illy for Restaurants",
+            "heading_size": "h2"
+          }
+        },
+        "text_tDUnze": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The perfect conclusion at the end of an extraordinary meal. We provide the coffee that meets the same excellent standards as the food you serve.</p><p>Coffee is often the last taste you enjoy at the dinner table, and the memory stays with you for a long time after you leave. This is why your coffee should always be as good as the dishes you serve.</p><p>Our equipment, the constant quality of the illy blend and the distinctive flavours and aromas of the Arabica Selection coffees, provide solutions that are the perfect accompaniment to any dish.</p><p>Perfect for every restaurant,  from those who serve hundreds of cups of coffee a day to those who serve only a few, we wish for every meal to end with the finishing touch they deserve.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_x6zptY",
+        "text_tDUnze"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/restaurants.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_Ar4zX9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_HqLQgK": {
+          "type": "heading",
+          "settings": {
+            "heading": "illy for Cafes",
+            "heading_size": "h2"
+          }
+        },
+        "text_aCtP4f": {
+          "type": "text",
+          "settings": {
+            "text": "<p>An exceptional experience.</p><p>From bean to the cup: we start from coffee and continue with a whole range of products and services designed to help you offer your customers an unforgettable experience every day.</p><p>We have developed four specific areas of interest for those interested in partnering with illy: products to serve to guests on site, products for retail sale, coffee machines and our artist cup collection. We also provide a variety of other services, including consulting, training, assistance and communication.</p><p>With over 80 years of experience from our team of professionals, we can support you in every aspect of your business, to help you make your illy coffee experience a destination for coffee enthusiasts.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HqLQgK",
+        "text_aCtP4f"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/cafes.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "multicolumn_EV9WyM": {
@@ -106,7 +188,9 @@
   },
   "order": [
     "main",
-    "rich_text_JXMfhg",
+    "image_banner_9MP4bw",
+    "image_with_text_MEDERr",
+    "image_with_text_Ar4zX9",
     "multicolumn_EV9WyM"
   ]
 }
