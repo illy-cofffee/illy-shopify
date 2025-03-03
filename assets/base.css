@@ -3653,6 +3653,11 @@ button[disabled] {
   margin-right: 3em;
 }
 
+.announcement-bar__link {
+  justify-content: left;
+  align-items: left;
+}
+
 .header {
   padding: 0px;
   max-width: 100%;
