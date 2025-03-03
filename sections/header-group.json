@@ -17,8 +17,8 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
-            "link": ""
+            "text": "Sign up to stay updated on latest offers, new products and stories.",
+            "link": "shopify://pages/contact"
           }
         }
       },
