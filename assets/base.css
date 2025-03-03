@@ -3641,6 +3641,12 @@ button[disabled] {
   background-color: #F6F6F6;
 }
 
+
+.announcement-bar, .announcement-bar__announcement {
+  justify-content: left;
+  align-content: left;
+}
+
 .announcement-bar__message {
   text-align: left; 
 }
