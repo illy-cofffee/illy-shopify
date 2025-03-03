@@ -3649,6 +3649,8 @@ button[disabled] {
 
 .announcement-bar__message {
   text-align: left; 
+  margin-left: 3em;
+  margin-right: 3em;
 }
 
 .header {
