@@ -3633,3 +3633,174 @@ button[disabled] {
   opacity: 0.5;
   cursor: not-allowed;
 }
+
+
+.lazy-image {
+	position: relative;
+}
+
+.lazy-image:not(.lazy-image--no-transition):before,
+.lazy-image:not(.lazy-image--no-transition):after {
+	content: "";
+	z-index: -1;
+}
+
+.lazy-image:not(.lazy-image--no-transition):before {
+	background: var(--color-fourth-background-main);
+}
+
+.lazy-image:not(.lazy-image--no-transition):after {
+	background: var(--color-third-background-main);
+	animation: lazy-loading 4s linear infinite;
+	opacity: 0.2;
+}
+
+.lazy-image.lazy-image--animation img {
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+	transform: translateY(0);
+	position: relative;
+	top: 0;
+	transition: top 175ms linear, clip-path 175ms linear;
+}
+
+.no-touchevents a:hover .lazy-image.lazy-image--animation img,
+.no-touchevents .card--animation:hover .lazy-image.lazy-image--animation img {
+	clip-path: polygon(0 0, 100% 0, 100% calc(100% - 0.625rem), 0 calc(100% - 0.625rem));
+	top: -10px;
+}
+
+/* animation updates for card__image */
+.no-touchevents .card__image-link .lazy-image.lazy-image--animation img,
+.no-touchevents .card--animation .lazy-image.lazy-image--animation img {
+	transition: all 0.3s linear !important;
+}
+
+.no-touchevents .card__image-link:hover .lazy-image.lazy-image--animation img,
+.no-touchevents .card--animation:hover .lazy-image.lazy-image--animation img {
+	clip-path: unset;
+	top: unset;
+	transform: scale(1.05);
+}
+
+.card__image-link .gutter--regular {
+	padding-left: 0;
+}
+
+.lazy-image.lazy-image--zoom-animation {
+	overflow: hidden;
+}
+
+.lazy-image.lazy-image--zoom-animation img {
+	transition: width 175ms linear, height 175ms linear, left 175ms linear, top 175ms linear, transform 175ms linear;
+}
+
+.no-touchevents a:hover .lazy-image.lazy-image--zoom-animation img {
+	width: 102%;
+	height: 102%;
+	top: -1%;
+	left: -1%;
+}
+
+.lazy-image.lazy-image--scale-animation {
+	overflow: hidden;
+}
+
+.lazy-image.lazy-image--scale-animation img {
+	transition: opacity 350ms, transform 175ms linear !important;
+}
+
+.no-touchevents a:hover .lazy-image.lazy-image--scale-animation img {
+	transform: scale(1.05);
+}
+
+.lazy-image img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	vertical-align: bottom;
+	position: relative;
+	z-index: 9;
+	will-change: transform;
+}
+
+.lazy-image.lazy-image--to-reveal img {
+	opacity: 0;
+}
+
+@media screen and (min-width: 768px) {
+	.lazy-image.lazy-image--to-reveal img {
+		transform: translateY(20px) scale(1.05);
+	}
+}
+
+.lazy-image.lazy-image--to-reveal.lazy-image--revealed:before,
+.lazy-image.lazy-image--to-reveal.lazy-image--revealed:after {
+	display: none;
+}
+
+@media screen and (min-width: 768px) {
+	.lazy-image.lazy-image--to-reveal.lazy-image--revealed img {
+		animation: lazyanimation 0.5s linear forwards;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.lazy-image.lazy-image--to-reveal.lazy-image--revealed img {
+		opacity: 1;
+		transition: opacity 700ms ease-out;
+	}
+}
+
+.lazy-image:not(.lazy-image--to-reveal) img {
+	opacity: 0;
+}
+
+.lazy-image:not(.lazy-image--to-reveal).lazyloaded:before,
+.lazy-image:not(.lazy-image--to-reveal).lazyloaded:after {
+	display: none;
+}
+
+.lazy-image:not(.lazy-image--to-reveal).lazyloaded img {
+	opacity: 1;
+}
+
+.lazy-image:not(.lazy-image--to-reveal) img {
+	transition: opacity 350ms ease-out;
+}
+
+.lazy-image:not(.lazy-image--to-reveal).lazy-image--zoom-animation img {
+	transition: width 175ms linear, height 175ms linear, left 175ms linear, top 175ms linear;
+}
+
+.lazy-image:not(.lazy-image--to-reveal).lazy-image--animation img {
+	transition: top 175ms linear, clip-path 175ms linear, opacity 350ms ease-out;
+}
+
+.lazy-image.lazy-image--background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100% !important;
+	z-index: 0;
+	padding-top: 0 !important;
+}
+
+.lazy-image.lazy-image--background img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.lazy-image[data-ratio] {
+	height: 0;
+}
+
+.lazy-image[data-ratio] img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
