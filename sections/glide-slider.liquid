@@ -51,21 +51,20 @@
                   {%- endunless -%}
                   {%- if block.settings.button_label != blank -%}
     
-                    <div
-                        class="banner__buttons">
+                    <div class="banner__buttons">
                         {%- if block.settings.button_label != blank -%}
-                          <a
+                            <a
                             {% if block.settings.button_link_1 == blank %}
-                              role="link" aria-disabled="true"
+                                role="link" aria-disabled="true"
                             {% else %}
-                              href="{{ block.settings.button_link }}"
+                                href="{{ block.settings.button_link }}"
                             {% endif %}
                             class="button{% if block.settings.button_style == "secondary" %} button--secondary{% else %} button--primary{% endif %}"
-                          >
+                            >
                             {{- block.settings.button_label | escape -}}
-                          </a>
+                            </a>
                         {%- endif -%}
-                      </div>
+                    </div>
 
                     {% comment %} <div>
                         
@@ -136,9 +135,23 @@
     {%- endunless -%}
     {%- if block.settings.button_label != blank -%}
     
-                  <div>
+        <div class="banner__buttons">
+            {%- if block.settings.button_label != blank -%}
+                <a
+                {% if block.settings.button_link_1 == blank %}
+                    role="link" aria-disabled="true"
+                {% else %}
+                    href="{{ block.settings.button_link }}"
+                {% endif %}
+                class="button{% if block.settings.button_style == "secondary" %} button--secondary{% else %} button--primary{% endif %}"
+                >
+                {{- block.settings.button_label | escape -}}
+                </a>
+            {%- endif -%}
+        </div>
+                  {% comment %} <div>
                     {%- render 'button', label: block.settings.button_label, link: block.settings.link, style: block.settings.button_style, fullwidth: false -%}
-                  </div>
+                  </div> {% endcomment %}
     
     {%- endif -%}
     
