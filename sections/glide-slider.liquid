@@ -1,6 +1,21 @@
 {{ 'section-glide.core.css' | asset_url | stylesheet_tag }}
 {{ 'section-glide-theme.css' | asset_url | stylesheet_tag }}
 
+<style>
+
+    {% unless block.settings.color_text_main == blank -%}
+        .glide h1, h2, h3 h4, h5 {
+            color: {{ block.settings.color_text_main }};
+        }
+      {% endunless %}
+
+      figure {
+        margin: 0px;
+        padding: 0px;
+      }
+
+</style>
+
 {%- if section.blocks.size > 0 -%}
 
     <!-- if there is more than one i  tem in the carousel, turn on the navigation and the auto rotate -->
@@ -8,7 +23,7 @@
 
       <div class="glide__track" data-glide-el="track">
         <ul class="glide__slides">
-          
+           
 {%- for block in section.blocks -%}
           <!-- build out each carousel item (block) -->
           <li class="glide__slide" id="element-{{ block.id }}" style="
@@ -19,9 +34,7 @@
             {% if block.settings.column_layout == "one_column" or block.settings.column_layout == "full_width" %}
               <div class="slider-content {% if block.settings.column_layout == "one_column" %}contained{% endif %}" aria-hidden="true">  
                 <div class="slider-column-single {{ block.settings.alignment }} {% if block.settings.column_layout == "one_column" %}mobile-one-col{% else %}mobile-full-width{% endif %}">
-                  <div class="slider-column-content" {% unless block.settings.color_text_main == blank -%}
-                    style="color: {{ block.settings.color_text_main }}"
-                  {% endunless %}>
+                  <div class="slider-column-content"
                     <!-- Test content -->
                     
                   {%- unless block.settings.outline_text == blank -%}
