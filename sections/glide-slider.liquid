@@ -22,7 +22,7 @@
     {% unless block.settings.color_text_main == blank -%}
       {% assign blockstyle = 'style="color:' | append block.settings.color_text_main | append '"' %}
     {% else %}
-      {%assign blockstyle = "" %}
+      {% assign blockstyle = "" %}
     {% endunless %}
           <!-- build out each carousel item (block) -->
           <li class="glide__slide" id="element-{{ block.id }}" style="
