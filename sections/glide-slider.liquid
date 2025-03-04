@@ -144,10 +144,10 @@
         <div class="banner__buttons">
             {%- if block.settings.button_label != blank -%}
                 <a
-                {% if block.settings.button_link == blank %}
+                {% if block.settings.link == blank %}
                     role="link" aria-disabled="true"
                 {% else %}
-                    href="{{ block.settings.button_link }}"
+                    href="{{ block.settings.link }}"
                 {% endif %}
                 class="button{% if block.settings.button_style == "secondary" %} button--secondary{% else %} button--primary{% endif %}"
                 >
