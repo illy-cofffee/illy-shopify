@@ -26,7 +26,7 @@
            
 {%- for block in section.blocks -%}
        {% if block.settings.color_text_main != "" %}
-      Hello
+     {% assign blockstyle = 'style="color:' | append: block.settings.color_text_main %}
       {% comment %} {% assign blockstyle = 'style="color:' | append block.settings.color_text_main %}
       {% assign blockstyle = blockstyle | append '"' %} {% endcomment %}
     {% else %}
