@@ -3,12 +3,6 @@
 
 <style>
 
-    {% unless block.settings.color_text_main == blank -%}
-        .glide h1, h2, h3 h4, h5 {
-            color: {{ block.settings.color_text_main }};
-        }
-      {% endunless %}
-
       figure {
         margin: 0px;
         padding: 0px;
@@ -24,8 +18,8 @@
       <div class="glide__track" data-glide-el="track">
         <ul class="glide__slides">
            
-{%- for block in section.blocks -%}
-  {% if block.settings.color_text_main != "" %}
+  {%- for block in section.blocks -%}
+    {% if block.settings.color_text_main != "" %}
       {% assign blockstyle = 'style="color:' | append: block.settings.color_text_main %}
       {% assign blockstyle = blockstyle | append: '"' %}
     {% else %}
@@ -54,10 +48,12 @@
                   {% assign blockheader = blockheader | remove: "<p>" %}
                   {% assign blockheader = blockheader | remove: "</p>" %}
     
+                  
+
                   {% if section.settings.h1-title == true %} 
     
                                 <h1 {% else %} <h3 {% endif %}>
-                                <span class="text-animation--underline underline-mobile">{{ blockheader }}</span>
+                                <span class="text-animation--underline underline-mobile">block style is {{ blockstyle }} {{ blockheader }}</span>
                                 
                   {% if section.settings.h1-title == true %} </h1> {% else %} </h3>{% endif %}
     
@@ -135,13 +131,11 @@
     {% assign blockheader = block.settings.glide-slider-item-header %}
     {% assign blockheader = blockheader | remove: "<p>" %}
     {% assign blockheader = blockheader | remove: "</p>" %}
-    {% assign blockheader = blockheader | replace: "<em>", "<span class='em-spectral'>" %}
-    {% assign blockheader = blockheader | replace: "</em>", "</span>" %}
     
     {% if section.settings.h1-title == true %} 
     
                   <h1 {% else %} <h3 {% endif %}>
-                  <span class="text-animation--underline underline-mobile">{{ blockheader }}</span>
+                  <span class="text-animation--underline underline-mobile">block style is {{ blockstyle }} {{ blockheader }}</span>
                   
     {% if section.settings.h1-title == true %} </h1> {% else %} </h3>{% endif %}
     
@@ -439,13 +433,13 @@
           "type": "color",
           "id": "color_background_main",
           "label": "Main background colour",
-          "default": "#f75828"
+          "default": "#FFFFFF"
         },
         {
           "type": "color",
           "id": "color_text_main",
           "label": "Main text colour",
-          "default": "#333333"
+          "default": "#FFFFFF"
         }
       ]
     }
