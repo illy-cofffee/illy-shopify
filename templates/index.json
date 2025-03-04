@@ -9,6 +9,33 @@
  */
 {
   "sections": {
+    "glide_slider_UpqFxy": {
+      "type": "glide-slider",
+      "blocks": {
+        "glide_slider_item_8zJCPb": {
+          "type": "glide-slider-item",
+          "settings": {
+            "glide-slider-item-header": "<p>Buy 4.</p><p>Get 2 free.</p>",
+            "column_layout": "full_width",
+            "image": "shopify://shop_images/glide-slide.png",
+            "outline_text": "",
+            "description": "<p>Use code: CARTON</p>",
+            "alignment": "align-top-left",
+            "link": "",
+            "button_label": "Show more",
+            "button_style": "solid",
+            "color_background_main": "#f75828",
+            "color_text_main": "#333333"
+          }
+        }
+      },
+      "block_order": [
+        "glide_slider_item_8zJCPb"
+      ],
+      "settings": {
+        "h1-title": false
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -16,7 +43,8 @@
           "type": "heading",
           "settings": {
             "heading": "Develop headline",
-            "heading_size": "h0"
+            "heading_size": "h0",
+            "h1-title": false
           }
         },
         "button": {
@@ -92,6 +120,7 @@
     }
   },
   "order": [
+    "glide_slider_UpqFxy",
     "image_banner",
     "featured_collection",
     "video_LGUcRQ"

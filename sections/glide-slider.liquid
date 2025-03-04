@@ -25,9 +25,9 @@
                   {% endunless %}>
                     <!-- Test content -->
                     
-                  {%- unless block.settings.subhead_text == blank -%}
+                  {%- unless block.settings.outline_text == blank -%}
     
-                    <span class="text-size--small">{{ block.settings.subhead_text | escape }}</span>
+                    <span class="text-size--small">{{ block.settings.outline_text | escape }}</span>
                   
                   {%- endunless -%}
     
@@ -107,9 +107,9 @@
                 {% endunless %}>
                   <!-- Test content -->
                   
-    {%- unless block.settings.subhead_text == blank -%}
+    {%- unless block.settings.outline_text == blank -%}
     
-                  <span class="text-size--small">{{ block.settings.subhead_text | escape }}</span>
+                  <span class="text-size--small">{{ block.settings.outline_text | escape }}</span>
                 
     {%- endunless -%}
     
@@ -117,6 +117,8 @@
     {% assign blockheader = block.settings.glide-slider-item-header %}
     {% assign blockheader = blockheader | remove: "<p>" %}
     {% assign blockheader = blockheader | remove: "</p>" %}
+    {% assign blockheader = blockheader | replace: "<em>", "<span class='em-spectral'>" %}
+    {% assign blockheader = blockheader | replace: "</em>", "</span>" %}
     
     {% if section.settings.h1-title == true %} 
     
@@ -319,9 +321,9 @@
         },
         {
           "type": "text",
-          "id": "subhead_text",
-          "label": "Subheading text",
-          "default": ""
+          "id": "outline_text",
+          "label": "Outline text",
+          "default": "Introducing"
         },
         {
           "type": "richtext",
@@ -419,13 +421,13 @@
           "type": "color",
           "id": "color_background_main",
           "label": "Main background colour",
-          "default": ""
+          "default": "#f75828"
         },
         {
           "type": "color",
           "id": "color_text_main",
           "label": "Main text colour",
-          "default": ""
+          "default": "#333333"
         }
       ]
     }
