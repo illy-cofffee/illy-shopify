@@ -54,7 +54,7 @@
                   {%- endunless -%}
                   {%- unless block.settings.description == blank -%}
                                 
-                                <span>{{ block.settings.description }}</span>
+                                <span style="color: {{ block.settings.color_text_main }}">{{ block.settings.description }}</span>
                               
                   {%- endunless -%}
                   {%- if block.settings.button_label != blank -%}
