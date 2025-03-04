@@ -19,12 +19,6 @@
         <ul class="glide__slides">
            
   {%- for block in section.blocks -%}
-    {% if block.settings.color_text_main != "" %}
-      {% assign blockstyle = 'style="color:' | append: block.settings.color_text_main %}
-      {% assign blockstyle = blockstyle | append: '"' %}
-    {% else %}
-      {% assign blockstyle = "" %}
-    {% endif %}
           <!-- build out each carousel item (block) -->
           <li class="glide__slide" id="element-{{ block.id }}" style="
             {% if block.settings.color_background_main != "" %}
@@ -53,7 +47,7 @@
                   {% if section.settings.h1-title == true %} 
     
                                 <h1 {% else %} <h3 {% endif %}>
-                                <span class="text-animation--underline underline-mobile" {{ blockstyle }}>{{ blockheader }}</span>
+                                <span class="text-animation--underline underline-mobile" style="color: {{ block.settings.color_text_main }}>{{ blockheader }}</span>
                                 
                   {% if section.settings.h1-title == true %} </h1> {% else %} </h3>{% endif %}
     
@@ -135,7 +129,7 @@
     {% if section.settings.h1-title == true %} 
     
                   <h1 {% else %} <h3 {% endif %}>
-                  <span class="text-animation--underline underline-mobile" {{ blockstyle }}>{{ blockheader }}</span>
+                  <span class="text-animation--underline underline-mobile" style="color: {{ block.settings.color_text_main }}>{{ blockheader }}</span>
                   
     {% if section.settings.h1-title == true %} </h1> {% else %} </h3>{% endif %}
     
