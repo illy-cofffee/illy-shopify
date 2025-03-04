@@ -305,6 +305,19 @@
       if (Shopify.designMode) {
         document.documentElement.classList.add('shopify-design-mode');
       }
+
+      /* Lazy Load */
+      const imageReveal = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            setTimeout(() => {
+              entry.target.classList.remove('lazy-image--to-reveal');
+            }, 500);
+            entry.target.classList.add('lazy-image--revealed');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, {rootMargin: '20px 0px 0px 0px'});
     </script>
   </head>
 
