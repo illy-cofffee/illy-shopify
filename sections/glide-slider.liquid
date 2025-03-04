@@ -3,12 +3,6 @@
 
 <style>
 
-    {% unless block.settings.color_text_main == blank -%}
-        .glide h1, h2, h3 h4, h5 {
-            color: {{ block.settings.color_text_main }};
-        }
-      {% endunless %}
-
       figure {
         margin: 0px;
         padding: 0px;
@@ -48,6 +42,12 @@
                   {% assign blockheader = blockheader | remove: "<p>" %}
                   {% assign blockheader = blockheader | remove: "</p>" %}
     
+                  {% unless block.settings.color_text_main == blank -%}
+                    {% assign blockstyle = 'style="color:' | append block.settings.color_text_main | append '"' %}
+                  {% else %}
+                    {%assign blockstyle = "" %}
+                  {% endunless %}
+
                   {% if section.settings.h1-title == true %} 
     
                                 <h1 {% else %} <h3 {% endif %}>
@@ -433,13 +433,13 @@
           "type": "color",
           "id": "color_background_main",
           "label": "Main background colour",
-          "default": "#f75828"
+          "default": ""
         },
         {
           "type": "color",
           "id": "color_text_main",
           "label": "Main text colour",
-          "default": "#333333"
+          "default": ""
         }
       ]
     }
