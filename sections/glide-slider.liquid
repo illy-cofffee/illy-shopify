@@ -19,11 +19,11 @@
         <ul class="glide__slides">
            
   {%- for block in section.blocks -%}
-    {% unless block.settings.color_text_main == blank -%}
-      {% assign blockstyle = 'style="color:' | append block.settings.color_text_main | append '"' %}
+    {% if block.settings.color_text_main != "" %}
+      {% assign blockstyle = 'style="color:' | append block.settings.color_text_main %}
     {% else %}
       {% assign blockstyle = "" %}
-    {% endunless %}
+    {% endif %}
           <!-- build out each carousel item (block) -->
           <li class="glide__slide" id="element-{{ block.id }}" style="
             {% if block.settings.color_background_main != "" %}
