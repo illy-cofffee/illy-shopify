@@ -53,7 +53,7 @@
                   {% if section.settings.h1-title == true %} 
     
                                 <h1 {% else %} <h3 {% endif %}>
-                                <span class="text-animation--underline underline-mobile">block style is {{ blockstyle }} {{ blockheader }}</span>
+                                <span class="text-animation--underline underline-mobile" {{ blockstyle }}>{{ blockheader }}</span>
                                 
                   {% if section.settings.h1-title == true %} </h1> {% else %} </h3>{% endif %}
     
@@ -135,7 +135,7 @@
     {% if section.settings.h1-title == true %} 
     
                   <h1 {% else %} <h3 {% endif %}>
-                  <span class="text-animation--underline underline-mobile">block style is {{ blockstyle }} {{ blockheader }}</span>
+                  <span class="text-animation--underline underline-mobile" {{ blockstyle }}>{{ blockheader }}</span>
                   
     {% if section.settings.h1-title == true %} </h1> {% else %} </h3>{% endif %}
     
@@ -433,13 +433,13 @@
           "type": "color",
           "id": "color_background_main",
           "label": "Main background colour",
-          "default": ""
+          "default": "#FFFFFF"
         },
         {
           "type": "color",
           "id": "color_text_main",
           "label": "Main text colour",
-          "default": ""
+          "default": "#FFFFFF"
         }
       ]
     }
