@@ -24,8 +24,8 @@
             "link": "",
             "button_label": "Show more",
             "button_style": "solid",
-            "color_background_main": "#f75828",
-            "color_text_main": "#333333"
+            "color_background_main": "#ffffff",
+            "color_text_main": "#ffffff"
           }
         }
       },
