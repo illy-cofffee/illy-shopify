@@ -20,7 +20,7 @@
             "image": "shopify://shop_images/glide-slide.png",
             "outline_text": "",
             "description": "<p>Use code: CARTON</p>",
-            "alignment": "align-top-left",
+            "alignment": "align-bottom-left",
             "link": "shopify://collections/coffee",
             "button_label": "Show more",
             "button_style": "solid",
