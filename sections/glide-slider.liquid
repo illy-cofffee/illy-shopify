@@ -1,4 +1,4 @@
-{{ 'section-glide-core.css' | asset_url | stylesheet_tag }}
+{{ 'section-glide.core.css' | asset_url | stylesheet_tag }}
 {{ 'section-glide-theme.css' | asset_url | stylesheet_tag }}
 
 {%- if section.blocks.size > 0 -%}
@@ -24,9 +24,9 @@
                   {% endunless %}>
                     <!-- Test content -->
                     
-                  {%- unless block.settings.subtitle == blank -%}
+                  {%- unless block.settings.outline_text == blank -%}
     
-                    <span class="text-size--small">{{ block.settings.subtitle | escape }}</span>
+                    <span class="text-size--small">{{ block.settings.outline_text | escape }}</span>
                   
                   {%- endunless -%}
     
@@ -34,7 +34,7 @@
                   {% assign blockheader = block.settings.glide-slider-item-header %}
                   {% assign blockheader = blockheader | remove: "<p>" %}
                   {% assign blockheader = blockheader | remove: "</p>" %}
-
+    
                   {% if section.settings.h1-title == true %} 
     
                                 <h1 {% else %} <h3 {% endif %}>
@@ -50,24 +50,30 @@
                   {%- endunless -%}
                   {%- if block.settings.button_label != blank -%}
     
-                    <div>
-                      {%- render 'button', label: block.settings.button_label, link: block.settings.link, style: block.settings.button_style, fullwidth: false -%}
+                    <div class="banner__buttons">
+                        {%- if block.settings.button_label != blank -%}
+                            <a
+                            {% if block.settings.button_link_1 == blank %}
+                                role="link" aria-disabled="true"
+                            {% else %}
+                                href="{{ block.settings.button_link }}"
+                            {% endif %}
+                            class="button{% if block.settings.button_style == "secondary" %} button--secondary{% else %} button--primary{% endif %}"
+                            >
+                            {{- block.settings.button_label | escape -}}
+                            </a>
+                        {%- endif -%}
                     </div>
+
+                    {% comment %} <div>
+                        
+                      {%- render 'button', label: block.settings.button_label, link: block.settings.link, style: block.settings.button_style, fullwidth: false -%}
+                    </div> {% endcomment %}
     
       {%- endif -%}
                   </div> <!-- end slider-column-content -->
     
-
-                  <img
-                    src="{{ block.settings.image | image_url: width: 300 }}"
-                    class=""
-                    alt="{{ block.settings.image.alt | escape }}"
-                    loading="lazy"
-                    width="150"
-                    height="{{ 150 | divided_by: item.image.aspect_ratio | ceil }}"
-                  >
-
-                  {% comment %} {%- capture sizes -%}
+                  {%- capture sizes -%}
                     sizes="(max-width: 1023px) calc({{ block.settings.mobile_height }} * {{ block.settings.image.aspect_ratio }}), calc({{ block.settings.desktop_height }} * {{ block.settings.image.aspect_ratio }})"
                   {%- endcapture -%}
                   
@@ -85,7 +91,7 @@
                   
                     render 'lazy-image', image: block.settings.image, type: 'background', alt: block.settings.title, image_alignment: true, sizes: sizes, class: image_class, overlay: true, image_class: 'img-top-left'
                   
-                  -%} {% endcomment %}
+                  -%}
                   </div><!-- end slider-image -->
     
                   
@@ -100,9 +106,9 @@
                 {% endunless %}>
                   <!-- Test content -->
                   
-    {%- unless block.settings.subtitle == blank -%}
+    {%- unless block.settings.outline_text == blank -%}
     
-                  <span class="text-size--small">{{ block.settings.subtitle | escape }}</span>
+                  <span class="text-size--small">{{ block.settings.outline_text | escape }}</span>
                 
     {%- endunless -%}
     
@@ -110,6 +116,8 @@
     {% assign blockheader = block.settings.glide-slider-item-header %}
     {% assign blockheader = blockheader | remove: "<p>" %}
     {% assign blockheader = blockheader | remove: "</p>" %}
+    {% assign blockheader = blockheader | replace: "<em>", "<span class='em-spectral'>" %}
+    {% assign blockheader = blockheader | replace: "</em>", "</span>" %}
     
     {% if section.settings.h1-title == true %} 
     
@@ -126,9 +134,23 @@
     {%- endunless -%}
     {%- if block.settings.button_label != blank -%}
     
-                  <div>
+        <div class="banner__buttons">
+            {%- if block.settings.button_label != blank -%}
+                <a
+                {% if block.settings.button_link_1 == blank %}
+                    role="link" aria-disabled="true"
+                {% else %}
+                    href="{{ block.settings.button_link }}"
+                {% endif %}
+                class="button{% if block.settings.button_style == "secondary" %} button--secondary{% else %} button--primary{% endif %}"
+                >
+                {{- block.settings.button_label | escape -}}
+                </a>
+            {%- endif -%}
+        </div>
+                  {% comment %} <div>
                     {%- render 'button', label: block.settings.button_label, link: block.settings.link, style: block.settings.button_style, fullwidth: false -%}
-                  </div>
+                  </div> {% endcomment %}
     
     {%- endif -%}
     
@@ -298,8 +320,8 @@
         },
         {
           "type": "text",
-          "id": "subtitle",
-          "label": "Subtitle",
+          "id": "outline_text",
+          "label": "Outline text",
           "default": "Introducing"
         },
         {
@@ -398,7 +420,7 @@
           "type": "color",
           "id": "color_background_main",
           "label": "Main background colour",
-          "default": "#ee1c23"
+          "default": "#f75828"
         },
         {
           "type": "color",
