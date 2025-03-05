@@ -184,6 +184,14 @@
   margin-bottom: 16px;
 }
 
+.slider-disclaimer {
+  margin-top: 1rem;
+}
+
+.slider-button {
+  margin-top: 3rem;
+}
+
 .align-top-left {
   justify-content: flex-start;
   align-items: flex-start;
