@@ -47,7 +47,7 @@
   z-index: 2;
   bottom: 2em;
   left: 2em;
-  display: inline-flex;
+  display: none;
   list-style: none;
   /*transform: translateX(-50%);*/
 }
@@ -376,7 +376,7 @@
     bottom: 2em;
     left: 50%;
     transform: translateX(-50%);
-    display: flex;
+    display: hidden;
     justify-content: center;
     list-style: none;
   }
