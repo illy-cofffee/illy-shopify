@@ -1,3 +1,43 @@
+<style>
+    .breadcrumbs {
+        padding-top:1.5em;
+        padding-bottom:2.8em;
+      }
+      
+      .breadcrumbs__list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .breadcrumbs__item {
+        display: inline-block;
+      }
+      
+      .breadcrumbs__item:not(:last-child):after {
+        border-style: solid;
+        border-width: .10em .10em 0 0;
+        content: '';
+        display: inline-block;
+        height: .20em;
+        margin: 0 .20em;
+        position: relative;
+        transform: rotate(45deg);
+        vertical-align: middle;
+        width: .20em;
+      }
+      
+      .breadcrumbs__link {
+        text-decoration: underline;
+      }
+      
+      .breadcrumbs__link[aria-current="page"] {
+        color: inherit;
+        font-weight: normal;
+        text-decoration: none;
+      }
+
+</style>
 <nav class="breadcrumbs page-width" role="navigation" aria-label="breadcrumbs">
     <ol class="breadcrumbs__list">
       <li class="breadcrumbs__item">
@@ -12,21 +52,22 @@
       
       {% case template %}
         {% when 'product' %}
+          
             <li class="breadcrumbs__item">
-                <a class="breadcrumbs__link" href="/collections/all-products">HELLOShop</a>
-            </li>
               {% for collection in product.collections %}
                 {% if collection.url %}
                   {% if collection.title != "All Products" %}
-                    <li class="breadcrumbs__item">
-                        <span>{{ collection.title | link_to: collection.url }}</span>
-                    </li>
+                    <span>{{ collection.title | link_to: collection.url }}</span>
                     {% break %} <!-- Only show first collection -->
                   {% endif %}
                 {%  endif %}
               {% endfor %}
-            
-            
+            </li>
+       
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="{{ product.url }}" aria-current="page">{{ product.title }}</a>
+          </li>
+        
         {% else %}
           <li class="breadcrumbs__item">
             <a class="breadcrumbs__link" href="{{ request.path }}" aria-current="page">{{ page_title }}</a>
