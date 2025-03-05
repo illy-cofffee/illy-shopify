@@ -22,12 +22,7 @@
                   {% endif %}
                 {%  endif %}
               {% endfor %}
-            </li>
-       
-          <li class="breadcrumbs__item">
-            <a class="breadcrumbs__link" href="{{ product.url }}" aria-current="page">{{ product.title }}</a>
-          </li>
-        
+            </li>        
         {% else %}
           <li class="breadcrumbs__item">
             <a class="breadcrumbs__link" href="{{ request.path }}" aria-current="page">{{ page_title }}</a>
