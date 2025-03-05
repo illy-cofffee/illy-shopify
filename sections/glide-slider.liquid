@@ -130,7 +130,7 @@
     {%- unless block.settings.description == blank -%}
                   
                   <span {% unless block.settings.color_text_main == blank -%}
-                    style="color: {{ block.settings.color_text_main }}>{{ block.settings.description }}</span>
+                    style="color: {{ block.settings.color_text_main }}" {% endunless %}>{{ block.settings.description }}</span>
                 
     {%- endunless -%}
     {%- if block.settings.button_label != blank -%}
