@@ -446,6 +446,13 @@ window.addEventListener('load', function () {
     // Get all elements with class glide-slide
     const slides = document.querySelectorAll('.glide-slide');
   
+    // Hide/show controls based on number of slides
+    const arrows = document.querySelector('.glide__arrows');
+    const bullets = document.querySelector('.glide__bullets');
+    
+    if (arrows) arrows.style.display = slides.length > 1 ? 'block' : 'none';
+    if (bullets) bullets.style.display = slides.length > 1 ? 'flex' : 'none';
+
     // Only initialize Glide if there's more than one slide
     if (slides.length > 1) {
         new Glide('.glide', {
@@ -456,6 +463,8 @@ window.addEventListener('load', function () {
         autoplay: 5000,    
         animationDuration: 1500
        }).mount();
+    } else {
+        .glide__arrows.visibit
     }
 });
 </script>
