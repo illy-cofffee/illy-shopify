@@ -61,12 +61,12 @@
                         {%- endif -%}
                     </div>
 
-                    {%- unless block.settings.subtitle_text != "" -%}
+                    {%- if block.settings.subtitle_text != "" -%}
     
                         <span class="text-size--small" {% unless block.settings.color_text_main == blank -%}
                     style="color:{{ block.settings.color_text_main }}"{% endunless %}>{{ block.settings.subtitle_text | escape }}</span>
                       
-                    {%- endunless -%}
+                    {%- endif -%}
                     {% comment %} <div>
                         
                       {%- render 'button', label: block.settings.button_label, link: block.settings.link, style: block.settings.button_style, fullwidth: false -%}
@@ -107,11 +107,11 @@
                   style="color: {{ block.settings.color_text_main }}"{% endunless %}>
                   <!-- Test content -->
                   
-    {%- unless block.settings.subtitle_text != "" -%}
+    {% if block.settings.subtitle_text != "" %}
     
                   <span class="text-size--small">{{ block.settings.subtitle_text | escape }}</span>
                 
-    {%- endunless -%}
+    {% endif %}
     
     {%- unless block.settings.glide-slider-item-header == blank -%}
     {% assign blockheader = block.settings.glide-slider-item-header %}
@@ -323,7 +323,7 @@
           "type": "text",
           "id": "subtitle_text",
           "label": "Subtitle text",
-          "default": null
+          "default": ""
         },
         {
           "type": "richtext",
