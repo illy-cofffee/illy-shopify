@@ -32,7 +32,7 @@
                   {% if section.settings.h1-title == true %} 
     
                                 <h1 {% else %} <h3 {% endif %} {% unless block.settings.color_text_main == blank -%}
-                    style="color: {{ block.settings.color_text_main }}>
+                    style="color: {{ block.settings.color_text_main }}"{% endunless %}>
                                 <span class="text-animation--underline underline-mobile">{{ blockheader }}</span>
                                 
                   {% if section.settings.h1-title == true %} </h1> {% else %} </h3>{% endif %}
@@ -41,7 +41,7 @@
                   {%- unless block.settings.description == blank -%}
                                 
                                 <span {% unless block.settings.color_text_main == blank -%}
-                    style="color: {{ block.settings.color_text_main }}>{{ block.settings.description }}</span>
+                    style="color: {{ block.settings.color_text_main }}" {% endunless %}>{{ block.settings.description }}</span>
                               
                   {%- endunless -%}
                   {%- if block.settings.button_label != blank -%}
@@ -64,7 +64,7 @@
                     {%- unless block.settings.subtitle_text == blank -%}
     
                         <span class="text-size--small" {% unless block.settings.color_text_main == blank -%}
-                    style="color:{{ block.settings.color_text_main }}">{{ block.settings.subtitle_text | escape }}</span>
+                    style="color:{{ block.settings.color_text_main }}"{% endunless %}>{{ block.settings.subtitle_text | escape }}</span>
                       
                     {%- endunless -%}
                     {% comment %} <div>
@@ -104,8 +104,7 @@
             <div class="slider-content contained">
               <div class="{% if block.settings.column_layout == "two_columns" %} slider-column-left {% elsif block.settings.column_layout == "three_columns" %} slider-column-left-three {% endif %} {{ block.settings.alignment }}">
                 <div class="slider-column-content" {% unless block.settings.color_text_main == blank -%}
-                  style="color: {{ block.settings.color_text_main }}"
-                {% endunless %}>
+                  style="color: {{ block.settings.color_text_main }}"{% endunless %}>
                   <!-- Test content -->
                   
     {%- unless block.settings.subtitle_text == blank -%}
@@ -122,7 +121,7 @@
     {% if section.settings.h1-title == true %} 
     
                   <h1 {% else %} <h3 {% endif %} {% unless block.settings.color_text_main == blank -%}
-                    style="color: {{ block.settings.color_text_main }}>
+                    style="color: {{ block.settings.color_text_main }}" {% endunless %}>
                   <span class="text-animation--underline underline-mobile">{{ blockheader }}</span>
                   
     {% if section.settings.h1-title == true %} </h1> {% else %} </h3>{% endif %}
