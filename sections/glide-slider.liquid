@@ -62,10 +62,10 @@
                         {%- endif -%}
                     </div>
 
-                    {%- if block.settings.subtitle_text != "" -%}
+                    {%- if block.settings.disclaimer_text != "" -%}
     
                         <span class="text-size--small" {% unless block.settings.color_text_main == blank -%}
-                    style="color:{{ block.settings.color_text_main }}"{% endunless %}>{{ block.settings.subtitle_text | escape }}</span>
+                    style="color:{{ block.settings.color_text_main }}"{% endunless %}>{{ block.settings.disclaimer_text | escape }}</span>
                       
                     {%- endif -%}
                     {% comment %} <div>
@@ -108,9 +108,9 @@
                   style="color: {{ block.settings.color_text_main }}"{% endunless %}>
                   <!-- Test content -->
                   
-    {% if block.settings.subtitle_text != "" %}
+    {% if block.settings.disclaimer_text != "" %}
     
-                  <span class="text-size--small">{{ block.settings.subtitle_text | escape }}</span>
+                  <span class="text-size--small">{{ block.settings.disclaimer_text | escape }}</span>
                 
     {% endif %}
     
@@ -321,11 +321,6 @@
           "content": "Text Content"
         },
         {
-          "type": "text",
-          "id": "subtitle_text",
-          "label": "Subtitle text"
-        },
-        {
           "type": "richtext",
           "id": "description",
           "label": "Description text"
@@ -413,6 +408,11 @@
           ],
           "default": "solid"
         },
+        {
+            "type": "text",
+            "id": "disclaimer_text",
+            "label": "Disclaimer text"
+          },
         {
           "type": "header",
           "content": "Custom Colours"
