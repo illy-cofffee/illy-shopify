@@ -167,10 +167,11 @@
   margin-bottom: 16px;
 }
 
-.slider-column-content .em-spectral {
-  font-family: var(--mb-font-spectral);
-  font-style: italic;
-  font-size: 45px;
+.slider-column-content figure {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .slider-column-content>span:first-child {
@@ -247,6 +248,7 @@
 .img-top-left {
   object-position: top center !important;
 }
+
 
 @media screen and (min-width: 475px) and (max-width: 1000px) {
 
@@ -399,3 +401,4 @@
     bottom: 15px;
   }
 }  
+
