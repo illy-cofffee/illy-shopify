@@ -3667,6 +3667,12 @@ button[disabled] {
   max-width: 100%;
 }
 
+.breadcrumb li a {
+  font-size: calc(var(--font-heading-scale) * 0.8rem);
+
+}
+
+
 @media (min-width: 990px) {
 
   .header.page-width,
