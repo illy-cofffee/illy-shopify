@@ -1,3 +1,7 @@
+.glide__arrows {
+  display: none;
+}
+
 .glide__arrow {
   position: absolute;
   display: block;
@@ -47,7 +51,7 @@
   z-index: 2;
   bottom: 2em;
   left: 2em;
-  display: inline-flex;
+  display: none;
   list-style: none;
   /*transform: translateX(-50%);*/
 }
@@ -79,8 +83,6 @@
 
   /* width: 150px;   */
 }
-
-.glide__bullet 
 
 
 .glide__bullet:focus {
@@ -366,17 +368,13 @@
     display: none;
   }
   
-  .glide__arrows {
-    visibility: hidden;
-  }
-
   .glide__bullets {
     position: absolute;
     z-index: 2;
     bottom: 2em;
     left: 50%;
     transform: translateX(-50%);
-    display: flex;
+    display: none;
     justify-content: center;
     list-style: none;
   }
