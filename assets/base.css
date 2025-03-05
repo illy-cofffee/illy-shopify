@@ -3668,8 +3668,8 @@ button[disabled] {
 }
 
 .breadcrumb li a {
-  font-size: calc(var(--font-heading-scale) * 0.8rem);
-
+  font-size: calc(var(--font-heading-scale) * 0.6rem);
+  color: #000000;
 }
 
 
