@@ -27,10 +27,27 @@
             "color_background_main": "#ffffff",
             "color_text_main": "#ffffff"
           }
+        },
+        "glide_slider_item_7MJWAf": {
+          "type": "glide-slider-item",
+          "settings": {
+            "glide-slider-item-header": "<p>Enter header...</p>",
+            "column_layout": "two_columns",
+            "image": "shopify://shop_images/restaurants-header.jpg",
+            "description": "",
+            "alignment": "align-top-left",
+            "button_link": "",
+            "button_label": "Show more",
+            "button_style": "solid",
+            "disclaimer_text": "",
+            "color_background_main": "#D12420",
+            "color_text_main": "#ffffff"
+          }
         }
       },
       "block_order": [
-        "glide_slider_item_Q7Ja4c"
+        "glide_slider_item_Q7Ja4c",
+        "glide_slider_item_7MJWAf"
       ],
       "settings": {
         "h1-title": false
