@@ -24,9 +24,9 @@
                   {% endunless %}>
                     <!-- Test content -->
                     
-                  {%- unless block.settings.outline_text == blank -%}
+                  {%- unless block.settings.subtitle_text == blank -%}
     
-                    <span class="text-size--small">{{ block.settings.outline_text | escape }}</span>
+                    <span class="text-size--small">{{ block.settings.subtitle_text | escape }}</span>
                   
                   {%- endunless -%}
     
@@ -106,9 +106,9 @@
                 {% endunless %}>
                   <!-- Test content -->
                   
-    {%- unless block.settings.outline_text == blank -%}
+    {%- unless block.settings.subtitle_text == blank -%}
     
-                  <span class="text-size--small">{{ block.settings.outline_text | escape }}</span>
+                  <span class="text-size--small">{{ block.settings.subtitle_text | escape }}</span>
                 
     {%- endunless -%}
     
@@ -116,8 +116,6 @@
     {% assign blockheader = block.settings.glide-slider-item-header %}
     {% assign blockheader = blockheader | remove: "<p>" %}
     {% assign blockheader = blockheader | remove: "</p>" %}
-    {% assign blockheader = blockheader | replace: "<em>", "<span class='em-spectral'>" %}
-    {% assign blockheader = blockheader | replace: "</em>", "</span>" %}
     
     {% if section.settings.h1-title == true %} 
     
@@ -320,9 +318,9 @@
         },
         {
           "type": "text",
-          "id": "outline_text",
-          "label": "Outline text",
-          "default": "Introducing"
+          "id": "subtitle_text",
+          "label": "Subtitle text",
+          "default": ""
         },
         {
           "type": "richtext",
