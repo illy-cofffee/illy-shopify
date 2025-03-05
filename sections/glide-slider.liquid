@@ -133,15 +133,15 @@
                     style="color: {{ block.settings.color_text_main }}" {% endunless %}>{{ block.settings.description }}</span>
                 
     {%- endunless -%}
-    {%- if block.settings.button_label != blank -%}
+    {%- if block.settings.button_label != blank and block.settings.button_link != "" -%}
     
         <div class="banner__buttons">
             {%- if block.settings.button_label != blank -%}
                 <a
-                {% if block.settings.url == blank %}
+                {% if block.settings.button_link == blank %}
                     role="link" aria-disabled="true"
                 {% else %}
-                    href="{{ block.settings.url }}"
+                    href="{{ block.settings.button_link }}"
                 {% endif %}
                 class="button{% if block.settings.button_style == "secondary" %} button--secondary{% else %} button--primary{% endif %}"
                 >
@@ -383,7 +383,7 @@
         },
         {
           "type": "url",
-          "id": "link",
+          "id": "button_link",
           "label": "Button Link"
         },
         {
