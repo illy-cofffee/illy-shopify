@@ -61,7 +61,7 @@
                         {%- endif -%}
                     </div>
 
-                    {%- unless block.settings.subtitle_text == blank -%}
+                    {%- unless block.settings.subtitle_text != "" -%}
     
                         <span class="text-size--small" {% unless block.settings.color_text_main == blank -%}
                     style="color:{{ block.settings.color_text_main }}"{% endunless %}>{{ block.settings.subtitle_text | escape }}</span>
@@ -107,7 +107,7 @@
                   style="color: {{ block.settings.color_text_main }}"{% endunless %}>
                   <!-- Test content -->
                   
-    {%- unless block.settings.subtitle_text == blank -%}
+    {%- unless block.settings.subtitle_text != "" -%}
     
                   <span class="text-size--small">{{ block.settings.subtitle_text | escape }}</span>
                 
@@ -323,7 +323,7 @@
           "type": "text",
           "id": "subtitle_text",
           "label": "Subtitle text",
-          "default": ""
+          "default": null
         },
         {
           "type": "richtext",
