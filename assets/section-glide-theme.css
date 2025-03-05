@@ -367,7 +367,7 @@
   }
   
   .glide__arrows {
-    visibility: hidden;
+    display: none;
   }
 
   .glide__bullets {
@@ -376,7 +376,7 @@
     bottom: 2em;
     left: 50%;
     transform: translateX(-50%);
-    display: hidden;
+    display: none;
     justify-content: center;
     list-style: none;
   }
