@@ -15,16 +15,17 @@
             <li class="breadcrumbs__item">
                 <a class="breadcrumbs__link" href="/collections/all-products">Shop</a>
             </li>
-            <li class="breadcrumbs__item">
               {% for collection in product.collections %}
                 {% if collection.url %}
                   {% if collection.title != "All Products" %}
-                    <span>{{ collection.title | link_to: collection.url }}</span>
+                    <li class="breadcrumbs__item">
+                        <span>{{ collection.title | link_to: collection.url }}</span>
+                    </li>
                     {% break %} <!-- Only show first collection -->
                   {% endif %}
                 {%  endif %}
               {% endfor %}
-            </li>
+            
             
         {% else %}
           <li class="breadcrumbs__item">
