@@ -9,35 +9,6 @@
  */
 {
   "sections": {
-    "glide_slider_UpqFxy": {
-      "type": "glide-slider",
-      "blocks": {
-        "glide_slider_item_8zJCPb": {
-          "type": "glide-slider-item",
-          "settings": {
-            "heading": "Live headline",
-            "heading_size": "h0"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "glide_slider_item_8zJCPb"
-      ],
-      "settings": {
-        "h1-title": false
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -66,65 +37,51 @@
         "padding_bottom": 36
       }
     },
-    "collection_list_xzKkLX": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_NJKPjF": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "coffee"
-          }
-        },
-        "featured_collection_V6BMd7": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "machines"
-          }
-        },
-        "featured_collection_EX3Vbj": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "art-collection"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_NJKPjF",
-        "featured_collection_V6BMd7",
-        "featured_collection_EX3Vbj"
-      ],
-      "settings": {
-        "title": "Collections",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video_rt3R4t": {
+    "video_LGUcRQ": {
       "type": "video",
       "settings": {
         "heading": "Video",
         "heading_size": "h1",
         "enable_video_looping": false,
         "video_url": "https://vimeo.com/37861757",
-        "description": "",
+        "description": "This is a video about how to make a coffee",
         "full_width": false,
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "glide_slider_HAHzpM": {
+      "type": "glide-slider",
+      "blocks": {
+        "glide_slider_item_Q7Ja4c": {
+          "type": "glide-slider-item",
+          "settings": {
+            "glide-slider-item-header": "<p>Heading goes here</p>",
+            "column_layout": "two_columns",
+            "image": "shopify://shop_images/glide-slide.png",
+            "subtitle": "use code CARTON",
+            "description": "",
+            "alignment": "align-top-left",
+            "link": "shopify://collections/all",
+            "button_label": "Show more",
+            "button_style": "solid",
+            "color_background_main": "#FFFFFF",
+            "color_text_main": "#FFFFFF"
+          }
+        }
+      },
+      "block_order": [
+        "glide_slider_item_Q7Ja4c"
+      ],
+      "settings": {
+        "h1-title": false
+      }
     }
   },
   "order": [
-    "glide_slider_UpqFxy",
     "featured_collection",
-    "collection_list_xzKkLX",
-    "video_rt3R4t"
+    "video_LGUcRQ",
+    "glide_slider_HAHzpM"
   ]
 }
