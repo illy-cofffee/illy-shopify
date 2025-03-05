@@ -9,6 +9,33 @@
  */
 {
   "sections": {
+    "glide_slider_HAHzpM": {
+      "type": "glide-slider",
+      "blocks": {
+        "glide_slider_item_Q7Ja4c": {
+          "type": "glide-slider-item",
+          "settings": {
+            "glide-slider-item-header": "<p>Heading goes here</p>",
+            "column_layout": "full_width",
+            "image": "shopify://shop_images/glide-slide.png",
+            "outline_text": "Introducing",
+            "description": "",
+            "alignment": "align-top-left",
+            "link": "shopify://collections/all",
+            "button_label": "Show more",
+            "button_style": "solid",
+            "color_background_main": "#ffffff",
+            "color_text_main": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "glide_slider_item_Q7Ja4c"
+      ],
+      "settings": {
+        "h1-title": false
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -50,38 +77,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "glide_slider_HAHzpM": {
-      "type": "glide-slider",
-      "blocks": {
-        "glide_slider_item_Q7Ja4c": {
-          "type": "glide-slider-item",
-          "settings": {
-            "glide-slider-item-header": "<p>Heading goes here</p>",
-            "column_layout": "two_columns",
-            "image": "shopify://shop_images/glide-slide.png",
-            "subtitle": "use code CARTON",
-            "description": "",
-            "alignment": "align-top-left",
-            "link": "shopify://collections/all",
-            "button_label": "Show more",
-            "button_style": "solid",
-            "color_background_main": "#FFFFFF",
-            "color_text_main": "#FFFFFF"
-          }
-        }
-      },
-      "block_order": [
-        "glide_slider_item_Q7Ja4c"
-      ],
-      "settings": {
-        "h1-title": false
-      }
     }
   },
   "order": [
+    "glide_slider_HAHzpM",
     "featured_collection",
-    "video_LGUcRQ",
-    "glide_slider_HAHzpM"
+    "video_LGUcRQ"
   ]
 }
