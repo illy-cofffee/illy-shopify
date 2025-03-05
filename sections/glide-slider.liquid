@@ -24,12 +24,6 @@
                   {% endunless %}>
                     <!-- Test content -->
                     
-                  {%- unless block.settings.subtitle_text == blank -%}
-    
-                    <span class="text-size--small">{{ block.settings.subtitle_text | escape }}</span>
-                  
-                  {%- endunless -%}
-    
                   {%- unless block.settings.glide-slider-item-header == blank -%}
                   {% assign blockheader = block.settings.glide-slider-item-header %}
                   {% assign blockheader = blockheader | remove: "<p>" %}
@@ -37,7 +31,8 @@
     
                   {% if section.settings.h1-title == true %} 
     
-                                <h1 {% else %} <h3 {% endif %}>
+                                <h1 {% else %} <h3 {% endif %} {% unless block.settings.color_text_main == blank -%}
+                    style="color: {{ block.settings.color_text_main }}>
                                 <span class="text-animation--underline underline-mobile">{{ blockheader }}</span>
                                 
                   {% if section.settings.h1-title == true %} </h1> {% else %} </h3>{% endif %}
@@ -45,7 +40,8 @@
                   {%- endunless -%}
                   {%- unless block.settings.description == blank -%}
                                 
-                                <span>{{ block.settings.description }}</span>
+                                <span {% unless block.settings.color_text_main == blank -%}
+                    style="color: {{ block.settings.color_text_main }}>{{ block.settings.description }}</span>
                               
                   {%- endunless -%}
                   {%- if block.settings.button_label != blank -%}
@@ -65,6 +61,12 @@
                         {%- endif -%}
                     </div>
 
+                    {%- unless block.settings.subtitle_text == blank -%}
+    
+                        <span class="text-size--small" {% unless block.settings.color_text_main == blank -%}
+                    style="color:{{ block.settings.color_text_main }}">{{ block.settings.subtitle_text | escape }}</span>
+                      
+                    {%- endunless -%}
                     {% comment %} <div>
                         
                       {%- render 'button', label: block.settings.button_label, link: block.settings.link, style: block.settings.button_style, fullwidth: false -%}
@@ -119,7 +121,8 @@
     
     {% if section.settings.h1-title == true %} 
     
-                  <h1 {% else %} <h3 {% endif %}>
+                  <h1 {% else %} <h3 {% endif %} {% unless block.settings.color_text_main == blank -%}
+                    style="color: {{ block.settings.color_text_main }}>
                   <span class="text-animation--underline underline-mobile">{{ blockheader }}</span>
                   
     {% if section.settings.h1-title == true %} </h1> {% else %} </h3>{% endif %}
@@ -127,7 +130,8 @@
     {%- endunless -%}
     {%- unless block.settings.description == blank -%}
                   
-                  <span>{{ block.settings.description }}</span>
+                  <span {% unless block.settings.color_text_main == blank -%}
+                    style="color: {{ block.settings.color_text_main }}>{{ block.settings.description }}</span>
                 
     {%- endunless -%}
     {%- if block.settings.button_label != blank -%}
