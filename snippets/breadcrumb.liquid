@@ -44,8 +44,10 @@
       <li class="breadcrumbs__item">
 
         {% case template %}
-          {% when 'collection' %}
-            <a class="breadcrumbs__link" href="/collections/all-products">Shop</a>
+            {% when 'collection' %}
+                <a class="breadcrumbs__link" href="/collections/all-products">Shop</a>
+            {% when 'product' %}
+                <a class="breadcrumbs__link" href="/collections/all-products">Shop</a>
           {% else %}
             <a class="breadcrumbs__link" href="/">Home</a>
           {% endcase %}
