@@ -3637,10 +3637,13 @@ button[disabled] {
 
 /* UPDATED HEADER STYLES */
 
-.main {
+.content-for-layout {
   background-color: #F6F6F6;
 }
-
+.header {
+  padding: 0px;
+  max-width: 100%;
+}
 
 .announcement-bar, .announcement-bar__announcement {
   justify-content: left;
@@ -3665,11 +3668,6 @@ button[disabled] {
 
 @media (min-width: 990px) {
 
-  body:has(.section-header .header:not(.drawer-menu)) .utility-bar .page-width {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-
   .header.page-width,
   .utility-bar__grid.page-width {
     padding-left: 0;
@@ -3683,7 +3681,6 @@ button[disabled] {
   .header--middle-left .header__heading-link, .header--top-left .header__heading-link {
     margin-left: 0;
   }
-
 }
 
 @media (max-width: 990px) {
