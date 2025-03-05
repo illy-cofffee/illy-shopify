@@ -12,7 +12,9 @@
       
       {% case template %}
         {% when 'product' %}
-          
+            <li class="breadcrumbs__item">
+                <a class="breadcrumbs__link" href="/collections/all-products">Shop</a>
+            </li>
             <li class="breadcrumbs__item">
               {% for collection in product.collections %}
                 {% if collection.url %}
@@ -22,7 +24,8 @@
                   {% endif %}
                 {%  endif %}
               {% endfor %}
-            </li>        
+            </li>
+            
         {% else %}
           <li class="breadcrumbs__item">
             <a class="breadcrumbs__link" href="{{ request.path }}" aria-current="page">{{ page_title }}</a>
