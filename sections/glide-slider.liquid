@@ -450,8 +450,8 @@ window.addEventListener('load', function () {
     const arrows = document.querySelector('.glide__arrows');
     const bullets = document.querySelector('.glide__bullets');
     
-    if (arrows) arrows.style.display = slides.length > 0 ? 'inline-flex' : 'none';
-    if (bullets) bullets.style.display = slides.length > 0 ? 'flex' : 'none';
+    if (arrows) arrows.style.display = slides.length > 0 ? 'none' : 'flex';
+    if (bullets) bullets.style.display = slides.length > 0 ? 'none' : 'inline-flex';
 
     // Only initialize Glide if there's more than one slide
     if (slides.length > 1) {
