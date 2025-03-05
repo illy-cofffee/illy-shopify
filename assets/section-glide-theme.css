@@ -198,10 +198,11 @@
   text-align: left;
 }
 .align-middle-left {
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   text-align: left;
 }
+
 .align-bottom-left {
   justify-content: flex-end;
   align-items: flex-end;
