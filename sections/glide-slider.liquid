@@ -444,14 +444,14 @@
 <script type="text/javascript">
 window.addEventListener('load', function () {
     // Get all elements with class glide-slide
-    const slides = document.querySelectorAll('.glide-slide');
-    alert(slides.length);
+    const slides = document.querySelectorAll('.glide__slide');
+    
     // Hide/show controls based on number of slides
     const arrows = document.querySelector('.glide__arrows');
     const bullets = document.querySelector('.glide__bullets');
     
     if (arrows) arrows.style.display = slides.length > 0 ? 'none' : 'flex';
-    if (bullets) bullets.style.display = slides.length > 0 ? 'none' : 'inline-flex';
+    if (bullets) bullets.style.display = slides.length > 0 ? 'none' : 'inline-flex'; 
 
     // Only initialize Glide if there's more than one slide
     if (slides.length > 1) {
