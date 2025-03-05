@@ -19,7 +19,7 @@
             "column_layout": "full_width",
             "image": "shopify://shop_images/glide-slide.png",
             "description": "<p>this is the description text, it talks about the promo</p>",
-            "alignment": "align-top-left",
+            "alignment": "align-middle-left",
             "button_link": "shopify://collections/all",
             "button_label": "Show more",
             "button_style": "solid",
