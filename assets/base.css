@@ -3634,6 +3634,122 @@ button[disabled] {
   cursor: not-allowed;
 }
 
+/* LAZY Image STYLES */
+
+.lazy-image img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	vertical-align: bottom;
+	position: relative;
+	z-index: 9;
+	will-change: transform;
+}
+
+.lazy-image.lazy-image--to-reveal img {
+	opacity: 0;
+}
+
+@media screen and (min-width: 768px) {
+	.lazy-image.lazy-image--to-reveal img {
+		transform: translateY(20px) scale(1.05);
+	}
+}
+
+.lazy-image.lazy-image--to-reveal.lazy-image--revealed:before,
+.lazy-image.lazy-image--to-reveal.lazy-image--revealed:after {
+	display: none;
+}
+
+@media screen and (min-width: 768px) {
+	.lazy-image.lazy-image--to-reveal.lazy-image--revealed img {
+		animation: lazyanimation 0.5s linear forwards;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.lazy-image.lazy-image--to-reveal.lazy-image--revealed img {
+		opacity: 1;
+		transition: opacity 700ms ease-out;
+	}
+}
+
+.lazy-image:not(.lazy-image--to-reveal) img {
+	opacity: 0;
+}
+
+.lazy-image:not(.lazy-image--to-reveal).lazyloaded:before,
+.lazy-image:not(.lazy-image--to-reveal).lazyloaded:after {
+	display: none;
+}
+
+.lazy-image:not(.lazy-image--to-reveal).lazyloaded img {
+	opacity: 1;
+}
+
+.lazy-image:not(.lazy-image--to-reveal) img {
+	transition: opacity 350ms ease-out;
+}
+
+.lazy-image:not(.lazy-image--to-reveal).lazy-image--zoom-animation img {
+	transition: width 175ms linear, height 175ms linear, left 175ms linear, top 175ms linear;
+}
+
+.lazy-image:not(.lazy-image--to-reveal).lazy-image--animation img {
+	transition: top 175ms linear, clip-path 175ms linear, opacity 350ms ease-out;
+}
+
+.lazy-image.lazy-image--background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100% !important;
+	z-index: 0;
+	padding-top: 0 !important;
+}
+
+.lazy-image.lazy-image--background img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.lazy-image[data-ratio] {
+	height: 0;
+}
+
+.lazy-image[data-ratio] img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+@keyframes lazy-loading {
+	0% {
+		height: 0;
+		top: 0;
+	}
+
+	33% {
+		height: 100%;
+		top: 0;
+	}
+
+	66% {
+		top: 100%;
+		height: 0;
+	}
+
+	100% {
+		top: 0;
+		height: 0;
+	}
+}
+
 
 /* UPDATED HEADER STYLES */
 

@@ -9,11 +9,11 @@
  */
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "glide_slider_HAHzpM": {
+      "type": "glide-slider",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "glide_slider_item_Q7Ja4c": {
+          "type": "glide-slider-item",
           "settings": {
             "heading": "Live headline",
             "heading_size": "h0",
@@ -33,20 +33,10 @@
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "glide_slider_item_Q7Ja4c"
       ],
       "settings": {
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "h1-title": false
       }
     },
     "featured_collection": {
@@ -77,54 +67,14 @@
         "padding_bottom": 36
       }
     },
-    "collection_list_xzKkLX": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_NJKPjF": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "coffee"
-          }
-        },
-        "featured_collection_V6BMd7": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "machines"
-          }
-        },
-        "featured_collection_EX3Vbj": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "art-collection"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_NJKPjF",
-        "featured_collection_V6BMd7",
-        "featured_collection_EX3Vbj"
-      ],
-      "settings": {
-        "title": "Collections",
-        "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video_rt3R4t": {
+    "video_LGUcRQ": {
       "type": "video",
       "settings": {
         "heading": "Video",
         "heading_size": "h1",
         "enable_video_looping": false,
         "video_url": "https://vimeo.com/37861757",
-        "description": "",
+        "description": "This is a video about how to make a coffee",
         "full_width": false,
         "color_scheme": "",
         "padding_top": 36,
@@ -133,9 +83,8 @@
     }
   },
   "order": [
-    "image_banner",
+    "glide_slider_HAHzpM",
     "featured_collection",
-    "collection_list_xzKkLX",
-    "video_rt3R4t"
+    "video_LGUcRQ"
   ]
 }
