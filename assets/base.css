@@ -3668,7 +3668,7 @@ button[disabled] {
 }
 
 .breadcrumbs__link {
-  font-size: calc(var(--font-heading-scale) * 0.6rem);
+  font-size: calc(var(--font-body-scale) * 0.8rem);
   color: #000000;
 }
 
