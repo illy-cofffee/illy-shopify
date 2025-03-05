@@ -44,7 +44,7 @@
                     style="color: {{ block.settings.color_text_main }}" {% endunless %}>{{ block.settings.description }}</span>
                               
                   {%- endunless -%}
-                  {%- if block.settings.button_label != blank -%}
+                  {%- if block.settings.button_label != blank && block.settings.url != blank -%}
     
                     <div class="banner__buttons">
                         {%- if block.settings.button_label != blank -%}
