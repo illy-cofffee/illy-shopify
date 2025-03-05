@@ -9,34 +9,31 @@
  */
 {
   "sections": {
-    "glide_slider_HAHzpM": {
+    "glide_slider_VJ3Ncd": {
       "type": "glide-slider",
       "blocks": {
-        "glide_slider_item_Q7Ja4c": {
+        "glide_slider_item_HfgNyN": {
           "type": "glide-slider-item",
           "settings": {
-            "heading": "Live headline",
-            "heading_size": "h0",
-            "h1-title": false
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "glide-slider-item-header": "<p>Buy 5.<br/>Get 2 free.</p>",
+            "column_layout": "full_width",
+            "image": "shopify://shop_images/glide-slide.png",
+            "description": "<p>Use code: CARTON</p>",
+            "alignment": "align-middle-left",
+            "button_link": "shopify://collections/all",
+            "button_label": "SHOP NOW",
+            "button_style": "solid",
+            "disclaimer_text": "Terms & conditions apply.  Offer ends 31/03/2025 at 11:59pm.",
+            "color_background_main": "#ffffff",
+            "color_text_main": "#ffffff"
           }
         }
       },
       "block_order": [
-        "glide_slider_item_Q7Ja4c"
+        "glide_slider_item_HfgNyN"
       ],
       "settings": {
-        "h1-title": false
+        "h1-title": true
       }
     },
     "featured_collection": {
@@ -67,14 +64,54 @@
         "padding_bottom": 36
       }
     },
-    "video_LGUcRQ": {
+    "collection_list_xzKkLX": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_NJKPjF": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coffee"
+          }
+        },
+        "featured_collection_V6BMd7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "machines"
+          }
+        },
+        "featured_collection_EX3Vbj": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "art-collection"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_NJKPjF",
+        "featured_collection_V6BMd7",
+        "featured_collection_EX3Vbj"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_rt3R4t": {
       "type": "video",
       "settings": {
         "heading": "Video",
         "heading_size": "h1",
         "enable_video_looping": false,
         "video_url": "https://vimeo.com/37861757",
-        "description": "This is a video about how to make a coffee",
+        "description": "",
         "full_width": false,
         "color_scheme": "",
         "padding_top": 36,
@@ -83,8 +120,9 @@
     }
   },
   "order": [
-    "glide_slider_HAHzpM",
+    "glide_slider_VJ3Ncd",
     "featured_collection",
-    "video_LGUcRQ"
+    "collection_list_xzKkLX",
+    "video_rt3R4t"
   ]
 }
