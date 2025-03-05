@@ -57,7 +57,7 @@
                     {% for collection in product.collections %}
                         {% if collection.url %}
                             {% if collection.title != "All Products" %}
-                            <a class="breadcrumbs__link" href="{{ collection.url }}">HELLO{ collection.title }}</a>
+                            <a class="breadcrumbs__link" href="{{ collection.url }}">{{ collection.title }}</a>
                             {% break %} <!-- Only show first collection -->
                             {% endif %}
                         {%  endif %}
