@@ -47,7 +47,7 @@
 
                   {%- if block.settings.button_label != blank and block.settings.button_link != blank -%}
     
-                    <div class="banner__buttons slider-button">
+                    <div class="banner__buttons glideslider-button">
                         {%- if block.settings.button_label != blank -%}
                             <a
                             {% if block.settings.button_link == blank %}
@@ -64,7 +64,7 @@
 
                     {%- if block.settings.disclaimer_text != "" -%}
     
-                        <div class="text-size--small slider-disclaimer" {% unless block.settings.color_text_main == blank -%}
+                        <div class="text-size--small glideslider-disclaimer" {% unless block.settings.color_text_main == blank -%}
                     style="color:{{ block.settings.color_text_main }}"{% endunless %}>{{ block.settings.disclaimer_text | escape }}</div>
                       
                     {%- endif -%}
