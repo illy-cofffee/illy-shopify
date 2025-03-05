@@ -1,3 +1,7 @@
+.glide__arrows {
+  display: none;
+}
+
 .glide__arrow {
   position: absolute;
   display: block;
@@ -79,8 +83,6 @@
 
   /* width: 150px;   */
 }
-
-.glide__bullet 
 
 
 .glide__bullet:focus {
@@ -366,10 +368,6 @@
     display: none;
   }
   
-  .glide__arrows {
-    display: none;
-  }
-
   .glide__bullets {
     position: absolute;
     z-index: 2;
