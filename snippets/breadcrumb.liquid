@@ -48,7 +48,6 @@
           {% else %}
             <a class="breadcrumbs__link" href="/">Home</a>
           {% endcase %}
-      </li>
       
       {% case template %}
         {% when 'product' %}
@@ -62,13 +61,14 @@
                   {% endif %}
                 {%  endif %}
               {% endfor %}
-            </li>
+        {% endcase %}
+        </li>
 
-        {% else %}
+    {% comment %} {% else %}
           <li class="breadcrumbs__item">
             <a class="breadcrumbs__link" href="{{ request.path }}" aria-current="page">{{ page_title }}</a>
-          </li>
-      {% endcase %}
+          </li> {% endcomment %}
+     
     </ol>
   </nav>
 
