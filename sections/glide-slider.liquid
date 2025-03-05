@@ -443,13 +443,19 @@
 
 <script type="text/javascript">
 window.addEventListener('load', function () {
-  new Glide('.glide', {
-    type: 'carousel',
-    gap: 0,
-    startAt: 0,
-    perView: 1,
-    autoplay: 5000,    
-    animationDuration: 1500
-  }).mount()
+    // Get all elements with class glide-slide
+    const slides = document.querySelectorAll('.glide-slide');
+  
+    // Only initialize Glide if there's more than one slide
+    if (slides.length > 1) {
+        new Glide('.glide', {
+        type: 'carousel',
+        gap: 0,
+        startAt: 0,
+        perView: 1,
+        autoplay: 5000,    
+        animationDuration: 1500
+       }).mount();
+    }
 });
 </script>
