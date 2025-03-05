@@ -3667,8 +3667,8 @@ button[disabled] {
   max-width: 100%;
 }
 
-.breadcrumbs__link {
-  font-size: calc(var(--font-body-scale) * 0.8rem);
+.breadcrumbs__list {
+  font-size: calc(var(--font-body-scale) * 1.2rem);
   color: #000000;
 }
 
