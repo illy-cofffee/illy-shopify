@@ -29,10 +29,17 @@
   
   
   .glide__arrow--left:before {
+<<<<<<< HEAD
       content: url('icon-arrow.svg');
   }
   .glide__arrow--right:before {
       content: url('icon-arrow.svg');
+=======
+      content: url('https://cdn.shopify.com/s/files/1/0638/9058/7699/files/arrow-dark-prev.svg?v=1741050572');
+  }
+  .glide__arrow--right:before {
+      content: url('https://cdn.shopify.com/s/files/1/0638/9058/7699/files/arrow-dark-next.svg?v=1741050567');
+>>>>>>> 8efcdf81403fa93e5d556f7c172ba24acd161809
   }
   
   
@@ -61,6 +68,10 @@
   }
 
   .glide__bullet button:before {
+<<<<<<< HEAD
+=======
+    font-family: 'slick';
+>>>>>>> 8efcdf81403fa93e5d556f7c172ba24acd161809
     font-size: 6px;
     line-height: 20px;
 
@@ -70,7 +81,11 @@
 
     width: 20px;
     height: 20px;
+<<<<<<< HEAD
     content: url('icon-minus.svg'); 
+=======
+    content: url('https://cdn.shopify.com/s/files/1/0638/9058/7699/files/slick-dot.svg?v=1741050504'); 
+>>>>>>> 8efcdf81403fa93e5d556f7c172ba24acd161809
     text-align: left;
 
     -webkit-font-smoothing: antialiased;

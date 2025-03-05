@@ -1,5 +1,14 @@
-{{ 'section-glide-core.css' | asset_url | stylesheet_tag }}
+{{ 'section-glide.core.css' | asset_url | stylesheet_tag }}
 {{ 'section-glide-theme.css' | asset_url | stylesheet_tag }}
+
+<style>
+
+      figure {
+        margin: 0px;
+        padding: 0px;
+      }
+
+</style>
 
 {%- if section.blocks.size > 0 -%}
 
@@ -8,8 +17,8 @@
 
       <div class="glide__track" data-glide-el="track">
         <ul class="glide__slides">
-          
-{%- for block in section.blocks -%}
+           
+  {%- for block in section.blocks -%}
           <!-- build out each carousel item (block) -->
           <li class="glide__slide" id="element-{{ block.id }}" style="
             {% if block.settings.color_background_main != "" %}
@@ -38,36 +47,42 @@
                   {% if section.settings.h1-title == true %} 
     
                                 <h1 {% else %} <h3 {% endif %}>
-                                <span class="text-animation--underline underline-mobile">{{ blockheader }}</span>
+                                <span class="text-animation--underline underline-mobile" style="color: {{ block.settings.color_text_main }}">{{ blockheader }}</span>
                                 
                   {% if section.settings.h1-title == true %} </h1> {% else %} </h3>{% endif %}
     
                   {%- endunless -%}
                   {%- unless block.settings.description == blank -%}
                                 
-                                <span>{{ block.settings.description }}</span>
+                                <span style="color: {{ block.settings.color_text_main }}">{{ block.settings.description }}</span>
                               
                   {%- endunless -%}
                   {%- if block.settings.button_label != blank -%}
     
-                    <div>
-                      {%- render 'button', label: block.settings.button_label, link: block.settings.link, style: block.settings.button_style, fullwidth: false -%}
+                    <div class="banner__buttons">
+                        {%- if block.settings.button_label != blank -%}
+                            <a
+                            {% if block.settings.link == blank %}
+                                role="link" aria-disabled="true"
+                            {% else %}
+                                href="{{ block.settings.link }}"
+                            {% endif %}
+                            class="button{% if block.settings.button_style == "secondary" %} button--secondary{% else %} button--primary{% endif %}"
+                            >
+                            {{- block.settings.button_label | escape -}}
+                            </a>
+                        {%- endif -%}
                     </div>
+
+                    {% comment %} <div>
+                        
+                      {%- render 'button', label: block.settings.button_label, link: block.settings.link, style: block.settings.button_style, fullwidth: false -%}
+                    </div> {% endcomment %}
     
       {%- endif -%}
                   </div> <!-- end slider-column-content -->
     
-
-                  <img
-                    src="{{ block.settings.image | image_url: width: 300 }}"
-                    class=""
-                    alt="{{ block.settings.image.alt | escape }}"
-                    loading="lazy"
-                    width="150"
-                    height="{{ 150 | divided_by: item.image.aspect_ratio | ceil }}"
-                  >
-
-                  {% comment %} {%- capture sizes -%}
+                  {%- capture sizes -%}
                     sizes="(max-width: 1023px) calc({{ block.settings.mobile_height }} * {{ block.settings.image.aspect_ratio }}), calc({{ block.settings.desktop_height }} * {{ block.settings.image.aspect_ratio }})"
                   {%- endcapture -%}
                   
@@ -85,7 +100,7 @@
                   
                     render 'lazy-image', image: block.settings.image, type: 'background', alt: block.settings.title, image_alignment: true, sizes: sizes, class: image_class, overlay: true, image_class: 'img-top-left'
                   
-                  -%} {% endcomment %}
+                  -%}
                   </div><!-- end slider-image -->
     
                   
@@ -114,7 +129,7 @@
     {% if section.settings.h1-title == true %} 
     
                   <h1 {% else %} <h3 {% endif %}>
-                  <span class="text-animation--underline underline-mobile">{{ blockheader }}</span>
+                  <span class="text-animation--underline underline-mobile" style="color: {{ block.settings.color_text_main }}">{{ blockheader }}</span>
                   
     {% if section.settings.h1-title == true %} </h1> {% else %} </h3>{% endif %}
     
@@ -126,9 +141,23 @@
     {%- endunless -%}
     {%- if block.settings.button_label != blank -%}
     
-                  <div>
+        <div class="banner__buttons">
+            {%- if block.settings.button_label != blank -%}
+                <a
+                {% if block.settings.button_link == blank %}
+                    role="link" aria-disabled="true"
+                {% else %}
+                    href="{{ block.settings.button_link }}"
+                {% endif %}
+                class="button{% if block.settings.button_style == "secondary" %} button--secondary{% else %} button--primary{% endif %}"
+                >
+                {{- block.settings.button_label | escape -}}
+                </a>
+            {%- endif -%}
+        </div>
+                  {% comment %} <div>
                     {%- render 'button', label: block.settings.button_label, link: block.settings.link, style: block.settings.button_style, fullwidth: false -%}
-                  </div>
+                  </div> {% endcomment %}
     
     {%- endif -%}
     
@@ -398,13 +427,13 @@
           "type": "color",
           "id": "color_background_main",
           "label": "Main background colour",
-          "default": "#ee1c23"
+          "default": "#FFFFFF"
         },
         {
           "type": "color",
           "id": "color_text_main",
           "label": "Main text colour",
-          "default": "#333333"
+          "default": "#FFFFFF"
         }
       ]
     }
