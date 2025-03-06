@@ -74,6 +74,9 @@
           class="page-width page-width--narrow{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
           {{ block.shopify_attributes }}
         >
+
+          {% if blog.url contains 'Recipes' %}
+
           <div class="recipe__subhead">Recipes</div>
           <div class="recipe__title">
             <h1
@@ -83,6 +86,13 @@
             </h1>
             <div class="recipe__excerpt">{{ article.excerpt }}</div>
           </div>
+          {% else %}
+            <h1
+              class="article-template__title"
+            >
+              {{ article.title | escape }}
+            </h1>
+          {% endif %}
           {%- if block.settings.blog_show_date -%}
             <span class="circle-divider caption-with-letter-spacing">
               {{- article.published_at | time_tag: format: 'date' -}}
