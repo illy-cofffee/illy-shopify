@@ -85,6 +85,15 @@
             "content": "",
             "page": ""
           }
+        },
+        "collapsible_tab_LGxAAQ": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Warranty",
+            "icon": "none",
+            "content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -98,7 +107,8 @@
         "collapsible_tab_DBRXyP",
         "collapsible_tab_KhhmzW",
         "collapsible_tab_darjU9",
-        "collapsible_tab_BRxFx9"
+        "collapsible_tab_BRxFx9",
+        "collapsible_tab_LGxAAQ"
       ],
       "settings": {
         "enable_sticky_info": true,
