@@ -176,6 +176,12 @@
 
 /* Recipe styles */
 
+.recipe__title {
+  margin-bottom: 1rem;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #DADADA;
+}
+
 .recipe-stats-container {
     display: flex;
     justify-content: space-between;
