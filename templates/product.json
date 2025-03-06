@@ -54,8 +54,8 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Details",
-            "icon": "check_mark",
-            "content": "{{ product.metafields.custom.details | metafield_tag }}",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.details | metafield_tag }}</p>",
             "page": ""
           }
         },
