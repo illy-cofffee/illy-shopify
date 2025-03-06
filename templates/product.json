@@ -32,6 +32,10 @@
           "type": "description",
           "settings": {}
         },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -100,6 +104,7 @@
         "vendor",
         "title",
         "price",
+        "description",
         "description",
         "variant_picker",
         "quantity_selector",
