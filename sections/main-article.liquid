@@ -7,14 +7,6 @@
         <div class="page-width page-width--narrow">
           {% render block %}
         </div>
-
-      {%- when 'recipe_stats' -%}
-        <div class="page-width page-width--narrow" {{ block.shopify_attributes }}>
-          HELLO
-          {{ block.settings.serving_size }}<br >
-          {{ block.settings.preparation_time }}<br >
-          {{ block.settings.cooking_time }}<br >
-        </div>
       {%- when 'featured_image' -%}
         {%- if article.image -%}
           <div

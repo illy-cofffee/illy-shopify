@@ -1,0 +1,53 @@
+{%- if section.blocks.size > 0 -%}
+    {%- for block in section.blocks -%}
+
+    <div class="page-width page-width--narrow" {{ block.shopify_attributes }}>
+      ELLO
+      {{ block.settings.serving_size }}<br >
+      {{ block.settings.preparation_time }}<br >
+      {{ block.settings.cooking_time }}<br >
+    </div>
+
+    {%- endfor -%}
+{% endif %}
+
+
+{% schema %}
+{
+  "name": "Recipe Stats",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "Recipe stats",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "serving_size",
+          "default": "",
+          "label": "Serving Size"
+        },
+        {
+        "type": "text",
+        "id": "preparation_time",
+        "default": "",
+        "label": "Preparation Time"
+        },
+        {
+        "type": "text",
+        "id": "cooking time",
+        "default": "",
+        "label": "Cooking Time"
+        },
+      ]
+    },
+  ] 
+  ]
+}
+{% endschema %}
