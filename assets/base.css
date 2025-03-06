@@ -3819,3 +3819,8 @@ button[disabled] {
   }
 
 }
+
+/* Remove iframe border */
+iframe {
+  border:none;
+}

@@ -2,11 +2,39 @@
 
 <article class="article-template">
   {%- for block in section.blocks -%}
-    {%- case block.type -%}
+    {%- case block.type -%}      
       {%- when '@app' -%}
         <div class="page-width page-width--narrow">
           {% render block %}
         </div>
+      {%- when 'stats' -%}
+        <div
+          class="article-template__content page-width page-width--narrow rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+          {{ block.shopify_attributes }}
+        >
+          <div class="recipe-stats-container">
+            <!-- Column 1 -->
+            <div class="recipe-stat">
+              <span class="svg-wrapper recipe-stat-icon">{{'icon-servings.svg' | inline_asset_content }}</span>
+                <div class="recipe-stat-heading">Serves</div>
+                <div class="recipe-stat-text">{{ block.settings.serving_size }}</div>
+            </div>
+    
+            <!-- Column 2 -->
+            <div class="recipe-stat">
+              <span class="svg-wrapper recipe-stat-icon">{{'icon-preparation.svg' | inline_asset_content }}</span>
+                <div class="recipe-stat-heading">Preparation</div>
+                <div class="recipe-stat-text">{{ block.settings.preparation_time }}</div>
+            </div>
+    
+            <!-- Column 3 -->
+            <div class="recipe-stat">
+              <span class="svg-wrapper recipe-stat-icon">{{'icon-cooking.svg' | inline_asset_content }}</span>
+                <div class="recipe-stat-heading">Cooking</div>
+                <div class="recipe-stat-text">{{ block.settings.cooking_time }}</div>
+            </div>
+        </div>
+      </div>
       {%- when 'featured_image' -%}
         {%- if article.image -%}
           <div
@@ -46,11 +74,27 @@
           class="page-width page-width--narrow{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
           {{ block.shopify_attributes }}
         >
-          <h1
-            class="article-template__title"
-          >
-            {{ article.title | escape }}
-          </h1>
+
+          {% if blog.url contains 'recipes' %}
+
+            <div class="recipe__subhead">Recipes</div>
+
+          {% else %}
+        
+            <div class="recipe__subhead">Journal</div>
+        
+          {% endif %}
+          
+          <div class="article__title">
+            <h1
+              class="article-template__title"
+            >
+              {{ article.title | escape }}
+            </h1>
+            <div class="recipe__excerpt">{{ article.excerpt }}</div>
+          </div>
+          
+      
           {%- if block.settings.blog_show_date -%}
             <span class="circle-divider caption-with-letter-spacing">
               {{- article.published_at | time_tag: format: 'date' -}}
@@ -349,6 +393,28 @@
           "id": "blog_show_author",
           "default": false,
           "label": "t:sections.main-article.blocks.title.settings.blog_show_author.label"
+        }
+      ]
+    },
+    {
+      "type": "stats",
+      "name": "Recipe stats",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "serving_size",
+          "label": "Serving Size"
+        }, 
+        {
+          "type": "text",
+          "id": "preparation_time",
+          "label": "Preparation Time"
+        },
+        {
+          "type": "text",
+          "id": "cooking_time",
+          "label": "Cooking Time"
         }
       ]
     },
