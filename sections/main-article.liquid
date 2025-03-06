@@ -8,7 +8,9 @@
           {% render block %}
         </div>
       {%- when 'stats' -%}
-        <div style="font-size:30px">Block is {{ block.type }}</div>
+        <div style="font-size:30px">Servings is {{ block.settings.serving_size }}</div>
+        <div style="font-size:30px">Preparation time is {{ block.settings.preparation_time }}</div>
+        <div style="font-size:30px">Cooking time is {{ block.settings.cooking_time }}</div>
       {%- when 'featured_image' -%}
         {%- if article.image -%}
           <div
