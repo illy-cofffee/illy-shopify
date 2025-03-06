@@ -59,12 +59,39 @@
             "page": ""
           }
         },
+        "collapsible_tab_KhhmzW": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Origins",
+            "icon": "none",
+            "content": "",
+            "page": ""
+          }
+        },
         "collapsible_tab_darjU9": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Features",
             "icon": "none",
             "content": "{{ product.metafields.custom.features | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_BRxFx9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Specifications",
+            "icon": "none",
+            "content": "",
+            "page": ""
+          }
+        },
+        "collapsible_tab_LGxAAQ": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Warranty",
+            "icon": "none",
+            "content": "",
             "page": ""
           }
         }
@@ -78,13 +105,16 @@
         "quantity_selector",
         "buy_buttons",
         "collapsible_tab_DBRXyP",
-        "collapsible_tab_darjU9"
+        "collapsible_tab_KhhmzW",
+        "collapsible_tab_darjU9",
+        "collapsible_tab_BRxFx9",
+        "collapsible_tab_LGxAAQ"
       ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-3",
         "media_size": "large",
-        "constrain_to_viewport": true,
+        "constrain_to_viewport": false,
         "media_fit": "contain",
         "gallery_layout": "stacked",
         "media_position": "left",
