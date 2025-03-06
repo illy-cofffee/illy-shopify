@@ -173,3 +173,76 @@
 .article-template__back:last-child {
   margin-bottom: 3.2rem;
 }
+
+/* Recipe styles */
+
+.recipe__subhead {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.article__title {
+  margin-bottom: 1rem;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #DADADA;
+  max-width: 844px;
+}
+
+.article__title h1 {
+  text-align: center;
+}
+
+.recipe__excerpt {
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.recipe-stats-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+    gap: 10px;
+}
+
+.recipe-stat {
+    flex: 1;
+    min-width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+}
+
+.recipe-stat-icon {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 16px;
+}
+
+.recipe-stat-heading {
+    font-size: 14px;
+    margin: 0px;
+    text-align: center;
+}
+
+.recipe-stat-text {
+    font-size: 14px;
+    color: rgb(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .recipe-stats-container {
+        flex-direction: column;
+        gap: 0px;
+    }
+    
+    .recipe-stat {
+        min-width: auto;
+        padding: 5px;
+    }
+}

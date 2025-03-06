@@ -12,12 +12,6 @@
     "main": {
       "type": "main-article",
       "blocks": {
-        "featured_image": {
-          "type": "featured_image",
-          "settings": {
-            "image_height": "adapt"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {
@@ -31,15 +25,30 @@
             "share_label": "Share"
           }
         },
+        "stats_YTtnqy": {
+          "type": "stats",
+          "settings": {
+            "serving_size": "{{ article.metafields.custom.serve.value }}",
+            "preparation_time": "{{ article.metafields.custom.preparation_time.value }}",
+            "cooking_time": "{{ article.metafields.custom.cooking.value }}"
+          }
+        },
+        "featured_image": {
+          "type": "featured_image",
+          "settings": {
+            "image_height": "adapt"
+          }
+        },
         "content": {
           "type": "content",
           "settings": {}
         }
       },
       "block_order": [
-        "featured_image",
         "title",
         "share",
+        "stats_YTtnqy",
+        "featured_image",
         "content"
       ],
       "settings": {}
