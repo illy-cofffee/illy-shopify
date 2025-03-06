@@ -28,6 +28,10 @@
           "type": "price",
           "settings": {}
         },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -46,14 +50,49 @@
             "show_gift_card_recipient": true
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {}
-        },
-        "share": {
-          "type": "share",
+        "collapsible_tab_cyifVc": {
+          "type": "collapsible_tab",
           "settings": {
-            "share_label": "Share"
+            "heading": "Details",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.details | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_MW6UUb": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Origins",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.origins | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_ajzzt9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Features",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.features | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_Bcdhm4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Specifications",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.specifications | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_HWAHM7": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Warranty",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.warranty | metafield_tag }}",
+            "page": ""
           }
         }
       },
@@ -61,11 +100,15 @@
         "vendor",
         "title",
         "price",
+        "description",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
-        "share"
+        "collapsible_tab_cyifVc",
+        "collapsible_tab_MW6UUb",
+        "collapsible_tab_ajzzt9",
+        "collapsible_tab_Bcdhm4",
+        "collapsible_tab_HWAHM7"
       ],
       "settings": {
         "enable_sticky_info": true,
