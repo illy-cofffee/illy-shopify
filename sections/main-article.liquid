@@ -2,12 +2,13 @@
 
 <article class="article-template">
   {%- for block in section.blocks -%}
-    <div style="font-size:30px">Block is {{ block.type }}</div>
     {%- case block.type -%}      
       {%- when '@app' -%}
         <div class="page-width page-width--narrow">
           {% render block %}
         </div>
+      {%- when 'text' -%}
+        <div style="font-size:30px">Block is {{ block.type }}</div>
       {%- when 'featured_image' -%}
         {%- if article.image -%}
           <div
