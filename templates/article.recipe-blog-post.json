@@ -12,6 +12,19 @@
     "main": {
       "type": "main-article",
       "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
         "stats_YTtnqy": {
           "type": "stats",
           "settings": {
@@ -26,29 +39,16 @@
             "image_height": "adapt"
           }
         },
-        "title": {
-          "type": "title",
-          "settings": {
-            "blog_show_date": true,
-            "blog_show_author": false
-          }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
         "content": {
           "type": "content",
           "settings": {}
         }
       },
       "block_order": [
-        "stats_YTtnqy",
-        "featured_image",
         "title",
         "share",
+        "stats_YTtnqy",
+        "featured_image",
         "content"
       ],
       "settings": {}
