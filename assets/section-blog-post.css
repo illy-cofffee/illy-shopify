@@ -186,6 +186,11 @@
   text-align: center;
 }
 
+.recipe__excerpt {
+  text-align: center;
+  font-size: 20px;
+}
+
 .recipe-stats-container {
     display: flex;
     justify-content: space-between;

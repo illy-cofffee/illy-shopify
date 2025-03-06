@@ -80,7 +80,7 @@
             >
               {{ article.title | escape }}
             </h1>
-            <span>{{ article.excerpt }}</span>
+            <div class="recipe__excerpt">{{ article.excerpt }}</div>
           </div>
           {%- if block.settings.blog_show_date -%}
             <span class="circle-divider caption-with-letter-spacing">
