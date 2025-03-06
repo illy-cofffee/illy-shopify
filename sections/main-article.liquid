@@ -2,8 +2,8 @@
 
 <article class="article-template">
   {%- for block in section.blocks -%}
-    {%- case block.type -%}
-      <div style="font-size:30px">Block is {{ block.type }}</div>
+    <div style="font-size:30px">Block is {{ block.type }}</div>
+    {%- case block.type -%}      
       {%- when '@app' -%}
         <div class="page-width page-width--narrow">
           {% render block %}
