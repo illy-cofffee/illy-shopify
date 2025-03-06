@@ -180,6 +180,9 @@
   margin-bottom: 1rem;
   padding-bottom: 5px;
   border-bottom: 1px solid #DADADA;
+}
+
+.recipe-title h1 {
   text-align: center;
 }
 
