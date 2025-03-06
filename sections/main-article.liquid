@@ -2,10 +2,6 @@
 
 <article class="article-template">
   {%- for block in section.blocks -%}
-
-    <div>There be text</div>
-
-    
     {%- case block.type -%}
       {%- when '@app' -%}
         <div class="page-width page-width--narrow">
@@ -13,8 +9,11 @@
         </div>
 
       {%- when 'text' -%}
-        
-
+        <div class="page-width page-width--narrow" {{ block.shopify_attributes }}>
+          {{ block.settings.serving_size }}<br >
+          {{ block.settings.preparation_time }}<br >
+          {{ block.settings.cooking_time }}<br >
+        </div>
       {%- when 'featured_image' -%}
         {%- if article.image -%}
           <div
