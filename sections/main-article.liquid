@@ -2,6 +2,10 @@
 
 <article class="article-template">
   {%- for block in section.blocks -%}
+
+    <div>There be text</div>
+
+    
     {%- case block.type -%}
       {%- when '@app' -%}
         <div class="page-width page-width--narrow">
@@ -9,7 +13,7 @@
         </div>
 
       {%- when 'text' -%}
-        <div>There be text</div>
+        
 
       {%- when 'featured_image' -%}
         {%- if article.image -%}
