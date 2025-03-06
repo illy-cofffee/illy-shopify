@@ -8,9 +8,14 @@
           {% render block %}
         </div>
       {%- when 'stats' -%}
-        <div style="font-size:30px">Servings is {{ block.settings.serving_size }}</div>
-        <div style="font-size:30px">Preparation time is {{ block.settings.preparation_time }}</div>
-        <div style="font-size:30px">Cooking time is {{ block.settings.cooking_time }}</div>
+        <div
+          class="article-template__content page-width page-width--narrow rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+          {{ block.shopify_attributes }}
+        >
+          <div><span class="svg-wrapper">{{'icon-servings.svg' | inline_asset_content }}</span> {{ block.settings.serving_size }}</div>
+          <div><span class="svg-wrapper">{{'icon-preparation.svg' | inline_asset_content }}</span>Preparation time is {{ block.settings.preparation_time }}</div>
+          <div><span class="svg-wrapper">{{'icon-cooking.svg' | inline_asset_content }}</span>Cooking time is {{ block.settings.cooking_time }}</div>
+        </div>
       {%- when 'featured_image' -%}
         {%- if article.image -%}
           <div
