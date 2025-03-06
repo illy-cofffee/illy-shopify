@@ -12,6 +12,14 @@
     "main": {
       "type": "main-article",
       "blocks": {
+        "stats_YTtnqy": {
+          "type": "stats",
+          "settings": {
+            "serving_size": "{{ article.metafields.custom.serve.value }}",
+            "preparation_time": "{{ article.metafields.custom.preparation_time.value }}",
+            "cooking_time": "{{ article.metafields.custom.cooking.value }}"
+          }
+        },
         "featured_image": {
           "type": "featured_image",
           "settings": {
@@ -37,6 +45,7 @@
         }
       },
       "block_order": [
+        "stats_YTtnqy",
         "featured_image",
         "title",
         "share",
