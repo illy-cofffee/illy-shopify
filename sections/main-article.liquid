@@ -77,8 +77,15 @@
 
           {% if blog.url contains 'recipes' %}
 
-          <div class="recipe__subhead">Recipes</div>
-          <div class="recipe__title">
+            <div class="recipe__subhead">Recipes</div>
+
+          {% else %}
+        
+            <div class="recipe__subhead">Journal</div>
+        
+          {% endif %}
+          
+          <div class="article__title">
             <h1
               class="article-template__title"
             >
@@ -86,14 +93,8 @@
             </h1>
             <div class="recipe__excerpt">{{ article.excerpt }}</div>
           </div>
-          {% else %}
-            <div class="recipe__subhead">Journal</div>
-            <h1
-              class="article-template__title"
-            >
-              {{ article.title | escape }}
-            </h1>
-          {% endif %}
+          
+      
           {%- if block.settings.blog_show_date -%}
             <span class="circle-divider caption-with-letter-spacing">
               {{- article.published_at | time_tag: format: 'date' -}}
