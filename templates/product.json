@@ -59,12 +59,30 @@
             "page": ""
           }
         },
+        "collapsible_tab_KhhmzW": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Origins",
+            "icon": "none",
+            "content": "",
+            "page": ""
+          }
+        },
         "collapsible_tab_darjU9": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Features",
             "icon": "none",
             "content": "{{ product.metafields.custom.features | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_BRxFx9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Specifications",
+            "icon": "none",
+            "content": "",
             "page": ""
           }
         }
@@ -78,7 +96,9 @@
         "quantity_selector",
         "buy_buttons",
         "collapsible_tab_DBRXyP",
-        "collapsible_tab_darjU9"
+        "collapsible_tab_KhhmzW",
+        "collapsible_tab_darjU9",
+        "collapsible_tab_BRxFx9"
       ],
       "settings": {
         "enable_sticky_info": true,
