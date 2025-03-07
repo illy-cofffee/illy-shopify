@@ -21,10 +21,11 @@
             "menu": "footer"
           }
         },
-        "brand_information_6B6jE3": {
-          "type": "brand_information",
+        "link_list_xQebUL": {
+          "type": "link_list",
           "settings": {
-            "show_social": true
+            "heading": "Quick links",
+            "menu": "footer-menu-2"
           }
         },
         "image_xex9ic": {
@@ -38,7 +39,7 @@
       },
       "block_order": [
         "link_list_7cg4pe",
-        "brand_information_6B6jE3",
+        "link_list_xQebUL",
         "image_xex9ic"
       ],
       "settings": {
