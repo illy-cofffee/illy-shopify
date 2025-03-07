@@ -20,10 +20,26 @@
             "heading": "Quick links",
             "menu": "footer"
           }
+        },
+        "brand_information_6B6jE3": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
+        },
+        "image_xex9ic": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/illy_logo.png",
+            "image_width": 65,
+            "alignment": "right"
+          }
         }
       },
       "block_order": [
-        "link_list_7cg4pe"
+        "link_list_7cg4pe",
+        "brand_information_6B6jE3",
+        "image_xex9ic"
       ],
       "settings": {
         "color_scheme": "scheme-1",
