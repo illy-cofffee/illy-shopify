@@ -134,6 +134,7 @@ product-recommendations.is-accordion + .accordion {
   background-color: #000000;
 }
 
+
 .complementary-products__container .quick-add__submit .icon-plus {
   width: 1.2rem;
 }
