@@ -127,11 +127,11 @@ product-recommendations.is-accordion + .accordion {
   font: inherit;
   font-size: 1.5rem;
   text-decoration: none;
-  color: rgb(var(--color-button-text));
+  color: #FFFFFF;
   transition: box-shadow var(--duration-short) ease;
   -webkit-appearance: none;
   appearance: none;
-  background-color: rgba(var(--color-button), var(--alpha-button-background));
+  background-color: #000000;
 }
 
 .complementary-products__container .quick-add__submit .icon-plus {
