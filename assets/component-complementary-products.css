@@ -116,22 +116,22 @@ product-recommendations.is-accordion + .accordion {
 }
 
 .complementary-products__container .quick-add__submit {
-  /* padding: 1.5rem 0;*/
   min-height: inherit;
   display: inline-flex;
   justify-content: center;
   align-items: center;
   border: 0;
-  padding: 0 3rem;
+  padding: 1rem 2rem;
   cursor: pointer;
   font: inherit;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-decoration: none;
-  color: #FFFFFF;
-  transition: box-shadow var(--duration-short) ease;
+  text-transform: uppercase;
+  color: #fff;
+  transition: box-shadow var(--duration-short)ease;
   -webkit-appearance: none;
   appearance: none;
-  background-color: #000000;
+  background-color: #000;
 }
 
 
