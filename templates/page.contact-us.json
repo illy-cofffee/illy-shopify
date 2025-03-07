@@ -23,14 +23,14 @@
         "heading_jdXaVh": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Contact illy",
             "heading_size": "h1"
           }
         },
         "text_KLTDf7": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin mauris magna, malesuada id est a, convallis convallis neque. Vestibulum egestas imperdiet varius. Duis est libero, congue eu libero non, sodales ullamcorper tortor. </p>"
           }
         }
       },
