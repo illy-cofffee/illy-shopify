@@ -2933,6 +2933,11 @@ details-disclosure > details {
   word-break: break-word;
 }
 
+.badge--sale{
+  background-color: #D12420;
+
+}
+
 .gradient {
   background: rgb(var(--color-background));
   background: var(--gradient-background);
