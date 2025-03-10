@@ -3795,24 +3795,6 @@ button[disabled] {
   border-color: rgb(0, 0, 0, 0.05);
 }
 
-.mega-menu__content {
-  padding-top: 6rem;
-  padding-bottom: 6rem;
-}
-
-.mega-menu__list {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  padding-inline-start: 90px;
-}
-
-.mega-menu__list ul {
-  padding-inline-start: 60px;
-}
-
-.mega-menu__list .list-unstyled {
-  padding-inline-start: 0px;
-}
-
 @media (min-width: 990px) {
 
   .header.page-width,
