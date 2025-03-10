@@ -2927,7 +2927,8 @@ details-disclosure > details {
   /* padding: 0.5rem 1.3rem 0.6rem 1.3rem; */
   padding: 2px 6px;
   text-align: center;
-  background-color: rgb(var(--color-badge-background));
+  /* background-color: rgb(var(--color-badge-background)); */
+  background-color: #DADADA;
   border-color: rgba(var(--color-badge-border), var(--alpha-badge-border));
   color: rgb(var(--color-badge-foreground));
   word-break: break-word;
@@ -2935,7 +2936,7 @@ details-disclosure > details {
 
 .badge--sale{
   background-color: #D12420;
-
+  color:#FFFFFF;
 }
 
 .gradient {
