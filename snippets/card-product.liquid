@@ -563,6 +563,8 @@
             >
               {{- 'products.product.on_sale' | t -}}
             </span>
+          {% else %}
+            Compare at price is {{ card_product.compare_at_price }} and price is {{ card_product.price }}
           {%- endif -%}
         </div>
       </div>
