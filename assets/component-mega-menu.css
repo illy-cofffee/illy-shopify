@@ -92,6 +92,7 @@
 .mega-menu__list {
   grid-template-columns: repeat(4, minmax(0, 1fr));
   padding-inline-start: 90px;
+  max-width: 1440px;
 }
 
 .mega-menu__list ul {
