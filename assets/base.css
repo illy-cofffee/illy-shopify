@@ -3795,6 +3795,11 @@ button[disabled] {
   border-color: rgb(0, 0, 0, 0.05);
 }
 
+.mega-menu__list {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+
 @media (min-width: 990px) {
 
   .header.page-width,
