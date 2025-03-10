@@ -9,8 +9,8 @@
   border-right: 0;
   left: 0;
   overflow-y: auto;
-  padding-bottom: 3rem;
-  padding-top: 3rem;
+  padding-bottom: 6rem;
+  padding-top: 6rem;
   position: absolute;
   right: 0;
   top: 100%;
@@ -84,4 +84,20 @@
 
 .mega-menu__list--condensed .mega-menu__link {
   font-weight: normal;
+}
+
+
+/* NEW MEGA MENU STYLES */
+
+.mega-menu__list {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  padding-inline-start: 90px;
+}
+
+.mega-menu__list ul {
+  padding-inline-start: 60px;
+}
+
+.mega-menu__list .list-unstyled {
+  padding-inline-start: 0px;
 }
