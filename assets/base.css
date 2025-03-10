@@ -3803,6 +3803,10 @@ button[disabled] {
   padding-inline-start: 60px;
 }
 
+.mega-menu__list .list-unstyled {
+  padding-inline-start: 60px;
+}
+
 @media (min-width: 990px) {
 
   .header.page-width,
