@@ -3832,3 +3832,9 @@ button[disabled] {
 iframe {
   border:none;
 }
+
+.-spin-studio-active-wrapper .-spin-studio-large-thumb,
+.-spin-studio-active-wrapper .-spin-studio-large-thumb .-spin-studio-large-thumb {
+  width: 100% !important;
+  height: 100% !important;
+}
