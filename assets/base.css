@@ -3797,6 +3797,7 @@ button[disabled] {
 
 .mega-menu__list {
   grid-template-columns: repeat(4, minmax(0, 1fr));
+  padding-inline-start: 90px;
 }
 
 .mega-menu__list ul {
