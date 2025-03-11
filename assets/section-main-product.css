@@ -1493,8 +1493,7 @@ a.product__text {
   }
 }
 
-/* move add to cart button next to quantity selector */
-
+/* move add to cart button next to quantity selector 
 
 .product-form {
     position: relative
@@ -1504,7 +1503,6 @@ a.product__text {
     position: absolute;
     left: 148px;
     top: -72px;
-    width: 100%; 
 }
 
 
@@ -1514,3 +1512,5 @@ a.product__text {
     max-width: 245px;
   }
 }
+
+*/
