@@ -1495,16 +1495,22 @@ a.product__text {
 
 /* move add to cart button next to quantity selector */
 
-@media (min-width: 380px) {
-  .product-form {
-      position: relative
-  }
 
+.product-form {
+    position: relative
+}
+
+.product-form .product-form__buttons {
+    position: absolute;
+    left: 148px;
+    top: -72px;
+    width: 100%; 
+}
+
+
+
+@media (max-width: 1200px) {
   .product-form .product-form__buttons {
-      position: absolute;
-      left: 148px;
-      top: -72px;
-      width: 100%;
-      max-width: 297px;
+    max-width: 245px;
   }
 }
