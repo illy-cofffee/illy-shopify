@@ -1504,5 +1504,7 @@ a.product__text {
       position: absolute;
       left: 148px;
       top: -72px;
+      width: 100%;
+      max-width: 297px;
   }
 }
