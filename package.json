@@ -4,7 +4,7 @@
   "description": "## 🛒 Shopify Liquid Theme",
   "main": "index.js",
   "scripts": {
-    "launch": "shopify theme dev --store=illy-au.myshopify.com"
+    "launch": "shopify theme dev --store=niv0ty-ft.myshopify.com"
   },
   "repository": {
     "type": "git",

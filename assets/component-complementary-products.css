@@ -131,7 +131,7 @@ product-recommendations.is-accordion + .accordion {
   transition: box-shadow var(--duration-short)ease;
   -webkit-appearance: none;
   appearance: none;
-  background-color: #000;
+  background-color: rgba(var(--color-button), var(--alpha-button-background));
 }
 
 
