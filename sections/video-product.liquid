@@ -15,6 +15,7 @@
   }
 {%- endstyle -%}
 
+
 {%- liquid
   assign video_id = section.settings.video.id | default: section.settings.video_url.id
   assign video_alt = section.settings.video.alt | default: section.settings.description
@@ -27,7 +28,7 @@
       assign fix_ratio = true
     endif
   endif
--%}
+  -%}
 
 {%- capture sizes -%}
   {% if section.settings.full_width -%}
@@ -161,15 +162,6 @@
     },
     {
       "type": "header",
-      "content": "t:sections.video.settings.header__1.content"
-    },
-    {
-      "type": "video",
-      "id": "video",
-      "label": "t:sections.video.settings.video.label"
-    },
-    {
-      "type": "header",
       "content": "t:sections.video.settings.header__2.content"
     },
     {
@@ -179,7 +171,6 @@
     {
       "type": "text",
       "id": "video_url",
-      "default": "",
       "label": "Vimeo URL",
       "info": "t:sections.video.settings.video_url.info"
     },
