@@ -85,7 +85,7 @@
           {%- liquid
             assign loop = ''
             if section.settings.enable_video_looping
-              assign loop = '&loop=1&playlist=' | append: video_id
+              assign loop = '&loop=1&playlist=' | append: section.settings.video_url
             endif
           -%} 
             <iframe
