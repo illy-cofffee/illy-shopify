@@ -43,19 +43,9 @@
         "content"
       ],
       "settings": {}
-    },
-    "custom_liquid_ipBjWq": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<!-- Elfsight Social Share Buttons | Untitled Social Share Buttons -->\n<script src=\"https://static.elfsight.com/platform/platform.js\" async></script>\n<div class=\"elfsight-app-c21820f1-6d0b-4b1f-8423-4c602f1da55d\" data-elfsight-app-lazy></div>",
-        "color_scheme": "scheme-3",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
-    "main",
-    "custom_liquid_ipBjWq"
+    "main"
   ]
 }
