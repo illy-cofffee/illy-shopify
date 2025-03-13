@@ -401,6 +401,35 @@
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
-    
+    <script>
+      window.addEventListener('DOMContentLoaded', function() {
+          // Wait for drawer to open
+          document.querySelector('.filter-drawer__toggle')?.addEventListener('click', function() {
+              setTimeout(function() {
+                  // Expand all filter sections in drawer
+                  const filterSections = document.querySelectorAll(
+                      '.filter-drawer .collapsible-section'
+                  );
+                  
+                  filterSections.forEach(section => {
+                      if (!section.classList.contains('is-expanded')) {
+                          section.querySelector('.collapsible-section__trigger').click();
+                      }
+                  });
+              }, 300); // Small delay ensures drawer is fully loaded
+          });
+      
+          // Handle initial page load if drawer is already open
+          const filterSections = document.querySelectorAll(
+              '.filter-drawer .collapsible-section'
+          );
+          
+          filterSections.forEach(section => {
+              if (!section.classList.contains('is-expanded')) {
+                  section.querySelector('.collapsible-section__trigger').click();
+              }
+          });
+      });
+      </script>
   </body>
 </html>
