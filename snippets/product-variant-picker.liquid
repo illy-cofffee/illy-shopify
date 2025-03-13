@@ -94,10 +94,48 @@
 
 {% else %}
 
-  <style></style>
+  <style>
+    .linked_swatch_container {
+      border-radius: 4px;
+      display: inline-block;
+      width: 35px;
+      height: 35px;
+      aspect-ratio: 1 / 1;
+      background-size: cover;
+      background-origin: border-box;
+      padding: 2px;
+      margin: 0px;
+    }
+    
+    .linked_swatch_selected {
+      border: 1px solid black;
+    }
 
+    .linked_swatch {
+      border-radius: 4px;
+      width: 100%;
+      height: 100%;
+      display: block;
+      border: 1px solid rgba(0,0,0, 0.5)
+    }
 
-  This product's colour is {{ product_colour.value }}<br><br>
+    .link_swatch {
+      margin: 0px;
+      width: 100%;
+      height: 100%;
+    }
+
+    .linked_swatch_container + .link_swatch {
+      margin-left: 7px;
+    }
+    .link_swatch + .link_swatch {
+      margin-left: 7px;
+    }
+
+  </style>
+
+  <span class="linked_swatch_container linked_swatch_selected"><span class="linked_swatch" style="background-color: {{ product_colour.value }};"></span></span>
+
   {% if linked_products.value %}
     {% for handle in linked_products.value %}
       {% comment %} Handle is {{ handle.handle }}<br> {% endcomment %}
@@ -105,31 +143,10 @@
       {% if product %}
         {% comment %} Product is {{ product.title }}<br> {% endcomment %}
         {% comment %} {{ product.metafields.custom.colour.value }}<br> {% endcomment %}
-        <a href="/products/{{ handle.handle }}">{{ product.metafields.custom.colour.value }}</a>
+
+        <a href="/products/{{ handle.handle }}" class="link_swatch"><span class="linked_swatch_container"><span class="linked_swatch" style="background-color: {{ product.metafields.custom.colour.value }};"></span></span></a>
       {% endif %}
     {% endfor %}
   {% endif %}
-
- 
- 
-
-{% comment %} 
-  {% for option in product.options_with_values %}
-
-  <fieldset class="js product-form__input product-form__input--swatch">
-    <legend class="form__label">
-      {{ option.name }}:
-      <span data-selected-value>
-        {{- option.selected_value -}}
-      </span>
-    </legend>
-    {% render 'product-variant-options',
-      product: product,
-      option: option,
-      block: block,
-      picker_type: picker_type
-    %}
-  </fieldset>
-  {% endfor %} {% endcomment %}
 
 {%- endunless -%}
