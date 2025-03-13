@@ -120,8 +120,11 @@
           class="article-template__social-sharing page-width page-width--narrow{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
           {{ block.shopify_attributes }}
         >
-          {% assign share_url = request.origin | append: article.url %}
-          {% render 'share-button', block: block, share_link: share_url %}
+          {% comment %} {% assign share_url = request.origin | append: article.url %}
+          {% render 'share-button', block: block, share_link: share_url %} {% endcomment %}
+           <!-- Elfsight Social Share Buttons | Untitled Social Share Buttons -->
+          <script src="https://static.elfsight.com/platform/platform.js" async></script>
+          <div class="elfsight-app-c21820f1-6d0b-4b1f-8423-4c602f1da55d" data-elfsight-app-lazy></div>
         </div>
     {%- endcase -%}
   {%- endfor -%}
