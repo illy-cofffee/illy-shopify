@@ -125,10 +125,13 @@
 
               {% case filter.type %}
                 {% when 'boolean', 'list' %}
-                  <details id="Details-{{ forloop.index }}-{{ section.id }}" 
-                    class="{% if filter_type == 'horizontal' %}disclosure-has-popup facets__disclosure{% else %}facets__disclosure-vertical{% endif %} js-filter" 
-                    data-index="{{ forloop.index }}" 
-                    open
+                  <details
+                    id="Details-{{ filter.param_name | escape }}-{{ section.id }}"
+                    class="{% if filter_type == 'horizontal' %}disclosure-has-popup facets__disclosure{% else %} facets__disclosure-vertical{% endif %} js-filter"
+                    data-index="{{ forloop.index }}"
+                    {% if filter_type == 'vertical' and forloop.index == 1 %}
+                      open
+                    {% endif %}
                   >
                     <summary
                       class="facets__summary caption-large focus-offset"
@@ -216,7 +219,7 @@
                               </span>
                             {%- endcapture -%}
 
-                            <li class="list-menu__item facets__item">
+                            <li class="list-menu__item facets__item{% if forloop.index > show_more_number and filter_type == 'vertical' %} show-more-item hidden{% endif %}">
                               {%- if presentation == 'swatch' -%}
                                 <div class="{{ label_class }}">
                                   <div class="swatch-input-wrapper">
@@ -274,7 +277,22 @@
                           {%- endfor -%}
                         </ul>
                       </fieldset>
-                      
+                      {%- if filter.values.size > show_more_number and filter_type == 'vertical' -%}
+                        <show-more-button>
+                          <button
+                            class="button-show-more link underlined-link"
+                            id="Show-More-{{ forloop.index }}-{{ section.id }}"
+                            type="button"
+                          >
+                            <span class="label-show-more label-text"
+                              ><span aria-hidden="true">+ </span>{{ 'products.facets.show_more' | t -}}
+                            </span>
+                            <span class="label-show-less label-text hidden"
+                              ><span aria-hidden="true">- </span>{{ 'products.facets.show_less' | t -}}
+                            </span>
+                          </button>
+                        </show-more-button>
+                      {%- endif %}
                     </div>
                   </details>
                 {% when 'price_range' %}

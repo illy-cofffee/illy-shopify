@@ -400,5 +400,15 @@
     {%- if settings.cart_type == 'drawer' -%}
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
+
+    <script>
+      window.addEventListener('DOMContentLoaded', (event) => {
+          document.querySelectorAll('facet-filters-form details.facets__disclosure-vertical').forEach(item => {
+              if (!item.hasAttribute('open')) {
+                  item.querySelector('summary').click();
+              }
+          });
+      });
+      </script>
   </body>
 </html>
