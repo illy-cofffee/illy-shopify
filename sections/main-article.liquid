@@ -1,6 +1,8 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
 
 <article class="article-template">
+  <script src="https://static.elfsight.com/platform/platform.js" async></script>
+  <div class="elfsight-app-259d53f0-2545-40d3-a9ce-c73d866d431a" data-elfsight-app-lazy></div>
   {%- for block in section.blocks -%}
     {%- case block.type -%}      
       {%- when '@app' -%}
@@ -120,8 +122,10 @@
           class="article-template__social-sharing page-width page-width--narrow{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
           {{ block.shopify_attributes }}
         >
-          {% assign share_url = request.origin | append: article.url %}
-          {% render 'share-button', block: block, share_link: share_url %}
+          {% comment %} {% assign share_url = request.origin | append: article.url %}
+          {% render 'share-button', block: block, share_link: share_url %} {% endcomment %}
+           <!-- Elfsight Social Share Buttons | Social Share -->
+            
         </div>
     {%- endcase -%}
   {%- endfor -%}
