@@ -91,4 +91,45 @@
       {{ product.selected_or_first_available_variant | json }}
     </script>
   </variant-selects>
+
+{% else %}
+
+  <style></style>
+
+
+  This product's colour is {{ product_colour.value }}<br><br>
+  {% if linked_products.value %}
+    {% for handle in linked_products.value %}
+      {% comment %} Handle is {{ handle.handle }}<br> {% endcomment %}
+      {% assign product = all_products[handle.handle] %}
+      {% if product %}
+        {% comment %} Product is {{ product.title }}<br> {% endcomment %}
+        {% comment %} {{ product.metafields.custom.colour.value }}<br> {% endcomment %}
+        <a href="/products/{{ handle.handle }}">{{ product.metafields.custom.colour.value }}</a>
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+
+ 
+ 
+
+{% comment %} 
+  {% for option in product.options_with_values %}
+
+  <fieldset class="js product-form__input product-form__input--swatch">
+    <legend class="form__label">
+      {{ option.name }}:
+      <span data-selected-value>
+        {{- option.selected_value -}}
+      </span>
+    </legend>
+    {% render 'product-variant-options',
+      product: product,
+      option: option,
+      block: block,
+      picker_type: picker_type
+    %}
+  </fieldset>
+  {% endfor %} {% endcomment %}
+
 {%- endunless -%}
