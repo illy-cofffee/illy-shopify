@@ -11,10 +11,48 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
         "show_collection_image": true,
         "color_scheme": "scheme-2"
+      }
+    },
+    "image_banner_twjgc7": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_qapBqp": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.title }}",
+            "heading_size": "h1",
+            "h1-title": false
+          }
+        },
+        "text_UqmwVh": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qapBqp",
+        "text_UqmwVh"
+      ],
+      "settings": {
+        "image": "{{ collection.image }}",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "bottom-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "product-grid": {
@@ -36,10 +74,96 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multirow_eWdMJE": {
+      "type": "multirow",
+      "blocks": {
+        "row_rbiKJd": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/illy-subscription.jpg",
+            "caption": "",
+            "heading": "illy Subscription",
+            "text": "<p>Never run out of your favourite coffee, for your daily taste experience.</p>",
+            "button_label": "Find out more",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_rbiKJd"
+      ],
+      "settings": {
+        "image_height": "small",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-3",
+        "row_color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_XkrAiz": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_fThmGc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Quality loves details",
+            "heading_size": "h1",
+            "h1-title": false
+          }
+        },
+        "text_wUqEqL": {
+          "type": "text",
+          "settings": {
+            "text": "To make our coffee, we select only the finest Arabica coffee beans, with zero defects.",
+            "text_style": "body"
+          }
+        },
+        "buttons_D6TQVF": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Discover more",
+            "button_link_1": "shopify://products/brazil-caps-each-illy-italy",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_fThmGc",
+        "text_wUqEqL",
+        "buttons_D6TQVF"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/677267b55eec5bfac7e2961a_jpg.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "image_banner_twjgc7",
+    "product-grid",
+    "multirow_eWdMJE",
+    "image_banner_XkrAiz"
   ]
 }
