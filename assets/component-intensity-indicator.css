@@ -1,0 +1,30 @@
+.product-intensity {
+    display:flex;
+    margin: 2.5rem 0;
+  }
+  .intensity-title {
+    flex: 1 1;
+    align-self: flex-start;
+    text-align: left;
+  }
+
+.intensity-indicator {
+    flex: 1 1 50%;
+    text-align: left;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: left;
+  }
+
+.intensity-indicator .svg-bean {
+    height:17px;
+    width:14px;
+    opacity: 40%;
+  }
+
+.intensity-indicator .svg-bean.active {
+    opacity: 100%;
+    
+  }
