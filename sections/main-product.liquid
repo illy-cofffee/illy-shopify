@@ -16,10 +16,6 @@
   {{ 'component-rating.css' | asset_url | stylesheet_tag }}
   {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
 
-  {% unless product.metafields.custom.intensity == "" %}
-    {{ 'component-intensity-indicator.css' | asset_url | stylesheet_tag }}
-  {% endunless %}
-
   {% unless product.has_only_default_variant %}
     {{ 'component-product-variant-picker.css' | asset_url | stylesheet_tag }}
     {{ 'component-swatch-input.css' | asset_url | stylesheet_tag }}
@@ -201,11 +197,6 @@
                     {{ product.description }}
                   </div>
                 {%- endif -%}
-
-                {% unless product.metafields.custom.intensity == "" %}
-                  {% render 'intensity-indicator', intensity:product.metafields.custom.intensity %}
-                {% endunless %}
-
               {%- when 'sku' -%}
                 <p
                   class="product__sku{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
@@ -473,9 +464,7 @@
                 %}
 
               {%- when 'variant_picker' -%}
-                {% if product.metafields.custom.linked_products != blank %}
-                  {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id, linked_products: product.metafields.custom.linked_products, product_colour: product.metafields.custom.colour %}
-                {% endif %}
+                {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id, linked_products: product.metafields.custom.linked_products, product_colour: product.metafields.custom.colour %}
               {%- when 'buy_buttons' -%}
                 {%- render 'buy-buttons',
                   block: block,
