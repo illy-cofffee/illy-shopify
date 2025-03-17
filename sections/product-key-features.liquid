@@ -1,5 +1,10 @@
 <style>
 
+.key-features-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .key-features-container {
     display: flex;
     justify-content: space-between;
@@ -11,16 +16,16 @@
 
 .key-feature {
     flex: 1;
-    min-width: 220px;
+    {% comment %} min-width: 220px; {% endcomment %}
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5px;
+    padding: 5px 60px;
 }
 
 .key-feature-icon {
-    width: 24px;
-    height: 24px;
+    width:30px;
+    height: 30px;
     margin-bottom: 16px;
 }
 
@@ -56,9 +61,42 @@
     endif
 -%}
 
-{% assign features = product.metafields.key_features %}
 
-{% if features %}
+{% assign features = product.metafields.custom.key_features %}
+{% if features != "" %}
+    <div class="page-width rte key-features-section"
+        {{ shopify_attributes }}
+    >
+        <div class="key-features-container">    
+            {% assign feature_data = features.value %}
+            {% if feature_data %}
+                {% for feature in feature_data %}
+                    <div class="key-feature">
+                        <span class="svg-wrapper key-feature-icon">
+                            {%- if feature.icon != blank -%}
+                            {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                            {%- capture sizes -%}
+                                    (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                                    (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                                {%- endcapture -%}
+                                {{
+                                    feature.icon
+                                    | image_url: width: 1500
+                                    | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                                }}
+                            {% endif %}
+                        </span>
+                        <div class="key-feature-heading">{{ feature.title }}</div>
+                        <div class="key-feature-text">{{ feature.short_description }}</div>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+{% endif %}
+
+
+{% comment %} {% if features %}
     {% assign feature_data = features.value %}
     <div class="page-width rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
         {{ shopify_attributes }}
@@ -86,7 +124,7 @@
         {% endfor %}
     </div>
     </div>
-{% endif %}
+{% endif %} {% endcomment %}
 
 {% schema %}
 {
