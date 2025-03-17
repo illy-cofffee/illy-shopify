@@ -140,6 +140,10 @@
         "padding_bottom": 12
       }
     },
+    "product_key_features_zpzR3T": {
+      "type": "product-key-features",
+      "settings": {}
+    },
     "product_video_B7gAnT": {
       "type": "product-video",
       "settings": {
@@ -172,23 +176,12 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
-    },
-    "product_key_features_zpzR3T": {
-      "type": "product-key-features",
-      "settings": {
-        "key_feature_1": "",
-        "key_feature_1_info": "",
-        "key_feature_2": "",
-        "key_feature_2_info": "",
-        "key_feature_3": "",
-        "key_feature_3_info": ""
-      }
     }
   },
   "order": [
     "main",
+    "product_key_features_zpzR3T",
     "product_video_B7gAnT",
-    "related-products",
-    "product_key_features_zpzR3T"
+    "related-products"
   ]
 }
