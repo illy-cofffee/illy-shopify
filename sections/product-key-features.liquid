@@ -47,31 +47,77 @@
         padding: 5px;
     }
 }
-
 </style>
+
+{%- liquid
+    assign fetch_priority = 'auto'
+    if section.index == 1
+      assign fetch_priority = 'high'
+    endif
+-%}
+
 <div class="page-width rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-    {{ block.shopify_attributes }}
+    {{ shopify_attributes }}
   >
     <div class="key-features-container">
       <!-- Column 1 -->
       <div class="key-feature">
-        <span class="svg-wrapper key-feature-icon">{{'icon-servings.svg' | inline_asset_content }}</span>
-          <div class="key-feature-heading">Serves</div>
-          <div class="key-feature-text">{{ block.settings.serving_size }}</div>
+        <span class="svg-wrapper key-feature-icon">
+            {%- if section.settings.key_feature_1_icon != blank -%}
+               {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+               {%- capture sizes -%}
+                    (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                    (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                {%- endcapture -%}
+                {{
+                    section.settings.image
+                    | image_url: width: 1500
+                    | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                }}
+            {% endif %}
+        </span>
+          <div class="key-feature-heading">{{ section.settings.key_feature_1 }}</div>
+          <div class="key-feature-text">{{ section.settings.key_feature_1_info }}</div>
       </div>
 
       <!-- Column 2 -->
       <div class="key-feature">
-        <span class="svg-wrapper key-feature-icon">{{'icon-preparation.svg' | inline_asset_content }}</span>
-          <div class="key-feature-heading">Preparation</div>
-          <div class="key-feature-text">{{ block.settings.preparation_time }}</div>
+        <span class="svg-wrapper key-feature-icon">
+            {%- if section.settings.key_feature_2_icon != blank -%}
+                {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                {%- capture sizes -%}
+                     (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                     (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                 {%- endcapture -%}
+                 {{
+                     section.settings.key_feature_2_icon
+                     | image_url: width: 1500
+                     | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                 }}
+             {% endif %}
+        </span>
+          <div class="key-feature-heading">{{ section.settings.key_feature_2 }}</div>
+          <div class="key-feature-text">{{ section.settings.key_feature_2_info }}</div>
       </div>
 
       <!-- Column 3 -->
       <div class="key-feature">
-        <span class="svg-wrapper key-feature-icon">{{'icon-cooking.svg' | inline_asset_content }}</span>
-          <div class="key-feature-heading">Cooking</div>
-          <div class="key-feature-text">{{ block.settings.cooking_time }}</div>
+        <span class="svg-wrapper key-feature-icon">
+            {%- if section.settings.key_feature_3_icon != blank -%}
+                {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                {%- capture sizes -%}
+                     (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                     (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                 {%- endcapture -%}
+                 {{
+                     section.settings.key_feature_3_icon
+                     | image_url: width: 1500
+                     | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                 }}
+             {% endif %}
+        </span>
+          <div class="key-feature-heading">{{ section.settings.key_feature_3 }}</div>
+          <div class="key-feature-text">{{ section.settings.key_feature_3_info }}</div>
       </div>
   </div>
 </div>
@@ -88,53 +134,53 @@
     {
       "type": "text",
       "id": "key_feature_1",
-      "label": "Key Feature 1 Heading",
+      "label": "Key Feature 1 - Heading",
       "info": "Key Feature 1 Heading"
     },
     {
         "type": "text",
-        "id": "key_feature_1_icon",
-        "label": "Key Feature 1 Icon",
-        "info": "Key Feature 1 icon"
+        "id": "key_feature_1_info",
+        "label": "Key Feature 1 - Info",
+        "info": "Key Feature 1 info"
       },
     {
       "type": "image_picker",
-      "id": "key_feature_1_image",
-      "label": "Key feature 1 image"
+      "id": "key_feature_1_icon",
+      "label": "Key feature 1 - Icon"
     },
     {
         "type": "text",
         "id": "key_feature_2",
-        "label": "Key Feature 2 Heading",
+        "label": "Key Feature 2 - Heading",
         "info": "Key Feature 2 Heading"
       },
       {
           "type": "text",
-          "id": "key_feature_2_icon",
-          "label": "Key Feature 2 Icon",
-          "info": "Key Feature 2 icon"
+          "id": "key_feature_2_info",
+          "label": "Key Feature 2 - Info",
+          "info": "Key Feature 2 info"
         },
       {
         "type": "image_picker",
-        "id": "key_feature_2_image",
-        "label": "Key feature 2 image"
+        "id": "key_feature_2_icon",
+        "label": "Key feature 2 - Icon"
       },
    {
       "type": "text",
       "id": "key_feature_3",
-      "label": "Key Feature 3 Heading",
+      "label": "Key Feature 3 - Heading",
       "info": "Key Feature 3 Heading"
     },
     {
         "type": "text",
-        "id": "key_feature_3_icon",
-        "label": "Key Feature 3 Icon",
-        "info": "Key Feature 3 icon"
+        "id": "key_feature_3_info",
+        "label": "Key Feature 3 - Info",
+        "info": "Key Feature 3 info"
       },
     {
       "type": "image_picker",
-      "id": "key_feature_3_image",
-      "label": "Key feature 2 image"
+      "id": "key_feature_3_icon",
+      "label": "Key feature 3 - Icon"
     },
      
   ],
