@@ -139,37 +139,53 @@
       "type": "product-key-features",
       "settings": {}
     },
-    "product_video_B7gAnT": {
-      "type": "product-video",
+    "image_banner_ebJJYn": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_AAjzHw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sustainability",
+            "heading_size": "h1",
+            "h1-title": false
+          }
+        },
+        "text_8btQQY": {
+          "type": "text",
+          "settings": {
+            "text": "From bean to cup, our commitment to have a positive impact on the planet guides every facet of our operations.",
+            "text_style": "body"
+          }
+        },
+        "buttons_G9L8CC": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "shopify://pages/faqs",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_AAjzHw",
+        "text_8btQQY",
+        "buttons_G9L8CC"
+      ],
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "{{ product.metafields.custom.product_video_id.value }}",
-        "cover_image": "",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "scheme-3",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "heading": "You may also like",
-        "heading_size": "h2",
-        "products_to_show": 4,
-        "columns_desktop": 4,
+        "image": "shopify://shop_images/quality-details.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "bottom-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
         "color_scheme": "scheme-2",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 28
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "collapsible_content_LmKfQF": {
@@ -204,7 +220,7 @@
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "container_color_scheme": "",
         "open_first_collapsible_row": false,
         "image_ratio": "adapt",
@@ -212,13 +228,31 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-2",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
     }
   },
   "order": [
     "main",
     "product_key_features_zpzR3T",
+    "image_banner_ebJJYn",
     "collapsible_content_LmKfQF",
-    "product_video_B7gAnT",
     "related-products"
   ]
 }
