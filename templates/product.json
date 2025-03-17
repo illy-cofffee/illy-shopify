@@ -135,6 +135,10 @@
         "padding_bottom": 12
       }
     },
+    "product_key_features_zpzR3T": {
+      "type": "product-key-features",
+      "settings": {}
+    },
     "product_video_B7gAnT": {
       "type": "product-video",
       "settings": {
@@ -171,6 +175,7 @@
   },
   "order": [
     "main",
+    "product_key_features_zpzR3T",
     "product_video_B7gAnT",
     "related-products"
   ]
