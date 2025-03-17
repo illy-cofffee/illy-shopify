@@ -60,7 +60,7 @@
     {{ shopify_attributes }}
   >
 
-    {% assign features = product.metafields.features.key_features %}
+    {% assign features = product.metafields.key_features.key_product_features %}
 
     <div class="key-features-container">        
         {% for feature in features %} 
