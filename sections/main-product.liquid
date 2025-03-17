@@ -20,6 +20,7 @@
     {{ 'component-intensity-indicator.css' | asset_url | stylesheet_tag }}
   {% endunless %}
 
+
   {% unless product.has_only_default_variant %}
     {{ 'component-product-variant-picker.css' | asset_url | stylesheet_tag }}
     {{ 'component-swatch-input.css' | asset_url | stylesheet_tag }}
@@ -204,6 +205,9 @@
 
                 {% unless product.metafields.custom.intensity == "" %}
                   {% render 'intensity-indicator', intensity:product.metafields.custom.intensity %}
+                {% endunless %}
+                {% unless product.metafields.custom.roast_level == "" %}
+                  Roast level: {{ product.metafields.custom.roast_level.value }}
                 {% endunless %}
 
               {%- when 'sku' -%}

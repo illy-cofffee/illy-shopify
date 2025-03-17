@@ -1,0 +1,143 @@
+<style>
+
+.key-features-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.key-features-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+    gap: 10px;
+}
+
+.key-feature {
+    flex: 1;
+    {% comment %} min-width: 220px; {% endcomment %}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 60px;
+}
+
+.key-feature-icon {
+    width:30px;
+    height: 30px;
+    margin-bottom: 16px;
+}
+
+.key-feature-heading {
+    font-size: 14px;
+    margin: 0px;
+    text-align: center;
+}
+
+.key-feature-text {
+    font-size: 14px;
+    color: rgb(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .key-features-container {
+        flex-direction: column;
+        gap: 0px;
+    }
+    
+    .key-feature {
+        min-width: auto;
+        padding: 5px;
+    }
+}
+</style>
+
+{%- liquid
+    assign fetch_priority = 'auto'
+    if section.index == 1
+      assign fetch_priority = 'high'
+    endif
+-%}
+
+
+{% assign features = product.metafields.custom.key_features %}
+{% if features != "" %}
+    <div class="page-width rte key-features-section"
+        {{ shopify_attributes }}
+    >
+        <div class="key-features-container">    
+            {% assign feature_data = features.value %}
+            {% if feature_data %}
+                {% for feature in feature_data %}
+                    <div class="key-feature">
+                        <span class="svg-wrapper key-feature-icon">
+                            {%- if feature.icon != blank -%}
+                            {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                            {%- capture sizes -%}
+                                    (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                                    (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                                {%- endcapture -%}
+                                {{
+                                    feature.icon
+                                    | image_url: width: 1500
+                                    | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                                }}
+                            {% endif %}
+                        </span>
+                        <div class="key-feature-heading">{{ feature.title }}</div>
+                        <div class="key-feature-text">{{ feature.short_description }}</div>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        </div>
+    </div>
+{% endif %}
+
+
+{% comment %} {% if features %}
+    {% assign feature_data = features.value %}
+    <div class="page-width rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+        {{ shopify_attributes }}
+    >
+        <div class="key-features-container">    
+            {%  for feature in feature_data %}    
+            <div class="key-feature">
+                <span class="svg-wrapper key-feature-icon">
+                    {%- if feature.heading != blank -%}
+                    {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
+                    {%- capture sizes -%}
+                            (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
+                            (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
+                        {%- endcapture -%}
+                        {{
+                            feature.icon
+                            | image_url: width: 1500
+                            | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
+                        }}
+                    {% endif %}
+                </span>
+                <div class="key-feature-heading">{{ feature.title }}</div>
+                <div class="key-feature-text">{{ feature.short_description }}</div>
+            </div>
+        {% endfor %}
+    </div>
+    </div>
+{% endif %} {% endcomment %}
+
+{% schema %}
+{
+  "name": "Key Product Features",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "presets": [
+    {
+      "name": "Key Product Features"
+    }
+  ]
+}
+{% endschema %}
