@@ -56,15 +56,15 @@
     endif
 -%}
 
-<div class="page-width rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-    {{ shopify_attributes }}
-  >
+{% assign features = product.metafields.key_features %}
 
-    {% assign features = product.metafields.key_features.key_product_features %}
-
-    <div class="key-features-container">        
-        {% for feature in features %} 
-
+{% if features %}
+    {% assign feature_data = features.value %}
+    <div class="page-width rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+        {{ shopify_attributes }}
+    >
+        <div class="key-features-container">    
+            {%  for feature in feature_data %}    
             <div class="key-feature">
                 <span class="svg-wrapper key-feature-icon">
                     {%- if feature.heading != blank -%}
@@ -83,11 +83,10 @@
                 <div class="key-feature-heading">{{ feature.title }}</div>
                 <div class="key-feature-text">{{ feature.short_description }}</div>
             </div>
-
         {% endfor %}
-     
-  </div>
-</div>
+    </div>
+    </div>
+{% endif %}
 
 {% schema %}
 {
