@@ -187,36 +187,16 @@
         "collapsible_row_rEnBh4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_6wAhY8": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_DGCNB7": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "How much caffeine is in illy?",
+            "icon": "none",
+            "row_content": "<p><em>illy </em>uses only the finest Arabica beans available, and Arabica coffee is naturally lower in caffeine than the cheaper and lower quality Robusta variety. An average 1 oz. <em>illy </em>espresso will contain approximately 60 milligrams of caffeine. Brewed <em>illy </em>coffee will contain less than 15 mg caffeine for each gram of coffee used.</p>",
             "page": ""
           }
         }
       },
       "block_order": [
         "collapsible_row_RUMk3i",
-        "collapsible_row_rEnBh4",
-        "collapsible_row_6wAhY8",
-        "collapsible_row_DGCNB7"
+        "collapsible_row_rEnBh4"
       ],
       "settings": {
         "caption": "",
