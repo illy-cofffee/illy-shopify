@@ -200,7 +200,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Collapsible content",
+        "heading": "FAQs",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
@@ -217,8 +217,8 @@
   "order": [
     "main",
     "product_key_features_zpzR3T",
+    "collapsible_content_LmKfQF",
     "product_video_B7gAnT",
-    "related-products",
-    "collapsible_content_LmKfQF"
+    "related-products"
   ]
 }
