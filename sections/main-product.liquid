@@ -16,7 +16,7 @@
   {{ 'component-rating.css' | asset_url | stylesheet_tag }}
   {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
 
-  {% unless product.metafields.custom.intensity == "" %}
+  {% unless product.metafields.custom.intensity == null %}
     {{ 'component-intensity-indicator.css' | asset_url | stylesheet_tag }}
   {% endunless %}
 
@@ -203,10 +203,10 @@
                   </div>
                 {%- endif -%}
 
-                {% unless product.metafields.custom.intensity == "" %}
+                {% unless product.metafields.custom.intensity == null %}
                   {% render 'intensity-indicator', intensity:product.metafields.custom.intensity %}
                 {% endunless %}
-                {% unless product.metafields.custom.roast_level == "" %}
+                {% unless product.metafields.custom.roast_level == null %}
                   Roast level: {{ product.metafields.custom.roast_level.value }}
                 {% endunless %}
 
