@@ -58,8 +58,8 @@
           <li class="breadcrumbs__item parent__collection">
             {% for collection in product.collections %}
               {% if collection.url %}
-                {% if collection.title != "All Products" %}
-                  <span>{{ collection.title | link_to: collection.url }}</span>
+                {% if collection.title != "All products" %}
+                  <span>{{ collection.title | link_to: collection.url, class: 'breadcrumbs__link'}}</span>
                   {% break %} <!-- Only show first collection -->
                 {% endif %}
               {%  endif %}
@@ -94,10 +94,9 @@
     link.textContent = collectionTitle; 
     link.className = 'breadcrumbs__link';
     container.appendChild(link);
-    sessionStorage.removeItem('collection_title');
-    sessionStorage.removeItem('collection_url');
   }
- 
+  sessionStorage.removeItem('collection_title');
+  sessionStorage.removeItem('collection_url'); 
 </script>
 
 
