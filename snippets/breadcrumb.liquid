@@ -56,7 +56,14 @@
       {% when 'product' %}
         
           <li class="breadcrumbs__item parent__collection">
-            
+            {% for collection in product.collections %}
+              {% if collection.url %}
+                {% if collection.title != "All Products" %}
+                  <span>{{ collection.title | link_to: collection.url }}</span>
+                  {% break %} <!-- Only show first collection -->
+                {% endif %}
+              {%  endif %}
+            {% endfor %}
           </li>
      
         {% comment %} <li class="breadcrumbs__item">
@@ -87,7 +94,9 @@
     link.textContent = collectionTitle; 
     link.className = 'breadcrumbs__link';
     container.appendChild(link);
-}
+    sessionStorage.removeItem('collection_title');
+    sessionStorage.removeItem('collection_url');
+  }
  
 </script>
 
