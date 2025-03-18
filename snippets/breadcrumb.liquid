@@ -39,39 +39,56 @@
       }
 
 </style>
+
 <nav class="breadcrumbs page-width" role="navigation" aria-label="breadcrumbs">
-    <ol class="breadcrumbs__list">
-      <li class="breadcrumbs__item">
+  <ol class="breadcrumbs__list">
+    <li class="breadcrumbs__item">
 
-        {% case template %}
-            {% when 'collection' %}
-                <a class="breadcrumbs__link" href="/collections/all-products">Shop</a>
-            {% when 'product' %}
-                <a class="breadcrumbs__link" href="/collections/all-products">Shop</a>
-          {% else %}
-            <a class="breadcrumbs__link" href="/">Home</a>
-          {% endcase %}
-        </li>
-        <li class="breadcrumbs__item">
-            {% case template %}
-                {% when 'product' %}
+      {% case template %}
+        {% when 'collection' or 'product' %}
+          <a class="breadcrumbs__link" href="/collections/all-products">Shop</a>
+        {% else %}
+          <a class="breadcrumbs__link" href="/">Home</a>
+        {% endcase %}
+    </li>
+    
+    {% case template %}
+      {% when 'product' %}
+        
+          <li class="breadcrumbs__item parent__collection">
             
-                    {% for collection in product.collections %}
-                        {% if collection.url %}
-                            {% if collection.title != "All Products" %}
-                            <a class="breadcrumbs__link" href="{{ collection.url }}">{{ collection.title }}</a>
-                            {% break %} <!-- Only show first collection -->
-                            {% endif %}
-                        {%  endif %}
-                    {% endfor %}
-            {% endcase %}
-        </li>
-
-    {% comment %} {% else %}
-          <li class="breadcrumbs__item">
-            <a class="breadcrumbs__link" href="{{ request.path }}" aria-current="page">{{ page_title }}</a>
-          </li> {% endcomment %}
+          </li>
      
-    </ol>
-  </nav>
+        {% comment %} <li class="breadcrumbs__item">
+          <a class="breadcrumbs__link" href="{{ product.url }}" aria-current="page">{{ product.title }}</a>
+        </li> {% endcomment %}
+      
+      {% when 'collection' %}
+        <li class="breadcrumbs__item">
+          {{ collection.title }}
+        </li>
+      
+      {% else %}
+        <li class="breadcrumbs__item">
+          <a class="breadcrumbs__link" href="{{ request.path }}" aria-current="page">{{ page_title }}</a>
+        </li>
+    {% endcase %}
+  </ol>
+</nav>
+
+<script>
+  const collectionTitle = sessionStorage.getItem( 'collection_title' );
+  const collectionUrl = sessionStorage.getItem( 'collection_url' );
+
+  if (collectionTitle && collectionUrl) {  
+    const container = document.querySelector('.parent__collection');
+    const link = document.createElement('a');
+    link.href = collectionUrl; 
+    link.textContent = collectionTitle; 
+    link.className = 'breadcrumbs__link';
+    container.appendChild(link);
+}
+ 
+</script>
+
 
