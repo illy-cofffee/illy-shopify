@@ -93,6 +93,7 @@
     link.href = collectionUrl; 
     link.textContent = collectionTitle; 
     link.className = 'breadcrumbs__link';
+    container.innerHTML = '';
     container.appendChild(link);
   }
   sessionStorage.removeItem('collection_title');
