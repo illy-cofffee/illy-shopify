@@ -102,7 +102,7 @@
           "settings": {
             "image": "shopify://shop_images/compatible-capsules.jpg",
             "title": "Compatible coffee capsules",
-            "text": "<p>Our taste &aroma made with Nespresso®* Original machines.<br/></p><p>*trademark of a third party with no connection to illycaffè S.p.A.</p>",
+            "text": "<p>Our taste & aroma made with Nespresso®* Original machines.<br/></p><p>*trademark of a third party with no connection to illycaffè S.p.A.</p>",
             "link_label": "Shop now",
             "link": ""
           }
@@ -127,7 +127,7 @@
         "title": "",
         "heading_size": "h2",
         "image_width": "full",
-        "image_ratio": "portrait",
+        "image_ratio": "square",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
