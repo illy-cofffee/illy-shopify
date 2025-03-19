@@ -151,6 +151,19 @@
                             height="{{ block.settings.image.height }}"
                           >
                         </div>
+                        <div
+                          class="footer-block__image-wrapper"
+                          style="max-width: min(100%, {{ block.settings.image_width }}px);"
+                        >
+                          <img
+                            srcset="{{ block.settings.image | image_url: width: block.settings.image_width }}, {{ block.settings.image | image_url: width: image_size_2x }} 2x"
+                            src="https://cdn.shopify.com/s/files/1/0638/9058/7699/files/illy_logo.png?v=1739331735"
+                            alt="illy Logo"
+                            loading="lazy"
+                            width="64"
+                            height="64"
+                          >
+                        </div>
                       {%- else -%}
                         {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                       {%- endif -%}

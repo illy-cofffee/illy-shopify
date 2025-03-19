@@ -40,48 +40,41 @@
 
 </style>
 
-<nav class="breadcrumbs page-width" role="navigation" aria-label="breadcrumbs">
-  <ol class="breadcrumbs__list">
-    <li class="breadcrumbs__item">
 
-      {% case template %}
-        {% when 'collection' or 'product' %}
+{% case template %}
+  {% when 'product' %}
+    <nav class="breadcrumbs page-width" role="navigation" aria-label="breadcrumbs">
+      <ol class="breadcrumbs__list">
+        <li class="breadcrumbs__item">
           <a class="breadcrumbs__link" href="/collections/all-products">Shop</a>
-        {% else %}
-          <a class="breadcrumbs__link" href="/">Home</a>
-        {% endcase %}
-    </li>
-    
-    {% case template %}
-      {% when 'product' %}
-        
-          <li class="breadcrumbs__item parent__collection">
-            {% for collection in product.collections %}
-              {% if collection.url %}
-                {% if collection.title != "All products" %}
-                  <span>{{ collection.title | link_to: collection.url, class: 'breadcrumbs__link'}}</span>
-                  {% break %} <!-- Only show first collection -->
-                {% endif %}
-              {%  endif %}
-            {% endfor %}
-          </li>
-     
-        {% comment %} <li class="breadcrumbs__item">
-          <a class="breadcrumbs__link" href="{{ product.url }}" aria-current="page">{{ product.title }}</a>
-        </li> {% endcomment %}
-      
-      {% when 'collection' %}
-        <li class="breadcrumbs__item">
-          {{ collection.title }}
         </li>
-      
-      {% else %}
-        <li class="breadcrumbs__item">
-          <a class="breadcrumbs__link" href="{{ request.path }}" aria-current="page">{{ page_title }}</a>
+        <li class="breadcrumbs__item parent__collection">
+          {% for collection in product.collections %}
+            {% if collection.url %}
+              {% if collection.title != "All products" %}
+                <span>{{ collection.title | link_to: collection.url, class: 'breadcrumbs__link'}}</span>
+                {% break %} <!-- Only show first collection -->
+              {% endif %}
+            {%  endif %}
+          {% endfor %}
         </li>
-    {% endcase %}
-  </ol>
-</nav>
+      </ol>
+    </nav>
+  {% when 'collection' %}
+  {% comment %} don't include {% endcomment %}
+  
+  {% else %}
+  <nav class="breadcrumbs page-width" role="navigation" aria-label="breadcrumbs">
+    <ol class="breadcrumbs__list">
+      <li class="breadcrumbs__item">
+        <a class="breadcrumbs__link" href="/">Home</a>
+      </li>
+      <li class="breadcrumbs__item">
+        <a class="breadcrumbs__link" href="{{ request.path }}" aria-current="page">{{ page_title }}</a>
+      </li>
+    </ol>
+  </nav>
+{% endcase %}
 
 <script>
   const collectionTitle = sessionStorage.getItem( 'collection_title' );
