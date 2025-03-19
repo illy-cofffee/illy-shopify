@@ -5,7 +5,7 @@
 		<button class="btn-close-modal" onclick="javascript:closeModal()">
             <span class="icon-wrap">
                 <span class="svg-wrapper">
-                    {{- 'icon-close.svg' | inline_asset_content -}}
+                    {{- 'icon-close-small.svg' | inline_asset_content -}}
                 </span>
             </span>
 		</button>
@@ -18,107 +18,59 @@
 			method="get"
 		>
 	
-			<div class="form-title">
-				<div class="form-subhead">New around here?</div>
-				Offer copy goes here
-			</div> 
-            <label for="inp_1"> First name </label>
-			<input
-				class="field__input"
-				type="text"
-				name="inp_1"
-				maxlength="60"
-				tabindex="0"
-				aria-label="Enter your first name"
-				aria-invalid="false"
-			>
-			<span class="error-message" data-for="inp_1">Please enter your first name</span>
+		
+			<h2>Offer copy goes here</h2>
+			<div class="subsmodal-intro">Sign up for our newsletter to stay updated on the latest news and exclusive offers. As a thank you, enjoy a 10% discount on your next purchase. Don't miss out!</div>
 
-			<label for="inp_3"> Email</label>
-			<input
-				class="field__input"
-				type="text"
-				name="inp_3"
-				maxlength="255"
-				tabindex="0"
-				aria-label="Enter your email address"
-				aria-invalid="false"
-			>
-			<span class="error-message" data-for="inp_3"></span>
-
-			<label for="inp_2">Can we get your number? (Optional) </label>
-			<div style="display:flex">
-				<dl id="country-select" class="dropdown" style="border-radius:4px; height:45px; margin-top:0.6em; display: flex;align-items: center;align-self: flex-start;flex: 25">
-					<dt><a href="javascript:void(0);"><span data-flag="AU" style="float:left"></span><span>+61</span></a></dt>
-					<dd>
-					<ul style="display: none;">
-                        <li><a country="AU" href="javascript:void(0);"><span data-flag="AU" style="float:left"></span><span class="country-name">Australia</span><span data-prefix="+61">+61</span></a></li>
-                        <li><a country="NZ" href="javascript:void(0);"><span data-flag="NZ" style="float:left"></span><span class="country-name">New Zealand</span><span data-prefix="+64">+64</span></a></li>						
-                        <li><a country="GB" href="javascript:void(0);"><span data-flag="GB" style="float:left"></span><span class="country-name">United Kingdom</span><span data-prefix="+44">+44</span></a></li>
-                        <li><a country="GG" href="javascript:void(0);"><span data-flag="GG" style="float:left"></span><span class="country-name">Guernsey</span><span data-prefix="+44-1481">+44-1481</span></a></li>
-                        <li><a country="IM" href="javascript:void(0);"><span data-flag="IM" style="float:left"></span><span class="country-name">Isle of Man</span><span data-prefix="+441624">+44-1624</span></a></li>
-                        <li><a country="JE" href="javascript:void(0);"><span data-flag="JE" style="float:left"></span><span class="country-name">Jersey</span><span data-prefix="+44-1534">+44-1534</span></a></li>
-                        <li><a country="NO" href="javascript:void(0);"><span data-flag="NO" style="float:left"></span><span class="country-name">Norway</span><span data-prefix="+47">+47</span></a></li>
-                        <li><a country="CH" href="javascript:void(0);"><span data-flag="CH" style="float:left"></span><span class="country-name">Switzerland</span><span data-prefix="+41">+41</span></a></li>
-                        <li><a country="CK" href="javascript:void(0);"><span data-flag="CK" style="float:left"></span><span class="country-name">Cook Islands</span><span data-prefix="+682">+682</span></a></li>
-                        <li><a country="FJ" href="javascript:void(0);"><span data-flag="FJ" style="float:left"></span><span class="country-name">Fiji</span><span data-prefix="+679">+679</span></a></li>
-                        <li><a country="VU" href="javascript:void(0);"><span data-flag="VU" style="float:left"></span><span class="country-name">Vanuatu</span><span data-prefix="+678">+678</span></a></li>
-                        <li><a country="AT" href="javascript:void(0);"><span data-flag="AT" style="float:left"></span><span class="country-name">Austria</span><span data-prefix="+43">+43</span></a></li>
-                        <li><a country="BE" href="javascript:void(0);"><span data-flag="BE" style="float:left"></span><span class="country-name">Belgium</span><span data-prefix="+32">+32</span></a></li>
-                        <li><a country="BG" href="javascript:void(0);"><span data-flag="BG" style="float:left"></span><span class="country-name">Bulgaria</span><span data-prefix="+359">+359</span></a></li>
-                        <li><a country="HR" href="javascript:void(0);"><span data-flag="HR" style="float:left"></span><span class="country-name">Croatia</span><span data-prefix="+385">+385</span></a></li>
-                        <li><a country="CZ" href="javascript:void(0);"><span data-flag="CZ" style="float:left"></span><span class="country-name">Czech Republic</span><span data-prefix="+420">+420</span></a></li>
-                        <li><a country="DK" href="javascript:void(0);"><span data-flag="DK" style="float:left"></span><span class="country-name">Denmark</span><span data-prefix="+45">+45</span></a></li>
-                        <li><a country="EE" href="javascript:void(0);"><span data-flag="EE" style="float:left"></span><span class="country-name">Estonia</span><span data-prefix="+372">+372</span></a></li>
-                        <li><a country="FI" href="javascript:void(0);"><span data-flag="FI" style="float:left"></span><span class="country-name">Finland</span><span data-prefix="+358">+358</span></a></li>
-                        <li><a country="FR" href="javascript:void(0);"><span data-flag="FR" style="float:left"></span><span class="country-name">France</span><span data-prefix="+33">+33</span></a></li>
-                        <li><a country="DE" href="javascript:void(0);"><span data-flag="DE" style="float:left"></span><span class="country-name">Germany</span><span data-prefix="+49">+49</span></a></li>
-                        <li><a country="HU" href="javascript:void(0);"><span data-flag="HU" style="float:left"></span><span class="country-name">Hungary</span><span data-prefix="+36">+36</span></a></li>
-                        <li><a country="IE" href="javascript:void(0);"><span data-flag="IE" style="float:left"></span><span class="country-name">Ireland</span><span data-prefix="+353">+353</span></a></li>
-                        <li><a country="IT" href="javascript:void(0);"><span data-flag="IT" style="float:left"></span><span class="country-name">Italy</span><span data-prefix="+39">+39</span></a></li>
-                        <li><a country="LV" href="javascript:void(0);"><span data-flag="LV" style="float:left"></span><span class="country-name">Latvia</span><span data-prefix="+371">+371</span></a></li>
-                        <li><a country="LT" href="javascript:void(0);"><span data-flag="LT" style="float:left"></span><span class="country-name">Lithuania</span><span data-prefix="+370">+370</span></a></li>
-                        <li><a country="LU" href="javascript:void(0);"><span data-flag="LU" style="float:left"></span><span class="country-name">Luxembourg</span><span data-prefix="+352">+352</span></a></li>
-                        <li><a country="NL" href="javascript:void(0);"><span data-flag="NL" style="float:left"></span><span class="country-name">Netherlands</span><span data-prefix="+31">+31</span></a></li>
-                        <li><a country="PL" href="javascript:void(0);"><span data-flag="PL" style="float:left"></span><span class="country-name">Poland</span><span data-prefix="+48">+48</span></a></li>
-                        <li><a country="PT" href="javascript:void(0);"><span data-flag="PT" style="float:left"></span><span class="country-name">Portugal</span><span data-prefix="+351">+351</span></a></li>
-                        <li><a country="RO" href="javascript:void(0);"><span data-flag="RO" style="float:left"></span><span class="country-name">Romania</span><span data-prefix="+40">+40</span></a></li>
-                        <li><a country="SK" href="javascript:void(0);"><span data-flag="SK" style="float:left"></span><span class="country-name">Slovakia</span><span data-prefix="+421">+421</span></a></li>
-                        <li><a country="SI" href="javascript:void(0);"><span data-flag="SI" style="float:left"></span><span class="country-name">Slovenia</span><span data-prefix="+386">+386</span></a></li>
-                        <li><a country="ES" href="javascript:void(0);"><span data-flag="ES" style="float:left"></span><span class="country-name">Spain</span><span data-prefix="+34">+34</span></a></li>
-                        <li><a country="SE" href="javascript:void(0);"><span data-flag="SE" style="float:left"></span><span class="country-name">Sweden</span><span data-prefix="+46">+46</span></a></li>
-                        <li><a country="US" href="javascript:void(0);"><span data-flag="US" style="float:left"></span><span class="country-name">United States</span><span data-prefix="+1">+1</span></a></li>
-                        <li><a country="CA" href="javascript:void(0);"><span data-flag="CA" style="float:left"></span><span class="country-name">Canada</span><span data-prefix="+1">+1</span></a></li>
-                        <li><a country="BD" href="javascript:void(0);"><span data-flag="BD" style="float:left"></span><span class="country-name">Bangladesh</span><span data-prefix="+880">+880</span></a></li>
-                        <li><a country="BN" href="javascript:void(0);"><span data-flag="BN" style="float:left"></span><span class="country-name">Brunei</span><span data-prefix="+673">+673</span></a></li>
-                        <li><a country="CN" href="javascript:void(0);"><span data-flag="CN" style="float:left"></span><span class="country-name">China</span><span data-prefix="+86">+86</span></a></li>
-                        <li><a country="HK" href="javascript:void(0);"><span data-flag="HK" style="float:left"></span><span class="country-name">Hong Kong</span><span data-prefix="+852">+852</span></a></li>
-                        <li><a country="IN" href="javascript:void(0);"><span data-flag="IN" style="float:left"></span><span class="country-name">India</span><span data-prefix="+91">+91</span></a></li>
-                        <li><a country="ID" href="javascript:void(0);"><span data-flag="ID" style="float:left"></span><span class="country-name">Indonesia</span><span data-prefix="+62">+62</span></a></li>
-                        <li><a country="JP" href="javascript:void(0);"><span data-flag="JP" style="float:left"></span><span class="country-name">Japan</span><span data-prefix="+81">+81</span></a></li>
-                        <li><a country="MO" href="javascript:void(0);"><span data-flag="MO" style="float:left"></span><span class="country-name">Macau</span><span data-prefix="+853">+853</span></a></li>
-                        <li><a country="MY" href="javascript:void(0);"><span data-flag="MY" style="float:left"></span><span class="country-name">Malaysia</span><span data-prefix="+60">+60</span></a></li>
-                        <li><a country="MV" href="javascript:void(0);"><span data-flag="MV" style="float:left"></span><span class="country-name">Maldives</span><span data-prefix="+960">+960</span></a></li>
-                        <li><a country="MX" href="javascript:void(0);"><span data-flag="MX" style="float:left"></span><span class="country-name">Mexico</span><span data-prefix="+52">+52</span></a></li>
-                        <li><a country="PH" href="javascript:void(0);"><span data-flag="PH" style="float:left"></span><span class="country-name">Philippines</span><span data-prefix="+63">+63</span></a></li>
-                        <li><a country="SG" href="javascript:void(0);"><span data-flag="SG" style="float:left"></span><span class="country-name">Singapore</span><span data-prefix="+65">+65</span></a></li>
-                        <li><a country="KR" href="javascript:void(0);"><span data-flag="KR" style="float:left"></span><span class="country-name">South Korea</span><span data-prefix="+82">+82</span></a></li>
-                        <li><a country="LK" href="javascript:void(0);"><span data-flag="LK" style="float:left"></span><span class="country-name">Sri Lanka</span><span data-prefix="+94">+94</span></a></li>
-                        <li><a country="TW" href="javascript:void(0);"><span data-flag="TW" style="float:left"></span><span class="country-name">Taiwan</span><span data-prefix="+886">+886</span></a></li>
-    				</ul>
-					</dd>
-				</dl>
+            <div class="field">
 				<input
 					class="field__input"
+					autocomplete="name"
+					type="text"
+					name="modalsub[name]"
+					maxlength="60"
+					tabindex="0"
+					aria-label="Enter your first name"
+					aria-invalid="false"
+					placeholder="Name"
+				>
+				<label class="field__label" for="modalsub[name]">Name</label>
+				<span class="error-message" data-for="modalsub[name]">Please enter your first name</span>
+			</div>
+			<div class="field">
+				<input
+					class="field__input"
+					autocomplete="email"
+					type="text"
+					name="modalsub[email]"
+					maxlength="60"
+					tabindex="0"
+					aria-label="Enter your email address"
+					aria-invalid="false"
+					placeholder="Name"
+				>
+				<label class="field__label" for="modalsub[name]">Email</label>
+				{% comment %} <div class="field field--with-error">
+					<input autocomplete="email" type="email" id="ContactForm-email" class="field__input" name="contact[email]" spellcheck="false" autocapitalize="off" value="" aria-required="true" placeholder="Email">
+					<label class="field__label" for="ContactForm-email">Email
+					  <span aria-hidden="true">*</span></label>
+				</div> {% endcomment %}
+			</div>
+			<div class="field">
+				<input
+					class="field__input"
+					autocomplete="tel"
 					type="tel"
-					name="inp_2"
-					maxlength="15"
+					name="modalsub[phone]"
+					maxlength="60"
 					tabindex="0"
 					aria-label="Enter your phone number"
 					aria-invalid="false"
-					style="display: flex; align-items: center; align-self: flex-end; flex: 75;"
-				>							
+					placeholder="Phone Number"
+				>
+				<label class="field__label" for="modalsub[name]">Phone</label>
 			</div>
+
 			<div style="display: inline-block;width:100%;"><span class="error-message" data-for="inp_2"></span></div> 
 			<div style="display: flex">
 				<div>
@@ -132,7 +84,7 @@
 							aria-invalid="false"
 							aria-label="Opt"
 						>
-						<span style="display: inline-block;vertical-align: top;position: relative; top:2px; margin-left: 10px; width:100%; font-size:13px"> I consent to receiving marketing communications. View our <a href="/policies/privacy-policy" class="text-link">privacy policy</a>.</span>
+						<span style="display: inline-block;vertical-align: top;position: relative; top:2px; margin-left: 10px; width:100%;" class="caption"> I consent to receiving marketing communications. View our <a href="/policies/privacy-policy" target="_blank" class="text-link">privacy policy</a>.</span>
 					</label>
 					<div class="error-message" data-for="optin"></div>
 				</div>
@@ -140,24 +92,17 @@
 
 			<label for="submit" style="display: flex; align-items: center; padding-bottom: 0px; margin-top:30px; max-width: 100%; cursor: pointer;">
 				<input
-					class="button button--primary button--full-width"
+					class="button button--primary submodal-button"
 					aria-label="SUBMIT"
 					tabindex="993"
 					type="button"
 					onclick="javascript:submitForm()"
 					name="submit1"
-					value="UNLOCK 20% OFF"
+					value="SIGN UP"
                     style="margin-right:20px"
 				>
-				<input
-					class="button button--secondary button--full-width"
-					aria-label="DECLINE"
-					tabindex="994"
-					type="button"
-					name="decline"
-					value="NO THANKS"
-					onclick="javascript:closeModal()"
-				>
+				<span onclick="javascript:closeModal()" class="submodal-button nothanks">No, thanks</span>
+				
 			</label> 
 		</form>
         

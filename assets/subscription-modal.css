@@ -1,7 +1,7 @@
 
 .modal-subscription-dark-overlay {
     display: none;
-    background-color: rgba(99, 102, 96, 0.52);
+    background-color: rgba(0, 0, 0, 0.50);
     position: fixed;
     top: 0;
     bottom: 0;
@@ -20,12 +20,15 @@
 
 .btn-close-modal {
     align-self: flex-end;
-    color: black;
+    background-color: black;
+    color:#ffffff;
     height: 1.5em;
-    font-size: 1.5em;
+    height: 32px;
+    width: 32px;
     position: absolute;
-    top: 2px;
-    right: 4px;
+    top: 16px;
+    right: 16px;
+    border:none;
 }
 
 .confirmation-text {
@@ -39,51 +42,29 @@
     display: none; /* Initially hide the error message */
 }
 
-
-.form-title {
-    font-size: 1.8rem;
-    line-height: 1;
-    padding-bottom: 0.5em;
-    padding-right: 1rem;
-}
-
 .form-title-thankyou {
     font-size: 1.8rem;
     line-height: 1;
     padding-top: 0.5rem
 }
 
-.form-subhead {
-    font-size: 1.6rem;
-    margin-bottom: 0.8rem;
-}
-
-/* .form-title-spectral {
-    font-family: var(--mb-font-spectral);
-    font-style: italic;
-    color: var(--mb-colour-orange-gum-2);
-    font-size: 2rem; 
-} */
-
 .image-container {
+    background-position: center;
     background-image: url('https://cdn.shopify.com/s/files/1/0638/9058/7699/files/subscription-modal-image.jpg?v=1742279419');
-    /* background-size: auto 100%; */
-    background-repeat: no-repeat;
-    background-position: center top;
-    overflow: hidden;
-    width: 527px;
-    height: 434px;
+    width: 434px;
+    height: 527px;
 
 }
 
 .subscription-form-container {
     display: flex;
-    background-color: #f6f0ec;
+    flex-direction: row;
+    background-color: #ffffff;
     position: relative;
     color: #fff;
-    height: auto;
-    /* width: 90vw; */
+    width: 70%;
     max-width:1064px;
+    height:527px;
     opacity: 0;
     transform: translateY(20px); 
     transition: opacity 1s, transform 1s;
@@ -96,10 +77,9 @@
 
 .subscription-form-container-thankyou {
     display: flex;
-    background-color: #f6f0ec;
     position: relative;
     color: #fff;
-    height: 600px;
+    height: 527px;
     width: 90vw;
     max-width:650px;
 }
@@ -110,55 +90,88 @@
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    padding: 1.5rem;
+    max-width:630px;
+    padding: 48px;
+}
+
+.subscription-form-actual h2 {
+    margin-bottom: 24px;
 }
 
 .subscription-form-actual a, .subscription-form-actual a:hover, .subscription-form-actual a:active {
-    color: #512c1f;
+    color: rgba(0, 0, 0, 0.50);
 }
 
-.subscription-form-actual .form-input {
-    width: 100%;
-    margin-bottom: 0.8em;
-    border: 1px solid black;
+.subsmodal-intro {
+    margin-bottom: 32px;
+}
+
+.field__input {
+    border:1px solid #DADADA !important;
 }
 
 .subscription-form-actual label {
     font-size: 14px;
 }
 
+.subscription-form-actual .field {
+    margin-bottom: 2rem;
+}
 .close-icon {
     width: 48px;
     height: 48px;
 }
 
-@media (max-width: 800px) {
-    .form-input {
-        width: 100%;
+.submodal-button {
+    padding-left: 20px;
+}
+
+.nothanks {
+    font-family: "Museo Sans 500";
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+@media (max-width:1200px) {
+    .subscription-form-actual {
+        padding: 48px 24px 60px 24px;
+        
     }
+    
+}
+
+@media (max-width: 850px) {
+
+    .subscription-form-actual {
+        padding: 48px 24px 24px 24px;
+        max-width: 100%;
+    }
+
+    .modal-subscription-dark-overlay {
+        align-items: center;      
+    }
+    
+    .subscription-form-container {
+        flex-direction: column-reverse; /* Stack vertically on mobile */
+        width: 90%;        
+    }
+       
     .image-container {
         display: none;
-    }
-
-    .subscription-form-container {
-        display: flex;
-        background-color: #f6f0ec;
-        position: relative;
-        color: #fff;
-        height: auto;
-        width: 100%;
-        max-width: none;
-    }
-
-    .subscription-form-container {
-        align-self: flex-end;
-        justify-content: flex-end;
+        min-height:160px;
+        width:100%;
+        background-size: cover;
+        background-image: url('https://cdn.shopify.com/s/files/1/0638/9058/7699/files/subscription-modal-image-mobile.jpg?v=1742361079');
     }
 
     .close-icon path {
         stroke:white;
     }
 
+    .caption {
+        font-size: 1.2rem;
+    }
     
 }
 
@@ -177,133 +190,4 @@
         font-size: 2.4rem; 
     }
 
-}
-
-.dropdown dd, .dropdown dt, .dropdown ul {
-    margin: 0px;
-    padding: 0px;
-}
-.dropdown dd ul li a span:first-child, .dropdown dt a span span:first-child {
-    background-repeat: no-repeat;
-    width: 16px;
-    height: 11px;
-    display: inline-block;
-    margin:5px;
-    vertical-align: top;
-}
-.dropdown dt a span {
-    cursor: pointer;
-    display: block;
-    padding: 5px;
-    white-space: nowrap;
-}
-.dropdown dt a img {
-    position: relative;
-    z-index: 1;
-}
-.dropdown dt a span span:first-child:before {
-    position: absolute;
-    width: 15px;
-    height: 10px;
-}
-.dropdown dt a span span {
-    display: inline-block;
-    padding: 0;
-}
-.dropdown dt a span span:first-child {
-    padding: 0;
-}
-.dropdown dd {
-    position: relative;
-}
-.dropdown a, .dropdown a:visited {
-    color: #4a535f;
-    text-decoration: none;
-    outline: none;
-}
-.dropdown a:hover {
-    color: #5d4617;
-}
-.dropdown dt a:hover, .dropdown dt a:focus {
-    color: #5d4617;
-}
-.dropdown dt a {
-    position: relative;
-    display: block;
-    overflow: hidden;
-    width:80px;
-}
-
-.dropdown dt a:before {
-    background: none repeat scroll 0 0 #FFFFFF;
-    /* content: ""; */
-    height: 3px;
-    position: absolute;
-    right: 7px;
-    top: 6px;
-    width: 20px;
-    z-index: 2;
-    box-shadow:0 8px 0 #FFFFFF, 0 16px 0 #FFFFFF;
-}
-.dropdown dd ul {
-    display: none;
-    left: 0px;
-    padding: 5px 0px;
-    position: absolute;
-    width: 270px;
-    list-style: none;
-    max-height: 170px;
-    overflow-y: scroll;
-    top:26px;
-    left:-80px;
-    z-index: 2;
-    background-color: #FFFFFF;
-}
-
-.dropdown dd ul::-webkit-scrollbar-track {
- -webkit-box-shadow: inset 0 0 1px rgba(0,0,0,0.3);
- border-left:1px solid rgba(0,0,0,0.1);
-}
-.dropdown dd ul::-webkit-scrollbar-thumb {
- background: rgba(0,0,0,0.4);
-}
-.dropdown dd ul::-webkit-scrollbar-thumb:window-inactive {
- background: blue;
-}
-.dropdown span.value {
-    display: none;
-}
-.dropdown dd ul li a {
-    padding: 5px 10px 5px 5px;
-    display: block;
-    font-size: 12px !important;
-}
-.dropdown dd ul li a:hover {
-    background-color: rgba(0,0,0,0.05);
-}
-dl.dropdown {
-    display: inline-block;
-    width: 240px;
-    background-color: #FFFFFF;
-}
-dl.dropdown span:nth-child(3) {
-    color: rgba(0,0,0,0.4);
-    line-height: 2em;
-}
-dl.dropdown > span:nth-child(2) {
-    overflow: hidden;
-    white-space: nowrap;
-    display: inline-block;
-}
-dl.dropdown span:nth-child(3) {
-    float: right;
-}
-dl.dropdown dt span:nth-child(2) {
-    color: rgba(0, 0, 0, 0.6);
-    font-size: 14px;
-    font-weight: bold;
-    line-height: 1.6em;
-}
-dl.dropdown dt span:nth-child(3) {
-    display: none;		
 }
