@@ -137,20 +137,36 @@
     }
 
   </style>
-  <div>Colour: <span class="product_colour_name">{{ product_colour.value }}</span></div>
-  <span class="linked_swatch_container linked_swatch_selected"><span class="linked_swatch" style="background-color: {{ product_colour_code.value }};"></span></span>
 
-  {% if linked_products.value %}
-    {% for handle in linked_products.value %}
-      {% comment %} Handle is {{ handle.handle }}<br> {% endcomment %}
-      {% assign product = all_products[handle.handle] %}
-      {% if product %}
-        {% comment %} Product is {{ product.title }}<br> {% endcomment %}
-        {% comment %} {{ product.metafields.custom.colour.value }}<br> {% endcomment %}
+  {% if link_type == "colour" %}
+    <div>Colour: <span class="product_colour_name">{{ product_colour.value }}</span></div>
+    <span class="linked_swatch_container linked_swatch_selected"><span class="linked_swatch" style="background-color: {{ product_colour_code.value }};"></span></span>
 
-        <a href="/products/{{ handle.handle }}" class="link_swatch"><span class="linked_swatch_container"><span class="linked_swatch" style="background-color: {{ product.metafields.custom.colour.value }};"></span></span></a>
-      {% endif %}
-    {% endfor %}
+    {% if linked_products.value %}
+      {% for handle in linked_products.value %}
+        {% comment %} Handle is {{ handle.handle }}<br> {% endcomment %}
+        {% assign product = all_products[handle.handle] %}
+        {% if product %}
+          {% comment %} Product is {{ product.title }}<br> {% endcomment %}
+          {% comment %} {{ product.metafields.custom.colour.value }}<br> {% endcomment %}
+
+          <a href="/products/{{ handle.handle }}" class="link_swatch"><span class="linked_swatch_container"><span class="linked_swatch" style="background-color: {{ product.metafields.custom.colour.value }};"></span></span></a>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% elsif link_type == "size" %}
+    <div style="margin-top:40px;margin-bottom:40px">
+    <span style="background-color:#D12420; border:1px solid #D12420; color:#FFFFFF; padding: 10px 24px; border-radius:4px; margin-right:4px">{{ product_size.value }}</span>
+
+    {% if linked_products_size.value %}
+      {% for handle in linked_products_size.value %}
+        {% assign product = all_products[handle.handle] %}
+        {% if product %}
+          <a href="/products/{{ handle.handle }}" style="border:1px solid #000000; padding: 10px 24px; border-radius:4px; color:#000000; text-decoration:none">{{ product.metafields.custom.product_size.value }}</a>
+            
+        {%  endif %}
+      {% endfor %}
+    {% endif %}
+    </div>
   {% endif %}
-
 {%- endunless -%}

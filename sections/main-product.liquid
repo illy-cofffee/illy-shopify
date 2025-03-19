@@ -478,7 +478,10 @@
 
               {%- when 'variant_picker' -%}
                 {% if product.metafields.custom.linked_products != blank %}
-                  {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id, linked_products: product.metafields.custom.linked_products, product_colour_code: product.metafields.custom.product_colour_code, product_colour: product.metafields.custom.colour %}
+                  {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id, linked_products: product.metafields.custom.linked_products, product_colour_code: product.metafields.custom.product_colour_code, product_colour: product.metafields.custom.colour, link_type: "colour" %}
+                {% endif %}
+                {% if product.metafields.custom.linked_products_size != blank %}
+                  {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id, linked_products_size: product.metafields.custom.linked_products_size, product_size: product.metafields.custom.product_size, link_type: "size" %}
                 {% endif %}
               {%- when 'buy_buttons' -%}
                 {%- render 'buy-buttons',
