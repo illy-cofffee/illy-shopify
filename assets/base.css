@@ -3842,3 +3842,8 @@ iframe {
   width: 100% !important;
   height: 100% !important;
 }
+
+/* remove media borders */
+.global-media-settings {
+  border: none;
+}
