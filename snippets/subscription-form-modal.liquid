@@ -1,0 +1,367 @@
+{{ 'subscription-modal.css' | asset_url | stylesheet_tag }}
+
+<div class="modal-subscription-dark-overlay">
+	<div class="subscription-form-container">
+		<button class="btn-close-modal" onclick="javascript:closeModal()">
+            <span class="icon-wrap">
+                <span class="svg-wrapper">
+                    {{- 'icon-close-small.svg' | inline_asset_content -}}
+                </span>
+            </span>
+		</button>
+
+		<form
+			class="subscription-form-actual"
+			name="ProfileFormWithSMS"
+			onsubmit="return checkInputs();"
+			action="{{ form_destination }}"
+			method="get"
+		>
+	
+		
+			<h2>Offer copy goes here</h2>
+			<div class="subsmodal-intro">Sign up for our newsletter to stay updated on the latest news and exclusive offers. As a thank you, enjoy a 10% discount on your next purchase. Don't miss out!</div>
+
+            <div class="field">
+				<input
+					class="field__input"
+					autocomplete="name"
+					type="text"
+					name="modalsub[name]"
+					maxlength="60"
+					tabindex="0"
+					aria-label="Enter your first name"
+					aria-invalid="false"
+					placeholder="Name"
+				>
+				<label class="field__label" for="modalsub[name]">Name</label>
+				<span class="error-message" data-for="modalsub[name]">Please enter your first name</span>
+			</div>
+			<div class="field">
+				<input
+					class="field__input"
+					autocomplete="email"
+					type="text"
+					name="modalsub[email]"
+					maxlength="60"
+					tabindex="0"
+					aria-label="Enter your email address"
+					aria-invalid="false"
+					placeholder="Name"
+				>
+				<label class="field__label" for="modalsub[name]">Email</label>
+				{% comment %} <div class="field field--with-error">
+					<input autocomplete="email" type="email" id="ContactForm-email" class="field__input" name="contact[email]" spellcheck="false" autocapitalize="off" value="" aria-required="true" placeholder="Email">
+					<label class="field__label" for="ContactForm-email">Email
+					  <span aria-hidden="true">*</span></label>
+				</div> {% endcomment %}
+			</div>
+			<div class="field">
+				<input
+					class="field__input"
+					autocomplete="tel"
+					type="tel"
+					name="modalsub[phone]"
+					maxlength="60"
+					tabindex="0"
+					aria-label="Enter your phone number"
+					aria-invalid="false"
+					placeholder="Phone Number"
+				>
+				<label class="field__label" for="modalsub[name]">Phone</label>
+			</div>
+
+			<div style="display: inline-block;width:100%;"><span class="error-message" data-for="inp_2"></span></div> 
+			<div style="display: flex">
+				<div>
+					<label for="optin" style="display: flex; align-items: center; flex: 0 0 auto; word-break: break-word; max-width: 100%; cursor: pointer;">
+						<input
+							class=""
+							tabindex="882"
+							type="checkbox"
+							name="optin"
+							value="y"
+							aria-invalid="false"
+							aria-label="Opt"
+						>
+						<span style="display: inline-block;vertical-align: top;position: relative; top:2px; margin-left: 10px; width:100%;" class="caption"> I consent to receiving marketing communications. View our <a href="/policies/privacy-policy" target="_blank" class="text-link">privacy policy</a>.</span>
+					</label>
+					<div class="error-message" data-for="optin"></div>
+				</div>
+			</div>
+
+			<label for="submit" style="display: flex; align-items: center; padding-bottom: 0px; margin-top:30px; max-width: 100%; cursor: pointer;">
+				<input
+					class="button button--primary submodal-button"
+					aria-label="SUBMIT"
+					tabindex="993"
+					type="button"
+					onclick="javascript:submitForm()"
+					name="submit1"
+					value="SIGN UP"
+                    style="margin-right:20px"
+				>
+				<span onclick="javascript:closeModal()" class="submodal-button nothanks">No, thanks</span>
+				
+			</label> 
+		</form>
+        
+		<div class="image-container">&nbsp;</div>
+	</div>
+</div>
+
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            document.querySelectorAll(".dropdown dt a").forEach(a => {
+                a.addEventListener("click", function() {
+                var dropdown = this.nextElementSibling;
+                if (dropdown.style.display === "none") {
+                    dropdown.style.display = "block";
+                } else {
+                    dropdown.style.display = "none";
+                }
+                });
+            });    
+        
+            function getSelectedValue(id) {
+                return document.getElementById(id).querySelector("dt a span.value").textContent;
+            }
+          
+            document.addEventListener("click", function(e) {
+              var target = e.target;
+              if (!target.closest(".dropdown")) {
+                document.querySelectorAll(".dropdown dd ul").forEach(dropdown => {
+                  dropdown.style.display = "none";
+                });
+              }
+            });
+          
+          });
+
+	const showModal = () => {
+		if (!window.localStorage.getItem('illySubscribe')) {
+			// create illySubscribe in localStorage if it doesn't exist
+			window.localStorage.setItem('illySubscribe', JSON.stringify({ closed: false, subscribed: false, dateClosed: '' }));
+		}
+		// if illySubscribe cookie exists, and 'closed' has been set within last 24 hours or subscribed equals true -> then don't show modal;
+		const illySubscribe = JSON.parse(window.localStorage.getItem('illySubscribe'));
+		const { closed, subscribed, dateClosed } = illySubscribe;
+		// if subscribed, don't show modal
+		if (subscribed) return;
+		// if modal closed within last 24 hours, don't show modal
+		if (closed && new Date() - new Date(dateClosed) < 86400000) return;
+		
+		const modal = document.querySelector('.modal-subscription-dark-overlay');
+		modal.classList.add("show");
+
+		const modalform = document.querySelector('.subscription-form-container');
+		addClassWithDelay(modalform,"fade");
+
+		{% comment %} if (document.querySelector('.sidebar--opened')) {
+			document.querySelector('.sidebar--opened').hide();
+		}
+		 {% endcomment %}
+
+	};
+
+	function addClassWithDelay(element, className) {
+		setTimeout(function() {
+			element.classList.add(className);
+		}, 500); // Delay of 0.5 second
+	}
+	
+	{% comment %} setTimeout(() => {
+		showModal();
+	}, 8000); {% endcomment %}
+
+    setTimeout(() => {
+		showModal();
+	}, 0);
+
+	const closeModal = () => {
+		// close modal and pass true as argument for subscribed status of user.
+		window.localStorage.setItem('illySubscribe', JSON.stringify({ closed: true, subscribed: false, dateClosed: new Date() }));
+		const modalContainer = document.querySelector('.modal-subscription-dark-overlay');
+		modalContainer.classList.remove("show");
+		const modal = document.querySelector('.subscription-form-container');
+		modal.classList.remove("show");
+
+	};
+
+	var error;
+	var form_lanuage = 'en';
+	function is_0_valid() {
+		var Interests = new Array();
+
+		count = 0;
+		if (document.ProfileFormWithSMS.optin) {
+			if (document.ProfileFormWithSMS.optin.checked) {
+				var chks = document.getElementsByName('inp_{{ form_interest }}');
+				// Loop and push the checked CheckBox value in Array.
+				for (var i = 0; i < chks.length; i++) {
+					if (chks[i].checked) {
+						Interests.push(chks[i].value);
+					}
+				}
+			}
+		}
+		return true;
+	}
+
+	function displayValidationErrorStyling(inputElement, errorMessage) {
+		// Store the original border color and style
+		const originalBorderColor = inputElement.style.borderColor;
+		const originalBorderStyle = inputElement.style.borderStyle;
+
+		// Change the border color of the input to red
+		inputElement.style.border = '2px solid red';
+		// get the error message element
+		const inputName = inputElement.name;
+		const errorMessageElement = document.querySelector(`[data-for="${inputName}"]`);
+
+		errorMessageElement.textContent = errorMessage;
+		errorMessageElement.style.display = 'block';
+
+		// Add an onBlur event listener to reset the border
+		inputElement.addEventListener('blur', function () {
+			// Reset the border color and style
+			inputElement.style.border = originalBorderStyle;
+			inputElement.style.borderColor = originalBorderColor;
+			errorMessageElement.textContent = '';
+			errorMessageElement.style.display = 'none';
+		});
+	}
+
+	function is_1_valid(input) {
+		const isValidName = (nameText) => {
+			const nameRegex = /^[A-Za-z\s'-]+$/;
+			return nameRegex.test(nameText);
+		};
+
+		if (!isValidName(input.value)) {
+			const errorMessage = 'Please enter your first name';
+			displayValidationErrorStyling(input, errorMessage);
+			error += `${errorMessage} \n`;
+			return false;
+		}
+		return true;
+	}
+
+	function is_2_valid(input) {
+		// Check if the phone number is provided before validating
+		if (input.value.trim() !== '') {
+			const isValidPhoneNumber = (inputPhoneNumber) => {
+				const phoneRegexWithSpaces = /^(\d\s*){8,11}$/;
+				return phoneRegexWithSpaces.test(inputPhoneNumber);
+			};
+			if (!isValidPhoneNumber(input.value)) {
+				const errorMessage = 'Please enter a valid phone number';
+				displayValidationErrorStyling(input, errorMessage);
+				error += `${errorMessage} \n`;
+				return false;
+			}
+		}
+		// If the phone number is not provided, no validation is needed
+		return true;
+	}
+
+	function is_3_valid(input) {
+		const isValidEmail = (inputEmailAddress) => {
+			const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+			return emailRegex.test(inputEmailAddress);
+		};
+		if (!isValidEmail(input.value)) {
+			const errorMessage = 'Please enter valid email address';
+			displayValidationErrorStyling(input, errorMessage);
+			error += `${errorMessage} \n`;
+			return false;
+		}
+		return true;
+	}
+
+	function is_optin_valid(input) {
+		if (input.checked == false) {
+			const errorMessage = 'Please opt in to sign up';
+			displayValidationErrorStyling(input, errorMessage);
+			error += `${errorMessage} \n`;
+			return false;
+		}
+		return true;
+	}
+
+	function checkInputs() {
+		var check_ok = true;
+		error = '* Please complete required fields\n';
+
+		check_ok = is_0_valid('null') && check_ok;
+		check_ok = is_1_valid(document.ProfileFormWithSMS.inp_1) && check_ok;
+		check_ok = is_2_valid(document.ProfileFormWithSMS.inp_2) && check_ok;
+		check_ok = is_3_valid(document.ProfileFormWithSMS.inp_3) && check_ok;
+		check_ok = is_optin_valid(document.ProfileFormWithSMS.optin) && check_ok;
+		return check_ok;
+	}
+	
+	function submitForm() {
+		if (checkInputs() == true) {
+			const thankYouTextTest = `<div class="subscription-form-container-thankyou">
+				<button class="btn-close-modal" onclick="javascript:closeModal()">
+					<svg class="close-icon" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 25"><path d="M18 18L12 12M12 12L6 6M12 12L18 6M12 12L6 18" stroke="#000" stroke-width="2" stroke-linejoin="bevel"></path></svg>
+				</button>
+
+				<div class="subscription-form-actual">
+				<div class="form-title">
+					<span class="form-title-spectral">You’re in!
+					</span>
+					<div class="form-title-thankyou">Thanks for signing up. Your 10% off is making its way to you.</div>
+				</div>
+				<p>
+					<span class="confirmation-text">
+					You will receive a confirmation email shortly.
+					</span>
+				</p>
+				</div>
+				<div class="image-container"></div>
+			</div>`;
+
+			// Create a new div element for the thank you message
+			const thankYouDiv = document.createElement('div');
+			thankYouDiv.innerHTML = thankYouTextTest;
+			thankYouDiv.style.position = 'absolute';
+			thankYouDiv.style.top = '0';
+			thankYouDiv.style.left = '0';
+			thankYouDiv.style.width = '100%';
+			thankYouDiv.style.height = '100%';
+
+			const subscriptionFormContainer = document.querySelector('.subscription-form-container');
+			const formContainer = document.querySelector('.subscription-form-actual');
+
+			formContainer.appendChild(thankYouDiv);
+
+			// submit form to yotpo
+			console.log('check inputs success...');
+			var phone = document.ProfileFormWithSMS.inp_2.value;
+			console.log({ phone });
+
+			var email = document.ProfileFormWithSMS.inp_3.value;
+			console.log({ email });
+
+			var source = document.ProfileFormWithSMS.CID.value;
+			console.log({ source });
+
+			var accepts_marketing = document.ProfileFormWithSMS.optin.checked;
+			console.log({ accepts_marketing });
+
+			var country = document.ProfileFormWithSMS.country.value;
+			console.log({ country });
+
+			// currently trying to send just phone and email and see if our data shows up in smsbump dashboard..
+			
+			{% comment %} setTimeout(() => {
+				window.localStorage.setItem('illySubscribe', JSON.stringify({ closed: true, subscribed: true, dateClosed: new Date() }));
+				document.ProfileFormWithSMS.submit();
+			}, 3000); {% endcomment %}
+		}
+	}
+
+
+</script>

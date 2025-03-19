@@ -108,7 +108,7 @@
     }
     
     .linked_swatch_selected {
-      border: 1px solid black;
+      border: 1px solid #D12420;
     }
 
     .linked_swatch {
@@ -116,7 +116,7 @@
       width: 100%;
       height: 100%;
       display: block;
-      border: 1px solid rgba(0,0,0, 0.5)
+      border: 1px solid rgba(0,0,0, 0.5);
     }
 
     .link_swatch {
@@ -132,9 +132,13 @@
       margin-left: 7px;
     }
 
-  </style>
+    .product_colour_name {
+      font-family: "Museo Sans 500";
+    }
 
-  <span class="linked_swatch_container linked_swatch_selected"><span class="linked_swatch" style="background-color: {{ product_colour.value }};"></span></span>
+  </style>
+  <div>Colour: <span class="product_colour_name">{{ product_colour.value }}</span></div>
+  <span class="linked_swatch_container linked_swatch_selected"><span class="linked_swatch" style="background-color: {{ product_colour_code.value }};"></span></span>
 
   {% if linked_products.value %}
     {% for handle in linked_products.value %}

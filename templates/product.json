@@ -67,25 +67,33 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Flavour Profile",
+            "heading": "Flavour Profile",
             "icon": "none",
+            "content": "<p>{{ product.metafields.custom.flavour_profile | metafield_tag }}</p>",
             "content": "<p>{{ product.metafields.custom.flavour_profile | metafield_tag }}</p>",
             "page": ""
           }
         },
         "collapsible_tab_p3cDfi": {
+        "collapsible_tab_p3cDfi": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Origin",
+            "heading": "Origin",
             "icon": "none",
+            "content": "<p>{{ product.metafields.custom.origin.value }}</p>",
             "content": "<p>{{ product.metafields.custom.origin.value }}</p>",
             "page": ""
           }
         },
         "collapsible_tab_kwm8PN": {
+        "collapsible_tab_kwm8PN": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Brewing",
+            "heading": "Brewing",
             "icon": "none",
+            "content": "<p>{{ product.metafields.custom.brewing_recommendations | metafield_tag }}</p>",
             "content": "<p>{{ product.metafields.custom.brewing_recommendations | metafield_tag }}</p>",
             "page": ""
           }
@@ -103,7 +111,18 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Care & Maintenance",
+            "heading": "Material & Design",
             "icon": "none",
+            "content": "<p>{{ product.metafields.custom.material_design | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_kDzaFN": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Care & Maintenance",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.care_maintenance | metafield_tag }}</p>",
             "content": "<p>{{ product.metafields.custom.care_maintenance | metafield_tag }}</p>",
             "page": ""
           }
@@ -148,7 +167,45 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Limited Addition",
+            "heading": "Warranty & Support",
             "icon": "none",
+            "content": "{{ product.metafields.custom.warranty | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_g96R9H": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Compatible Machines",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.compatible_machines | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_UMk76W": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Compatible Products",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.compatible_products | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_whJe8b": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Design & Craftmanship",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.design_craftmanship | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_Gkd4LE": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Limited Addition",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.limited_edition | metafield_tag }}</p>",
             "content": "<p>{{ product.metafields.custom.limited_edition | metafield_tag }}</p>",
             "page": ""
           }
@@ -180,7 +237,11 @@
         "collapsible_tab_cD6xJA",
         "collapsible_tab_p3cDfi",
         "collapsible_tab_kwm8PN",
+        "collapsible_tab_cD6xJA",
+        "collapsible_tab_p3cDfi",
+        "collapsible_tab_kwm8PN",
         "collapsible_tab_BRxFx9",
+        "collapsible_tab_kDzaFN",
         "collapsible_tab_kDzaFN",
         "collapsible_tab_LGxAAQ",
         "collapsible_tab_g96R9H",
