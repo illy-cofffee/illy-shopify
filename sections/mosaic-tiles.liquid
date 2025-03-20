@@ -140,10 +140,10 @@ endif
                 
                 <div class="mosaic-column-two">
                   <div class="mosaic-row-one" style="background-image:url('{{ section.settings.image_small_1 | image_url }}')">
-                    <a href="#" class="mosaic-link">Link 2</a>
+                    <h3><a href="#" class="mosaic-link">Link 2</a></h3>
                   </div>
                   <div class="mosaic-row-two" style="background-image:url('{{ section.settings.image_small_1 | image_url }}')">
-                    <a href="#" class="mosaic-link">Link 3</a>
+                    <h3><a href="#" class="mosaic-link">Link 3</a></h3>
                   </div>
                 </div>
               </div>
@@ -173,15 +173,50 @@ endif
         "label": "Large image"
     },
     {
+        "type": "url",
+        "id": "image_large_url",
+        "label": "Large image link"
+    },
+    {
         "type": "image_picker",
         "id": "image_small_1",
         "label": "Small image 1"
+    },
+    {
+        "type": "url",
+        "id": "image_small_url_1",
+        "label": "Small image 1 link"
     },
     {
         "type": "image_picker",
         "id": "image_small_2",
         "label": "Small image 2"
     },
+    {
+        "type": "url",
+        "id": "image_small_url_2",
+        "label": "Small image 2 link"
+    },
+    {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 36
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 4,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 36
+      }
     
   ],
   "presets": [
