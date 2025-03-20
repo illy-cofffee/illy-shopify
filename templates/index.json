@@ -51,7 +51,7 @@
         "show_view_all": false,
         "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
