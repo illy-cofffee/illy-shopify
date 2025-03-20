@@ -117,12 +117,22 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "mosaic_tiles_EtGmJ4": {
+      "type": "mosaic-tiles",
+      "settings": {
+        "color_scheme": "scheme-3",
+        "image_large": "shopify://shop_images/mosaic-coffee.jpg",
+        "image_small_1": "shopify://shop_images/mosaic-machines.jpg",
+        "image_small_2": "shopify://shop_images/mosaic-accessories.jpg"
+      }
     }
   },
   "order": [
     "glide_slider_VJ3Ncd",
     "featured_collection",
     "collection_list_xzKkLX",
-    "video_rt3R4t"
+    "video_rt3R4t",
+    "mosaic_tiles_EtGmJ4"
   ]
 }
