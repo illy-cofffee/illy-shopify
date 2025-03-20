@@ -36,34 +36,6 @@
         "h1-title": true
       }
     },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Coffee Machines",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "machines",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-3",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "quick_add": "none",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 44,
-        "padding_bottom": 36
-      }
-    },
     "video_rt3R4t": {
       "type": "video",
       "settings": {
@@ -78,40 +50,19 @@
         "padding_bottom": 36
       }
     },
-    "collage_rKCUJj": {
-      "type": "collage",
-      "blocks": {
-        "collection_6nf8EU": {
-          "type": "collection",
-          "settings": {
-            "collection": "coffee"
-          }
-        },
-        "collection_gmHCmY": {
-          "type": "collection",
-          "settings": {
-            "collection": "machines"
-          }
-        },
-        "collection_e6aHhK": {
-          "type": "collection",
-          "settings": {
-            "collection": "accessories"
-          }
-        }
-      },
-      "block_order": [
-        "collection_6nf8EU",
-        "collection_gmHCmY",
-        "collection_e6aHhK"
-      ],
+    "mosaic_tiles_cgAxKH": {
+      "type": "mosaic-tiles",
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "none",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-3",
+        "image_large": "shopify://shop_images/mosaic-coffee.jpg",
+        "image_large_url": "shopify://collections/coffee",
+        "image_large_link_text": "Coffee",
+        "image_small_1": "shopify://shop_images/mosaic-machines.jpg",
+        "image_small_url_1": "shopify://collections/machines",
+        "image_small_1_link_text": "Machines",
+        "image_small_2": "shopify://shop_images/mosaic-accessories.jpg",
+        "image_small_url_2": "shopify://collections/accessories",
+        "image_small_2_link_text": "Gifts & Accessories",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -119,8 +70,7 @@
   },
   "order": [
     "glide_slider_VJ3Ncd",
-    "featured_collection",
-    "video_rt3R4t",
-    "collage_rKCUJj"
+    "mosaic_tiles_cgAxKH",
+    "video_rt3R4t"
   ]
 }
