@@ -16,7 +16,7 @@
               background-color:{{ block.settings.color_background_main }};
             {% endif %}
             "> 
-            {% if block.settings.column_layout == "one_column" or block.settings.column_layout == "full_width" %}
+            {% comment %} {% if block.settings.column_layout == "one_column" or block.settings.column_layout == "full_width" %} {% endcomment %}
               <div class="slider-content {% if block.settings.column_layout == "one_column" %}contained{% endif %}" aria-hidden="true">  
                 <div class="slider-column-single {{ block.settings.alignment }} {% if block.settings.column_layout == "one_column" %}mobile-one-col{% else %}mobile-full-width{% endif %}">
                   <div class="slider-column-content" {% unless block.settings.color_text_main == blank -%}
@@ -73,7 +73,7 @@
                       {%- render 'button', label: block.settings.button_label, link: block.settings.link, style: block.settings.button_style, fullwidth: false -%}
                     </div> {% endcomment %}
     
-      {%- endif -%}
+      {% comment %} {%- endif -%}
                   </div> <!-- end slider-column-content -->
     
                   {%- capture sizes -%}
@@ -112,7 +112,7 @@
     
                   <span class="text-size--small">{{ block.settings.disclaimer_text | escape }}</span>
                 
-    {% endif %}
+    {% endif %} {% endcomment %}
     
     {%- unless block.settings.glide-slider-item-header == blank -%}
     {% assign blockheader = block.settings.glide-slider-item-header %}
@@ -266,30 +266,6 @@
           "type": "richtext",
           "label": "Please enter large heading, use italic on selected words for emphasis",
           "default": "<p>Enter header...</p>"
-        },
-        {
-          "type": "select",
-          "id": "column_layout",
-          "label": "Column layout",
-          "options": [
-            {
-              "value": "full_width",
-              "label": "Full Width"
-            },
-            {
-              "value": "one_column",
-              "label": "One Column"
-            },
-            {
-              "value": "two_columns",
-              "label": "Two Columns"
-            },
-            {
-              "value": "three_columns",
-              "label": "Three Columns"
-            }
-          ],
-          "default": "two_columns"
         },
         {
           "id": "image",
@@ -468,3 +444,28 @@ window.addEventListener('load', function () {
     }
 });
 </script>
+
+{% comment %} {
+  "type": "select",
+  "id": "column_layout",
+  "label": "Column layout",
+  "options": [
+    {
+      "value": "full_width",
+      "label": "Full Width"
+    },
+    {
+      "value": "one_column",
+      "label": "One Column"
+    },
+    {
+      "value": "two_columns",
+      "label": "Two Columns"
+    },
+    {
+      "value": "three_columns",
+      "label": "Three Columns"
+    }
+  ],
+  "default": "full_width"
+}, {% endcomment %}

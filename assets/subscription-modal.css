@@ -75,6 +75,10 @@
     transform: translateY(0);
 }
 
+.subscription-form-container .btn-close-modal {
+    cursor:pointer;
+}
+
 .subscription-form-container-thankyou {
     display: flex;
     position: relative;
