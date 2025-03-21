@@ -16,7 +16,6 @@
           "type": "glide-slider-item",
           "settings": {
             "glide-slider-item-header": "<p>Buy 5.<br/>Get 2 free.</p>",
-            "column_layout": "full_width",
             "image": "shopify://shop_images/glide-slide.png",
             "description": "<p>Use code: CARTON</p>",
             "alignment": "align-middle-left",
@@ -27,10 +26,26 @@
             "color_background_main": "#ffffff",
             "color_text_main": "#ffffff"
           }
+        },
+        "glide_slider_item_WPkd3M": {
+          "type": "glide-slider-item",
+          "settings": {
+            "glide-slider-item-header": "<p>Our Coffee</p>",
+            "image": "shopify://shop_images/coffee.png",
+            "description": "<p>The best that nature can offer in a cup of signature premium illy coffee</p>",
+            "alignment": "align-middle-center",
+            "button_link": "#",
+            "button_label": "Find out more",
+            "button_style": "solid",
+            "disclaimer_text": "",
+            "color_background_main": "#D12420",
+            "color_text_main": "#ffffff"
+          }
         }
       },
       "block_order": [
-        "glide_slider_item_HfgNyN"
+        "glide_slider_item_HfgNyN",
+        "glide_slider_item_WPkd3M"
       ],
       "settings": {
         "h1-title": true
