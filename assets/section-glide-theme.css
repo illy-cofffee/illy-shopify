@@ -93,7 +93,8 @@
   background-color: rgba(255, 255, 255, 0.5);
 }
 .glide__bullet--active {
-  background-color: white;
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 .glide--swipeable {
   cursor: grab;
@@ -158,13 +159,13 @@
 
 .slider-column-content {
   display:inline-block;
-  padding:30px;    
+  padding:80px;    
   z-index: 99999999;
   max-width:500px;
 }
 
 .slider-column-content h1, h3 {
-  font-size: 40px;
+  font-size: 48px;
   line-height: 1;
   margin-bottom: 16px;
 }
@@ -188,6 +189,7 @@
 
 .glideslider-disclaimer {
   margin-top: 1rem;
+  max-width: 250px;
 }
 
 .glideslider-button {
