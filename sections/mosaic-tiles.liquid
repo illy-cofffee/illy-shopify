@@ -129,13 +129,9 @@ assign fetch_priority = 'auto'
 if section.index == 1
     assign fetch_priority = 'high'
 endif
-if section.settings.color_scheme == section.settings.section_color_scheme and section.settings.content_layout == 'no-overlap'
-    assign remove_color_classes = true
-endif
+
 -%}
-
-
-<div class="section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
+<div class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
     <div class="page-width">
         <div class="section-mosaic-tiles global-media-settings{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}">
             <div class="mosaic-container">
