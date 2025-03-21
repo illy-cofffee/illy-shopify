@@ -16,7 +16,7 @@
               background-color:{{ block.settings.color_background_main }};
             {% endif %}
             "> 
-            {% comment %} {% if block.settings.column_layout == "one_column" or block.settings.column_layout == "full_width" %} {% endcomment %}
+            {% if block.settings.column_layout == "one_column" or block.settings.column_layout == "full_width" %}
               <div class="slider-content {% if block.settings.column_layout == "one_column" %}contained{% endif %}" aria-hidden="true">  
                 <div class="slider-column-single {{ block.settings.alignment }} {% if block.settings.column_layout == "one_column" %}mobile-one-col{% else %}mobile-full-width{% endif %}">
                   <div class="slider-column-content" {% unless block.settings.color_text_main == blank -%}
@@ -73,7 +73,7 @@
                       {%- render 'button', label: block.settings.button_label, link: block.settings.link, style: block.settings.button_style, fullwidth: false -%}
                     </div> {% endcomment %}
     
-      {% comment %} {%- endif -%}
+      {%- endif -%}
                   </div> <!-- end slider-column-content -->
     
                   {%- capture sizes -%}
@@ -112,7 +112,7 @@
     
                   <span class="text-size--small">{{ block.settings.disclaimer_text | escape }}</span>
                 
-    {% endif %} {% endcomment %}
+    {% endif %}
     
     {%- unless block.settings.glide-slider-item-header == blank -%}
     {% assign blockheader = block.settings.glide-slider-item-header %}
