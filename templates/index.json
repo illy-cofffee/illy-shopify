@@ -22,15 +22,32 @@
             "alignment": "align-middle-left",
             "button_link": "shopify://collections/all",
             "button_label": "SHOP NOW",
-            "button_style": "solid",
+            "button_style": "outline",
             "disclaimer_text": "Terms & conditions apply.  Offer ends 31/03/2025 at 11:59pm.",
             "color_background_main": "#ffffff",
+            "color_text_main": "#ffffff"
+          }
+        },
+        "glide_slider_item_QM8MgB": {
+          "type": "glide-slider-item",
+          "settings": {
+            "glide-slider-item-header": "<p>Our Coffee</p>",
+            "column_layout": "two_columns",
+            "image": "shopify://shop_images/coffee.png",
+            "description": "<p>The best that nature can offer in a cup of signature premium illy coffee</p>",
+            "alignment": "align-middle-left",
+            "button_link": "#",
+            "button_label": "Find out more",
+            "button_style": "solid",
+            "disclaimer_text": "",
+            "color_background_main": "#D12420",
             "color_text_main": "#ffffff"
           }
         }
       },
       "block_order": [
-        "glide_slider_item_HfgNyN"
+        "glide_slider_item_HfgNyN",
+        "glide_slider_item_QM8MgB"
       ],
       "settings": {
         "h1-title": true
