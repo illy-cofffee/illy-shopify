@@ -16,9 +16,9 @@
               background-color:{{ block.settings.color_background_main }};
             {% endif %}
             "> 
-            {% if block.settings.column_layout == "one_column" or block.settings.column_layout == "full_width" %}
-              <div class="slider-content {% if block.settings.column_layout == "one_column" %}contained{% endif %}" aria-hidden="true">  
-                <div class="slider-column-single {{ block.settings.alignment }} {% if block.settings.column_layout == "one_column" %}mobile-one-col{% else %}mobile-full-width{% endif %}">
+            
+              <div class="slider-content" aria-hidden="true">  
+                <div class="slider-column-single {{ block.settings.alignment }} mobile-full-width">
                   <div class="slider-column-content" {% unless block.settings.color_text_main == blank -%}
                     style="color: {{ block.settings.color_text_main }}"
                   {% endunless %}>
@@ -73,7 +73,7 @@
                       {%- render 'button', label: block.settings.button_label, link: block.settings.link, style: block.settings.button_style, fullwidth: false -%}
                     </div> {% endcomment %}
     
-      {%- endif -%}
+                  {%- endif -%}
                   </div> <!-- end slider-column-content -->
     
                   {%- capture sizes -%}
@@ -99,121 +99,8 @@
     
                   
                 </div> <!-- end slider-column-single -->
-    
-              {% elsif block.settings.column_layout == "two_columns" or block.settings.column_layout == "three_columns" %}
-    
-            <div class="slider-content contained">
-              <div class="{% if block.settings.column_layout == "two_columns" %} slider-column-left {% elsif block.settings.column_layout == "three_columns" %} slider-column-left-three {% endif %} {{ block.settings.alignment }}">
-                <div class="slider-column-content" {% unless block.settings.color_text_main == blank -%}
-                  style="color: {{ block.settings.color_text_main }}"{% endunless %}>
-                  <!-- Test content -->
-                  
-    {% if block.settings.disclaimer_text != "" %}
-    
-                  <span class="text-size--small">{{ block.settings.disclaimer_text | escape }}</span>
-                
-    {% endif %}
-    
-    {%- unless block.settings.glide-slider-item-header == blank -%}
-    {% assign blockheader = block.settings.glide-slider-item-header %}
-    {% assign blockheader = blockheader | remove: "<p>" %}
-    {% assign blockheader = blockheader | remove: "</p>" %}
-    
-    {% if section.settings.h1-title == true %} 
-    
-                  <h1 {% else %} <h3 {% endif %} {% unless block.settings.color_text_main == blank -%}
-                    style="color: {{ block.settings.color_text_main }}" {% endunless %}>
-                  <span class="text-animation--underline underline-mobile">{{ blockheader }}</span>
-                  
-    {% if section.settings.h1-title == true %} </h1> {% else %} </h3>{% endif %}
-    
-    {%- endunless -%}
-    {%- unless block.settings.description == blank -%}
-                  
-                  <span {% unless block.settings.color_text_main == blank -%}
-                    style="color: {{ block.settings.color_text_main }}" {% endunless %}>{{ block.settings.description }}</span>
-                
-    {%- endunless -%}
-    {%- if block.settings.button_label != blank and block.settings.button_link != "" -%}
-    
-        <div class="banner__buttons">
-            {%- if block.settings.button_label != blank -%}
-                <a
-                {% if block.settings.button_link == blank %}
-                    role="link" aria-disabled="true"
-                {% else %}
-                    href="{{ block.settings.button_link }}"
-                {% endif %}
-                class="button{% if block.settings.button_style == "secondary" %} button--secondary{% else %} button--primary{% endif %}"
-                >
-                {{- block.settings.button_label | escape -}}
-                </a>
-            {%- endif -%}
-        </div>
-                  {% comment %} <div>
-                    {%- render 'button', label: block.settings.button_label, link: block.settings.link, style: block.settings.button_style, fullwidth: false -%}
-                  </div> {% endcomment %}
-    
-    {%- endif -%}
-    
-                </div> <!-- end slider-column-content -->
-            </div><!-- end slider-column-left -->
-          {% if block.settings.column_layout == "two_columns" or block.settings.column_layout == "three_columns" %}
-            {% if block.settings.column_layout == "three_columns" %}
-              <div class="slider-column-center-three">
-                <div class="slider-image" aria-hidden="true">
-    
-                  {%- capture sizes -%}
-                    sizes="(max-width: 1023px) calc({{ section.settings.mobile_height }} * {{ block.settings.image.aspect_ratio }}), calc({{ section.settings.desktop_height }} * {{ block.settings.image.aspect_ratio }})"
-                  {%- endcapture -%}
-                  
-                  {%- liquid
-                  
-                    assign image_class = 'lazy-image--to-reveal'
-                  
-                    if block.settings.mobile_image_second
-                  
-                      render 'lazy-image', image: block.settings.mobile_image_second, type: 'background', alt: block.settings.title, image_alignment: true, sizes: sizes, class: 'lazy-image--to-reveal element--hide-on-desk', overlay: true
-                  
-                      assign image_class = image_class | append: ' element--hide-on-small'
-                  
-                    endif
-                  
-                    render 'lazy-image', image: block.settings.image_second, type: 'background', alt: block.settings.title, image_alignment: true, sizes: sizes, class: image_class, overlay: true, image_class: 'img-top-left'
-                  
-                  -%}
-                            </div><!-- end slider-image -->
-              </div><!-- end slider-column-center -->
-            {% endif %}        
-            <!-- start slider-column-right -->
-            <div class="{% if block.settings.column_layout == "two_columns" %} slider-column-right {% elsif block.settings.column_layout == "three_columns" %} slider-column-right-three {% endif %}">
-              <div class="slider-image" aria-hidden="true">
-    
-    {%- capture sizes -%}
-      sizes="(max-width: 1023px) calc({{ section.settings.mobile_height }} * {{ block.settings.image.aspect_ratio }}), calc({{ section.settings.desktop_height }} * {{ block.settings.image.aspect_ratio }})"
-    {%- endcapture -%}
-    
-    {%- liquid
-    
-      assign image_class = 'lazy-image--to-reveal'
-    
-      if block.settings.mobile_image
-    
-        render 'lazy-image', image: block.settings.mobile_image, type: 'background', alt: block.settings.title, image_alignment: true, sizes: sizes, class: 'lazy-image--to-reveal element--hide-on-desk', overlay: true
-    
-        assign image_class = image_class | append: ' element--hide-on-small'
-    
-      endif
-    
-      render 'lazy-image', image: block.settings.image, type: 'background', alt: block.settings.title, image_alignment: true, sizes: sizes, class: image_class, overlay: true, image_class: 'img-top-left'
-    
-    -%}
-              </div><!-- end slider-image -->
-              
-            </div><!-- end slider-column-right -->
-          {% endif %}
-          </div><!-- end slider-content -->
-        {% endif %}
+             
+        
           {% if block.settings.sticker_image != blank %}
             <div class="sticker-image"><img src="{{ block.settings.sticker_image | image_url }}" style="max-width:180px">
               </div>
