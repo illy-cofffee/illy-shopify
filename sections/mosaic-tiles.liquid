@@ -51,7 +51,6 @@
     flex: 2;
     min-height: 0;
     position: relative;
-    {% comment %} background-image: url('https://picsum.photos/400/600'); {% endcomment %}
     background-size: cover;
     background-position: center;
 }
@@ -68,7 +67,6 @@
 .mosaic-row-one, .mosaic-row-two {
     flex: 1;
     position: relative;
-    {% comment %} background-image: url('https://picsum.photos/400/300'); {% endcomment %}
     background-size: cover;
     background-position: center;
 }
@@ -108,6 +106,14 @@
     max-width: calc(50% - 10px);
     }
 }
+
+@media screen and (max-width: 850px) {
+    .mosaic-link {
+        bottom: 16px;
+        left: 16px;
+    }
+}
+
 
 </style>
 {%- style -%}
