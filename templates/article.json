@@ -44,9 +44,27 @@
         "content"
       ],
       "settings": {}
+    },
+    "featured_blog_Ltfwzd": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Recommended for you",
+        "heading_size": "h2",
+        "blog": "",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "scheme-3",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "featured_blog_Ltfwzd"
   ]
 }
