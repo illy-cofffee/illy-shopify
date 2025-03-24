@@ -145,7 +145,7 @@
     "video_rt3R4t": {
       "type": "video",
       "settings": {
-        "heading": "Video",
+        "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
         "video_url": "https://vimeo.com/37861757",
