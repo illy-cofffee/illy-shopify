@@ -42,7 +42,8 @@
             {{ block.shopify_attributes }}
           >
             <div
-              class="article-template__hero-{{ block.settings.image_height }} media"
+              class="article-template__hero-{{ block.settings.image_height }} media {% if block.settings.featured_image_width == "narrow" %}page-width page-width--narrow{% endif %}"
+  
               {% if block.settings.image_height == 'adapt' and article.image %}
                 style="padding-bottom: {{ 1 | divided_by: article.image.aspect_ratio | times: 100 }}%;"
               {% endif %}
