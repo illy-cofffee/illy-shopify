@@ -27,11 +27,19 @@
             "heading": "Need help?",
             "menu": "footer-menu-2"
           }
+        },
+        "image_tXgPpf": {
+          "type": "image",
+          "settings": {
+            "image_width": 100,
+            "alignment": "center"
+          }
         }
       },
       "block_order": [
         "link_list_Eew7qz",
-        "link_list_wwWiCb"
+        "link_list_wwWiCb",
+        "image_tXgPpf"
       ],
       "settings": {
         "color_scheme": "scheme-3",
