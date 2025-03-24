@@ -30,7 +30,7 @@
           "settings": {
             "serving_size": "{{ article.metafields.custom.serve.value }}",
             "preparation_time": "{{ article.metafields.custom.preparation_time.value }}",
-            "cooking_time": "{{ article.metafields.custom.cooking.value }}"
+            "difficulty": "{{ article.metafields.custom.difficulty.value }}"
           }
         },
         "featured_image": {
