@@ -28,7 +28,7 @@
         "featured_image": {
           "type": "featured_image",
           "settings": {
-            "image_height": "adapt",
+            "image_height": "medium",
             "featured_image_width": "{{ article.metafields.custom.featured_image_width.value }}"
           }
         },
