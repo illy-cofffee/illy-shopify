@@ -31,6 +31,7 @@
         "image_tXgPpf": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/illy_logo.png",
             "image_width": 100,
             "alignment": "center"
           }
