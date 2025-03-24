@@ -182,29 +182,6 @@
   margin: 3rem auto;
 }
 
-.newsletter-header {
-  flex: 1;
-  order: 1;
-  justify-content: center;
-}
-
-.newsletter-form {
-  flex: 1;
-  order: 2;
-  align-items: right;
-  justify-content: center;
-  min-width: 450px;
-}
-
-.privacy-checkbox{
-  margin-top: 1rem;
-}
-
-.privacy-checkbox a {
-  color: inherit;
-}
-
-
 @media screen and (min-width: 768px) {
   .footer-block__newsletter {
       flex-direction: row;
@@ -247,31 +224,6 @@
   .footer__follow-on-shop:not(:first-child):not(:last-child) {
     justify-content: flex-end;
     text-align: right;
-  }
-}
-
-@media screen and (max-width: 749px) {
-  /*
-    On a small screen we want all the items to be centered
-    because they will be stacked.
-   */
-  .footer-block--newsletter {
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 100%;
-    align-items: center;
-    gap: 3rem;
-  }
-
-  .footer__list-social.list-social,
-  .footer__follow-on-shop,
-  .footer-block__newsletter {
-    display: flex;
-    justify-content: center;
-  }
-
-  .footer-block__newsletter {
-    flex-direction: column;
   }
 }
 
