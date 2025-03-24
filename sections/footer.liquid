@@ -137,7 +137,20 @@
                   {%- when 'image' -%}
                     <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
                       {%- if block.settings.image != blank -%}
+                        
                         {%- assign image_size_2x = block.settings.image_width | times: 2 | at_most: 5760 -%}
+                        <div
+                          class="footer-block__image-wrapper footer-logo-1" style="padding-right:16px;margin-right:16px;border-right:1px solid #DADADA"
+                          style="max-width: min(100%, {{ block.settings.image_width }}px);"
+                        >
+                          <img
+                            src="https://cdn.shopify.com/s/files/1/0638/9058/7699/files/illy_logo.png?v=1739331735"
+                            alt="illy Logo"
+                            loading="lazy"
+                            width="79"
+                            height="79"
+                          >
+                        </div>
                         <div
                           class="footer-block__image-wrapper"
                           style="max-width: min(100%, {{ block.settings.image_width }}px);"
@@ -151,19 +164,6 @@
                             height="{{ block.settings.image.height }}"
                           >
                         </div>
-                        <div
-                          class="footer-block__image-wrapper"
-                          style="max-width: min(100%, {{ block.settings.image_width }}px);"
-                        >
-                          <img
-                            srcset="{{ block.settings.image | image_url: width: block.settings.image_width }}, {{ block.settings.image | image_url: width: image_size_2x }} 2x"
-                            src="https://cdn.shopify.com/s/files/1/0638/9058/7699/files/illy_logo.png?v=1739331735"
-                            alt="illy Logo"
-                            loading="lazy"
-                            width="64"
-                            height="64"
-                          >
-                        </div>
                       {%- else -%}
                         {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
                       {%- endif -%}
@@ -173,7 +173,10 @@
             {%- endfor -%}
           </div>
         {%- endif -%}
+      </div>
 
+    <div class="footer color-scheme-3 gradient section-sections--16942282571827__footer-padding">
+      <div class="footer__content-top page-width">
         <div
           class="footer-block--newsletter{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
           {% if settings.animations_reveal_on_scroll %}
@@ -182,9 +185,13 @@
         >
           {%- if section.settings.newsletter_enable -%}
             <div class="footer-block__newsletter">
-              {%- if section.settings.newsletter_heading != blank -%}
-                <h2 class="footer-block__heading inline-richtext">{{ section.settings.newsletter_heading }}</h2>
-              {%- endif -%}
+              <div class="newsletter-header">
+                {%- if section.settings.newsletter_heading != blank -%}
+                  <h2 class="footer-block__heading inline-richtext">{{ section.settings.newsletter_heading }}</h2>
+                <p>{{ section.settings.newsletter_subtext }}</p>
+                {%- endif -%}
+              </div>
+              <div class="newsletter-form">
               {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
                 <input type="hidden" name="contact[tags]" value="newsletter">
                 <div class="newsletter-form__field-wrapper">
@@ -224,7 +231,7 @@
                       </span>
                     </button>
                   </div>
-                  <div class="newsletter-input-group">
+                  <div class="newsletter-input-group privacy-checkbox">
                     <div class="privacy-checkbox">
                       <input 
                         type="checkbox" 
@@ -264,6 +271,7 @@
                   </h3>
                 {%- endif -%}
               {%- endform -%}
+              </div>
             </div>
           {%- endif -%}
 
@@ -278,6 +286,7 @@
           {%- endif -%}
         </div>
       </div>
+    </div>
     {%- endunless -%}
   {%- endif -%}
 
@@ -482,6 +491,12 @@
       "id": "newsletter_heading",
       "default": "t:sections.footer.settings.newsletter_heading.default",
       "label": "t:sections.footer.settings.newsletter_heading.label"
+    },
+    {
+      "type": "inline_richtext",
+      "id": "newsletter_subtext",
+      "default": "Sign up to receive all the latest news and special offers",
+      "label": "Newsletter subtext"
     },
     {
       "type": "header",
