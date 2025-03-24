@@ -20,8 +20,7 @@
 
 .btn-close-modal {
     align-self: flex-end;
-    background-color: black;
-    color:#ffffff;
+    background-color: transparent;    
     height: 1.5em;
     height: 32px;
     width: 32px;
@@ -50,7 +49,7 @@
 
 .image-container {
     background-position: center;
-    background-image: url('https://cdn.shopify.com/s/files/1/0638/9058/7699/files/subscription-modal-image.jpg?v=1742279419');
+    background-image: url('https://cdn.shopify.com/s/files/1/0638/9058/7699/files/subscription-modal-image.jpg?v=1742774116');
     width: 434px;
     height: 527px;
 
@@ -100,6 +99,7 @@
 
 .subscription-form-actual h2 {
     margin-bottom: 24px;
+    margin-top: -20px;
 }
 
 .subscription-form-actual a, .subscription-form-actual a:hover, .subscription-form-actual a:active {
@@ -128,6 +128,8 @@
 
 .submodal-button {
     padding-left: 20px;
+    padding-right: 20px;
+    width:200px;
 }
 
 .nothanks {
@@ -140,13 +142,18 @@
 @media (max-width:1200px) {
     .subscription-form-actual {
         padding: 48px 24px 60px 24px;
-        
     }
     
+    .subscription-form-actual h2 {
+        margin-top: 0px;
+    }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 1000px) {
 
+    .subscription-form-container {
+        height: 470px;
+    }
     .subscription-form-actual {
         padding: 48px 24px 24px 24px;
         max-width: 100%;
@@ -180,6 +187,11 @@
 }
 
 @media (max-width: 500px) {
+
+    .subscription-form-container {
+        height: 560px;
+    }
+
     .form-title {
         font-size: 2rem;
         line-height: 1;
