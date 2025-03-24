@@ -39,6 +39,7 @@
             "button_style": "solid",
             "disclaimer_text": "",
             "color_background_main": "#d12420",
+            "color_background_main": "#d12420",
             "color_text_main": "#ffffff"
           }
         }
@@ -145,6 +146,7 @@
     "video_rt3R4t": {
       "type": "video",
       "settings": {
+        "heading": "",
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
