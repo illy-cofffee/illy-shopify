@@ -408,6 +408,12 @@ blockquote {
   letter-spacing: 0.04rem;
 }
 
+.article_date {
+    font-size: 1.2rem;
+    line-height: calc(1 + 0.2 / var(--font-body-scale));
+    color: #6d7175;
+}
+
 .color-foreground {
   color: rgb(var(--color-foreground));
 }
