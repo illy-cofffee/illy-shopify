@@ -1,5 +1,25 @@
-{{ 'video-section.css' | asset_url | stylesheet_tag }}
-{{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
+<style>
+  /* Container styles */
+  .embed-container {
+      position: relative;
+      padding-bottom: 56.25%; /* For 16:9 aspect ratio */
+      height: 0;
+      overflow: hidden;
+      max-width: 100%;
+      background: #000;
+  }
+  
+  /* iframe styles */
+  .embed-container iframe,
+  .embed-container object,
+  .embed-container embed {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+  </style>
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -39,31 +59,39 @@
   {%- endif %}
 {%- endcapture -%}
 
+
 <div class="color-{{ section.settings.color_scheme }} gradient">
-  <div class="video-section isolate{% unless section.settings.full_width %} page-width{% endunless %} section-{{ section.id }}-padding">
-    <div
-      {% if section.settings.full_width %}
-        class="page-width"
-      {% endif %}
-    >
+  <div class="video-section isolate section-{{ section.id }}-padding">
+    <div class="page-width">
       {%- unless section.settings.heading == blank -%}
         <div class="title-wrapper title-wrapper--no-top-margin{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
           <h2 class="title inline-richtext {{ section.settings.heading_size }}">{{ section.settings.heading }}</h2>
         </div>
       {%- endunless -%}
     </div>
-    
-      <template>
-        {%- if section.settings.video_url != null -%}
-            <iframe
-              src="https://player.vimeo.com/video/{{ section.settings.video_url }}"
+    <div class="page-width">
+       
+      
+            <!-- Replace VIDEO_ID with your actual Vimeo video ID -->
+            <div class='embed-container'>
+                <iframe src='https://player.vimeo.com/video/{{ section.settings.video_url }}' 
+                        frameborder='0' 
+                        webkitAllowFullScreen 
+                        mozallowfullscreen 
+                        allowFullScreen>
+                </iframe>
+            </div>
+
+            {% comment %} <iframe
+              src="https://player.vimeo.com/video/90541770?autoplay=0"
               class="js-vimeo"
               allow="autoplay; encrypted-media"
               allowfullscreen
               title="{{ section.settings.description | escape }}"
-            ></iframe>
-        {%- endif -%}
-      </template>
+            ></iframe> {% endcomment %}
+       
+    </div>
+    
   </div>
 </div>
 
