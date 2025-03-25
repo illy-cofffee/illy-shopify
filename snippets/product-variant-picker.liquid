@@ -156,13 +156,13 @@
     {% endif %}
   {% elsif link_type == "size" %}
     <div style="margin-top:40px;margin-bottom:40px">
-    <span style="background-color:#D12420; border:1px solid #D12420; color:#FFFFFF; padding: 10px 24px; border-radius:4px; margin-right:4px">{{ product_size.value }}</span>
+    <span style="background-color:#D12420; border:1px solid #D12420; color:#FFFFFF; padding: 10px 24px; margin-right:4px">{{ product_size.value }}</span>
 
     {% if linked_products_size.value %}
       {% for handle in linked_products_size.value %}
         {% assign product = all_products[handle.handle] %}
         {% if product %}
-          <a href="/products/{{ handle.handle }}" style="border:1px solid #000000; padding: 10px 24px; border-radius:4px; color:#000000; text-decoration:none">{{ product.metafields.custom.product_size.value }}</a>
+          <a href="/products/{{ handle.handle }}" style="border:1px solid #000000; padding: 10px 24px; color:#000000; text-decoration:none">{{ product.metafields.custom.product_size.value }}</a>
             
         {%  endif %}
       {% endfor %}
