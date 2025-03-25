@@ -43,9 +43,10 @@
         "image_tXgPpf"
       ],
       "settings": {
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-1",
         "newsletter_enable": true,
         "newsletter_heading": "Subscribe to our emails",
+        "newsletter_subtext": "Sign up to receive all the latest news and special offers",
         "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": true,
