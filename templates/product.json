@@ -219,48 +219,45 @@
         "cover_image": "",
         "description": "",
         "full_width": false,
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-1",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "image_banner_ebJJYn": {
-      "type": "image-banner",
+    "rich_text_Vj77rB": {
+      "type": "rich-text",
       "blocks": {
-        "heading_AAjzHw": {
+        "heading_VntbfF": {
           "type": "heading",
           "settings": {
-            "heading": "Sustainability",
-            "heading_size": "h1",
-            "h1-title": false
+            "heading": "Quality meets sustainability",
+            "heading_size": "h1"
           }
         },
-        "text_8btQQY": {
+        "text_RBJ9my": {
           "type": "text",
           "settings": {
-            "text": "From bean to cup, our commitment to have a positive impact on the planet guides every facet of our operations.",
-            "text_style": "body"
-          }
-        },
-        "buttons_G9L8CC": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "shopify://pages/faqs",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p>We have spent decades working with coffee growers to support them in meeting the highest standards of quality and sustainability, in more than 30 countries around the world. Researching and experimenting with raw materials is an ongoing process, especially with ongoing climate change. Once our coffee is processed, each coffee bean undergoes yet another round of selection, ensuring that every sip of our coffee maintains the exceptional quality we're known for. </p>"
           }
         }
       },
       "block_order": [
-        "heading_AAjzHw",
-        "text_8btQQY",
-        "buttons_G9L8CC"
+        "heading_VntbfF",
+        "text_RBJ9my"
       ],
       "settings": {
-        "image": "shopify://shop_images/quality-details.webp",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_ebJJYn": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/coffee-beans-growing.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "bottom-left",
@@ -337,6 +334,7 @@
     "main",
     "product_key_features_zpzR3T",
     "product_video_N3Qg48",
+    "rich_text_Vj77rB",
     "image_banner_ebJJYn",
     "collapsible_content_LmKfQF",
     "related-products"
