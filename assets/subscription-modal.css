@@ -94,7 +94,7 @@
     justify-content: center;
     width: 100%;
     max-width:630px;
-    padding: 48px;
+    padding-top: 24px;
 }
 
 .subscription-form-actual h2 {
@@ -107,7 +107,7 @@
 }
 
 .subsmodal-intro {
-    margin-bottom: 32px;
+    padding: 0 24px;
 }
 
 .field__input {
