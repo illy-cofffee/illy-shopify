@@ -1,15 +1,15 @@
 <style>
 
-.key-features-section {
+.key-product-features-section {
     margin-top: 48px;
     margin-bottom: 64px;
 }
 
-.key-features-section img {
+.key-product-features-section img {
     border:none;
 }
 
-.key-features-container {
+.key-product-features-container {
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
@@ -18,7 +18,7 @@
     gap: 10px;
 }
 
-.key-feature {
+.key-product-feature {
     flex: 1;
     {% comment %} min-width: 220px; {% endcomment %}
     display: flex;
@@ -27,13 +27,13 @@
     padding: 5px 60px;
 }
 
-.key-feature-icon {
+.key-product-feature-icon {
     width:30px;
     height: 30px;
     margin-bottom: 16px;
 }
 
-.key-feature-heading {
+.key-product-feature-heading {
     font-family: "Museo Sans 500";
     font-size: 14px;
     margin: 0px;
@@ -41,19 +41,19 @@
     font-weight:500 !important;
 }
 
-.key-feature-text {
+.key-product-feature-text {
     font-size: 14px;
     color: rgb(0, 0, 0, 0.6);
     text-align: center;
 }
 
 @media (max-width: 768px) {
-    .key-features-container {
+    .key-product-features-container {
         flex-direction: column;
         gap: 0px;
     }
     
-    .key-feature {
+    .key-product-feature {
         min-width: auto;
         padding: 5px;
     }
@@ -70,15 +70,15 @@
 
 {% assign features = product.metafields.custom.key_features %}
 {% if features != "" %}
-    <div class="page-width rte key-features-section"
+    <div class="page-width rte key-product-features-section"
         {{ shopify_attributes }}
     >
-        <div class="key-features-container">    
+        <div class="key-product-features-container">    
             {% assign feature_data = features.value %}
             {% if feature_data %}
                 {% for feature in feature_data %}
-                    <div class="key-feature">
-                        <span class="svg-wrapper key-feature-icon">
+                    <div class="key-product-feature">
+                        <span class="svg-wrapper key-product-feature-icon">
                             {%- if feature.icon != blank -%}
                             {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
                             {%- capture sizes -%}
@@ -92,8 +92,8 @@
                                 }}
                             {% endif %}
                         </span>
-                        <div class="key-feature-heading">{{ feature.title }}</div>
-                        <div class="key-feature-text">{{ feature.short_description }}</div>
+                        <div class="key-product-feature-heading">{{ feature.title }}</div>
+                        <div class="key-product-feature-text">{{ feature.short_description }}</div>
                     </div>
                 {% endfor %}
             {% endif %}
