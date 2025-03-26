@@ -45,8 +45,8 @@
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
-        "newsletter_subtext": "Sign up to receive all the latest news and special offers",
+        "newsletter_heading": "Join the FAMilly",
+        "newsletter_subtext": "Sign up for our newsletter to enjoy <strong>10% off </strong>your first purchase, plus early access to exclusive offers, new products, and of course, those coffee moments worth sharing.",
         "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": true,
