@@ -9,6 +9,43 @@
  */
 {
   "sections": {
+    "image_banner_iVgqJA": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_qkr7Jp": {
+          "type": "heading",
+          "settings": {
+            "heading": "What's happening at illy",
+            "heading_size": "h1",
+            "h1-title": true
+          }
+        },
+        "text_48bWRQ": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qkr7Jp",
+        "text_48bWRQ"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Artboard_1_7fe754a9-37fa-4294-96f9-2956dc7fd83c.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "bottom-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "main": {
       "type": "main-blog",
       "settings": {
@@ -23,6 +60,7 @@
     }
   },
   "order": [
+    "image_banner_iVgqJA",
     "main"
   ]
 }
