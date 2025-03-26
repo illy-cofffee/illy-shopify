@@ -23,7 +23,7 @@
         "heading_eeF7qJ": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Be Sustainable, B Corp, Be Better",
             "heading_size": "h1",
             "h1-title": false
           }
@@ -31,26 +31,14 @@
         "text_FegnA4": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "A single, important detail has remained at the heart of our dedication to quality: our commitment to sustainability",
             "text_style": "body"
-          }
-        },
-        "buttons_y8FKar": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
         "heading_eeF7qJ",
-        "text_FegnA4",
-        "buttons_y8FKar"
+        "text_FegnA4"
       ],
       "settings": {
         "image": "shopify://shop_images/664c50667658eb000872408e_jpg_9d97c675-449b-47f9-a552-26f49276250a.webp",
@@ -59,7 +47,7 @@
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
