@@ -16,9 +16,275 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_banner_BRYXXN": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_eeF7qJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1",
+            "h1-title": false
+          }
+        },
+        "text_FegnA4": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_y8FKar": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_eeF7qJ",
+        "text_FegnA4",
+        "buttons_y8FKar"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/664c50667658eb000872408e_jpg_9d97c675-449b-47f9-a552-26f49276250a.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_pDwhzf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qbNwHM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Four Pillars",
+            "heading_size": "h1"
+          }
+        },
+        "text_yg4HCW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The quality of illy coffee is a direct result of the collaborative relationship between the company and our outstanding coffee producers. The illycaffè sustainable supply chain is based on a system of direct relationships with suppliers, which is built upon four pillars:</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qbNwHM",
+        "text_yg4HCW"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "slideshow_QFM6DT": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_iPzzGR": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_bteqB3": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_Vbd6mq": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_4nfqij": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_iPzzGR",
+        "slide_bteqB3",
+        "slide_Vbd6mq",
+        "slide_4nfqij"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "multirow_Fdc6NV": {
+      "type": "multirow",
+      "blocks": {
+        "row_3WgPYh": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_06_2x_0841d3c7-2a04-4db9-9952-b2516dc83ee0.jpg",
+            "caption": "",
+            "heading": "Benefit Corporation",
+            "text": "<p>Since 2019, our legal status has been that of a Benefit Corporation, or B Corp, reasserting our choice to seek continued growth by promoting a different way of doing business based on a strategy aimed at the common good. We are focused on three areas of intervention, which have been incorporated into our articles of association. The first refers to a responsible value chain and sustainable agriculture. Our approach consists of analyzing and improving impacts throughout the coffee supply chain, conducting research in the field and sharing knowledge, as well as supporting integrated farming to preserve and improve the sustainable quality of the coffee. The second is linked to quality of life, pursued through the principles of economic, social, and environmental sustainability and by promoting global partnerships targeting this goal. Finally, the third area relates to the circular economy and its benefits for the planet, involving improvements to energy efficiency and the consumption of resources in order to gradually reduce emissions throughout the chain. </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_m4GgBf": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/664c4ff1f3db55000852f6d0_jpg.webp",
+            "caption": "",
+            "heading": "Sustainable Since The Beginning, B-Corp Since 2021",
+            "text": "<p>Since our beginnings, a single, important detail has remained at the heart of our dedication to <strong>quality</strong>: our commitment to <strong>sustainability</strong>. A promise we will never stop making with every choice – from production to caring for the <strong>environment</strong> and <strong>communities</strong> – that allowed us, in <strong>2021</strong>, to become the first Italian coffee company to receive B Corp certification.</p><p> </p><p>Only <strong>3%</strong> of applicant companies reach this goal. We are proud to uphold this, further improving our brand and allowing our business model to be recognised for the <strong>positive value</strong> it generates for both the <strong>environment</strong> and the <strong>community</strong>, because being <strong>sustainable</strong> is a <strong>commitment</strong> that we will keep making, again and again.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_94QtAT": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/66477de1f1a41e0008ac80ab_jpg.webp",
+            "caption": "",
+            "heading": "We became a B-Corp in 2021, and we’re excited to share that we've now achieved an even higher score!",
+            "text": "<p>Now that we’ve received our new B Lab certification with a <strong>score of 90.4 points</strong>, we can confirm that we have an <strong>even more positive social and environmental impact </strong>on the world than ever.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_jCQpAD": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/66477e0e7658eb0008723fb4_jpg.webp",
+            "caption": "",
+            "heading": "Renewing The Effort For Renewable Energy",
+            "text": "<p><strong>95.5% </strong>of the <strong>electricity </strong>that we used in <strong>2023 </strong>came from <strong>renewable sources</strong>. In our Italian offices, that figure reached <strong>100%.</strong></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_RD6FU9": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/66477e407658eb0008723fb5_jpg.webp",
+            "caption": "",
+            "heading": "We Are All-Inclusive",
+            "text": "<p><strong>95.5%</strong>of the <strong>electricity </strong>that we used in <strong>2023 </strong>came from <strong>renewable sources</strong>. In our Italian offices, that figure reached<strong>100%.</strong></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_fQH6G9": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/66477e7ca0856f00081c3606_jpg.webp",
+            "caption": "",
+            "heading": "We Share Our Knowledge",
+            "text": "",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_3WgPYh",
+        "row_m4GgBf",
+        "row_94QtAT",
+        "row_jCQpAD",
+        "row_RD6FU9",
+        "row_fQH6G9"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_BRYXXN",
+    "rich_text_pDwhzf",
+    "slideshow_QFM6DT",
+    "multirow_Fdc6NV"
   ]
 }
