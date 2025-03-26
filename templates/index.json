@@ -52,7 +52,7 @@
             "button_label": "Show more",
             "button_style": "solid",
             "disclaimer_text": "",
-            "color_background_main": "#D12420",
+            "color_background_main": "#d12420",
             "color_text_main": "#ffffff"
           }
         }
@@ -117,7 +117,7 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https://vimeo.com/1069449971/5498df0224?ts=0&share=copy",
+        "video_url": "https://vimeo.com/1069449971/5498df0224?share=copy",
         "description": "",
         "full_width": false,
         "color_scheme": "scheme-3",
