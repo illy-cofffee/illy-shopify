@@ -33,15 +33,15 @@
         "text_aGN4Qf"
       ],
       "settings": {
-        "image": "shopify://shop_images/Artboard_1_6890a142-0d30-41b6-ba9e-0667bd5f377f.png",
+        "image": "shopify://shop_images/Artboard_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "bottom-left",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "left",
         "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
+        "mobile_content_alignment": "left",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
