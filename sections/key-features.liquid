@@ -75,46 +75,46 @@
                 <span class="svg-wrapper key-feature-icon">
                     <img
                         sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), 100vw"
-                        src="{{ settings.feature_1_image | image_url: width: 40 }}"
+                        src="{{ section.settings.feature_1_image | image_url: width: 40 }}"
                         loading="eager"
                         fetchpriority="high"
                         height="40"
                         width="40"
-                        alt="{{ settings.feature_1_title }}"
+                        alt="{{ section.settings.feature_1_title }}"
                       >
                 </span>
-                <div class="key-feature-heading">{{ settings.feature_1_title }}</div>
-                <div class="key-feature-text">{{ settings.feature_1_description }}</div>
+                <div class="key-feature-heading">{{ section.settings.feature_1_title }}</div>
+                <div class="key-feature-text">{{ section.settings.feature_1_description }}</div>
             </div>
             <div class="key-feature">
                 <span class="svg-wrapper key-feature-icon">
                     <img
                         sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), 100vw"
-                        src="{{ settings.feature_2_image | image_url: width: 40 }}"
+                        src="{{ section.settings.feature_2_image | image_url: width: 40 }}"
                         loading="eager"
                         fetchpriority="high"
                         height="40"
                         width="40"
-                        alt="{{ settings.feature_2_title }}"
+                        alt="{{ section.settings.feature_2_title }}"
                       >
                 </span>
-                <div class="key-feature-heading">{{ settings.feature_2_title }}</div>
-                <div class="key-feature-text">{{ settings.feature_2_description }}</div>
+                <div class="key-feature-heading">{{ section.settings.feature_2_title }}</div>
+                <div class="key-feature-text">{{ section.settings.feature_2_description }}</div>
             </div>
             <div class="key-feature">
                 <span class="svg-wrapper key-feature-icon">
                     <img
                         sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 }}px, (min-width: 750px) calc(100vw - 10rem), 100vw"
-                        src="{{ settings.feature_3_image | image_url: width: 40 }}"
+                        src="{{ section.settings.feature_3_image | image_url: width: 40 }}"
                         loading="eager"
                         fetchpriority="high"
                         height="40"
                         width="40"
-                        alt="{{ settings.feature_3_title }}"
+                        alt="{{ section.settings.feature_3_title }}"
                       >
                 </span>
-                <div class="key-feature-heading">{{ settings.feature_3_title }}</div>
-                <div class="key-feature-text">{{ settings.feature_3_description }}</div>
+                <div class="key-feature-heading">{{ section.settings.feature_3_title }}</div>
+                <div class="key-feature-text">{{ section.settings.feature_3_description }}</div>
             </div>
         </div>
     </div>
