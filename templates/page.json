@@ -23,7 +23,7 @@
         "heading_7fdtpa": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Quality Loves Details",
             "heading_size": "h1",
             "h1-title": false
           }
@@ -31,17 +31,17 @@
         "text_Nt9M9e": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "Crafting the finest coffee experience.",
             "text_style": "body"
           }
         },
         "buttons_rMPL89": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
+            "button_label_1": "",
             "button_link_1": "",
             "button_style_secondary_1": false,
-            "button_label_2": "Button label",
+            "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -53,12 +53,13 @@
         "buttons_rMPL89"
       ],
       "settings": {
+        "image": "shopify://shop_images/67726ae2d172213d08555b5d_jpg.webp",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -72,10 +73,10 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/img_02.jpg",
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "caption": "THOUGHTFUL SELECTION",
+            "heading": "Our Relationship With The Growers",
+            "text": "<p>To make our coffee, we select the finest Arabica coffee plants, grown sustainably by our farmers in over 20 countries around the world. Nurturing enduring partnerships with them, rooted in shared values and mutual growth, is key. It's through collaborative efforts that we attain our exceptional results.</p>",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -83,10 +84,10 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/img_03_2x_5b308519-206c-4af9-999e-d0061e72348a.jpg",
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "caption": "THE COFFEE BEANS",
+            "heading": "Hand-Picked Perfection",
+            "text": "<p>We meticulously select only the finest Arabica coffee beans for our coffee, a testament to our decades-long partnership with growers who prioritize sustainability and quality. Our commitment to excellence is an ongoing journey, involving continuous research and experimentation with raw materials. After processing, each coffee bean undergoes yet another round of selection. This stringent process ensures that every sip of our coffee maintains the exceptional quality we're known for. </p>",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -94,10 +95,10 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/img_06_2x_f98b2208-4031-498b-bb0e-e1ef075cbfeb.jpg",
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "caption": "Arabica Selection Brasile Cerrado Mineiro",
+            "heading": "The First Coffee Produced Using Regenerative Practices",
+            "text": "<p>In order to mitigate the<strong>effects</strong>of<strong>climate change on the plantations</strong>, we have put forward a<strong>sustainable agricultural model</strong>that promotes practices for the ecosystem geared toward adaptation, alleviation, and regeneration. Thanks to our collaboration with coffee producers in the Cerrado Mineiro region of Brazil, which has lasted over 30 years, our<strong>first coffee 100% sourced from regenerative agriculture</strong>with regenagri® certification has been born.</p>",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -105,9 +106,9 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/img_04.jpg",
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "caption": "THE ILLY BLEND",
+            "heading": "Consistency in Every Sip",
+            "text": "<p>Our commitment to quality and consistency shines through in the illy blend. Wherever you enjoy it, you can count on the same exceptional taste. This is achieved by applying the illy method, which harmoniously blends nine types of Arabica coffee sourced from the finest farms in South and Central America, India, and Africa.</p>",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -116,10 +117,10 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/img_05.jpg",
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "caption": "ROASTING",
+            "heading": "Coffee Roasting: Where Art Meets Science",
+            "text": "<p>Over the years, illy has honed the craft of roasting to achieve a coffee with a rich and aromatic profile, a harmoniously balanced flavor, and a one-of-a-kind aroma — hallmarks of an illy espresso.</p>",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -127,10 +128,10 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/img_06_2x_c4f3b88a-6fbe-4a7d-8ca3-6e4b1c8de0da.jpg",
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "caption": "PRESSURIZED PRESERVATION",
+            "heading": "Perfectly Preserved Taste",
+            "text": "<p>Patented in 1934 by illy, pressurization is a preservation system in which the air in the tin is replaced by an inert gas at a pressure greater than that of the atmosphere. Packaging our coffee this way not only preserves the freshness but also enhances its aroma.</p>",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -138,10 +139,10 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/img_07_2x_f5469959-831e-4eaa-ba3a-87808ae89420.jpg",
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "caption": "THE ILLY COFFEE CUP",
+            "heading": "Crafting the Perfect Coffee Cup",
+            "text": "<p>Created with both form and function in mind, the iconic illy cup was designed by Italian architect and designer Matteo Thun. Its thoughtful design features a thick base to maintain the perfect coffee temperature, a thin rim for a comfortable sipping experience, and a curved shape that allows your coffee to gently pour down smoothly creating that coveted crema.</p>",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -149,10 +150,10 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/img_08.jpg",
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "caption": "INNOVATION",
+            "heading": "Looking to the Future for the Past 90 Years",
+            "text": "<p>Innovation has always been one of illy’s hallmarks. From the creation of the Illetta in 1935 (the forerunner of modern coffee machines) to the Iperespresso system, illy is always looking for new ways to innovate within the coffee industry.</p>",
+            "button_label": "",
             "button_link": ""
           }
         }
