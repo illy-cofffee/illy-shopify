@@ -111,8 +111,8 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Why Subscribe?",
-            "icon": "check_mark",
-            "row_content": "",
+            "icon": "none",
+            "row_content": "<p>Our subscription program is designed with your flexibility and convenience in mind, allowing you to choose the quantity of our 100% Arabica coffee that suits you best. We want to ensure you never run out of your favorite coffee, giving you the freedom to set your own delivery schedule. Plus, subscribers enjoy a discount on every recurring order, making it even easier to keep your coffee supply replenished.</p>",
             "page": ""
           }
         },
@@ -120,7 +120,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "How do I manage my subscription?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "",
             "page": ""
           }
@@ -129,7 +129,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "How do I cancel my subscription?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "",
             "page": ""
           }
@@ -138,7 +138,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Does my subscription have a commitment?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "",
             "page": ""
           }
@@ -147,7 +147,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "How do I make changes to my address or payment information for my Coffee subscription?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "",
             "page": ""
           }
@@ -156,7 +156,7 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "Is there a minimum number of coffees I need to buy on an illy subscription?",
-            "icon": "check_mark",
+            "icon": "none",
             "row_content": "",
             "page": ""
           }
