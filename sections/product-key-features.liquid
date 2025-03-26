@@ -101,37 +101,6 @@
     </div>
 {% endif %}
 
-
-{% comment %} {% if features %}
-    {% assign feature_data = features.value %}
-    <div class="page-width rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-        {{ shopify_attributes }}
-    >
-        <div class="key-features-container">    
-            {%  for feature in feature_data %}    
-            <div class="key-feature">
-                <span class="svg-wrapper key-feature-icon">
-                    {%- if feature.heading != blank -%}
-                    {%- assign widths = '165, 360, 535, 750, 1070, 1500' -%}
-                    {%- capture sizes -%}
-                            (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px,
-                            (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)
-                        {%- endcapture -%}
-                        {{
-                            feature.icon
-                            | image_url: width: 1500
-                            | image_tag: sizes: sizes, widths: widths, fetchpriority: fetch_priority
-                        }}
-                    {% endif %}
-                </span>
-                <div class="key-feature-heading">{{ feature.title }}</div>
-                <div class="key-feature-text">{{ feature.short_description }}</div>
-            </div>
-        {% endfor %}
-    </div>
-    </div>
-{% endif %} {% endcomment %}
-
 {% schema %}
 {
   "name": "Key Product Features",
