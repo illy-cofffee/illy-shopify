@@ -33,7 +33,7 @@
             "glide-slider-item-header": "<p>Our Coffee</p>",
             "image": "shopify://shop_images/coffee.png",
             "description": "<p>The best that nature can offer in a cup of signature premium illy coffee</p>",
-            "alignment": "align-middle-right",
+            "alignment": "align-middle-center",
             "button_link": "#",
             "button_label": "Find out more",
             "button_style": "solid",
