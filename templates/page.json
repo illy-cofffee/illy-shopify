@@ -210,12 +210,60 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_tDWiEP": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XwJDjP": {
+          "type": "heading",
+          "settings": {
+            "heading": "illy Coffee Subscription",
+            "heading_size": "h1"
+          }
+        },
+        "text_7f8BHN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Never run out of your favorite coffee again—subscribe to <strong>illy coffee</strong> and enjoy fresh beans, capsules, pods or ground coffee delivered straight to your door, right when you need it.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_tRLdQQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Subscribe Now",
+            "button_link": "shopify://collections/coffee",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_XwJDjP",
+        "text_7f8BHN",
+        "button_tRLdQQ"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/HOME_PROMO_MOBILE_x2_672d5d39-daf9-4fe0-95bb-f2f8318d6391.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "image_banner_MPUJKK",
     "multirow_wYD973",
-    "featured_collection_FYjGwF"
+    "featured_collection_FYjGwF",
+    "image_with_text_tDWiEP"
   ]
 }
