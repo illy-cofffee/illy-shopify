@@ -27,7 +27,7 @@
   }
 {%- endstyle -%}
 
-<footer class="footer color-scheme-3 gradient section-{{ section.id }}-padding">
+<footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
   {%- liquid
     assign has_social_icons = true
     if settings.social_facebook_link == blank and settings.social_instagram_link == blank and settings.social_youtube_link == blank and settings.social_tiktok_link == blank and settings.social_twitter_link == blank and settings.social_pinterest_link == blank and settings.social_snapchat_link == blank and settings.social_tumblr_link == blank and settings.social_vimeo_link == blank
@@ -171,7 +171,7 @@
         {%- endif -%}
       </div>
 
-    <div class="footer color-scheme-1 gradient section-sections--16942282571827__footer-padding">
+    <div class="footer color-scheme-3 gradient section-sections--16942282571827__footer-padding">
       <div class="footer__content-top page-width">
         <div
           class="footer-block--newsletter{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
