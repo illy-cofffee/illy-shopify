@@ -119,7 +119,7 @@
         "blog": "news",
         "post_limit": 4,
         "columns_desktop": 4,
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "show_image": true,
         "show_date": false,
         "show_author": false,
