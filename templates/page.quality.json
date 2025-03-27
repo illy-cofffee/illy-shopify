@@ -16,9 +16,106 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_banner_mPef7V": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_YDFCnq": {
+          "type": "heading",
+          "settings": {
+            "heading": "A History of Quality",
+            "heading_size": "h0",
+            "h1-title": false
+          }
+        },
+        "text_pFKFQW": {
+          "type": "text",
+          "settings": {
+            "text": "Since 1933, we have followed our dream of offering the best coffee in the world.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YDFCnq",
+        "text_pFKFQW"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/img_01_2x_29568962-30ad-4ff4-a336-e2556a29f6ac.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multirow_dNLEhQ": {
+      "type": "multirow",
+      "blocks": {
+        "row_NgPP6z": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/67726aa25eec5bfac7e29887_jpg.webp",
+            "caption": "",
+            "heading": "Quality Loves Details",
+            "text": "<p>Crafting the finest coffee experience.</p>",
+            "button_label": "Learn More",
+            "button_link": "shopify://pages/coffee-origins-and-processing"
+          }
+        },
+        "row_EMeMiF": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_03_2x_b0deaa78-6276-40c4-b7d3-113fcc3eed1f.jpg",
+            "caption": "",
+            "heading": "illy Chef Ambassador",
+            "text": "<p>The unique and distinctive project with which illy engages in a dialogue with quality coffee enthusiasts and haute cuisine through the creation of a series of personal blends, created together with a roster of starred and sustainable chefs, the illy Chef Ambassadors.</p>",
+            "button_label": "Discover More",
+            "button_link": ""
+          }
+        },
+        "row_tkdgPw": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_04_2x_20afeb83-9c77-4922-9dca-1a96726e1aed.jpg",
+            "caption": "Università del Caffè",
+            "heading": "A Whole World Lies Within Each Coffee Bean",
+            "text": "<p>Based on this insight and illycaffè's 80 years of experience in producing coffee, in 1999 the company established the Università del Caffè, a center of excellence that promotes a culture of quality coffee all over the world through training, research, and innovation.</p>",
+            "button_label": "Learn More",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_NgPP6z",
+        "row_EMeMiF",
+        "row_tkdgPw"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_mPef7V",
+    "multirow_dNLEhQ"
   ]
 }
