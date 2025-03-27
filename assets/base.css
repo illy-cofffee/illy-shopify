@@ -3853,3 +3853,44 @@ iframe {
 .global-media-settings {
   border: none;
 }
+
+/* Main nav promos */ 
+
+.menu-promo-container {
+    display: flex;
+    height: 275px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.menu-promo-column-one {
+    flex: 1;
+    min-height: 0;
+    width: 200px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-promo-column-two {
+    flex: 1;
+    width: 200px;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-promo-link {
+    position: absolute;
+    bottom: 24px;
+    left: 24px;
+    color: white;
+    text-decoration: none;
+    font-family: "Museo Sans 500", Arial, sans-serif;
+    z-index: 1;
+}
+
+.menu-promo-link .svg-wrapper {
+  width: 6px;
+  height: 10px;
+}

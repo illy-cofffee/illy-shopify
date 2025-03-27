@@ -66,6 +66,46 @@
                       {%- endif -%}
                     </li>
                   {%- endfor -%}
+
+                  {% if section.settings.show_promotion_1 or section.settings.show_promotion_2 %}
+                    {% assign sizes = '(max-width: 1280px) calc((100vw - 100px) / 4), 320px"' %}
+                    {% assign sizes = sizes | prepend: 'sizes="(max-width: 474px) calc(100vw - 40px), (max-width: 1023px) 335px, ' %}
+                  
+                  <li>
+                    <div class="menu-promo-container">
+                  {%- if section.settings.show_promotion_1 -%}
+                    <a href="{{ section.settings.promotion_url_1 }}" class="menu-promo-column-one" style="background-image:url('{{ section.settings.promotion_image_1 | image_url }}')">       
+                        {%- unless section.settings.promotion_linktext_1 == empty -%}
+                          <div class="menu-promo-link">
+                          
+                            {{ section.settings.promotion_linktext_1 }}
+                            <span class="svg-wrapper">
+                                {{- 'icon-chevron-right.svg' | inline_asset_content -}}
+                            </span>
+                          </div>
+                        {%- endunless -%}
+                    </a>
+                            
+          
+                  {%- endif -%}
+          
+                  {%- if section.settings.show_promotion_2 -%}
+                    <a href="{{ section.settings.promotion_url_2 }}" class="menu-promo-column-one" style="background-image:url('{{ section.settings.promotion_image_2 | image_url }}')">
+                      {%- unless section.settings.promotion_linktext_2 == empty -%}
+                        <div class="menu-promo-link">
+                          {{ section.settings.promotion_linktext_2 }}
+                          <span class="svg-wrapper">
+                              {{- 'icon-chevron-right.svg' | inline_asset_content -}}
+                          </span>
+                        </div>
+                      {%- endunless -%}       
+                    </a>
+    
+                  {%- endif -%}
+                </div>
+
+                </li>
+              {% endif %}
                 </ul>
               </div>
             </details>

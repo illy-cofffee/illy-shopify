@@ -159,13 +159,12 @@
         </h1>
       {%- endif -%}
     {%- endif -%}
-
     {%- liquid
       if section.settings.menu != blank
         if section.settings.menu_type_desktop == 'dropdown'
           render 'header-dropdown-menu'
         elsif section.settings.menu_type_desktop != 'drawer'
-          render 'header-mega-menu'
+          render 'header-mega-menu', section_settings: section.settings
         endif
       endif
     %}
@@ -595,6 +594,56 @@
       ],
       "default": "center",
       "label": "t:sections.header.settings.mobile_logo_position.label"
+    },
+    {
+      "type": "header",
+      "content": "Promo 1 in Shop Mega Nav"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_promotion_1",
+      "label": "Show Promo 1",
+      "default": false
+    },
+    {
+      "type": "image_picker",
+      "id": "promotion_image_1",
+      "label": "Promo 1 Image"
+    },
+    {
+      "type": "text",
+      "id": "promotion_linktext_1",
+      "label": "Promo 1 Link Text",
+    },
+    {
+      "type": "url",
+      "id": "promotion_url_1",
+      "label": "Promo 1 Link",
+    },
+    {
+      "type": "header",
+      "content": "Promo 2 in Shop Mega Nav"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_promotion_2",
+      "label": "Show Promo 2",
+      "default": false
+    },
+    {
+      "type": "image_picker",
+      "id": "promotion_image_2",
+      "label": "Promo 2 Image"
+    },
+    {
+      "type": "text",
+      "id": "promotion_linktext_2",
+      "label": "Promo 2 Link Text",
+    },
+    {
+      "type": "url",
+      "id": "promotion_url_2",
+      "label": "Promo 2 Link",
     },
     {
       "type": "header",
