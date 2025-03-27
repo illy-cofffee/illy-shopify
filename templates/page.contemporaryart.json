@@ -24,7 +24,7 @@
           "type": "heading",
           "settings": {
             "heading": "illy Art Collection: 30 Years of Beauty",
-            "heading_size": "hxl",
+            "heading_size": "h0",
             "h1-title": false
           }
         }
@@ -42,8 +42,8 @@
         "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "stack_images_on_mobile": false,
+        "show_text_below": false
       }
     },
     "rich_text_EALQxT": {
