@@ -620,7 +620,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-4",
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
@@ -663,8 +663,9 @@
         "column_xmViUR": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2014_IAC_SUSTAIN-ART-1_ESP-CUP_SAUCER-NRF.png",
+            "title": "2014",
+            "text": "<h4>Naufus Ramírez</h4><h4>Figueroa </h4>",
             "link_label": "",
             "link": ""
           }
@@ -672,8 +673,9 @@
         "column_VKbgzc": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2014_IAC_SUSTAIN-ART-1_ESP-CUP_SAUCER-EP.png",
+            "title": "2014",
+            "text": "<h4>Esteban Piedra León</h4>",
             "link_label": "",
             "link": ""
           }
@@ -681,8 +683,9 @@
         "column_mCAn7j": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2014_IAC_SUSTAIN-ART-1_ESP-CUPSAUCER-AV.png",
+            "title": "2014",
+            "text": "<h4>Adan Vallecillo</h4>",
             "link_label": "",
             "link": ""
           }
@@ -690,8 +693,9 @@
         "column_44KH4b": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2014_IAC_ROBERT-WILSON_ESP-CUP_SAUCER-CK.png",
+            "title": "2014",
+            "text": "<h4>Christopher<br/>Knowles</h4>",
             "link_label": "",
             "link": ""
           }
@@ -699,8 +703,9 @@
         "column_cctjk4": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2014_IAC_ROBERT-WILSON_ESP-CUP_SAUCER-HE.png",
+            "title": "2014",
+            "text": "<h4>Hope Esser</h4>",
             "link_label": "",
             "link": ""
           }
@@ -708,8 +713,9 @@
         "column_bmBpgj": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2014_IAC_ROBERT-WILSON_ESP-CUP_SAUCER-BW.png",
+            "title": "2014",
+            "text": "<h4>Robert Wilson</h4>",
             "link_label": "",
             "link": ""
           }
@@ -717,8 +723,9 @@
         "column_RFVtmY": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2014_IAC_ROBERT-WILSON_ESP-CUP_SAUCER-CF.png",
+            "title": "2014",
+            "text": "<h4>Clo'e Floirat</h4>",
             "link_label": "",
             "link": ""
           }
@@ -726,8 +733,9 @@
         "column_fP46qQ": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2014_IAC_ROBERT-WILSON_ESP-CUP_SAUCER-GM.png",
+            "title": "2014",
+            "text": "<h4>Gintare Minelgaite</h4>",
             "link_label": "",
             "link": ""
           }
@@ -735,8 +743,9 @@
         "column_9JKepU": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2014_IAC_ROBERT-WILSON_ESP-CUP_SAUCER-WF.png",
+            "title": "2014",
+            "text": "<h4>Willie Filkowski</h4>",
             "link_label": "",
             "link": ""
           }
@@ -744,8 +753,9 @@
         "column_tTTc69": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2014_IAC_SUSTAIN-ART-1_ESP-CUP_SAUCER-ES_eba9def1-79fe-4099-9b9e-a1026d174e4e.png",
+            "title": "2014",
+            "text": "<h4>Elias Sime</h4>",
             "link_label": "",
             "link": ""
           }
@@ -753,8 +763,9 @@
         "column_6xragQ": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2013_IAC_LIU-WEI_ESP-CUP_SAUCER-6.png",
+            "title": "2013",
+            "text": "<h4>Liu Wei</h4>",
             "link_label": "",
             "link": ""
           }
@@ -762,8 +773,9 @@
         "column_aKVGXD": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2013_IAC_MICHELANGELO-PISTOLETTO_ESP-CUP_SAUCER.png",
+            "title": "2013",
+            "text": "<h4>M. Pistoletto e Cittadell'arte</h4>",
             "link_label": "",
             "link": ""
           }
@@ -771,8 +783,9 @@
         "column_ihiPgK": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2012_IAC_KIKI-SMITH_ESP-CUP_SAUCER-4.png",
+            "title": "2012",
+            "text": "<p>Kiki Smith</p>",
             "link_label": "",
             "link": ""
           }
@@ -780,8 +793,9 @@
         "column_8KUFVh": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2012_IAC_DANIEL-BUREN_ESP-CUP_SAUCER-B.png",
+            "title": "2012",
+            "text": "<h4>Daniel Buren</h4>",
             "link_label": "",
             "link": ""
           }
@@ -789,8 +803,9 @@
         "column_L8fjCQ": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2012_IAC_MENTALKLINIK_ESP-CUP_SAUCER-1-SPECIAL.png",
+            "title": "2012",
+            "text": "<h4>:Mentalklinik</h4>",
             "link_label": "",
             "link": ""
           }
@@ -798,8 +813,9 @@
         "column_d8EXUe": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2011_IAC_FRANCESCO-CLEMENTE_ESP-CUP_SAUCER-I.png",
+            "title": "2011",
+            "text": "<h4>Francesco Clemente</h4>",
             "link_label": "",
             "link": ""
           }
@@ -807,8 +823,9 @@
         "column_bnQCiD": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2011_IAC_ANISH-KAPOOR_ESP-CUP_SAUCER-1-SPECIAL.png",
+            "title": "2011",
+            "text": "<h4>Anish Kapoor</h4>",
             "link_label": "",
             "link": ""
           }
@@ -816,8 +833,9 @@
         "column_kdyggH": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2010_IAC_TOBIAS-REHBERGER_ESP-CUP_SAUCER-6.png",
+            "title": "2010",
+            "text": "<h4>Tobias Rehberger</h4>",
             "link_label": "",
             "link": ""
           }
@@ -825,8 +843,9 @@
         "column_qqEczQ": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2009_IAC_TOBIAS-REHBERGER_ESP-CUP_SAUCER-1-SPECIAL.png",
+            "title": "2009",
+            "text": "<h4>Tobias Rehberger</h4>",
             "link_label": "",
             "link": ""
           }
@@ -834,8 +853,9 @@
         "column_BVi4EQ": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2009_IAC_PEDRO-ALMODOVAR_ESP-CUP_SAUCER-5.png",
+            "title": "2009",
+            "text": "<h4>Pedro Almodovar</h4>",
             "link_label": "",
             "link": ""
           }
@@ -843,8 +863,9 @@
         "column_zwctQp": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2009_IAC_PEDRO-ALMODOVAR_ESP-CUP_SAUCER-SPECIAL.png",
+            "title": "2009",
+            "text": "<h4>Pedro Almodovar Special</h4>",
             "link_label": "",
             "link": ""
           }
@@ -852,8 +873,9 @@
         "column_mjGAek": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2008_IAC_JAN-FABRE_ESP-CUP_SAUCER-SPECIAL.png",
+            "title": "2008",
+            "text": "<h4>Cecilia Vicuna</h4>",
             "link_label": "",
             "link": ""
           }
@@ -861,8 +883,9 @@
         "column_hxHUj7": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2008_IAC_WILLIAM-KENTRIDGE_ESP-CUP_SAUCER-10.png",
+            "title": "2008",
+            "text": "<h4>William Kentridge</h4>",
             "link_label": "",
             "link": ""
           }
@@ -870,8 +893,9 @@
         "column_wPRJ7e": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2007_iAC_MARINA_ABRAMOVIC_SIXTY_MUG.png",
+            "title": "2007",
+            "text": "<h4>Marina Abramović Mug</h4>",
             "link_label": "",
             "link": ""
           }
@@ -879,8 +903,9 @@
         "column_QpypYC": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2007_IAC_MICHAEL-BEUTLER_ESP-CUP_SAUCER-C.png",
+            "title": "2006",
+            "text": "<h4>Micheal Butler</h4>",
             "link_label": "",
             "link": ""
           }
@@ -888,8 +913,9 @@
         "column_BXXdtj": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2006_IAC_MICHAEL-LIN_ESP-CUP_SAUCER-4.png",
+            "title": "2006",
+            "text": "<h4>Michael Lin</h4>",
             "link_label": "",
             "link": ""
           }
@@ -897,8 +923,9 @@
         "column_haDcLC": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2006_IAC_JAN-FABRE_ESP-CUP_SAUCER-4.png",
+            "title": "2006",
+            "text": "<h4>Jan Fabre</h4>",
             "link_label": "",
             "link": ""
           }
@@ -906,8 +933,9 @@
         "column_cMaNGn": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2006_IAC_FONDAZIONE-PISTOLETTO_ESP-CUP_SAUCER-3.png",
+            "title": "2006",
+            "text": "<h4>Tatiana Goloviznina</h4>",
             "link_label": "",
             "link": ""
           }
@@ -915,8 +943,9 @@
         "column_mRBeLg": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2006_IAC_FONDAZIONE-PISTOLETTO_ESP-CUP_SAUCER-4.png",
+            "title": "2006",
+            "text": "<h4>Natascha Jankovich</h4>",
             "link_label": "",
             "link": ""
           }
@@ -924,8 +953,9 @@
         "column_LLmqBP": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2006_IAC_FONDAZIONE-PISTOLETTO_ESP-CUP_SAUCER-2.png",
+            "title": "2006",
+            "text": "<h4>Fratelli Fortuna</h4>",
             "link_label": "",
             "link": ""
           }
@@ -933,8 +963,9 @@
         "column_hbcCyq": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2006_IAC_FONDAZIONE-PISTOLETTO_ESP-CUP_SAUCER-1.png",
+            "title": "2006",
+            "text": "<h4>Alfredo Luis Vasquez</h4>",
             "link_label": "",
             "link": ""
           }
@@ -942,8 +973,9 @@
         "column_cTVTkr": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2005_IAC_Jeff-Koons-mug-1505.png",
+            "title": "2005",
+            "text": "<h4>Jeff Koons</h4>",
             "link_label": "",
             "link": ""
           }
@@ -951,8 +983,9 @@
         "column_niAUb6": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2005_IAC_SEBASTIAO-SALGADO_ESP-CUP_SAUCER-SPECIAL_27c36635-4250-46d8-8267-5ce20e88bec5.png",
+            "title": "2005",
+            "text": "<h4>Julian Schnabel</h4>",
             "link_label": "",
             "link": ""
           }
@@ -960,8 +993,9 @@
         "column_fRrpyy": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2005_IAC_ATELIER-VAN-LIESHOUT_ESP-CUP_SAUCER-D.png",
+            "title": "2005",
+            "text": "<h4>Atelier Van Lieshout</h4>",
             "link_label": "",
             "link": ""
           }
@@ -969,8 +1003,9 @@
         "column_p4ieGn": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2005_IAC_RUFUS-WILLIS_ESP-CUP_SAUCER-3.png",
+            "title": "2005",
+            "text": "<h4>Rufus Willis</h4>",
             "link_label": "",
             "link": ""
           }
@@ -978,8 +1013,9 @@
         "column_9PcJ7T": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2005_IAC_JANNIS-KOUNELLIS_ESP-CUP_SAUCER-FED.png",
+            "title": "2005",
+            "text": "<h4>Jannis Kounellis</h4>",
             "link_label": "",
             "link": ""
           }
@@ -987,8 +1023,9 @@
         "column_mKDwJ7": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2004_IAC_DANIEL-BUREN_ESP-CUP_SAUCER-2.png",
+            "title": "2004",
+            "text": "<h4>Daniel Buren</h4>",
             "link_label": "",
             "link": ""
           }
@@ -996,8 +1033,9 @@
         "column_DUkfLF": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2004_IAC_PADRAIG-TIMONEY_ESP-CUP_SAUCER-6.png",
+            "title": "2004",
+            "text": "<h4>Padraig Timoney</h4>",
             "link_label": "",
             "link": ""
           }
@@ -1005,8 +1043,9 @@
         "column_APijwg": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2004_IAC_SEBASTIAO-SALGADO_ESP-CUP_SAUCER-SPECIAL.png",
+            "title": "2004",
+            "text": "<h4>Sebastião Salgado</h4>",
             "link_label": "",
             "link": ""
           }
@@ -1014,8 +1053,9 @@
         "column_qWpHA8": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2004_IAC_FONDAZIONE-PISTOLETTO_ESP-CUP_SAUCER-1-SPECIAL.png",
+            "title": "2003",
+            "text": "<h4>Fondazione Pistoletto</h4>",
             "link_label": "",
             "link": ""
           }
@@ -1023,8 +1063,9 @@
         "column_3iKUzP": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2003_IAC_SHIZUKA-YOKOMIZO_ESP-CUP_SAUCER-6-2.png",
+            "title": "2003",
+            "text": "<h4>Shizuka Yokomizo</h4>",
             "link_label": "",
             "link": ""
           }
@@ -1032,8 +1073,9 @@
         "column_rLGCAy": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2003_IAC_SEBASTIAO-SALGADO_ESP-CUP_SAUCER-SPECIAL.png",
+            "title": "2003",
+            "text": "<h4>Sebastião Salgado Special</h4>",
             "link_label": "",
             "link": ""
           }
@@ -1041,8 +1083,9 @@
         "column_fTgk4c": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/17010-Rosenquist-mug1.png",
+            "title": "2003",
+            "text": "<h4>James Rosenquist</h4>",
             "link_label": "",
             "link": ""
           }
@@ -1050,8 +1093,9 @@
         "column_qJPGBe": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2003_IAC_HAIM-STEINBACH_ESP-CUP_SAUCER-1-SPECIAL.png",
+            "title": "2003",
+            "text": "<h4>Haim Steinbach Special</h4>",
             "link_label": "",
             "link": ""
           }
@@ -1059,8 +1103,9 @@
         "column_TYErea": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/2003_IAC_HAIM-STEINBACH_ESP-CUP_SAUCER-3.png",
+            "title": "2003",
+            "text": "<h4>Haim Steinbach</h4>",
             "link_label": "",
             "link": ""
           }
@@ -1143,11 +1188,11 @@
         "image_ratio": "adapt",
         "columns_desktop": 6,
         "column_alignment": "left",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
