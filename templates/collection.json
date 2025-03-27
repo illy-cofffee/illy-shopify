@@ -23,6 +23,7 @@
       "blocks": {
         "heading_qapBqp": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "{{ collection.title }}",
             "heading_size": "h1",
@@ -31,6 +32,7 @@
         },
         "text_UqmwVh": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "",
             "text_style": "body"
@@ -53,6 +55,36 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
+      }
+    },
+    "rich_text_jdM8RF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_CpgeqC": {
+          "type": "heading",
+          "settings": {
+            "heading": "GROUND COFFEE",
+            "heading_size": "h1"
+          }
+        },
+        "text_9pqYUF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our three ground coffee intensities have been calibrated to bring out the best in your espresso, moka or drip coffee, packaged to preserve the full, rich taste.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CpgeqC",
+        "text_9pqYUF"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "product-grid": {
@@ -212,6 +244,7 @@
   "order": [
     "banner",
     "image_banner_twjgc7",
+    "rich_text_jdM8RF",
     "product-grid",
     "multirow_eWdMJE",
     "image_banner_XkrAiz",
