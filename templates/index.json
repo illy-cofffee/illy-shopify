@@ -12,6 +12,22 @@
     "glide_slider_VJ3Ncd": {
       "type": "glide-slider",
       "blocks": {
+        "glide_slider_item_QM8MgB": {
+          "type": "glide-slider-item",
+          "settings": {
+            "glide-slider-item-header": "<p>Coffee that Regenerates the Earth</p>",
+            "image": "shopify://shop_images/66262a1210824b0008a0b217_jpg.webp",
+            "mobile_image": "shopify://shop_images/66262a1210824b0008a0b217_jpg.webp",
+            "description": "<p>Discover Arabica Selection Brasile Cerrado Mineiro, Our First 100% Certified Coffee From Regenerative Agriculture.</p>",
+            "alignment": "align-middle-left",
+            "button_link": "#",
+            "button_label": "Learn More",
+            "button_style": "solid",
+            "disclaimer_text": "",
+            "color_background_main": "#d12420",
+            "color_text_main": "#ffffff"
+          }
+        },
         "glide_slider_item_HfgNyN": {
           "type": "glide-slider-item",
           "settings": {
@@ -26,26 +42,11 @@
             "color_background_main": "#ffffff",
             "color_text_main": "#ffffff"
           }
-        },
-        "glide_slider_item_QM8MgB": {
-          "type": "glide-slider-item",
-          "settings": {
-            "glide-slider-item-header": "<p>Our Coffee</p>",
-            "image": "shopify://shop_images/coffee.png",
-            "description": "<p>The best that nature can offer in a cup of signature premium illy coffee</p>",
-            "alignment": "align-middle-center",
-            "button_link": "#",
-            "button_label": "Find out more",
-            "button_style": "solid",
-            "disclaimer_text": "",
-            "color_background_main": "#d12420",
-            "color_text_main": "#ffffff"
-          }
         }
       },
       "block_order": [
-        "glide_slider_item_HfgNyN",
-        "glide_slider_item_QM8MgB"
+        "glide_slider_item_QM8MgB",
+        "glide_slider_item_HfgNyN"
       ],
       "settings": {
         "h1-title": true
@@ -88,7 +89,7 @@
         "video": "shopify://files/videos/2023_video_consumer_brand_40s_1920x1080_ENG.mp4",
         "video_url": "",
         "description": "",
-        "full_width": false,
+        "full_width": true,
         "color_scheme": "scheme-3",
         "padding_top": 36,
         "padding_bottom": 36
