@@ -159,15 +159,12 @@
         </h1>
       {%- endif -%}
     {%- endif -%}
-    {{ section.settings.show_promotion_1 }}
-
-    <p>Promo Setting Value: {{ section.settings.show_promotion_1 | json }}</p>
     {%- liquid
       if section.settings.menu != blank
         if section.settings.menu_type_desktop == 'dropdown'
           render 'header-dropdown-menu'
         elsif section.settings.menu_type_desktop != 'drawer'
-          render 'header-mega-menu', show_promotion_1: section.settings.show_promotion_1
+          render 'header-mega-menu', section_settings: section.settings
         endif
       endif
     %}

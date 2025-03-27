@@ -90,9 +90,17 @@
 /* NEW MEGA MENU STYLES */
 
 .mega-menu__list {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  display: flex;
   padding-inline-start: 90px;
   max-width: 1440px;
+}
+.mega-menu__list li {
+  flex-grow: 2;
+  max-width: 250px;
+}
+
+.mega-menu__list li:nth-child(4) {
+  max-width: 420px;
 }
 
 .mega-menu__list ul {

@@ -62,72 +62,47 @@
                               </a>
                             </li>
                           {%- endfor -%}
-                            {% comment %} if promotion_width contains 'half'
-                                assign sizes = ' (max-width: 1280px) calc((100vw - 100px) / 2), 640px"'
-                              elsif promotion_width contains 'third'
-                                assign sizes = '(max-width: 1280px) calc((100vw - 100px) / 1.33), 960px"'
-                              else {% endcomment %}
                         </ul>
                       {%- endif -%}
                     </li>
                   {%- endfor -%}
-                  
-                  <li>
-                    Promo 1 {{ section.settings.show_promotion_1 }}<br>
-                    Promo 2 {{ show_promotion_2 }}<br>
-                  </li>
 
-                  {% if show_promotion_1 or show_promotion_2 %}
+                  {% if section.settings.show_promotion_1 or section.settings.show_promotion_2 %}
                     {% assign sizes = '(max-width: 1280px) calc((100vw - 100px) / 4), 320px"' %}
                     {% assign sizes = sizes | prepend: 'sizes="(max-width: 474px) calc(100vw - 40px), (max-width: 1023px) 335px, ' %}
                   
                   <li>
-                    HELLO
-                  {%- if show_promotion_1 -%}
-                    
-                      <div class="menu-promotion">
-          
-                        <div class="menu-promotion-background-image">
-                          {%- liquid
-                            unless promotion_image_1 == blank
-                              render 'lazy-image', image: promotion_image_1, sizes: sizes
-                            endunless
-                          -%}
-                        </div>
-          
-                        {%- unless promotion_linktext_1 == empty -%}
-                          <div class="menu-promotion-content gutter-top--small rte remove-empty-space">
-                            {{ promotion_linktext_1 }}
+                    <div class="menu-promo-container">
+                  {%- if section.settings.show_promotion_1 -%}
+                    <a href="{{ section.settings.promotion_url_1 }}" class="menu-promo-column-one" style="background-image:url('{{ section.settings.promotion_image_1 | image_url }}')">       
+                        {%- unless section.settings.promotion_linktext_1 == empty -%}
+                          <div class="menu-promo-link">
+                          
+                            {{ section.settings.promotion_linktext_1 }}
+                            <span class="svg-wrapper">
+                                {{- 'icon-chevron-right.svg' | inline_asset_content -}}
+                            </span>
                           </div>
                         {%- endunless -%}
-          
-                      </div>
-          
+                    </a>
+                            
           
                   {%- endif -%}
           
-                  {%- if show_promotion_2 -%}
-                  
-                      <div class="menu-promotion">
-          
-                        <div class="menu-promotion-background-image">
-                          {%- liquid
-                            unless promotion_image_2 == blank
-                              render 'lazy-image', image: promotion_image_2, sizes: sizes
-                            endunless
-                          -%}
+                  {%- if section.settings.show_promotion_2 -%}
+                    <a href="{{ section.settings.promotion_url_2 }}" class="menu-promo-column-one" style="background-image:url('{{ section.settings.promotion_image_2 | image_url }}')">
+                      {%- unless section.settings.promotion_linktext_2 == empty -%}
+                        <div class="menu-promo-link">
+                          {{ section.settings.promotion_linktext_2 }}
+                          <span class="svg-wrapper">
+                              {{- 'icon-chevron-right.svg' | inline_asset_content -}}
+                          </span>
                         </div>
-          
-                        {%- unless promotion_linktext_2 == empty -%}
-                          <div class="menu-promotion-content gutter-top--small rte remove-empty-space">
-                            {{ promotion_linktext_2 }}
-                          </div>
-                        {%- endunless -%}
-          
-                      </div>
-          
-          
+                      {%- endunless -%}       
+                    </a>
+    
                   {%- endif -%}
+                </div>
 
                 </li>
               {% endif %}
