@@ -67,75 +67,70 @@
                               elsif promotion_width contains 'third'
                                 assign sizes = '(max-width: 1280px) calc((100vw - 100px) / 1.33), 960px"'
                               else {% endcomment %}
-                          {%- liquid
-                            if show__promotion_1 or show__promotion_2
-                              assign sizes = '(max-width: 1280px) calc((100vw - 100px) / 4), 320px"'
-                            endif
-                            assign sizes = sizes | prepend: 'sizes="(max-width: 474px) calc(100vw - 40px), (max-width: 1023px) 335px, '
-                          -%}
-                  
-                          {%- if show_promotion_1 -%}
-                  
-                            <li class="mega-link has-promotion">
-                  
-                              <div class="menu-promotion">
-                  
-                                <div class="menu-promotion-background-image">
-                                  {%- liquid
-                                    unless promotion_image_1 == blank
-                                      render 'lazy-image', image: promotion_image_1, sizes: sizes
-                                    endunless
-                                  -%}
-                                </div>
-                  
-                                {%- unless promotion_linktext_1 == empty -%}
-                                  <div class="menu-promotion-content gutter-top--small rte remove-empty-space">
-                                    {{ promotion_linktext_1 }}
-                                  </div>
-                                {%- endunless -%}
-                  
-                              </div>
-                  
-                            </li>
-                  
-                          {%- endif -%}
-                  
-                          {%- if show_promotion_2 -%}
-                  
-                            <li class="mega-link has-promotion">
-                  
-                              <div class="menu-promotion">
-                  
-                                <div class="menu-promotion-background-image">
-                                  {%- liquid
-                                    unless promotion_image_2 == blank
-                                      render 'lazy-image', image: promotion_image_2, sizes: sizes
-                                    endunless
-                                  -%}
-                                </div>
-                  
-                                {%- unless promotion_linktext_2 == empty -%}
-                                  <div class="menu-promotion-content gutter-top--small rte remove-empty-space">
-                                    {{ promotion_linktext_2 }}
-                                  </div>
-                                {%- endunless -%}
-                  
-                              </div>
-                  
-                            </li>
-                  
-                          {%- endif -%}
-
-
                         </ul>
                       {%- endif -%}
                     </li>
                   {%- endfor -%}
-
                   
+                  <li>
+                    Promo 1 {{ section.settings.show_promotion_1 }}<br>
+                    Promo 2 {{ show_promotion_2 }}<br>
+                  </li>
 
+                  {% if show_promotion_1 or show_promotion_2 %}
+                    {% assign sizes = '(max-width: 1280px) calc((100vw - 100px) / 4), 320px"' %}
+                    {% assign sizes = sizes | prepend: 'sizes="(max-width: 474px) calc(100vw - 40px), (max-width: 1023px) 335px, ' %}
+                  
+                  <li>
+                    HELLO
+                  {%- if show_promotion_1 -%}
+                    
+                      <div class="menu-promotion">
+          
+                        <div class="menu-promotion-background-image">
+                          {%- liquid
+                            unless promotion_image_1 == blank
+                              render 'lazy-image', image: promotion_image_1, sizes: sizes
+                            endunless
+                          -%}
+                        </div>
+          
+                        {%- unless promotion_linktext_1 == empty -%}
+                          <div class="menu-promotion-content gutter-top--small rte remove-empty-space">
+                            {{ promotion_linktext_1 }}
+                          </div>
+                        {%- endunless -%}
+          
+                      </div>
+          
+          
+                  {%- endif -%}
+          
+                  {%- if show_promotion_2 -%}
+                  
+                      <div class="menu-promotion">
+          
+                        <div class="menu-promotion-background-image">
+                          {%- liquid
+                            unless promotion_image_2 == blank
+                              render 'lazy-image', image: promotion_image_2, sizes: sizes
+                            endunless
+                          -%}
+                        </div>
+          
+                        {%- unless promotion_linktext_2 == empty -%}
+                          <div class="menu-promotion-content gutter-top--small rte remove-empty-space">
+                            {{ promotion_linktext_2 }}
+                          </div>
+                        {%- endunless -%}
+          
+                      </div>
+          
+          
+                  {%- endif -%}
 
-
+                </li>
+              {% endif %}
                 </ul>
               </div>
             </details>
