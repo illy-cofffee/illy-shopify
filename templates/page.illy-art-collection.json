@@ -785,7 +785,7 @@
           "settings": {
             "image": "shopify://shop_images/2012_IAC_KIKI-SMITH_ESP-CUP_SAUCER-4.png",
             "title": "2012",
-            "text": "<p>Kiki Smith</p>",
+            "text": "<p><strong>Kiki Smith</strong></p>",
             "link_label": "",
             "link": ""
           }
@@ -1109,24 +1109,6 @@
             "link_label": "",
             "link": ""
           }
-        },
-        "column_UmRYtg": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_zhnRLa": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "link_label": "",
-            "link": ""
-          }
         }
       },
       "block_order": [
@@ -1177,9 +1159,7 @@
         "column_rLGCAy",
         "column_fTgk4c",
         "column_qJPGBe",
-        "column_TYErea",
-        "column_UmRYtg",
-        "column_zhnRLa"
+        "column_TYErea"
       ],
       "settings": {
         "title": "",
@@ -1197,6 +1177,557 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multicolumn_pJLC8Y": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_kMPneD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2003_IAC_FRANCESCO-BONAMI_ESP-CUP_SAUCER-BIENNALE-SPECIAL.png",
+            "title": "2003",
+            "text": "<h4>Francesco Bonami</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_FAxmMi": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2002_IAC_JANNIS-KOUNELLIS_ESP-CUP_SAUCER-1-SPECIAL.png",
+            "title": "2002",
+            "text": "<h4>Jannis Kounellis Special</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mCqPYH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2002_IAC_NORMA-J_ESP-CUP_SAUCER-1.png",
+            "title": "2002",
+            "text": "<h4>Norma J.</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_fNCgpr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2002_IAC_MARINA-ABRAMOVIC_ESP-CUP_SAUCER-1.png",
+            "title": "2002",
+            "text": "<h4>Marina Abramovic</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hRLwwK": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2002_IAC_MARINA-ABRAMOVIC_ESP-CUP_SAUCER-SPECIAL.png",
+            "title": "2002",
+            "text": "<h4>Marina Abramovic Special</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_QTBcyR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2002_IAC_MICHEL-COMTE_ESP-CUP_SAUCER-1-SPECIAL.png",
+            "title": "2002",
+            "text": "<h4>Michel Comte</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hqX68N": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2003_IAC_LOUISE-BOURGEOIS_ESP-CUP_SAUCER-4.png",
+            "title": "2002",
+            "text": "<h4>Louise Bourgeois</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_mXrk87": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2002_IAC_MARIA-JOAO-CALISTO_ESP-CUP_SAUCER-4.png",
+            "title": "2002",
+            "text": "<h4>Maria JoÃo Calisto</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JLNVLJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2003_IAC_LOUISE-BOURGEOIS_special.png",
+            "title": "2002",
+            "text": "<h4>Louise Bourgeois</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_W7GtdH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2002_IAC_MICHELANGELO-PISTOLETTO_ESP-CUP_SAUCER-1.png",
+            "title": "2002",
+            "text": "<h4>Michelangelo Pistoletto</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_fqyzMm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2001_IAC_JEFF-KOONS_ESP-CUP_SAUCER-6.png",
+            "title": "2001",
+            "text": "<h4>Jeff Koons</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9bpX4p": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2001_IAC_DAVID-BYRNE_ESP-CUP-2.png",
+            "title": "2001",
+            "text": "<h4>David Byrne</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dNyJRF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2001_iAC_PS1_espr_Monserrat.png",
+            "title": "2001",
+            "text": "<h4>Soto Montserrat</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_w7M7Na": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2001_iAC_PS1_espr_Zawada.png",
+            "title": "2001",
+            "text": "<h4>Elisabeth Zawada</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yW7kad": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2001_iAC_PS1_espr_Koop.png",
+            "title": "2001",
+            "text": "<h4>Jean Koop</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KzyTUU": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2001_IAC_P.S.1.-1.png",
+            "title": "2001",
+            "text": "<h4>Hironomi Murrai</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bFjgKr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2001_iAC_PS1_espr_Lehmann.png",
+            "title": "2001",
+            "text": "<h4>Elke Lehmann</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_UWbrGb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2001_iAC_PS1_espr_MacWilliam.png",
+            "title": "2001",
+            "text": "<h4>Susan Mac William</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_jhpFcz": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2001_iac_artistas_do_brasil_Dias.png",
+            "title": "2001",
+            "text": "<h4>Antonio Dias</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_8mg9Ha": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2001_iac_artistas_do_brasil_Nassar.png",
+            "title": "2001",
+            "text": "<h4>Emmanuel Nassar</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xDmgmM": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2001_iac_artistas_do_brasil_Maiolino.png",
+            "title": "2001",
+            "text": "<h4>Anna Maria Maiolino</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_aVytRq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2001_iac_artistas_do_brasil_Silveira_front.png",
+            "title": "2001",
+            "text": "<h4>Regina Silveira</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iAGETc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2001_iac_artistas_do_brasil_Caldas.png",
+            "title": "2001",
+            "text": "<h4>Waltércio Caldas</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pkQbB9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2000_IAC_CENTRAL-SAINT-MARTINS-COLLEGE_ESP-CUP_SAUCER-2.png",
+            "title": "2000",
+            "text": "<h4>Central Saint Martins College</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_THyDRm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2000_IAC_MIMMOPALADINO.png",
+            "title": "2000",
+            "text": "<h4>Mimmo Paladino</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_kRmQTm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2000_IAC_FRANCIS-FORD-COPPOLA_ESP-CUP_SAUCER-2.png",
+            "title": "2000",
+            "text": "<h4>Francis Ford Coppola</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_RVf68k": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2000_IAC_JOSEPH-KOSUTH_ESP-CUP_SAUCER-B1.png",
+            "title": "2000",
+            "text": "<h4>Joseph Kosuth</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Wn7jEJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/2000_IAC_MIMMO-PALADINO_ESP-CUP_SAUCER-SPECIAL.jpg",
+            "title": "1999",
+            "text": "<h4>Mimmo Paladino Special</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_L8bLJj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1999_IAC_DARRYL-POTTORF_ESP-CUP-SAUCER-3.png",
+            "title": "1999",
+            "text": "<h4>Derryl Pottorf</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_zQ3Vqy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1999_IAC_PETER-ROESCH.png",
+            "title": "1999",
+            "text": "<h4>Peter Roesch</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CNk9Kp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1999_MARCOLODOLA.png",
+            "title": "1998",
+            "text": "<h4>Marco Lodola</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bhhdk6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1988_IAC_LosNinosJessicaIborra.png",
+            "title": "1998",
+            "text": "<h4>Jessica Alborra</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dTt4fb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1988_IAC_LosNinosGeniGrabuleda.png",
+            "title": "1998",
+            "text": "<h4>Geni Grabuleda</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_BFXVC6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1988_IAC_LosNinosAnnaGelmanBagaria.png",
+            "title": "1998",
+            "text": "<h4>Anna Gelman Bagaria</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_PGMNaE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1988_IAC_LosNinosHannahAnderson.png",
+            "title": "1998",
+            "text": "<h4>Hannah Anderson</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_bknc4M": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1998LosNinosErnestoIlly.png",
+            "title": "1998",
+            "text": "<h4>Ernesto Illy</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Ek3ydT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1988_IAC_KIDS.png",
+            "title": "1998",
+            "text": "<h4>Vittoria Illy</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Dffg68": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1988_IAC_JOSEP-MARIA-SUBIRACHS_ESP-CUP-SAUCER-SPECIAL.png",
+            "title": "1998",
+            "text": "<h4>Josep Maria Subirachs</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CR6G3k": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1998_IAC_ROBERT-RAUSCHENBERG_ESP-CUP-SAUCER-1.png",
+            "title": "1998",
+            "text": "<h4>Robert Rauschenberg</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KgCaYP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1998_IAC_DAVID-BYRNE_ESP-CUP-SAUCER-1-SPECIAL.png",
+            "title": "1998",
+            "text": "<h4>David Byrne</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Rh9FKy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1997_IAC_SANDRO-CHIA_ESP-CUP-SAUCER-SPECIAL.png",
+            "title": "1997",
+            "text": "<h4>Sandro Chia Special</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_T3bdCJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1997_IAC_MARIO_GIACOMELLI.png",
+            "title": "1997",
+            "text": "<h4>Mario Giacomelli</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7dNTcj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1997_IAC_A-R-PENCK_ESP-CUP-SAUCER-5.png",
+            "title": "1997",
+            "text": "<h4>A.R. Penck</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3xpjyb": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1997_IAC_PAOLO-ROSSETTI_ESP-CUP-SAUCER-SPECIAL.png",
+            "title": "1997",
+            "text": "<p>Paolo Rossetti</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_R3pd4G": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1997_IAC_LUCA-TRAZZI_ESP-CUP-SAUCER-GOLD-SPECIAL.png",
+            "title": "1997",
+            "text": "<h4>Luca Trazzi Venexia</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_g8WLmm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1997_IAC_SANDRO_CHIA.png",
+            "title": "1997",
+            "text": "<h4>Sandro Chia</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XRBR3M": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1996_IAC_NAM-JUNE-PAIK_ESP-CUP-SAUCER-5.png",
+            "title": "1996",
+            "text": "<h4>Nam June Paik</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9hg4X7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/1996_IAC_PAOLO-CERVI_KERVISCHER.png",
+            "title": "1996",
+            "text": "<h4>Paolo Cervi Kervischer</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_kMPneD",
+        "column_FAxmMi",
+        "column_mCqPYH",
+        "column_fNCgpr",
+        "column_hRLwwK",
+        "column_QTBcyR",
+        "column_hqX68N",
+        "column_mXrk87",
+        "column_JLNVLJ",
+        "column_W7GtdH",
+        "column_fqyzMm",
+        "column_9bpX4p",
+        "column_dNyJRF",
+        "column_w7M7Na",
+        "column_yW7kad",
+        "column_KzyTUU",
+        "column_bFjgKr",
+        "column_UWbrGb",
+        "column_jhpFcz",
+        "column_8mg9Ha",
+        "column_xDmgmM",
+        "column_aVytRq",
+        "column_iAGETc",
+        "column_pkQbB9",
+        "column_THyDRm",
+        "column_kRmQTm",
+        "column_RVf68k",
+        "column_Wn7jEJ",
+        "column_L8bLJj",
+        "column_zQ3Vqy",
+        "column_CNk9Kp",
+        "column_bhhdk6",
+        "column_dTt4fb",
+        "column_BFXVC6",
+        "column_PGMNaE",
+        "column_bknc4M",
+        "column_Ek3ydT",
+        "column_Dffg68",
+        "column_CR6G3k",
+        "column_KgCaYP",
+        "column_Rh9FKy",
+        "column_T3bdCJ",
+        "column_7dNTcj",
+        "column_3xpjyb",
+        "column_R3pd4G",
+        "column_g8WLmm",
+        "column_XRBR3M",
+        "column_9hg4X7"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -1204,6 +1735,7 @@
     "image_banner_hT86QA",
     "rich_text_t6yXyH",
     "multicolumn_xhc7LQ",
-    "multicolumn_GFXUVU"
+    "multicolumn_GFXUVU",
+    "multicolumn_pJLC8Y"
   ]
 }
