@@ -63,14 +63,14 @@
         "heading_CpgeqC": {
           "type": "heading",
           "settings": {
-            "heading": "{{ collection.title }}",
+            "heading": "GROUND COFFEE",
             "heading_size": "h1"
           }
         },
         "text_9pqYUF": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ collection.metafields.custom.collection_intro | metafield_tag }}</p>"
+            "text": "<p>Our three ground coffee intensities have been calibrated to bring out the best in your espresso, moka or drip coffee, packaged to preserve the full, rich taste.</p>"
           }
         }
       },

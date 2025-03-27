@@ -16,9 +16,154 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_banner_9CxWHf": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_enVRxN": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sustainability Stories",
+            "heading_size": "h0",
+            "h1-title": false
+          }
+        },
+        "text_c7xiXR": {
+          "type": "text",
+          "settings": {
+            "text": "Quality and sustainability are our guiding principles as we work alongside coffee producers to continually perfect coffee.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_enVRxN",
+        "text_c7xiXR"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/img_01_2x_e9a764f3-6802-4154-90af-2420139e5bb8.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multirow_UU6PwK": {
+      "type": "multirow",
+      "blocks": {
+        "row_KtUVRz": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_02_2x_7d857b80-d042-454a-83cc-bd62350066a1.jpg",
+            "caption": "Offering quality education",
+            "heading": "Support education in Nicaragua & Guatemala",
+            "text": "<p>We've been on a mission since 2018 to bring quality education to the children of coffee producers and pickers in remote areas of Nicaragua and Guatemala. </p><p>In 2022, we partnered with the Ernesto Illy Foundation to fund an educational project at Nicaragua's La Florida farm. At Guatemala's El Aceituno farm, we extended support by providing educational, healthcare, and food safety services.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_bb9w6W": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_03_2x_a526545b-26a7-44cf-9da8-546b16022ac0.jpg",
+            "caption": "Preserving Community Health",
+            "heading": "Community Health in Guatemala",
+            "text": "<p>In our commitment to those who cultivate sustainable quality coffee, we fund a mobile healthcare service offering dental and eye healthcare to coffee producers and their families in the Santa Rosa area. </p><p>For many, this is their only opportunity to receive medical treatment.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_yrKfpz": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_04_ce0094de-e706-4b33-a7f2-d22b4eb13abf.jpg",
+            "caption": "Empowering Women in Communities",
+            "heading": "We Support women in Rwanda",
+            "text": "<p>Supporting women means supporting entire communities. </p><p>In 2019, we financed the acquisition of a coffee farm and the planting of around 2,500 certified-quality coffee plants, establishing a Farmer Field School for the Abahuzamugambi cooperative consisting of 38 women in the Hindiro area. </p><p>In 2023, we donated pigs, which provide a source of organic compost, to stimulate circular economy processes. </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_XDm3yN": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_14_2x_52fc9603-3e14-45a3-b3bc-a685d7b448e2.jpg",
+            "caption": "Preserving Biodiversity",
+            "heading": "Promoting Environmental Protection",
+            "text": "<p>We promote environmental education in Brazil through the “Viveiro de Atitude” programme, which involves the cultivation of over 100 plant species native to the Cerrado region. </p><p>The nursery distributes the plants to local producers and to the Monte Carmelo municipality. The income from sales is donated to educational centres that accept children aged up to 14 years outside of school hours, as well as to local organisations supporting the elderly.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_XFCEXA": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_06_2x_c51cc946-7590-461e-8d4a-09f17687605f.jpg",
+            "caption": "professional skills for a brighter future",
+            "heading": "Defending Coffee Culture in Colombia",
+            "text": "<p>Our \"Escuela y Café\" project aims to reduce school dropouts and combat child labor. Between 2016 and 2020, the project provided students with 1,500 seeds per year, allowing them to establish productive farms after six years of school. </p><p>This provided the economic resources necessary to attend university or start their own businesses.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_pw3Cp3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_07_2x_57819f40-e9f8-493e-a52b-06fe754725fc.jpg",
+            "caption": "Sustainability Beyond Coffee",
+            "heading": "Strengthening Communities",
+            "text": "<p>Our goal is to support communities and foster excellence in sustainable production worldwide. We are committed to building enduring relationships with coffee growers, founded on knowledge-sharing and sustainable growth.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_wQzYnp": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_08_2x_a5389919-1b26-4f0b-aef5-4884d0b052d2.jpg",
+            "caption": "Raising coffee procurement standards",
+            "heading": "Promoting Sustainable Purchasing Processes",
+            "text": "<p>We believe sustainability should be a focus at every stage of production. </p><p>Thanks to our sustainable coffee procurement protocol, we are able to monitor supply chains, guarantee product quality, and protect the environment and worker safety.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_KtUVRz",
+        "row_bb9w6W",
+        "row_yrKfpz",
+        "row_XDm3yN",
+        "row_XFCEXA",
+        "row_pw3Cp3",
+        "row_wQzYnp"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "scheme-3",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_9CxWHf",
+    "multirow_UU6PwK"
   ]
 }
