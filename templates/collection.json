@@ -115,7 +115,7 @@
         "heading_fThmGc": {
           "type": "heading",
           "settings": {
-            "heading": "Quality loves details",
+            "heading": "Quality Loves Details",
             "heading_size": "h1",
             "h1-title": false
           }
@@ -131,7 +131,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Discover more",
-            "button_link_1": "shopify://products/brazil-caps-each-illy-italy",
+            "button_link_1": "shopify://pages/coffee-origins-and-processing",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -157,6 +157,56 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "image_banner_NB9aRN": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_w7Hhbd": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1",
+            "h1-title": false
+          }
+        },
+        "text_ATEBTE": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_R4Vw49": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_w7Hhbd",
+        "text_ATEBTE",
+        "buttons_R4Vw49"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/670f7a17fb9cb5c8d3cc4eb4_jpg.jpg",
+        "image_2": "shopify://shop_images/img_03_2x_0ebafaf1-b969-4b76-9878-9f7564bbfade.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -164,6 +214,7 @@
     "image_banner_twjgc7",
     "product-grid",
     "multirow_eWdMJE",
-    "image_banner_XkrAiz"
+    "image_banner_XkrAiz",
+    "image_banner_NB9aRN"
   ]
 }
