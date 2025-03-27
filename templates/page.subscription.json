@@ -73,7 +73,7 @@
           "type": "heading",
           "settings": {
             "heading": "Signing Up is Simple",
-            "heading_size": "h0"
+            "heading_size": "h1"
           }
         }
       },
@@ -86,7 +86,7 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 0
       }
     },
     "key_features_M8fhhG": {
