@@ -86,7 +86,7 @@
             "heading": "illy Subscription",
             "text": "<p>Never run out of your favourite coffee, for your daily taste experience.</p>",
             "button_label": "Find out more",
-            "button_link": ""
+            "button_link": "shopify://pages/subscription"
           }
         }
       },

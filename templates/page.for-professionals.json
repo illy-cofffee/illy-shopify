@@ -17,85 +17,329 @@
         "padding_bottom": 28
       }
     },
-    "rich_text_JXMfhg": {
-      "type": "rich-text",
+    "image_banner_GzYaf7": {
+      "type": "image-banner",
       "blocks": {
-        "heading_XqKNzj": {
+        "heading_ThqB3m": {
           "type": "heading",
           "settings": {
-            "heading": "illy for Professionals",
-            "heading_size": "h1"
+            "heading": "Image banner",
+            "heading_size": "h1",
+            "h1-title": false
           }
         },
-        "text_jdcDcw": {
+        "text_UnfTFx": {
           "type": "text",
           "settings": {
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non leo ut neque dictum molestie. </p>"
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_pyTqyr": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_XqKNzj",
-        "text_jdcDcw"
+        "heading_ThqB3m",
+        "text_UnfTFx",
+        "buttons_pyTqyr"
       ],
       "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
+        "image": "shopify://shop_images/img_01_3fa6e34b-ae18-459b-8781-acb8edf4e65e.jpg",
+        "image_2": "shopify://shop_images/img_02_fc6c9de2-8e83-4a47-bea9-b49ce82d010e.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
         "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multirow_j3mdKV": {
+      "type": "multirow",
+      "blocks": {
+        "row_e3Xw3C": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_03_2x_7d945121-faed-4e76-a449-4688c0590ddf.jpg",
+            "caption": "",
+            "heading": "QUALITY",
+            "text": "",
+            "button_label": "Find Out More",
+            "button_link": ""
+          }
+        },
+        "row_DGUcYh": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/67726c6e5eec5bfac7e29a15_jpg.webp",
+            "caption": "",
+            "heading": "SUSTAINABILITY",
+            "text": "",
+            "button_label": "Find Out More",
+            "button_link": ""
+          }
+        },
+        "row_RXCXmV": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_05_fa4cc2b0-c565-4648-ac82-5b9452188d24.jpg",
+            "caption": "",
+            "heading": "ART",
+            "text": "",
+            "button_label": "Find Out More",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_e3Xw3C",
+        "row_DGUcYh",
+        "row_RXCXmV"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_khFEaB": {
+      "type": "rich-text",
+      "blocks": {
+        "text_xUADTh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>3 Simple Steps</p>"
+          }
+        },
+        "heading_KfCJxP": {
+          "type": "heading",
+          "settings": {
+            "heading": "ENTER THE WORLD OF ILLY",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "text_xUADTh",
+        "heading_KfCJxP"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "key_features_GKzXFX": {
+      "type": "key-features",
+      "settings": {
+        "color_scheme": "scheme-3",
+        "feature_1_title": "Contact Us",
+        "feature_1_description": "Contact us by filling out the form.",
+        "feature_1_image": "shopify://shop_images/674774d269aab3c389281ffd.svg",
+        "feature_2_title": "Let Yourself Be Guided",
+        "feature_2_description": "Complete the form with your business details, and our dedicated illy team will reach out shortly.",
+        "feature_2_image": "shopify://shop_images/674774d24d43ea023a6f3efb.svg",
+        "feature_3_title": "Discover The Benefits",
+        "feature_3_description": "Unlock a world of exclusive perks and experiences designed for true illy coffee professionals.",
+        "feature_3_image": "shopify://shop_images/674774d2c36e6f5e17ecfb7a.svg"
+      }
+    },
+    "rich_text_MEnUbL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zx84Ue": {
+          "type": "heading",
+          "settings": {
+            "heading": "ENTER THE WORLD OF ILLY PROFESSIONALS",
+            "heading_size": "h0"
+          }
+        },
+        "text_3EgjtW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Fill out the form and the illy professional team will contact you as soon as possible.</p>"
+          }
+        },
+        "button_RcUmmd": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_zx84Ue",
+        "text_3EgjtW",
+        "button_RcUmmd"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
     },
-    "multicolumn_EV9WyM": {
-      "type": "multicolumn",
+    "multirow_XeqWWa": {
+      "type": "multirow",
       "blocks": {
-        "column_JNVi9x": {
-          "type": "column",
+        "row_y7bCn6": {
+          "type": "row",
           "settings": {
-            "image": "shopify://shop_images/restaurants.jpg",
-            "title": "Restaurants & Cafes",
-            "text": "<p>Perfect for every restaurant,  from those who serve hundreds of cups of coffee a day to those who serve only a few, we wish for every meal to end with the finishing touch they deserve.</p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/img_06_2x_52214957-a278-470d-bb77-dd8a03d724b8.jpg",
+            "caption": "",
+            "heading": "CAFES",
+            "text": "<p>It all starts with the coffee and continues with a whole range of products and services.</p>",
+            "button_label": "Find Out More",
+            "button_link": ""
           }
         },
-        "column_kQNHnP": {
-          "type": "column",
+        "row_VqhVqz": {
+          "type": "row",
           "settings": {
-            "image": "shopify://shop_images/offices.jpg",
-            "title": "Offices",
-            "text": "<p>The coffee break for every professional environment. Treat your colleagues to an amazing Italian coffee experience, cup after cup, perfect every time.</p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify://shop_images/img_07_2x_caf1d9fa-f96f-48a1-a260-a0938a91ce3f.jpg",
+            "caption": "",
+            "heading": "BAKERIES & ICE-CREAM PARLOURS",
+            "text": "<p><strong>illy coffee</strong> is the perfect companion and key ingredient for mastering the art of pastry and gelato making, elevating every creation and serving experience.</p>",
+            "button_label": "Find Out More",
+            "button_link": ""
+          }
+        },
+        "row_9hd6QP": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_08_1f841828-8b03-4d42-a9a1-78ffa07a3efd.jpg",
+            "caption": "",
+            "heading": "RESTAURANTS",
+            "text": "<p>Bring together technology and craftsmanship to create coffee that not only complements your dishes visually but also delights with every sip.</p>",
+            "button_label": "Find Out More",
+            "button_link": ""
+          }
+        },
+        "row_JRmkja": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_09.jpg",
+            "caption": "",
+            "heading": "HOTELS",
+            "text": "<p>Our dedicated program allows hotels to serve at any time, and in (almost) any location.</p>",
+            "button_label": "Find Out More",
+            "button_link": ""
+          }
+        },
+        "row_PwGHhd": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_10.jpg",
+            "caption": "",
+            "heading": "SHOPS",
+            "text": "<p>New technologies, iconic designs and unique taste.  This is the experience we offer today, gained in more than 80 years of business. </p>",
+            "button_label": "Find Out More",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "column_JNVi9x",
-        "column_kQNHnP"
+        "row_y7bCn6",
+        "row_VqhVqz",
+        "row_9hd6QP",
+        "row_JRmkja",
+        "row_PwGHhd"
       ],
       "settings": {
-        "title": "Our solutions",
+        "image_height": "medium",
+        "desktop_image_width": "medium",
         "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Contact us",
-        "button_link": "",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "image_banner_hnaUcy": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_ByB7PK": {
+          "type": "heading",
+          "settings": {
+            "heading": "SUSTAINABILITY",
+            "heading_size": "h1",
+            "h1-title": false
+          }
+        },
+        "text_P86GVW": {
+          "type": "text",
+          "settings": {
+            "text": "We work hard to make our coffee sustainable during every stage of its life cycle, economically, environmentally and socially.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ByB7PK",
+        "text_P86GVW"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Hand_holding_up_a_cup_of_coffee_-_Leadership_desktop.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
   "order": [
     "main",
-    "rich_text_JXMfhg",
-    "multicolumn_EV9WyM"
+    "image_banner_GzYaf7",
+    "multirow_j3mdKV",
+    "rich_text_khFEaB",
+    "key_features_GKzXFX",
+    "rich_text_MEnUbL",
+    "multirow_XeqWWa",
+    "image_banner_hnaUcy"
   ]
 }
