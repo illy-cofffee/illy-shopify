@@ -160,6 +160,8 @@
       {%- endif -%}
     {%- endif -%}
     {{ section.settings.show_promotion_1 }}
+
+    <p>Promo Setting Value: {{ section.settings.show_promotion_1 | json }}</p>
     {%- liquid
       if section.settings.menu != blank
         if section.settings.menu_type_desktop == 'dropdown'
