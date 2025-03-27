@@ -52,7 +52,7 @@
         "show_promotion_1": true,
         "promotion_image_1": "shopify://shop_images/menu-promo-coffee.jpg",
         "promotion_linktext_1": "Coffee",
-        "promotion_url_1": "shopify://pages/our-coffees",
+        "promotion_url_1": "shopify://collections/coffee",
         "show_promotion_2": true,
         "promotion_image_2": "shopify://shop_images/menu-promo-machines.jpg",
         "promotion_linktext_2": "Machines",
