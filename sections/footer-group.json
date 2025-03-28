@@ -17,14 +17,14 @@
         "link_list_7cg4pe": {
           "type": "link_list",
           "settings": {
-            "heading": "Our store",
+            "heading": "Company",
             "menu": "footer"
           }
         },
         "link_list_xQebUL": {
           "type": "link_list",
           "settings": {
-            "heading": "Need help?",
+            "heading": "Assistance",
             "menu": "footer-menu-2"
           }
         },
