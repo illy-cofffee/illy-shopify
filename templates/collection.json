@@ -70,7 +70,7 @@
         "text_9pqYUF": {
           "type": "text",
           "settings": {
-            "text": "<p>Our three ground coffee intensities have been calibrated to bring out the best in your espresso, moka or drip coffee, packaged to preserve the full, rich taste.</p>"
+            "text": "<p>{{ collection.metafields.custom.collection_intro | metafield_tag }}</p><p></p>"
           }
         }
       },
