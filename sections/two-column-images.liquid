@@ -20,8 +20,8 @@ endif
         <div class="twocol-container">
             <div class="twocol-column-one" style="background-image:url('{{ section.settings.left_col_image | image_url }}')">
                 <h3>
-                    <div class="twocol-link">
-                        {{ section.settings.left_col_subhead }}
+                    <div class="twocol-content">
+                        <span class="two-col-subhead">{{ section.settings.left_col_subhead }}</span>
                         <h3 class="h1">{{ section.settings.left_col_title }}</h3>
                         {%- if section.settings.left_col_link_text != blank -%}
                             <a
@@ -41,8 +41,8 @@ endif
             
             <div class="twocol-column-two" style="background-image:url('{{ section.settings.right_col_image | image_url }}')">
                 <h3>
-                    <div class="twocol-link">
-                        {{ section.settings.right_col_subhead }}
+                    <div class="twocol-content">
+                        <span class="two-col-subhead">{{ section.settings.right_col_subhead }}</span>
                         <h3 class="h1">{{ section.settings.right_col_title }}</h3>
                         {%- if section.settings.right_col_link_text != blank -%}
                             <a
@@ -55,8 +55,7 @@ endif
                             >
                               {{- section.settings.right_col_link_text | escape -}}
                             </a>
-                          {%- endif -%}
-                        {{ section.settings.right_col_link_text }}
+                        {%- endif -%}
                         
                     </div>
                 </h3>
@@ -134,6 +133,12 @@ endif
         "id": "right_col_link_text",
         "label": "Button text"
     },
+    {
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "label": "t:sections.all.colors.label",
+        "default": "scheme-1"
+    }
     
   ],
   "presets": [
