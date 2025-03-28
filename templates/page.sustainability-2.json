@@ -16,9 +16,47 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_banner_L94b8b": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_PeiYXc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sustainability",
+            "heading_size": "h0",
+            "h1-title": false
+          }
+        },
+        "text_4Ly39y": {
+          "type": "text",
+          "settings": {
+            "text": "From bean to cup, our commitment to have a positive impact on the planet guides every facet of our operations.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PeiYXc",
+        "text_4Ly39y"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/67726b2cd172213d08555b94_jpg.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_L94b8b"
   ]
 }
