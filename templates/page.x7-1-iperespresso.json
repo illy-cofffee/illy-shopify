@@ -16,9 +16,278 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_qpKigU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_46TXbR": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>X7.1 Iperespresso</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_cPXEQG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>4 Video Tutorials</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_46TXbR",
+        "text_cPXEQG"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_UhbkL6": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/img_01_2x_7bdfa039-c3e7-4235-8847-68bfd0019f90.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_iRwKfw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9Jrx7F": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_HYe3cW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_JGkRrg": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_9Jrx7F",
+        "text_HYe3cW",
+        "button_JGkRrg"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_bqcFdp": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_teTqGV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rWifNV": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_ncC9Ha": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_NUBUnC": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rWifNV",
+        "text_ncC9Ha",
+        "button_NUBUnC"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_hAEe4k": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_WnCNze": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Fn4NDV": {
+          "type": "heading",
+          "settings": {
+            "heading": "How to Set Up Your Coffee Machine",
+            "heading_size": "h1"
+          }
+        },
+        "text_me63Pz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Find out how to use your X7.1 Iperespresso machine</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Fn4NDV",
+        "text_me63Pz"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_K6qctg": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/-Kt-u8e3W4o",
+        "cover_image": "shopify://shop_images/65d8b4b53b81380008959bc1-httpsiytimgcomviXEDAXZY50FMmaxresdefaultjpg_jpeg.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_CNthK7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YfFBdx": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_G6Xqgq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_9tEPwA": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_YfFBdx",
+        "text_G6Xqgq",
+        "button_9tEPwA"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_XWrkEb": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_qpKigU",
+    "image_banner_UhbkL6",
+    "rich_text_iRwKfw",
+    "video_bqcFdp",
+    "rich_text_teTqGV",
+    "video_hAEe4k",
+    "rich_text_WnCNze",
+    "video_K6qctg",
+    "rich_text_CNthK7",
+    "video_XWrkEb"
   ]
 }
