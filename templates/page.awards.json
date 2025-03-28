@@ -16,9 +16,127 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_banner_LhBXYM": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_dTUYjt": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Coffee Awards",
+            "heading_size": "h0",
+            "h1-title": false
+          }
+        },
+        "text_TRCNLR": {
+          "type": "text",
+          "settings": {
+            "text": "Ernesto Illy Aware for Sustainable Quality in Espresso Coffee",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dTUYjt",
+        "text_TRCNLR"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/677fde6e2c24c2a1f54065a3_jpg.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_zaPknE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gBzf3g": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ernesto Illy Award for Sustainable Quality in Espresso Coffee",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gBzf3g"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "multirow_pJWYj4": {
+      "type": "multirow",
+      "blocks": {
+        "row_AM4d3Q": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_BLHnN8": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_ghPm8D": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_AM4d3Q",
+        "row_BLHnN8",
+        "row_ghPm8D"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_LhBXYM",
+    "rich_text_zaPknE",
+    "multirow_pJWYj4"
   ]
 }
