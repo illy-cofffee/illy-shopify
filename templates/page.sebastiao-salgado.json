@@ -16,9 +16,24 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "video_YPYTUa": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=X73m3lUZ_f0",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "video_YPYTUa"
   ]
 }
