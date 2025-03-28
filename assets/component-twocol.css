@@ -1,0 +1,93 @@
+.section-twocol-tiles {
+
+}
+
+.twocol-content h3 {
+    color:#FFFFFF;
+    margin-top:12px;
+}
+
+.two-col-subhead {
+    font-size: 1.4rem;
+    font-family: "Museo Sans", Helvetica, sans-serif;
+}
+
+.twocol-tiles__media--small {
+    height: 19.4rem;
+}
+
+.twocol-tiles__media--medium {
+    height: 29.6rem;
+}
+
+.twocol-tiles__media--large {
+    height: 43.5rem;
+}
+
+@media screen and (min-width: 750px) {
+    .twocol-tiles__media--small {
+        height: 31.4rem;
+    }
+
+    .twocol-tiles__media--medium {
+        height: 46rem;
+    }
+
+    .twocol-tiles__media--large {
+        height: 69.5rem;
+    }
+}
+
+.twocol-container {
+    display: flex;
+    height: 50rem;
+    gap: 0px;
+}
+
+/* First column with image background */
+.twocol-column-one {
+    flex: 1;
+    min-height: 0;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Second column wrapper */
+.twocol-column-two {
+    flex: 1;
+    min-height: 0;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.twocol-content {
+    position: absolute;
+    bottom: 80px;
+    left: 80px;
+    color: white;
+    z-index: 1;
+}
+
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+    .twocol-container {
+        flex-direction: column;
+        height: auto;
+        height: 60rem;
+    }
+  
+    .twocol_column_left,
+    .twocol_column_right {
+      width: 100%; /* Ensure full width when stacked */
+      min-height: 30rem;
+    }
+
+    .twocol-content {
+        bottom: 40px;
+        left: 40px;
+    }
+}
+
