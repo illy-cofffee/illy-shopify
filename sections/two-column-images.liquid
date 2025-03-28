@@ -1,0 +1,150 @@
+{{ 'component-twocol.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top:0px;
+    padding-bottom:0px;
+  }
+{%- endstyle -%}
+
+{%- liquid
+assign fetch_priority = 'auto'
+if section.index == 1
+    assign fetch_priority = 'high'
+endif
+
+-%}
+<div class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
+    
+    <div class="section-twocol-tiles global-media-settings{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}">
+        <div class="twocol-container">
+            <div class="twocol-column-one" style="background-image:url('{{ section.settings.left_col_image | image_url }}')">
+                <h3>
+                    <div class="twocol-content">
+                        <span class="two-col-subhead">{{ section.settings.left_col_subhead }}</span>
+                        <h3 class="h1">{{ section.settings.left_col_title }}</h3>
+                        {%- if section.settings.left_col_link_text != blank -%}
+                            <a
+                              {% if section.settings.left_col_link_text == blank %}
+                                role="link" aria-disabled="true"
+                              {% else %}
+                                href="{{ section.settings.left_col_url }}"
+                              {% endif %}
+                              class="button{% if settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
+                            >
+                              {{- section.settings.left_col_link_text | escape -}}
+                            </a>
+                          {%- endif -%}
+                    </div>
+                </h3>
+            </div>
+            
+            <div class="twocol-column-two" style="background-image:url('{{ section.settings.right_col_image | image_url }}')">
+                <h3>
+                    <div class="twocol-content">
+                        <span class="two-col-subhead">{{ section.settings.right_col_subhead }}</span>
+                        <h3 class="h1">{{ section.settings.right_col_title }}</h3>
+                        {%- if section.settings.right_col_link_text != blank -%}
+                            <a
+                              {% if section.settings.right_col_link_text == blank %}
+                                role="link" aria-disabled="true"
+                              {% else %}
+                                href="{{ section.settings.right_col_url }}"
+                              {% endif %}
+                              class="button{% if settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
+                            >
+                              {{- section.settings.right_col_link_text | escape -}}
+                            </a>
+                        {%- endif -%}
+                        
+                    </div>
+                </h3>
+            </div>
+            </div>
+    </div>
+
+
+</div>
+
+{% schema %}
+{
+  "name": "Two Column Images",
+  "tag": "section",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+        "type": "header",
+        "content": "Left Column"
+    },
+    {
+        "type": "text",
+        "id": "left_col_subhead",
+        "label": "Subheader"
+    },
+    {
+        "type": "text",
+        "id": "left_col_title",
+        "label": "Title"
+    },
+    {
+        "type": "image_picker",
+        "id": "left_col_image",
+        "label": "Choose image"
+    },
+    {
+        "type": "url",
+        "id": "left_col_url",
+        "label": "Choose link"
+    },
+    {
+        "type": "text",
+        "id": "left_col_link_text",
+        "label": "Button text"
+    },
+    {
+        "type": "header",
+        "content": "Right Column"
+    },
+    {
+        "type": "text",
+        "id": "right_col_subhead",
+        "label": "Subheader"
+    },
+    {
+        "type": "text",
+        "id": "right_col_title",
+        "label": "Title"
+    },
+    {
+        "type": "image_picker",
+        "id": "right_col_image",
+        "label": "Choose image"
+    },
+    {
+        "type": "url",
+        "id": "right_col_url",
+        "label": "Choose link"
+    },
+    {
+        "type": "text",
+        "id": "right_col_link_text",
+        "label": "Button text"
+    },
+    {
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "label": "t:sections.all.colors.label",
+        "default": "scheme-1"
+    }
+    
+  ],
+  "presets": [
+    {
+      "name": "Two Column Images"
+    }
+  ]
+}
+{% endschema %}
