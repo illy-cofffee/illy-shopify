@@ -36,10 +36,27 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "two_column_images_GaJHeq": {
+      "type": "two-column-images",
+      "settings": {
+        "left_col_subhead": "A taste of art",
+        "left_col_title": "illy Art Collection",
+        "left_col_image": "shopify://shop_images/art-collection.jpg",
+        "left_col_url": "shopify://collections/art-collection",
+        "left_col_link_text": "Discover More",
+        "right_col_subhead": "The secrets of coffee",
+        "right_col_title": "Preparation",
+        "right_col_image": "shopify://shop_images/coffee-preparation.jpg",
+        "right_col_url": "#",
+        "right_col_link_text": "Discover More",
+        "color_scheme": "scheme-60b36b58-2f08-4afa-91c3-558e5bc3ebe4"
+      }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "two_column_images_GaJHeq"
   ]
 }
