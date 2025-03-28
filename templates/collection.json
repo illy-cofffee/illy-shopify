@@ -63,7 +63,7 @@
         "heading_CpgeqC": {
           "type": "heading",
           "settings": {
-            "heading": "GROUND COFFEE",
+            "heading": "{{ collection.title }}",
             "heading_size": "h1"
           }
         },
