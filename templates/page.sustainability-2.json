@@ -65,7 +65,7 @@
             "heading": "Our Philosophy",
             "text": "<p>The guiding principle of doing business for us is the creation of economic, social and environmental value for everyone involved along the production chain.</p>",
             "button_label": "Learn More",
-            "button_link": ""
+            "button_link": "shopify://pages/our-philosophy"
           }
         },
         "row_MXAajD": {
@@ -76,7 +76,7 @@
             "heading": "Stories of Sustainability",
             "text": "<p>Quality and sustainability are paths of continuous improvement, to be made together.</p>",
             "button_label": "Learn More",
-            "button_link": ""
+            "button_link": "shopify://pages/sustainability-stories"
           }
         },
         "row_bTqjzM": {
@@ -113,7 +113,7 @@
         "desktop_image_width": "medium",
         "heading_size": "h1",
         "text_style": "body",
-        "button_style": "secondary",
+        "button_style": "primary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "image_layout": "alternate-left",
