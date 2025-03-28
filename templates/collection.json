@@ -206,6 +206,21 @@
         "right_col_link_text": "Discover More",
         "color_scheme": "scheme-014badbe-27d7-4789-aefd-0d5c011ae800"
       }
+    },
+    "key_features_RLzNdA": {
+      "type": "key-features",
+      "settings": {
+        "color_scheme": "",
+        "feature_1_title": "Ethically sourced",
+        "feature_1_description": "Torem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "feature_1_image": "shopify://shop_images/icon-ethical.svg",
+        "feature_2_title": "Free shipping over $50",
+        "feature_2_description": "Torem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "feature_2_image": "shopify://shop_images/icon-free-shipping.svg",
+        "feature_3_title": "Subscribe & save",
+        "feature_3_description": "Torem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "feature_3_image": "shopify://shop_images/icon-subscribe-save.svg"
+      }
     }
   },
   "order": [
@@ -215,6 +230,7 @@
     "product-grid",
     "multirow_eWdMJE",
     "image_banner_XkrAiz",
-    "two_column_images_ByEriQ"
+    "two_column_images_ByEriQ",
+    "key_features_RLzNdA"
   ]
 }
