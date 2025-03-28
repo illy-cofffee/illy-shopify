@@ -15,13 +15,14 @@
         "heading_qkr7Jp": {
           "type": "heading",
           "settings": {
-            "heading": "What's happening at illy",
+            "heading": "News",
             "heading_size": "h1",
             "h1-title": true
           }
         },
         "text_48bWRQ": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
