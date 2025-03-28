@@ -24,7 +24,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>X7.1 Iperespresso</strong>",
-            "heading_size": "h1"
+            "heading_size": "h0"
           }
         },
         "text_cPXEQG": {
@@ -69,32 +69,20 @@
         "heading_9Jrx7F": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "How To Program The Volumes On Your Coffee Machine",
             "heading_size": "h1"
           }
         },
         "text_HYe3cW": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_JGkRrg": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p>Find out how to choose a coffee volume for your espresso and lungo coffees</p>"
           }
         }
       },
       "block_order": [
         "heading_9Jrx7F",
-        "text_HYe3cW",
-        "button_JGkRrg"
+        "text_HYe3cW"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -108,70 +96,15 @@
     "video_bqcFdp": {
       "type": "video",
       "settings": {
-        "heading": "Video",
+        "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_url": "https://youtu.be/6NUIT2Yaioo",
+        "cover_image": "shopify://shop_images/65d8a560f187dd00093aa6b3-httpsiytimgcomvih2X5gLYpf_4maxresdefaultjpg_jpeg.jpg",
         "description": "",
         "full_width": false,
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "rich_text_teTqGV": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_rWifNV": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text_ncC9Ha": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_NUBUnC": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_rWifNV",
-        "text_ncC9Ha",
-        "button_NUBUnC"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "video_hAEe4k": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
@@ -188,7 +121,7 @@
         "text_me63Pz": {
           "type": "text",
           "settings": {
-            "text": "<p>Find out how to use your X7.1 Iperespresso machine</p>"
+            "text": "<p>Find out how to use your X7.1 Iperespresso machine.</p>"
           }
         }
       },
@@ -220,38 +153,71 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_teTqGV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rWifNV": {
+          "type": "heading",
+          "settings": {
+            "heading": "How to Make a Cappuccino",
+            "heading_size": "h1"
+          }
+        },
+        "text_ncC9Ha": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Learn how to make one in a few simple steps.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rWifNV",
+        "text_ncC9Ha"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_hAEe4k": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/pUscsq82pi8",
+        "cover_image": "shopify://shop_images/65d8b50eeac68d00080ea2ef-httpsiytimgcomvibTzG7iM4dMAmaxresdefaultjpg_jpeg.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "rich_text_CNthK7": {
       "type": "rich-text",
       "blocks": {
         "heading_YfFBdx": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "How To Descale Your Coffee Machine",
             "heading_size": "h1"
           }
         },
         "text_G6Xqgq": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_9tEPwA": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "text": "<p>Learn how to remove limescale</p>"
           }
         }
       },
       "block_order": [
         "heading_YfFBdx",
-        "text_G6Xqgq",
-        "button_9tEPwA"
+        "text_G6Xqgq"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -265,10 +231,11 @@
     "video_XWrkEb": {
       "type": "video",
       "settings": {
-        "heading": "Video",
+        "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_url": "https://youtu.be/XWvLO3fC_Vk",
+        "cover_image": "shopify://shop_images/65d8b59a3b81380008959bc2-httpsiytimgcomviftZGONaEaV4maxresdefaultjpg_jpeg.jpg",
         "description": "",
         "full_width": false,
         "color_scheme": "",
@@ -283,10 +250,10 @@
     "image_banner_UhbkL6",
     "rich_text_iRwKfw",
     "video_bqcFdp",
-    "rich_text_teTqGV",
-    "video_hAEe4k",
     "rich_text_WnCNze",
     "video_K6qctg",
+    "rich_text_teTqGV",
+    "video_hAEe4k",
     "rich_text_CNthK7",
     "video_XWrkEb"
   ]
