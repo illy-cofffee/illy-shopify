@@ -16,9 +16,66 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "multirow_MYfQze": {
+      "type": "multirow",
+      "blocks": {
+        "row_3YUCcL": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/65d71c4ff187dd00093a9c8d_jpg.jpg",
+            "caption": "",
+            "heading": "RESERVED AREA",
+            "text": "<p>Log in to access exclusive services for illy professional</p>",
+            "button_label": "Login",
+            "button_link": "https://mayers.com.au/"
+          }
+        },
+        "row_daHcCD": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_43HLCn": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_3YUCcL",
+        "row_daHcCD",
+        "row_43HLCn"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "multirow_MYfQze"
   ]
 }
