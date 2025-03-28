@@ -83,38 +83,17 @@
         "row_AM4d3Q": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_BLHnN8": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_ghPm8D": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "image": "shopify://shop_images/img_02_2x_e41de24e-9617-4d50-9d77-e653773ed525.jpg",
+            "caption": "",
+            "heading": "",
+            "text": "<p>In the late 1980s, while exploring the rural regions of Brazil, Ernesto Illy introduced coffee producers to the concept of a market eager to pay premium prices for exceptionally high-quality coffee. This initiative breathed new life into the entire coffee supply chain, equipping growers with tools and machines to ensure the success of this superior product.</p><p> </p><p>In 1991, we established an official commendation for coffee producers committed to the principles of quality and sustainability. Thus, the Ernesto Illy Award for Sustainable Excellence was born, eventually becoming one of the most prestigious honors in the world of coffee quality. Since 2008, this competition became known as the Premio Ernesto Illy de Qualidade Sustentável do Cafè para Espresso.</p>",
+            "button_label": "",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "row_AM4d3Q",
-        "row_BLHnN8",
-        "row_ghPm8D"
+        "row_AM4d3Q"
       ],
       "settings": {
         "image_height": "medium",
@@ -131,12 +110,71 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_ww3rQF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_BgMenR": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ernesto Illy International Coffee Award",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BgMenR"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "multirow_JA4aCG": {
+      "type": "multirow",
+      "blocks": {
+        "row_JTE7pD": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/671b5c142c69bc4b237a8727_jpg.webp",
+            "caption": "",
+            "heading": "",
+            "text": "<p>The Ernesto Illy International Coffee Award, named in memory of the visionary leader of illycaffè and son of the company’s founder, honors our nearly 30-year journey working alongside coffee producers to provide the world with the finest sustainable coffee.</p><p> </p><p>Each year, we meticulously select 9 lots of the most exquisite coffees from the most sustainable sources, just for you. Thanks to the dedication of an international panel of experts, we shine a spotlight on the finest coffee harvests, offering you the privilege of savoring them every month in our illy Caffès.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_JTE7pD"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-3",
+        "row_color_scheme": "scheme-3",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "image_banner_LhBXYM",
     "rich_text_zaPknE",
-    "multirow_pJWYj4"
+    "multirow_pJWYj4",
+    "rich_text_ww3rQF",
+    "multirow_JA4aCG"
   ]
 }
