@@ -36,10 +36,24 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "two_column_images_GaJHeq": {
+      "type": "two-column-images",
+      "settings": {
+        "left_col_image": "shopify://shop_images/art-collection.jpg",
+        "left_col_url": "shopify://collections/art-collection",
+        "left_col_link_text": "Discover More",
+        "right_col_image": "shopify://shop_images/coffee-preparation.jpg",
+        "right_col_url": "#",
+        "right_col_link_text": "Discover More",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "two_column_images_GaJHeq"
   ]
 }
