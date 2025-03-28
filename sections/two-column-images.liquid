@@ -2,15 +2,8 @@
 
 {%- style -%}
   .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
-
-  @media screen and (min-width: 750px) {
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
+    padding-top:0px;
+    padding-bottom:0px;
   }
 {%- endstyle -%}
 
@@ -22,34 +15,56 @@ endif
 
 -%}
 <div class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
-    <div class="page-width">
-        <div class="section-twocol-tiles global-media-settings{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}">
-            <div class="twocol-container">
-                <div class="twocol-column-one" style="background-image:url('{{ section.settings.image_large | image_url }}')">
-                    <h3>
-                        <a href="#" class="twocol-link">
-                            {{ section.settings.image_large_link_text }}
-                            <span class="svg-wrapper">
-                                {{- 'icon-chevron-right.svg' | inline_asset_content -}}
-                            </span>
-                        </a>
-                    </h3>
-                </div>
-                
-                <div class="twocol-column-two">
-                    <h3>
-                        <a href="#" class="twocol-link">
-                            {{ section.settings.image_large_link_text }}
-                            <span class="svg-wrapper">
-                                {{- 'icon-chevron-right.svg' | inline_asset_content -}}
-                            </span>
-                        </a>
-                    </h3>
-                </div>
-              </div>
-        </div>
-
+    
+    <div class="section-twocol-tiles global-media-settings{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}">
+        <div class="twocol-container">
+            <div class="twocol-column-one" style="background-image:url('{{ section.settings.left_col_image | image_url }}')">
+                <h3>
+                    <div class="twocol-link">
+                        {{ section.settings.left_col_subhead }}
+                        <h3 class="h1">{{ section.settings.left_col_title }}</h3>
+                        {%- if section.settings.left_col_link_text != blank -%}
+                            <a
+                              {% if section.settings.left_col_link_text == blank %}
+                                role="link" aria-disabled="true"
+                              {% else %}
+                                href="{{ section.settings.left_col_url }}"
+                              {% endif %}
+                              class="button{% if settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
+                            >
+                              {{- section.settings.left_col_link_text | escape -}}
+                            </a>
+                          {%- endif -%}
+                    </div>
+                </h3>
+            </div>
+            
+            <div class="twocol-column-two" style="background-image:url('{{ section.settings.right_col_image | image_url }}')">
+                <h3>
+                    <div class="twocol-link">
+                        {{ section.settings.right_col_subhead }}
+                        <h3 class="h1">{{ section.settings.right_col_title }}</h3>
+                        {%- if section.settings.right_col_link_text != blank -%}
+                            <a
+                              {% if section.settings.right_col_link_text == blank %}
+                                role="link" aria-disabled="true"
+                              {% else %}
+                                href="{{ section.settings.right_col_url }}"
+                              {% endif %}
+                              class="button{% if settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
+                            >
+                              {{- section.settings.right_col_link_text | escape -}}
+                            </a>
+                          {%- endif -%}
+                        {{ section.settings.right_col_link_text }}
+                        
+                    </div>
+                </h3>
+            </div>
+            </div>
     </div>
+
+
 </div>
 
 {% schema %}
@@ -64,6 +79,16 @@ endif
     {
         "type": "header",
         "content": "Left Column"
+    },
+    {
+        "type": "text",
+        "id": "left_col_subhead",
+        "label": "Subheader"
+    },
+    {
+        "type": "text",
+        "id": "left_col_title",
+        "label": "Title"
     },
     {
         "type": "image_picker",
@@ -85,6 +110,16 @@ endif
         "content": "Right Column"
     },
     {
+        "type": "text",
+        "id": "right_col_subhead",
+        "label": "Subheader"
+    },
+    {
+        "type": "text",
+        "id": "right_col_title",
+        "label": "Title"
+    },
+    {
         "type": "image_picker",
         "id": "right_col_image",
         "label": "Choose image"
@@ -99,27 +134,6 @@ endif
         "id": "right_col_link_text",
         "label": "Button text"
     },
-    
-    {
-        "type": "range",
-        "id": "padding_top",
-        "min": 0,
-        "max": 100,
-        "step": 4,
-        "unit": "px",
-        "label": "t:sections.all.padding.padding_top",
-        "default": 36
-      },
-      {
-        "type": "range",
-        "id": "padding_bottom",
-        "min": 0,
-        "max": 100,
-        "step": 4,
-        "unit": "px",
-        "label": "t:sections.all.padding.padding_bottom",
-        "default": 36
-      }
     
   ],
   "presets": [
