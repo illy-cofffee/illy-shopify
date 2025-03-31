@@ -39,21 +39,22 @@
             "button_label": "Show more",
             "button_style": "solid",
             "disclaimer_text": "",
-            "color_background_main": "#D12420",
+            "color_background_main": "#d12420",
             "color_text_main": "#ffffff"
           }
         },
-        "glide_slider_item_HfgNyN": {
+        "glide_slider_item_4Pd9mz": {
           "type": "glide-slider-item",
           "settings": {
-            "glide-slider-item-header": "<p>Buy 5.<br/>Get 2 free.</p>",
-            "description": "<p>Use code: CARTON</p>",
-            "alignment": "align-middle-left",
-            "button_link": "shopify://collections/all",
-            "button_label": "SHOP NOW",
-            "button_style": "outline",
-            "disclaimer_text": "Terms & conditions apply.  Offer ends 31/03/2025 at 11:59pm.",
-            "color_background_main": "#ffffff",
+            "glide-slider-item-header": "<p>Enter header...</p>",
+            "image": "shopify://shop_images/glide-slide.png",
+            "description": "",
+            "alignment": "align-top-left",
+            "button_link": "",
+            "button_label": "Show more",
+            "button_style": "solid",
+            "disclaimer_text": "",
+            "color_background_main": "#D12420",
             "color_text_main": "#ffffff"
           }
         }
@@ -61,7 +62,7 @@
       "block_order": [
         "glide_slider_item_QM8MgB",
         "glide_slider_item_DCcEpR",
-        "glide_slider_item_HfgNyN"
+        "glide_slider_item_4Pd9mz"
       ],
       "settings": {
         "h1-title": true
