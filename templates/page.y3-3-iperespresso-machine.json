@@ -120,7 +120,7 @@
         "text_byzhYF": {
           "type": "text",
           "settings": {
-            "text": "<p>Find out how to choose a coffee volume for your espresso and lungo coffees</p>"
+            "text": "<p>Learn how to choose volumes for your espresso and americano coffees.</p>"
           }
         }
       },
@@ -143,8 +143,8 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https://youtu.be/6NUIT2Yaioo",
-        "cover_image": "shopify://shop_images/65d8a560f187dd00093aa6b3-httpsiytimgcomvih2X5gLYpf_4maxresdefaultjpg_jpeg.jpg",
+        "video_url": "https://youtu.be/908atsq0h1Y",
+        "cover_image": "shopify://shop_images/65d8bdd33b81380008959bc9-httpsiytimgcomviQnQZ9TW0Amaxresdefaultjpg_jpeg.jpg",
         "description": "",
         "full_width": false,
         "color_scheme": "",
@@ -165,7 +165,7 @@
         "text_me63Pz": {
           "type": "text",
           "settings": {
-            "text": "<p>Find out how to use your X7.1 Iperespresso machine.</p>"
+            "text": "<p>Learn how to use your Y3.3 Iperespresso machine.</p>"
           }
         }
       },
@@ -188,7 +188,7 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https://youtu.be/-Kt-u8e3W4o",
+        "video_url": "https://youtu.be/SpG2y7EqCxI",
         "cover_image": "shopify://shop_images/65d8b4b53b81380008959bc1-httpsiytimgcomviXEDAXZY50FMmaxresdefaultjpg_jpeg.jpg",
         "description": "",
         "full_width": false,
@@ -203,14 +203,14 @@
         "heading_rWifNV": {
           "type": "heading",
           "settings": {
-            "heading": "How to Make a Cappuccino",
+            "heading": "Hwo to Reset Your Coffee Machine",
             "heading_size": "h1"
           }
         },
         "text_ncC9Ha": {
           "type": "text",
           "settings": {
-            "text": "<p>Learn how to make one in a few simple steps.</p>"
+            "text": "<p>Learn how to reset the settings.</p>"
           }
         }
       },
@@ -233,8 +233,8 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https://youtu.be/pUscsq82pi8",
-        "cover_image": "shopify://shop_images/65d8b50eeac68d00080ea2ef-httpsiytimgcomvibTzG7iM4dMAmaxresdefaultjpg_jpeg.jpg",
+        "video_url": "https://youtu.be/vRKh93PLaQs",
+        "cover_image": "shopify://shop_images/65d8be26f187dd00093aa6df-httpsiytimgcomvixwA1Z87VW0kmaxresdefaultjpg_jpeg.jpg",
         "description": "",
         "full_width": false,
         "color_scheme": "",
