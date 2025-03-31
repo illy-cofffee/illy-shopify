@@ -204,11 +204,101 @@
         "heading_YfFBdx": {
           "type": "heading",
           "settings": {
-            "heading": "How To Make A Cappuccino",
+            "heading": "How To Set up your Coffee Machine",
             "heading_size": "h1"
           }
         },
         "text_G6Xqgq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Learn how to make your coffee using E.S.E. pods.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YfFBdx",
+        "text_G6Xqgq"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_dhLkWF": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/21QOgWaXjdQ",
+        "cover_image": "shopify://shop_images/65d8c2ba3b81380008959be4-httpsiytimgcomvi8AwFsbIamkwmaxresdefaultjpg_jpeg.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_Ntrawn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NWBtKW": {
+          "type": "heading",
+          "settings": {
+            "heading": "How To Set up your Coffee Machine",
+            "heading_size": "h1"
+          }
+        },
+        "text_nbrPiW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Learn how to make your coffee using ground coffee.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NWBtKW",
+        "text_nbrPiW"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_xjTBPm": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/9-0HpsUNUJw",
+        "cover_image": "shopify://shop_images/65d8c3913b81380008959be9-httpsiytimgcomvi4aebgeCL_bQmaxresdefaultjpg_jpeg.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_YxtFnq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_F9AUGp": {
+          "type": "heading",
+          "settings": {
+            "heading": "How To Make A Cappuccino",
+            "heading_size": "h1"
+          }
+        },
+        "text_zDT9Xb": {
           "type": "text",
           "settings": {
             "text": "<p>Learn how to make it in a few simple steps.</p>"
@@ -216,8 +306,8 @@
         }
       },
       "block_order": [
-        "heading_YfFBdx",
-        "text_G6Xqgq"
+        "heading_F9AUGp",
+        "text_zDT9Xb"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -300,6 +390,10 @@
     "rich_text_teTqGV",
     "video_hAEe4k",
     "rich_text_CNthK7",
+    "video_dhLkWF",
+    "rich_text_Ntrawn",
+    "video_xjTBPm",
+    "rich_text_YxtFnq",
     "video_QAgbnC",
     "rich_text_LEPCPK",
     "video_XWrkEb"
