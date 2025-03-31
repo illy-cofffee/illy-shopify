@@ -150,7 +150,7 @@
           "type": "button",
           "settings": {
             "button_label": "Subscribe Now",
-            "button_link": "",
+            "button_link": "shopify://collections/coffee",
             "button_style_secondary": false
           }
         }
