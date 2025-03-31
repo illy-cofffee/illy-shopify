@@ -23,14 +23,14 @@
         "heading_46TXbR": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>X7.1 Iperespresso</strong>",
+            "heading": "<strong>X1 Anniversary E.S.E. & Ground</strong>",
             "heading_size": "h0"
           }
         },
         "text_cPXEQG": {
           "type": "text",
           "settings": {
-            "text": "<p>4 Video Tutorials</p>"
+            "text": "<p>7 Video Tutorials</p>"
           }
         }
       },
@@ -50,7 +50,7 @@
     "image_banner_UhbkL6": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify://shop_images/img_01_2x_7bdfa039-c3e7-4235-8847-68bfd0019f90.jpg",
+        "image": "shopify://shop_images/img_01_2x_00b1b691-0260-4d62-aa52-500bcd09ded2.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -69,14 +69,14 @@
         "heading_9Jrx7F": {
           "type": "heading",
           "settings": {
-            "heading": "How To Program The Volumes On Your Coffee Machine",
+            "heading": "How To Adjust the Coffee Machine Temperature",
             "heading_size": "h1"
           }
         },
         "text_HYe3cW": {
           "type": "text",
           "settings": {
-            "text": "<p>Find out how to choose a coffee volume for your espresso and lungo coffees</p>"
+            "text": "<p>Learn how to set the ideal temperature for your coffee.</p>"
           }
         }
       },
@@ -99,8 +99,8 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https://youtu.be/6NUIT2Yaioo",
-        "cover_image": "shopify://shop_images/65d8a560f187dd00093aa6b3-httpsiytimgcomvih2X5gLYpf_4maxresdefaultjpg_jpeg.jpg",
+        "video_url": "https://youtu.be/VsSbgtKpMdM",
+        "cover_image": "shopify://shop_images/65d8c2303b81380008959be3-httpsiytimgcomviszPd1OtB5IYmaxresdefaultjpg_jpeg.jpg",
         "description": "",
         "full_width": false,
         "color_scheme": "",
