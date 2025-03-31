@@ -50,6 +50,7 @@
     "image_banner_UhbkL6": {
       "type": "image-banner",
       "settings": {
+        "image": "shopify://shop_images/2019_MACHINE_Y3_Family_multicolor_Amalfi_front_copy.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
