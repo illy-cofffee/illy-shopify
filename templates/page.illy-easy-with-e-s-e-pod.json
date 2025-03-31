@@ -204,14 +204,14 @@
         "heading_YfFBdx": {
           "type": "heading",
           "settings": {
-            "heading": "How To Descale Your Coffee Machine",
+            "heading": "How To Set Up Your Coffee Machine",
             "heading_size": "h1"
           }
         },
         "text_G6Xqgq": {
           "type": "text",
           "settings": {
-            "text": "<p>Learn how to remove limescale</p>"
+            "text": "<p>Learn how to make your coffee.</p>"
           }
         }
       },
@@ -234,8 +234,8 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https://youtu.be/XWvLO3fC_Vk",
-        "cover_image": "shopify://shop_images/65d8b59a3b81380008959bc2-httpsiytimgcomviftZGONaEaV4maxresdefaultjpg_jpeg.jpg",
+        "video_url": "https://youtu.be/PKq07Iqxwuw",
+        "cover_image": "shopify://shop_images/65d8c151eac68d00080ea307-httpsiytimgcomviOnu0Ve5QnCsmaxresdefaultjpg_jpeg.jpg",
         "description": "",
         "full_width": false,
         "color_scheme": "",
