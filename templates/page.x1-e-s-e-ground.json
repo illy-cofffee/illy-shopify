@@ -204,11 +204,56 @@
         "heading_YfFBdx": {
           "type": "heading",
           "settings": {
-            "heading": "How To Descale Your Coffee Machine",
+            "heading": "How To Make A Cappuccino",
             "heading_size": "h1"
           }
         },
         "text_G6Xqgq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Learn how to make it in a few simple steps.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YfFBdx",
+        "text_G6Xqgq"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_QAgbnC": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/AOUgaS-zZIU",
+        "cover_image": "shopify://shop_images/65d8c3e0eac68d00080ea313-httpsiytimgcomviMHhPNgBzfC8maxresdefaultjpg_jpeg.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_LEPCPK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8pcAKb": {
+          "type": "heading",
+          "settings": {
+            "heading": "How To Descale Your Coffee Machine",
+            "heading_size": "h1"
+          }
+        },
+        "text_zJDFwE": {
           "type": "text",
           "settings": {
             "text": "<p>Learn how to remove limescale</p>"
@@ -216,8 +261,8 @@
         }
       },
       "block_order": [
-        "heading_YfFBdx",
-        "text_G6Xqgq"
+        "heading_8pcAKb",
+        "text_zJDFwE"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -255,6 +300,8 @@
     "rich_text_teTqGV",
     "video_hAEe4k",
     "rich_text_CNthK7",
+    "video_QAgbnC",
+    "rich_text_LEPCPK",
     "video_XWrkEb"
   ]
 }
