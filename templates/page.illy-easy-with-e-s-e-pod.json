@@ -242,6 +242,51 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_ebz6kU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HG8G9W": {
+          "type": "heading",
+          "settings": {
+            "heading": "How To Descale Your Coffee Machine",
+            "heading_size": "h1"
+          }
+        },
+        "text_r7tzc6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Learn how to remove limescale.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HG8G9W",
+        "text_r7tzc6"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_R6QYWz": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/PbuL_DyulEw",
+        "cover_image": "shopify://shop_images/65d8c18bf187dd00093aa6f5-httpsiytimgcomvihQxiWSV_yg4maxresdefaultjpg_jpeg.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -255,6 +300,8 @@
     "rich_text_teTqGV",
     "video_hAEe4k",
     "rich_text_CNthK7",
-    "video_XWrkEb"
+    "video_XWrkEb",
+    "rich_text_ebz6kU",
+    "video_R6QYWz"
   ]
 }
