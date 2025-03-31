@@ -114,14 +114,14 @@
         "heading_Fn4NDV": {
           "type": "heading",
           "settings": {
-            "heading": "How to Set Up Your Coffee Machine",
+            "heading": "How to Program Volumes on Your Coffee Machine",
             "heading_size": "h1"
           }
         },
         "text_me63Pz": {
           "type": "text",
           "settings": {
-            "text": "<p>Find out how to use your X7.1 Iperespresso machine.</p>"
+            "text": "<p>Learn how to choose the correct volume for your espresso and americano coffees.</p>"
           }
         }
       },
@@ -144,8 +144,8 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https://youtu.be/-Kt-u8e3W4o",
-        "cover_image": "shopify://shop_images/65d8b4b53b81380008959bc1-httpsiytimgcomviXEDAXZY50FMmaxresdefaultjpg_jpeg.jpg",
+        "video_url": "https://youtu.be/xqK69eIemWk",
+        "cover_image": "shopify://shop_images/65d8c2a7f187dd00093aa6f7-httpsiytimgcomvi7w9OHJeFkSYmaxresdefaultjpg_jpeg.jpg",
         "description": "",
         "full_width": false,
         "color_scheme": "",
@@ -159,14 +159,14 @@
         "heading_rWifNV": {
           "type": "heading",
           "settings": {
-            "heading": "How to Make a Cappuccino",
+            "heading": "How to Rest Your Coffee Machine",
             "heading_size": "h1"
           }
         },
         "text_ncC9Ha": {
           "type": "text",
           "settings": {
-            "text": "<p>Learn how to make one in a few simple steps.</p>"
+            "text": "<p>Learn how to reset the settings on your machine.</p>"
           }
         }
       },
@@ -189,8 +189,8 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https://youtu.be/pUscsq82pi8",
-        "cover_image": "shopify://shop_images/65d8b50eeac68d00080ea2ef-httpsiytimgcomvibTzG7iM4dMAmaxresdefaultjpg_jpeg.jpg",
+        "video_url": "https://youtu.be/h3WZgr2reUA",
+        "cover_image": "shopify://shop_images/65d8c2b0f187dd00093aa6f8-httpsiytimgcomviTtZoq9KhKI0maxresdefaultjpg_jpeg.jpg",
         "description": "",
         "full_width": false,
         "color_scheme": "",
@@ -234,8 +234,8 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https://youtu.be/XWvLO3fC_Vk",
-        "cover_image": "shopify://shop_images/65d8b59a3b81380008959bc2-httpsiytimgcomviftZGONaEaV4maxresdefaultjpg_jpeg.jpg",
+        "video_url": "https://youtu.be/R5UpX5Q0BJ8",
+        "cover_image": "shopify://shop_images/65d8c2c93b81380008959be5-httpsiytimgcomviC4QQv3B4iT0maxresdefaultjpg_jpeg.jpg",
         "description": "",
         "full_width": false,
         "color_scheme": "",
