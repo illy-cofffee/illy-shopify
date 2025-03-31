@@ -159,14 +159,14 @@
         "heading_rWifNV": {
           "type": "heading",
           "settings": {
-            "heading": "How to Make a Cappuccino",
+            "heading": "How to reset Your Coffee Machine",
             "heading_size": "h1"
           }
         },
         "text_ncC9Ha": {
           "type": "text",
           "settings": {
-            "text": "<p>Learn how to make one in a few simple steps.</p>"
+            "text": "<p>Learn how to reset the settings on your machine.</p>"
           }
         }
       },
@@ -189,8 +189,8 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https://youtu.be/pUscsq82pi8",
-        "cover_image": "shopify://shop_images/65d8b50eeac68d00080ea2ef-httpsiytimgcomvibTzG7iM4dMAmaxresdefaultjpg_jpeg.jpg",
+        "video_url": "https://youtu.be/7u9rSh4OL-E",
+        "cover_image": "shopify://shop_images/65d8c119f187dd00093aa6f2-httpsiytimgcomviIgidE1mQu48maxresdefaultjpg_jpeg_e76406cc-eb29-4a41-b51f-42d001aa9923.jpg",
         "description": "",
         "full_width": false,
         "color_scheme": "",
