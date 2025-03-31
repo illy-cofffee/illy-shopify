@@ -110,10 +110,38 @@
         "padding_bottom": 0
       }
     },
+    "featured_collection_xQQRtg": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Coffee Machines",
+        "heading_size": "h1",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "machines",
+        "products_to_show": 6,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "scheme-3",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "quick_add": "none",
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "mosaic_tiles_cgAxKH": {
       "type": "mosaic-tiles",
       "settings": {
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-1",
         "image_large": "shopify://shop_images/coffee.png",
         "image_large_url": "shopify://pages/quality",
         "image_large_link_text": "Quality",
@@ -211,6 +239,7 @@
     "glide_slider_VJ3Ncd",
     "featured_collection_WaW7yD",
     "video_rt3R4t",
+    "featured_collection_xQQRtg",
     "mosaic_tiles_cgAxKH",
     "featured_blog_tdgBzm",
     "image_with_text_Yim3Xm",
