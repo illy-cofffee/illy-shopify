@@ -1,0 +1,260 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_qpKigU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_46TXbR": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>X7.1 Iperespresso</strong>",
+            "heading_size": "h0"
+          }
+        },
+        "text_cPXEQG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>4 Video Tutorials</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_46TXbR",
+        "text_cPXEQG"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_UhbkL6": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/img_01_2x_7bdfa039-c3e7-4235-8847-68bfd0019f90.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_iRwKfw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9Jrx7F": {
+          "type": "heading",
+          "settings": {
+            "heading": "How To Program The Volumes On Your Coffee Machine",
+            "heading_size": "h1"
+          }
+        },
+        "text_HYe3cW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Find out how to choose a coffee volume for your espresso and lungo coffees</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9Jrx7F",
+        "text_HYe3cW"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_bqcFdp": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/6NUIT2Yaioo",
+        "cover_image": "shopify://shop_images/65d8a560f187dd00093aa6b3-httpsiytimgcomvih2X5gLYpf_4maxresdefaultjpg_jpeg.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_WnCNze": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Fn4NDV": {
+          "type": "heading",
+          "settings": {
+            "heading": "How to Set Up Your Coffee Machine",
+            "heading_size": "h1"
+          }
+        },
+        "text_me63Pz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Find out how to use your X7.1 Iperespresso machine.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Fn4NDV",
+        "text_me63Pz"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_K6qctg": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/-Kt-u8e3W4o",
+        "cover_image": "shopify://shop_images/65d8b4b53b81380008959bc1-httpsiytimgcomviXEDAXZY50FMmaxresdefaultjpg_jpeg.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_teTqGV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rWifNV": {
+          "type": "heading",
+          "settings": {
+            "heading": "How to Make a Cappuccino",
+            "heading_size": "h1"
+          }
+        },
+        "text_ncC9Ha": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Learn how to make one in a few simple steps.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rWifNV",
+        "text_ncC9Ha"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_hAEe4k": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/pUscsq82pi8",
+        "cover_image": "shopify://shop_images/65d8b50eeac68d00080ea2ef-httpsiytimgcomvibTzG7iM4dMAmaxresdefaultjpg_jpeg.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_CNthK7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YfFBdx": {
+          "type": "heading",
+          "settings": {
+            "heading": "How To Descale Your Coffee Machine",
+            "heading_size": "h1"
+          }
+        },
+        "text_G6Xqgq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Learn how to remove limescale</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YfFBdx",
+        "text_G6Xqgq"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_XWrkEb": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/XWvLO3fC_Vk",
+        "cover_image": "shopify://shop_images/65d8b59a3b81380008959bc2-httpsiytimgcomviftZGONaEaV4maxresdefaultjpg_jpeg.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_qpKigU",
+    "image_banner_UhbkL6",
+    "rich_text_iRwKfw",
+    "video_bqcFdp",
+    "rich_text_WnCNze",
+    "video_K6qctg",
+    "rich_text_teTqGV",
+    "video_hAEe4k",
+    "rich_text_CNthK7",
+    "video_XWrkEb"
+  ]
+}
