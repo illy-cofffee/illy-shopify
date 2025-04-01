@@ -48,6 +48,7 @@
           "settings": {
             "glide-slider-item-header": "<p>Enter header...</p>",
             "image": "shopify://shop_images/glider-banner-example.jpg",
+            "mobile_image": "shopify://shop_images/glider-banner-mob-example.jpg",
             "description": "",
             "alignment": "align-top-left",
             "button_link": "",
