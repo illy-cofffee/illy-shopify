@@ -71,7 +71,9 @@
 }
 
 .twocol-content-btn {
-    border:1px solid #FFFFFF;
+    outline:1px solid #FFFFFF;
+    outline-offset: -1px;
+    transition: outline-width 0.2s ease;
     color: #ffffff;
     display: inline-flex;
     justify-content: center;
@@ -85,6 +87,10 @@
     appearance: none;
     min-width: calc(12rem + var(--buttons-border-width)* 2);
     min-height: calc(4.5rem + var(--buttons-border-width)* 2);
+}
+.twocol-content-btn:hover {
+    outline-width: 2px;
+   
 }
 
 
