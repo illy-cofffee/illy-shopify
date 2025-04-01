@@ -104,7 +104,7 @@
             "title": "Drip Coffee",
             "text": "<p>Aromatic and rich in flavor: find out how to make a delicious drip coffee.</p><p></p><p></p>",
             "link_label": "Find Out More",
-            "link": "#"
+            "link": "shopify://pages/what-is-drip-coffee"
           }
         },
         "column_DenjDt": {
@@ -114,7 +114,7 @@
             "title": "Espresso",
             "text": "<p>Espresso by name, express by nature: prepared on the spot to be enjoyed immediately. Find out how to make the perfect one.</p>",
             "link_label": "Find Out More",
-            "link": "#"
+            "link": "shopify://pages/how-to-make-an-espresso"
           }
         },
         "column_k9mggV": {
@@ -171,7 +171,7 @@
             "title": "Neapolitan Coffee",
             "text": "<p>All the secrets of a true classic. Also known as the “cuccumella”, the Neapolitan coffee pot results in a particularly flavorful coffee.</p>",
             "link_label": "Find Out More",
-            "link": "#"
+            "link": "shopify://pages/discover-neapolitan-coffee"
           }
         },
         "column_CRR3QY": {
@@ -181,7 +181,7 @@
             "title": "Turkish Coffee",
             "text": "<p>Discover the rich history and aroma of a triditional turkish coffee.</p>",
             "link_label": "Find Out More",
-            "link": ""
+            "link": "shopify://pages/how-to-make-turkish-coffee"
           }
         }
       },
