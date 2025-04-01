@@ -54,7 +54,7 @@
             "button_label": "Show more",
             "button_style": "solid",
             "disclaimer_text": "",
-            "color_background_main": "#D12420",
+            "color_background_main": "#d12420",
             "color_text_main": "#ffffff"
           }
         }
@@ -80,8 +80,8 @@
         "products_to_show": 6,
         "columns_desktop": 4,
         "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
+        "show_view_all": true,
+        "view_all_style": "outline",
         "enable_desktop_slider": true,
         "color_scheme": "scheme-3",
         "image_ratio": "adapt",
@@ -89,7 +89,7 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "quick_add": "none",
+        "quick_add": "standard",
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 36,
