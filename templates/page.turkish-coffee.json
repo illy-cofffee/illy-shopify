@@ -23,25 +23,17 @@
         "heading_nhj8wp": {
           "type": "heading",
           "settings": {
-            "heading": "Espresso",
+            "heading": "Turkish Coffee",
             "heading_size": "h0",
             "h1-title": false
-          }
-        },
-        "text_HVdV49": {
-          "type": "text",
-          "settings": {
-            "text": "How to prepare an espresso.",
-            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading_nhj8wp",
-        "text_HVdV49"
+        "heading_nhj8wp"
       ],
       "settings": {
-        "image": "shopify://shop_images/img_01_5b36d113-d8d9-4aab-b956-4355c2c1575d.jpg",
+        "image": "shopify://shop_images/img_01_fcea436f-def3-49e3-8f7f-10211657334e.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -60,7 +52,7 @@
         "text_V7gaHj": {
           "type": "text",
           "settings": {
-            "text": "<p>The name says all: an espresso is to be freshly prepared and enjoyed immediately.  Expressly.</p><p></p><p>For coffee purists, espresso is the quintessential coffee preparation – rich, aromatic and velvety all at once; a natural layer of crema on top belying a full-bodied, yet deftly balanced liquid below.  When ideally realized, a small miracle of chemistry and physics: science and art gliding together on air.</p><p></p><p>Espresso’s authentic formula is clear and basic, its proper execution a matter of training, experience and natural talent.  A jet of hot water at 88°-93°C passes under a pressure of nine or more atmospheres through a seven-gram cake-like layer of ground and tamped coffee. Done right, the result is a concentrate of not more than 30 ml of pure sensorial pleasure.</p>"
+            "text": "<p>Mainly enjoyed throughout the Middle East, it is made in a cezve, a typical long-handled pot made from copper or brass.  Very finely ground coffee is needed to make it.</p><p><br/>Traditionally a brass grinder is used, in order to obtain a powder as fine as caster sugar.  </p><p>It is drunk from small cups, once the powder has completely settled at the bottom.</p><p></p>"
           }
         }
       },
@@ -82,10 +74,10 @@
         "row_ij7pYd": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/img_02_2x_0bf2aef3-f192-4c7f-b732-bf00dddef81d.jpg",
+            "image": "shopify://shop_images/img_02_553cb131-32fc-4269-befa-b9e52b8649e1.jpg",
             "caption": "",
-            "heading": "For An Expert Brew",
-            "text": "<p>Authentic espresso preparation ideally starts by freshly grinding beans perfected for this purest of methods. </p><p>The art of the barista is to calibrate the grind, expertly tamp just the right amount, then keep close watch on time, temperature and pressure.  </p><p>Even today’s advanced, automatic machines require proper vigilance; perfection hangs in the balance.</p>",
+            "heading": "Preparing Turkish Coffee",
+            "text": "<ol><li>Add water to the cezve (ibrik), about 50 millilitersper cup of coffee desired</li><li>Add sugar to taste, stirring to blend it</li><li>Bring to a boil, remove from heat and add a teaspoon of coffee per cup</li><li>Boil coffee.</li><li>Remove the cevze from heat immediately after bringing to a first boil, discarding the accumulated foam, and mix well.</li><li>The coffee is boiled twice in succession, taking care to remove the cezve from the heat between one boiling and the next. The foam can either be discarded or kept before stirring it well</li><li>Allow remaining powder to settle before serving.  You can add a tablespoon of cold water to the pot after boiling twice to accelerate the process.</li></ol>",
             "button_label": "",
             "button_link": ""
           }
@@ -109,12 +101,50 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_banner_UfEKwz": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_kC6n4h": {
+          "type": "heading",
+          "settings": {
+            "heading": "ADDING FLAVOR",
+            "heading_size": "h0",
+            "h1-title": false
+          }
+        },
+        "text_Y3nkfK": {
+          "type": "text",
+          "settings": {
+            "text": "Many enjoy their Turkish coffee flavored with spices like cardamom and cinnamon. Simply add finely ground spices to taste.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kC6n4h",
+        "text_Y3nkfK"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/img_03_20b3c838-a64e-495e-9667-a3d8d9689e02.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "main",
     "image_banner_ix93V8",
     "rich_text_pAqqkz",
-    "multirow_pdRGQY"
+    "multirow_pdRGQY",
+    "image_banner_UfEKwz"
   ]
 }
