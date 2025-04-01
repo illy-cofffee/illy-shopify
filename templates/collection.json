@@ -52,11 +52,54 @@
         "right_col_link_text": "Discover More",
         "color_scheme": "scheme-60b36b58-2f08-4afa-91c3-558e5bc3ebe4"
       }
+    },
+    "rich_text_4axEyB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Dht3RX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "text_mrrhRV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_CtB4GF": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Dht3RX",
+        "text_mrrhRV",
+        "button_CtB4GF"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "banner",
     "product-grid",
-    "two_column_images_GaJHeq"
+    "two_column_images_GaJHeq",
+    "rich_text_4axEyB"
   ]
 }
