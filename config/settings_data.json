@@ -240,7 +240,7 @@
       },
       "scheme-014badbe-27d7-4789-aefd-0d5c011ae800": {
         "settings": {
-          "background": "#ffffff",
+          "background": "rgba(0,0,0,0)",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#000000",
