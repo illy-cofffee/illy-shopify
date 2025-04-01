@@ -1,0 +1,120 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_ix93V8": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_nhj8wp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Drip Coffee",
+            "heading_size": "h0",
+            "h1-title": false
+          }
+        },
+        "text_HVdV49": {
+          "type": "text",
+          "settings": {
+            "text": "Brewing Excellence.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nhj8wp",
+        "text_HVdV49"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/img_01_3ef400fb-7c17-4177-8299-f0dbfb299780.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_pAqqkz": {
+      "type": "rich-text",
+      "blocks": {
+        "text_V7gaHj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Call it American coffee. Call it filter coffee. By any name, brewed, filtered coffee is by far the most popular preparation method throughout the U.S. and Northern Europe, alive with aroma and rich taste.  The method’s origins can be traced to early 20th-century Germany and the advent of paper filters.</p><p></p><p>Grind is critical.  Choose medium, because coffee ground too coarsely will taste weak in the cup. If it’s ground too finely, you can expect a bitter brew.  Use a thermal carafe and enjoy within a few hours of preparation, and be sure to clean your machine thoroughly (about once a week for daily users) to eliminate oil and mineral build-up that alter coffee’s taste.</p><p></p><p>Advice: do not store coffee in a glass pot left on the heating element – it will make  your coffee taste burnt, acidic and bitter. Ideally, use a machine with a thermal carafe, or transfer coffee immediately from the glass pot to a thermal container.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_V7gaHj"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multirow_pdRGQY": {
+      "type": "multirow",
+      "blocks": {
+        "row_ij7pYd": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_02_2x_fa698889-93c1-4f3c-9007-4bbdd35d5c5e.jpg",
+            "caption": "",
+            "heading": "For An Expert Brew",
+            "text": "<ol><li>Warm up the coffee pot for a few minutes, filling it with hot water</li><li>Use one tablespoon of ground coffee for about every 100-150 ml of water.  The amount of coffee can be adjusted to your taste, or to the machine manufacturer’s recommendations.</li><li>Add water and coffee to machine</li><li>Remove from heat and pour into thermal carafe (if you don’t brew directly into one) to keep the coffee warm and fragrant.</li></ol>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_ij7pYd"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_ix93V8",
+    "rich_text_pAqqkz",
+    "multirow_pdRGQY"
+  ]
+}
