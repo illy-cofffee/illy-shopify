@@ -141,6 +141,55 @@
         "padding_bottom": 36
       }
     },
+    "image_banner_QQj6X6": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_YGXVYE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Quality Loves Details",
+            "heading_size": "h0",
+            "h1-title": false
+          }
+        },
+        "text_KXmQnP": {
+          "type": "text",
+          "settings": {
+            "text": "To make our coffee, we select only the finest Arabica coffee beans, with zero defects.",
+            "text_style": "body"
+          }
+        },
+        "buttons_wip9Bj": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Discover More",
+            "button_link_1": "shopify://pages/coffee-origins-and-processing",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_YGXVYE",
+        "text_KXmQnP",
+        "buttons_wip9Bj"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/6765c572efbc5b14ad3583d8_jpg.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "image_banner_XkrAiz": {
       "type": "image-banner",
       "blocks": {
@@ -194,12 +243,12 @@
     "two_column_images_ByEriQ": {
       "type": "two-column-images",
       "settings": {
-        "left_col_subhead": "A taste of art",
+        "left_col_subhead": "A Taste of Art",
         "left_col_title": "illy Art Collection",
-        "left_col_image": "shopify://shop_images/art-collection.jpg",
-        "left_col_url": "shopify://pages/illy-art-collection",
+        "left_col_image": "shopify://shop_images/670f7a17fb9cb5c8d3cc4eb4_jpg_0ec8ec86-7fd5-4dd7-94a0-d345d37b6a48.jpg",
+        "left_col_url": "shopify://collections/art-collection",
         "left_col_link_text": "Discover More",
-        "right_col_subhead": "The secrets of coffee",
+        "right_col_subhead": "The Secrets of Coffee",
         "right_col_title": "Preparation",
         "right_col_image": "shopify://shop_images/coffee-preparation.jpg",
         "right_col_url": "#",
@@ -229,6 +278,7 @@
     "rich_text_jdM8RF",
     "product-grid",
     "multirow_eWdMJE",
+    "image_banner_QQj6X6",
     "image_banner_XkrAiz",
     "two_column_images_ByEriQ",
     "key_features_RLzNdA"
