@@ -12,15 +12,16 @@
     "glide_slider_VJ3Ncd": {
       "type": "glide-slider",
       "blocks": {
-        "glide_slider_item_QM8MgB": {
+        "glide_slider_item_4Pd9mz": {
           "type": "glide-slider-item",
           "settings": {
             "glide-slider-item-header": "<p>Coffee that Regenerates the Earth</p>",
-            "image": "shopify://shop_images/66262a1210824b0008a0b217_jpg_1fb86e78-ceb7-40a5-8429-b7fc352ec4f8.webp",
+            "image": "shopify://shop_images/glider-banner-example.jpg",
+            "mobile_image": "shopify://shop_images/glider-banner-mob-example.jpg",
             "description": "<p>Discover Arabica Selection Brasile Cerrado Mineiro, Our First 100% Certified Coffee From Regenerative Agriculture.</p>",
-            "alignment": "align-middle-left",
-            "button_link": "#",
-            "button_label": "Learn More",
+            "alignment": "align-top-left",
+            "button_link": "",
+            "button_label": "Show more",
             "button_style": "solid",
             "disclaimer_text": "",
             "color_background_main": "#d12420",
@@ -42,28 +43,11 @@
             "color_background_main": "#d12420",
             "color_text_main": "#ffffff"
           }
-        },
-        "glide_slider_item_4Pd9mz": {
-          "type": "glide-slider-item",
-          "settings": {
-            "glide-slider-item-header": "<p>Enter header..</p>",
-            "image": "shopify://shop_images/glider-banner-example.jpg",
-            "mobile_image": "shopify://shop_images/glider-banner-mob-example.jpg",
-            "description": "",
-            "alignment": "align-top-left",
-            "button_link": "",
-            "button_label": "Show more",
-            "button_style": "solid",
-            "disclaimer_text": "",
-            "color_background_main": "#d12420",
-            "color_text_main": "#ffffff"
-          }
         }
       },
       "block_order": [
-        "glide_slider_item_QM8MgB",
-        "glide_slider_item_DCcEpR",
-        "glide_slider_item_4Pd9mz"
+        "glide_slider_item_4Pd9mz",
+        "glide_slider_item_DCcEpR"
       ],
       "settings": {
         "h1-title": true
