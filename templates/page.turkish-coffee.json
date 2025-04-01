@@ -1,0 +1,120 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_ix93V8": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_nhj8wp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Espresso",
+            "heading_size": "h0",
+            "h1-title": false
+          }
+        },
+        "text_HVdV49": {
+          "type": "text",
+          "settings": {
+            "text": "How to prepare an espresso.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nhj8wp",
+        "text_HVdV49"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/img_01_5b36d113-d8d9-4aab-b956-4355c2c1575d.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_pAqqkz": {
+      "type": "rich-text",
+      "blocks": {
+        "text_V7gaHj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The name says all: an espresso is to be freshly prepared and enjoyed immediately.  Expressly.</p><p></p><p>For coffee purists, espresso is the quintessential coffee preparation – rich, aromatic and velvety all at once; a natural layer of crema on top belying a full-bodied, yet deftly balanced liquid below.  When ideally realized, a small miracle of chemistry and physics: science and art gliding together on air.</p><p></p><p>Espresso’s authentic formula is clear and basic, its proper execution a matter of training, experience and natural talent.  A jet of hot water at 88°-93°C passes under a pressure of nine or more atmospheres through a seven-gram cake-like layer of ground and tamped coffee. Done right, the result is a concentrate of not more than 30 ml of pure sensorial pleasure.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_V7gaHj"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multirow_pdRGQY": {
+      "type": "multirow",
+      "blocks": {
+        "row_ij7pYd": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_02_2x_0bf2aef3-f192-4c7f-b732-bf00dddef81d.jpg",
+            "caption": "",
+            "heading": "For An Expert Brew",
+            "text": "<p>Authentic espresso preparation ideally starts by freshly grinding beans perfected for this purest of methods. </p><p>The art of the barista is to calibrate the grind, expertly tamp just the right amount, then keep close watch on time, temperature and pressure.  </p><p>Even today’s advanced, automatic machines require proper vigilance; perfection hangs in the balance.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_ij7pYd"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_ix93V8",
+    "rich_text_pAqqkz",
+    "multirow_pdRGQY"
+  ]
+}
