@@ -14,9 +14,8 @@ if section.index == 1
 endif
 
 -%}
-<div class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
-    
-    <div class="section-twocol-tiles global-media-settings{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}">
+<div class="section-{{ section.id }}-padding gradient color-scheme-6">
+    <div class="section-twocol-tiles global-media-settings gradient color-scheme-{{ section.settings.color_scheme }}">
         <div class="twocol-container">
             <div class="twocol-column-one" style="background-image:url('{{ section.settings.left_col_image | image_url }}')">
                 <h3>
@@ -30,7 +29,7 @@ endif
                               {% else %}
                                 href="{{ section.settings.left_col_url }}"
                               {% endif %}
-                              class="button{% if settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
+                              class="twocol-content-btn"
                             >
                               {{- section.settings.left_col_link_text | escape -}}
                             </a>
@@ -51,7 +50,7 @@ endif
                               {% else %}
                                 href="{{ section.settings.right_col_url }}"
                               {% endif %}
-                              class="button{% if settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
+                              class="twocol-content-btn"
                             >
                               {{- section.settings.right_col_link_text | escape -}}
                             </a>
@@ -132,14 +131,7 @@ endif
         "type": "text",
         "id": "right_col_link_text",
         "label": "Button text"
-    },
-    {
-        "type": "color_scheme",
-        "id": "color_scheme",
-        "label": "t:sections.all.colors.label",
-        "default": "scheme-1"
-    }
-    
+    }    
   ],
   "presets": [
     {
