@@ -90,7 +90,7 @@
         "column_qPmzx6": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/img_02_2x_aa7732c3-4507-41e6-bb82-93ff5af36a47.jpg",
+            "image": "shopify://shop_images/img_02_2x_8fa5bd3d-c6d7-4989-b42a-795052bcc600.jpg",
             "title": "French Press",
             "text": "<p>The French-style coffee pot. The simplest way to make a drip style coffee with an bold, rich taste.</p>",
             "link_label": "Find Out More",
@@ -100,7 +100,7 @@
         "column_pEHE7r": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/65c351db7863250008e069c7_jpg.jpg",
+            "image": "shopify://shop_images/65c351db7863250008e069c7_jpg_dcb1cd38-a2b5-4b41-886e-72d73e743fe0.jpg",
             "title": "Drip Coffee",
             "text": "<p>Aromatic and rich in flavor: find out how to make a delicious drip coffee.</p><p></p><p></p>",
             "link_label": "Find Out More",
@@ -110,7 +110,7 @@
         "column_DenjDt": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/img_04_884b6262-4dc8-46d8-9e2b-490549837b96.jpg",
+            "image": "shopify://shop_images/img_04_49d2448c-9bd8-438c-b4b0-33cb3f5df624.jpg",
             "title": "Espresso",
             "text": "<p>Espresso by name, express by nature: prepared on the spot to be enjoyed immediately. Find out how to make the perfect one.</p>",
             "link_label": "Find Out More",
@@ -171,7 +171,7 @@
         "title": "",
         "heading_size": "h1",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "portrait",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "none",
