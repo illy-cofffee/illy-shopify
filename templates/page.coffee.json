@@ -81,63 +81,7 @@
         "color_scheme": "scheme-3",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "multicolumn_BTDPKH": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_gETETk": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/img_02_2x1_33c759a6-5147-46ce-9232-8a5206ec5c7d.jpg",
-            "title": "Iperespresso Capsules",
-            "text": "<p>Make barista-quality espresso at home with ease using our exclusive capsule system that takes all of the guesswork out of making espresso.</p>",
-            "link_label": "Shop now",
-            "link": "shopify://collections/iperespresso-capsules"
-          }
-        },
-        "column_7JKgmT": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/compatible-capsules.jpg",
-            "title": "Compatible coffee capsules",
-            "text": "<p>Our taste & aroma made with Nespresso®* Original machines.<br/></p><p>*trademark of a third party with no connection to illycaffè S.p.A.</p>",
-            "link_label": "Shop now",
-            "link": ""
-          }
-        },
-        "column_NEaG8p": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/e.s.e_pods.jpg",
-            "title": "E.S.E. pods",
-            "text": "<p>Enjoy the convenience of a single-serve coffee in eco-friendly compostable paper pods</p>",
-            "link_label": "Shop now",
-            "link": "shopify://collections/e-s-e-pods"
-          }
-        }
-      },
-      "block_order": [
-        "column_gETETk",
-        "column_7JKgmT",
-        "column_NEaG8p"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "square",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-3",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 12
+        "padding_bottom": 0
       }
     },
     "multicolumn_VMBJLM": {
@@ -146,9 +90,9 @@
         "column_xkB4mD": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/e.s.e_pods.jpg",
+            "image": "shopify://shop_images/674755b4c36e6f5e17ece36c_jpg.jpg",
             "title": "Ground Coffee",
-            "text": "<p>Choose from three distinct coffee grinds customized to pair perfectly with your favorite brew method</p>",
+            "text": "<p>Choose from three distinct coffee grinds customized to pair perfectly with your favorite brew method.</p>",
             "link_label": "Shop now",
             "link": "shopify://collections/ground-coffee"
           }
@@ -168,7 +112,7 @@
           "settings": {
             "image": "shopify://shop_images/instant.jpg",
             "title": "Instant coffee",
-            "text": "<p>Instant coffee makes hot- and cold-water preparations in moments</p>",
+            "text": "<p>Instant coffee makes hot- and cold-water preparations in moments.</p>",
             "link_label": "Shop now",
             "link": "shopify://collections/premium-instant-coffee"
           }
@@ -194,6 +138,62 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "multicolumn_BTDPKH": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_gETETk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_02_2x1_33c759a6-5147-46ce-9232-8a5206ec5c7d.jpg",
+            "title": "Iperespresso Capsules",
+            "text": "<p>Make barista-quality espresso at home with ease using our exclusive capsule system that takes all of the guesswork out of making espresso.</p>",
+            "link_label": "Shop now",
+            "link": "shopify://collections/iperespresso-capsules"
+          }
+        },
+        "column_7JKgmT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/compatible-capsules.jpg",
+            "title": "Compatible Coffee Capsules",
+            "text": "<p>Our taste & aroma made with Nespresso®* Original machines.<br/></p><p>*trademark of a third party with no connection to illycaffè S.p.A.</p>",
+            "link_label": "Shop now",
+            "link": "shopify://collections/compatible-espresso-capsules"
+          }
+        },
+        "column_NEaG8p": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/e.s.e_pods.jpg",
+            "title": "E.S.E. Pods",
+            "text": "<p>Enjoy the convenience of a single-serve coffee in eco-friendly compostable paper pods.</p>",
+            "link_label": "Shop now",
+            "link": "shopify://collections/e-s-e-pods"
+          }
+        }
+      },
+      "block_order": [
+        "column_gETETk",
+        "column_7JKgmT",
+        "column_NEaG8p"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 12
       }
     },
     "multirow_cJrtG4": {
@@ -259,8 +259,8 @@
     "main",
     "image_banner_MGUBKi",
     "rich_text_de4ULw",
-    "multicolumn_BTDPKH",
     "multicolumn_VMBJLM",
+    "multicolumn_BTDPKH",
     "multirow_cJrtG4"
   ]
 }
