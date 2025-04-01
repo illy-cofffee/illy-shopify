@@ -17,54 +17,19 @@
         "padding_bottom": 28
       }
     },
-    "image_banner_GzYaf7": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_ThqB3m": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1",
-            "h1-title": false
-          }
-        },
-        "text_UnfTFx": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "buttons_pyTqyr": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_ThqB3m",
-        "text_UnfTFx",
-        "buttons_pyTqyr"
-      ],
+    "two_column_images_EH6dHT": {
+      "type": "two-column-images",
       "settings": {
-        "image": "shopify://shop_images/img_01_3fa6e34b-ae18-459b-8781-acb8edf4e65e.jpg",
-        "image_2": "shopify://shop_images/img_02_fc6c9de2-8e83-4a47-bea9-b49ce82d010e.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "left_col_subhead": "Products, equipment and solutions to help your business grow every day. Discover what we can do for you.",
+        "left_col_title": "The Benefits Reserved for illy Clients",
+        "left_col_image": "shopify://shop_images/img_01_2f2d24c1-1994-4ef9-a8a7-e97afd0d8353.jpg",
+        "left_col_url": "",
+        "left_col_link_text": "Contact Us",
+        "right_col_subhead": "illy brings taste and beauty to every professional environment, making every coffee break enjoyable, whatever your company.",
+        "right_col_title": "The Unique illy Experience, at Your Desk",
+        "right_col_image": "shopify://shop_images/img_02_1677f3b1-64fa-45f1-ab30-8c58b50d6c45.jpg",
+        "right_col_url": "",
+        "right_col_link_text": "Find Out More"
       }
     },
     "multirow_j3mdKV": {
@@ -283,7 +248,7 @@
         "desktop_image_width": "medium",
         "heading_size": "h1",
         "text_style": "body",
-        "button_style": "secondary",
+        "button_style": "primary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "image_layout": "alternate-left",
@@ -334,7 +299,7 @@
   },
   "order": [
     "main",
-    "image_banner_GzYaf7",
+    "two_column_images_EH6dHT",
     "multirow_j3mdKV",
     "rich_text_khFEaB",
     "key_features_GKzXFX",
