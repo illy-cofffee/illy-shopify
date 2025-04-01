@@ -23,7 +23,7 @@
         "heading_nhj8wp": {
           "type": "heading",
           "settings": {
-            "heading": "What is a French Press?",
+            "heading": "Moka",
             "heading_size": "h0",
             "h1-title": false
           }
@@ -31,7 +31,7 @@
         "text_HVdV49": {
           "type": "text",
           "settings": {
-            "text": "HOW TO USE A FRENCH PRESS TO MAKE THE PERFECT COFFEE",
+            "text": "All About Making Moka Coffee",
             "text_style": "body"
           }
         }
@@ -41,13 +41,13 @@
         "text_HVdV49"
       ],
       "settings": {
-        "image": "shopify://shop_images/65ae96cb7863250008e0489c_png.png",
+        "image": "shopify://shop_images/img_01_dbaaaa5b-51e7-4e13-b00f-9a3f6e88de8e.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+        "color_scheme": "scheme-2",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -57,16 +57,15 @@
     "rich_text_pAqqkz": {
       "type": "rich-text",
       "blocks": {
-        "heading_MXPAeG": {
-          "type": "heading",
+        "text_BUrE49": {
+          "type": "text",
           "settings": {
-            "heading": "The French Press is a cylindrical pot with a plunger and built-in filter screen that presses hot water through ground coffee: that’s the simple beauty of the French press, creating an earthy, rich taste in your daily cup of coffee.",
-            "heading_size": "h1"
+            "text": "<p>In Italy a Caffè Moka is quite different from, say, calling for a Mocha coffee in America. To sound alike is not to taste alike, coffee-style. For making moka, the chocolate syrup is nowhere in sight. </p><p>Small, two-chambered moka pots sit on many Italian stovetops, easy to use and producing a full-bodied coffee, rich in aroma. Many have an hourglass shape, but you can find moka pots in a variety of styles, all based on the same operating principle. Water is heated in a lower chamber. Vapor pressure approaching two atmospheres pushes the water up through ground coffee in a filter, which collects in the upper chamber as liquid coffee.</p><p>It’s really that simple, but it does take some practice, a careful eye and the right grind, never too fine. Use a low flame, and be sure not to overheat to coffee.</p>"
           }
         }
       },
       "block_order": [
-        "heading_MXPAeG"
+        "text_BUrE49"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -83,10 +82,10 @@
         "row_ij7pYd": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/img_02_2x_c4e5f8ce-4dd3-4031-936e-c39d7543c8fc.jpg",
+            "image": "shopify://shop_images/img_02_2x_164fde4c-05ab-4e80-bede-f0ea3d9ac60d.jpg",
             "caption": "",
             "heading": "FRENCH PRESS INSTRUCTIONS",
-            "text": "<ol><li>Start by placing the French Press on a dry, flat surface. Hold the handle firmly, then pull out the plunger.</li><li>Next, add a heaping tablespoon (7-8 grams) of medium-coarse grinds to the pot per 6.7 oz (200 ml) of water. Or a 1:12 coffee grind to water ratio</li><li>Then, pour hot water—not quite boiling (at or about 200° Fahrenheit)—into the pot, and gently stir.</li><li>Now, carefully reinsert the plunger into the pot, stopping just above the water and ground coffee (do not plunge yet), and let stand for 3-4 minutes.</li><li>Lastly, press the plunger down slowly, exerting steady pressure.</li><li>After each use, wash the pot with water and mild detergent, and dry thoroughly.</li></ol>",
+            "text": "<ol><li>Fill the base chamber with cold water up to the level of the valve. Insert the filter.</li><li>Completely fill the filter with ground coffee, but don’t pack it down.</li><li>Make sure the filter and rubber gasket are in place. Screw the two chambers tightly together.</li><li>Place the moka pot on the stove. Warning: keep the heat low.</li><li>Remove pot from heat just when coffee starts to gurgle, before it starts to rise and bubble. You’ll be sure to extract only the best parts of the coffee.</li><li>Mix the coffee with a spoon before pouring into cups.</li><li>Rinse the coffee maker with hot water and let dry thoroughly before screwing chambers back together.</li></ol>",
             "button_label": "",
             "button_link": ""
           }
@@ -111,128 +110,20 @@
         "padding_bottom": 36
       }
     },
-    "collapsible_content_7gYrrx": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_g8C8HG": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What is the perfect French press coffee ratio for making great coffee?",
-            "icon": "none",
-            "row_content": "<p>The perfect French press coffee ratio is generally considered to be 1:12, meaning one part coffee to 12 parts water. However, this ratio can be adjusted to suit your personal taste preferences, as some people prefer stronger or weaker coffee.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_qrkUpn": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How much coffee do you put in a French Press for 2 cups?",
-            "icon": "none",
-            "row_content": "<p>The amount of coffee to put in a French press for 2 cups will depend on the size of your French press and the desired strength of your coffee. As a general guideline, a French press that makes 2 cups of coffee will require about 14 to 16 grams of coffee grounds. This is equivalent to about 3 to 4 tablespoons of coffee. So the ratio of coffee to water is roughly 1:15.</p>",
-            "page": ""
-          }
-        },
-        "collapsible_row_HUiN4h": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What kind of coffee is best for French press?",
-            "icon": "none",
-            "row_content": "<p>French Press coffee brewing is usually complemented by medium to dark roasts. If you prefer to add milk and sugar to your coffee, the dark roast will go well with the French Press. The rich, earthy and chocolatey flavors of the coffee are further enhanced by a touch of milk.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_g8C8HG",
-        "collapsible_row_qrkUpn",
-        "collapsible_row_HUiN4h"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "Pro Tips",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "scheme-3",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "rich_text_eLibHc": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_PFNWUn": {
-          "type": "heading",
-          "settings": {
-            "heading": "How to Choose your Coffee for a French Press",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_PFNWUn"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "multirow_zTUReH": {
-      "type": "multirow",
-      "blocks": {
-        "row_JaxFbW": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/65d489373b81380008958de1_png.png",
-            "caption": "",
-            "heading": "The Secret Is All In The Grind",
-            "text": "<p>Choose a medium grind with uniformity and consistency throughout. Very coarse grinds may clog the filter, while very fine grinds will pass through the filter, muddying the results.</p>",
-            "button_label": "Shop Ground Coffee",
-            "button_link": "shopify://collections/ground-coffee"
-          }
-        }
-      },
-      "block_order": [
-        "row_JaxFbW"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "primary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "rich_text_Rit8EH": {
       "type": "rich-text",
       "blocks": {
         "heading_wcLGVa": {
           "type": "heading",
           "settings": {
-            "heading": "Call It What You Will",
+            "heading": "What is a Moka Pot?",
             "heading_size": "h1"
           }
         },
         "text_Wkh3mP": {
           "type": "text",
           "settings": {
-            "text": "<p>The plunger pot, invented in France in the mid-1800s, takes different names throughout the world: French Press, melior, coffee machine piston, plunger coffee, press pot.  </p><p>What’s your favorite?</p>"
+            "text": "<p>Moka pots were invented in 1930s Italy. The name refers to the city of Mocha, Yemen, for many centuries a center of coffee excellence.</p><p>Every moka pot consists of a cylinder (bottom chamber), a filter funnel, a collector (top chamber) with a second removable filter, held in place by a rubber gasket.  The seal and removable filter should be changed periodically.</p>"
           }
         }
       },
@@ -252,7 +143,7 @@
     "image_banner_wbyF9A": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify://shop_images/65d48e5ceac68d00080e958b_jpg.webp",
+        "image": "shopify://shop_images/img_03_2x_0b65772a-10d7-4dba-a2e9-4aeba9e387a9.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-center",
@@ -271,9 +162,6 @@
     "image_banner_ix93V8",
     "rich_text_pAqqkz",
     "multirow_pdRGQY",
-    "collapsible_content_7gYrrx",
-    "rich_text_eLibHc",
-    "multirow_zTUReH",
     "rich_text_Rit8EH",
     "image_banner_wbyF9A"
   ]
