@@ -23,15 +23,15 @@
         "heading_8VmC7q": {
           "type": "heading",
           "settings": {
-            "heading": "Our coffees",
-            "heading_size": "h1",
+            "heading": "Our Coffees",
+            "heading_size": "hxl",
             "h1-title": false
           }
         },
         "text_WEMyaX": {
           "type": "text",
           "settings": {
-            "text": "Whole beans, ground coffee, capsules and pods: choose your favourite format to enjoy an unforgettable coffee",
+            "text": "Discover Classico, Intenso, and Forte. The three roasting profiles of our unique blend, or the individual aromatic notes of our different coffee origins with Arabica Selection single origins.",
             "text_style": "body"
           }
         }
@@ -41,12 +41,12 @@
         "text_WEMyaX"
       ],
       "settings": {
-        "image": "shopify://shop_images/coffee-landing-hero.jpg",
+        "image": "shopify://shop_images/img_01_2x2_241ff66d-f741-47a0-96c1-9d0df383d70c.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "small",
-        "desktop_content_position": "bottom-left",
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
         "show_text_box": true,
-        "desktop_content_alignment": "left",
+        "desktop_content_alignment": "center",
         "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
@@ -60,7 +60,7 @@
         "heading_rPxrU6": {
           "type": "heading",
           "settings": {
-            "heading": "Quality loves details",
+            "heading": "Quality Loves Details",
             "heading_size": "h1"
           }
         },
@@ -90,8 +90,8 @@
         "column_gETETk": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/iperespresso-capsules.jpg",
-            "title": "Iperespresso capsules",
+            "image": "shopify://shop_images/img_02_2x1_33c759a6-5147-46ce-9232-8a5206ec5c7d.jpg",
+            "title": "Iperespresso Capsules",
             "text": "<p>Make barista-quality espresso at home with ease using our exclusive capsule system that takes all of the guesswork out of making espresso.</p>",
             "link_label": "Shop now",
             "link": "shopify://collections/iperespresso-capsules"
@@ -207,7 +207,7 @@
             "heading": "Step By Step Guides",
             "text": "<p>From espresso to cappuccino and from the moka pot to the French press, choose your favorite brew method and follow the steps for a perfect cup of coffee.</p>",
             "button_label": "Learn more",
-            "button_link": "#"
+            "button_link": "shopify://pages/brew-guides"
           }
         },
         "row_Jt3UyP": {
@@ -217,21 +217,33 @@
             "caption": "From selection to cup",
             "heading": "Quality Loves Details",
             "text": "<p>To make our coffee, we select only the finest Arabica coffee beans, with zero flaws.</p>",
-            "button_label": "Learn more",
-            "button_link": ""
+            "button_label": "Find Out More",
+            "button_link": "shopify://pages/coffee-origins-and-processing"
+          }
+        },
+        "row_gbMGzx": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/HOME_PROMO_MOBILE_x2_49289ebc-7148-49ce-bc02-e5bdf999d2a4.webp",
+            "caption": "",
+            "heading": "illy Coffee Subscriptions",
+            "text": "<p>Never run out of your favorite coffee again—subscribe to<strong>illy coffee</strong>and enjoy fresh beans, capsules, pods or ground coffee delivered straight to your door, right when you need it.</p>",
+            "button_label": "Subscribe Now",
+            "button_link": "shopify://collections/coffee"
           }
         }
       },
       "block_order": [
         "row_Ectc6L",
-        "row_Jt3UyP"
+        "row_Jt3UyP",
+        "row_gbMGzx"
       ],
       "settings": {
-        "image_height": "small",
+        "image_height": "medium",
         "desktop_image_width": "medium",
         "heading_size": "h1",
         "text_style": "body",
-        "button_style": "secondary",
+        "button_style": "primary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "image_layout": "alternate-left",
