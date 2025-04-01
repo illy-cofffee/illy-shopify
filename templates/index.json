@@ -43,11 +43,26 @@
             "color_background_main": "#d12420",
             "color_text_main": "#ffffff"
           }
+        },
+        "glide_slider_item_F7KqXf": {
+          "type": "glide-slider-item",
+          "settings": {
+            "glide-slider-item-header": "<p>Enter header...</p>",
+            "description": "",
+            "alignment": "align-top-left",
+            "button_link": "",
+            "button_label": "Show more",
+            "button_style": "solid",
+            "disclaimer_text": "",
+            "color_background_main": "#D12420",
+            "color_text_main": "#ffffff"
+          }
         }
       },
       "block_order": [
         "glide_slider_item_4Pd9mz",
-        "glide_slider_item_DCcEpR"
+        "glide_slider_item_DCcEpR",
+        "glide_slider_item_F7KqXf"
       ],
       "settings": {
         "h1-title": true
