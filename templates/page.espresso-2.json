@@ -23,7 +23,7 @@
         "heading_nhj8wp": {
           "type": "heading",
           "settings": {
-            "heading": "Drip Coffee",
+            "heading": "Espresso",
             "heading_size": "h0",
             "h1-title": false
           }
@@ -31,7 +31,7 @@
         "text_HVdV49": {
           "type": "text",
           "settings": {
-            "text": "Brewing Excellence.",
+            "text": "How to prepare an espresso.",
             "text_style": "body"
           }
         }
@@ -41,13 +41,13 @@
         "text_HVdV49"
       ],
       "settings": {
-        "image": "shopify://shop_images/img_01_3ef400fb-7c17-4177-8299-f0dbfb299780.jpg",
+        "image": "shopify://shop_images/img_01_5b36d113-d8d9-4aab-b956-4355c2c1575d.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -60,7 +60,7 @@
         "text_V7gaHj": {
           "type": "text",
           "settings": {
-            "text": "<p>Call it American coffee. Call it filter coffee. By any name, brewed, filtered coffee is by far the most popular preparation method throughout the U.S. and Northern Europe, alive with aroma and rich taste.  The method’s origins can be traced to early 20th-century Germany and the advent of paper filters.</p><p></p><p>Grind is critical.  Choose medium, because coffee ground too coarsely will taste weak in the cup. If it’s ground too finely, you can expect a bitter brew.  Use a thermal carafe and enjoy within a few hours of preparation, and be sure to clean your machine thoroughly (about once a week for daily users) to eliminate oil and mineral build-up that alter coffee’s taste.</p><p></p><p>Advice: do not store coffee in a glass pot left on the heating element – it will make  your coffee taste burnt, acidic and bitter. Ideally, use a machine with a thermal carafe, or transfer coffee immediately from the glass pot to a thermal container.</p>"
+            "text": "<p>The name says all: an espresso is to be freshly prepared and enjoyed immediately.  Expressly.</p><p></p><p>For coffee purists, espresso is the quintessential coffee preparation – rich, aromatic and velvety all at once; a natural layer of crema on top belying a full-bodied, yet deftly balanced liquid below.  When ideally realized, a small miracle of chemistry and physics: science and art gliding together on air.</p><p></p><p>Espresso’s authentic formula is clear and basic, its proper execution a matter of training, experience and natural talent.  A jet of hot water at 88°-93°C passes under a pressure of nine or more atmospheres through a seven-gram cake-like layer of ground and tamped coffee. Done right, the result is a concentrate of not more than 30 ml of pure sensorial pleasure.</p>"
           }
         }
       },
