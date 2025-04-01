@@ -232,10 +232,10 @@
           "background": "rgba(0,0,0,0)",
           "background_gradient": "",
           "text": "#ffffff",
-          "button": "#d12420",
+          "button": "#ffffff",
           "button_label": "#ffffff",
           "secondary_button_label": "#ffffff",
-          "shadow": "rgba(0,0,0,0)"
+          "shadow": "#000000"
         }
       },
       "scheme-014badbe-27d7-4789-aefd-0d5c011ae800": {

@@ -125,6 +125,7 @@
       "block_order": [
         "row_rbiKJd"
       ],
+      "disabled": true,
       "settings": {
         "image_height": "small",
         "desktop_image_width": "medium",
@@ -176,6 +177,7 @@
         "text_KXmQnP",
         "buttons_wip9Bj"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/6765c572efbc5b14ad3583d8_jpg.webp",
         "image_overlay_opacity": 0,
@@ -190,54 +192,98 @@
         "show_text_below": true
       }
     },
-    "image_banner_XkrAiz": {
-      "type": "image-banner",
+    "image_with_text_9DPKbn": {
+      "type": "image-with-text",
       "blocks": {
-        "heading_fThmGc": {
+        "heading_TrtLtg": {
           "type": "heading",
           "settings": {
             "heading": "Quality Loves Details",
-            "heading_size": "h1",
-            "h1-title": false
+            "heading_size": "h1"
           }
         },
-        "text_wUqEqL": {
+        "text_RrNKHG": {
           "type": "text",
           "settings": {
-            "text": "To make our coffee, we select only the finest Arabica coffee beans, with zero defects.",
+            "text": "<p>Crafting the finest coffee experience</p>",
             "text_style": "body"
           }
         },
-        "buttons_D6TQVF": {
-          "type": "buttons",
+        "button_cwCYMA": {
+          "type": "button",
           "settings": {
-            "button_label_1": "Discover more",
-            "button_link_1": "shopify://pages/coffee-origins-and-processing",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label": "Discover More",
+            "button_link": "shopify://pages/coffee-origins-and-processing",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_fThmGc",
-        "text_wUqEqL",
-        "buttons_D6TQVF"
+        "heading_TrtLtg",
+        "text_RrNKHG",
+        "button_cwCYMA"
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify://shop_images/677267b55eec5bfac7e2961a_jpg.webp",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "bottom-left",
-        "show_text_box": true,
+        "image": "shopify://shop_images/67726aa25eec5bfac7e29887_jpg_eec15230-2c91-489b-b218-a3c304def30e.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
         "desktop_content_alignment": "left",
-        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_we99tQ": {
+      "type": "multirow",
+      "blocks": {
+        "row_aY78Fh": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/HOME_PROMO_MOBILE_x2_c3523519-3656-48e3-a661-4a38dc32ffe4.webp",
+            "caption": "",
+            "heading": "illy Subscription",
+            "text": "<p>Never run out of your favourite coffee, for your daily taste experience.</p>",
+            "button_label": "Discover More",
+            "button_link": "shopify://pages/subscription"
+          }
+        },
+        "row_zji3L7": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/67726aa25eec5bfac7e29887_jpg_eec15230-2c91-489b-b218-a3c304def30e.webp",
+            "caption": "",
+            "heading": "Quality Loves Details",
+            "text": "<p>Crafting the finest coffee experience</p>",
+            "button_label": "Discover More",
+            "button_link": "shopify://pages/coffee-origins-and-processing"
+          }
+        }
+      },
+      "block_order": [
+        "row_aY78Fh",
+        "row_zji3L7"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "two_column_images_ByEriQ": {
@@ -252,8 +298,7 @@
         "right_col_title": "Preparation",
         "right_col_image": "shopify://shop_images/coffee-preparation.jpg",
         "right_col_url": "#",
-        "right_col_link_text": "Discover More",
-        "color_scheme": "scheme-014badbe-27d7-4789-aefd-0d5c011ae800"
+        "right_col_link_text": "Discover More"
       }
     },
     "key_features_RLzNdA": {
@@ -279,7 +324,8 @@
     "product-grid",
     "multirow_eWdMJE",
     "image_banner_QQj6X6",
-    "image_banner_XkrAiz",
+    "image_with_text_9DPKbn",
+    "multirow_we99tQ",
     "two_column_images_ByEriQ",
     "key_features_RLzNdA"
   ]
