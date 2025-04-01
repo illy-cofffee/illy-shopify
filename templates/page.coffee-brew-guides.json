@@ -126,8 +126,35 @@
             "link_label": "Find Out More",
             "link": "shopify://blogs/recipes/cappuccino"
           }
-        },
-        "column_MVxePD": {
+        }
+      },
+      "block_order": [
+        "column_qPmzx6",
+        "column_pEHE7r",
+        "column_DenjDt",
+        "column_k9mggV"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_mYUjKp": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Rrn47V": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/img_04_2x_157f5c21-2d36-4e2e-b5f4-cd535996c654.jpg",
@@ -137,7 +164,7 @@
             "link": "#"
           }
         },
-        "column_i6pyE4": {
+        "column_CzNRt6": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/img_02_885fbfbc-8ca9-4a59-beee-d83c6ba9bb85.jpg",
@@ -147,7 +174,7 @@
             "link": "#"
           }
         },
-        "column_iBRT8T": {
+        "column_CRR3QY": {
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/65e1e2baf187dd00093ab3b9_jpg.webp",
@@ -159,13 +186,9 @@
         }
       },
       "block_order": [
-        "column_qPmzx6",
-        "column_pEHE7r",
-        "column_DenjDt",
-        "column_k9mggV",
-        "column_MVxePD",
-        "column_i6pyE4",
-        "column_iBRT8T"
+        "column_Rrn47V",
+        "column_CzNRt6",
+        "column_CRR3QY"
       ],
       "settings": {
         "title": "",
@@ -236,6 +259,7 @@
     "image_banner_rJqpgJ",
     "rich_text_MBip6T",
     "multicolumn_CLknaT",
+    "multicolumn_mYUjKp",
     "multirow_gBBwkz"
   ]
 }
