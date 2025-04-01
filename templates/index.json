@@ -32,8 +32,6 @@
           "type": "glide-slider-item",
           "settings": {
             "glide-slider-item-header": "<p>Enter header...</p>",
-            "image": "shopify://shop_images/210528_compatibili_hero-banner_1440x740_0aa49f6b-0ac9-4175-8d99-8db47736ab9f.jpg",
-            "mobile_image": "shopify://shop_images/210528_compatibli_hero-banner-mobile_750x500_5eaee0a9-8502-4062-9b78-2619e928807c.jpg",
             "description": "",
             "alignment": "align-top-left",
             "button_link": "",
