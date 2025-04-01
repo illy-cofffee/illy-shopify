@@ -213,13 +213,13 @@
       },
       "scheme-60b36b58-2f08-4afa-91c3-558e5bc3ebe4": {
         "settings": {
-          "background": "#ffffff",
+          "background": "rgba(0,0,0,0)",
           "background_gradient": "",
           "text": "#ffffff",
-          "button": "#000000",
+          "button": "rgba(0,0,0,0)",
           "button_label": "#ffffff",
           "secondary_button_label": "#ffffff",
-          "shadow": "#000000"
+          "shadow": "rgba(0,0,0,0)"
         }
       }
     }
