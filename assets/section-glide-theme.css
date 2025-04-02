@@ -395,3 +395,8 @@
   }
 }  
 
+@media screen and (max-width: 767px) {
+	.element--hide-on-small {
+		display: none !important;
+	}
+}
