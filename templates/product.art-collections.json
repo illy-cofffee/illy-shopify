@@ -307,31 +307,51 @@
         "collapsible_row_RUMk3i": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Storage tips",
+            "heading": "How can I purchase past illy Art Collections?",
             "icon": "none",
-            "row_content": "<p>An unopened can of <em>illy </em>ground coffee will remain fresh for at least two years due to <em>illy's </em>proprietary patented pressurized system that extracts air from the can and replaces it with inert gasses at a higher-than-atmospheric level of pressure. This method guarantees a longer preservation time, maintaining flavour and aroma for over 24 months. At the same time it 'ages' the coffee, improving its aroma over time by causing its volatile aroma compounds to bind with the oils that are contained in the beans. Simple vacuum packing cannot achieve this flavour transformation. The positive pressure exerted by<em>illy's</em>method actually forces these aroma compounds back into the coffee whereas vacuum packing lets them seep out. The effect of <em>illy's </em>aging process is similar in many ways to the development of complex flavours when a fine red wine is aged under proper conditions.</p><p>A room-temperature can of <em>illy </em>will remain at optimum freshness for 7 days after opening. After 7 days flavour will begin to deteriorate due to natural oxidation from exposure to air.</p><p>If the entire can will be consumed within 7 days, room temperature storage is recommended. If the coffee will not be consumed within 7 days, we recommend refrigerated storage, allowing the coffee to return to room temperature before use. It is important to refrigerate the can immediately after opening in this case to retain optimum flavour.</p>",
+            "row_content": "<p>illy Art Collections are released as signed and numbered limited editions. Once a collection sells out, it is no longer available for purchase. These collections are highly sought after worldwide, with many collectors eager to buy, sell, or trade past editions.</p>",
             "page": ""
           }
         },
         "collapsible_row_rEnBh4": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "How much caffeine is in illy?",
+            "heading": "Can I get a replacement cup for one that has broken?",
             "icon": "none",
-            "row_content": "<p><em>illy </em>uses only the finest Arabica beans available, and Arabica coffee is naturally lower in caffeine than the cheaper and lower quality Robusta variety. An average 1 oz. <em>illy </em>espresso will contain approximately 60 milligrams of caffeine. Brewed <em>illy </em>coffee will contain less than 15 mg caffeine for each gram of coffee used.</p>",
+            "row_content": "<p>illy Art Collections are sold as complete signed and numbered sets, so individual cups and saucers cannot be replaced.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_UfWnLK": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "I saw an illy Art Series Cup at a restaurant, how can I purchase this collection?",
+            "icon": "none",
+            "row_content": "<p>All available collections for sale can be found in the Artist Cups section of the illy e-store. If you've spotted a cup elsewhere, it may be from an older collection or a special release exclusive to restaurants.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_HYP9F6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where can I see all the illy cup collections, past and present?",
+            "icon": "none",
+            "row_content": "<p>Visit this <a href=\"/pages/illy-art-collection\" title=\"illy Art Collection\">link</a></p>",
             "page": ""
           }
         }
       },
       "block_order": [
         "collapsible_row_RUMk3i",
-        "collapsible_row_rEnBh4"
+        "collapsible_row_rEnBh4",
+        "collapsible_row_UfWnLK",
+        "collapsible_row_HYP9F6"
       ],
       "settings": {
         "caption": "",
         "heading": "FAQs",
         "heading_size": "h1",
-        "heading_alignment": "center",
+        "heading_alignment": "left",
         "layout": "none",
         "color_scheme": "scheme-1",
         "container_color_scheme": "",
