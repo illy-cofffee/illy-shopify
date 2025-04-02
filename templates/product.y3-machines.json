@@ -321,11 +321,21 @@
             "row_content": "<p><em>illy </em>uses only the finest Arabica beans available, and Arabica coffee is naturally lower in caffeine than the cheaper and lower quality Robusta variety. An average 1 oz. <em>illy </em>espresso will contain approximately 60 milligrams of caffeine. Brewed <em>illy </em>coffee will contain less than 15 mg caffeine for each gram of coffee used.</p>",
             "page": ""
           }
+        },
+        "collapsible_row_Xq7Jnj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Download the manual",
+            "icon": "none",
+            "row_content": "<p>add the manual as a <a href=\"https://cdn.shopify.com/s/files/1/0638/9058/7699/files/img_03_2x_677f3ea1-4de7-41d1-8396-d4ba325b3fbf.jpg?v=1743550712\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0638/9058/7699/files/img_03_2x_677f3ea1-4de7-41d1-8396-d4ba325b3fbf.jpg?v=1743550712\">link here</a> </p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
         "collapsible_row_RUMk3i",
-        "collapsible_row_rEnBh4"
+        "collapsible_row_rEnBh4",
+        "collapsible_row_Xq7Jnj"
       ],
       "settings": {
         "caption": "",
@@ -359,6 +369,53 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "image_with_text_D849kz": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_jyQhHn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Video Tutorials",
+            "heading_size": "h2"
+          }
+        },
+        "text_AiEEMF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_3FP7UA": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "shopify://pages/illy-y3-3-iperespresso-machine-tutorials",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_jyQhHn",
+        "text_AiEEMF",
+        "button_3FP7UA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/2019_MACHINE_Y3_Family_multicolor_Amalfi_front_copy.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -369,6 +426,7 @@
     "rich_text_Vj77rB",
     "image_banner_ebJJYn",
     "collapsible_content_LmKfQF",
-    "related-products"
+    "related-products",
+    "image_with_text_D849kz"
   ]
 }
