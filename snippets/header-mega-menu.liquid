@@ -66,8 +66,9 @@
                       {%- endif -%}
                     </li>
                   {%- endfor -%}
-
+                {% if link.title == "Shop" %}
                   {% if section.settings.show_promotion_1 or section.settings.show_promotion_2 %}
+                    
                     {% assign sizes = '(max-width: 1280px) calc((100vw - 100px) / 4), 320px"' %}
                     {% assign sizes = sizes | prepend: 'sizes="(max-width: 474px) calc(100vw - 40px), (max-width: 1023px) 335px, ' %}
                   
@@ -105,6 +106,7 @@
                 </div>
 
                 </li>
+              {% endif %}
               {% endif %}
                 </ul>
               </div>
