@@ -2704,7 +2704,7 @@ details[open] .modal-overlay::after {
   }
 
   .search-modal__content {
-    /* padding: 0 6rem; */
+    padding: 0 6rem;
   }
 }
 
@@ -3892,12 +3892,6 @@ iframe {
 .menu-promo-link .svg-wrapper {
   width: 6px;
   height: 10px;
-}
-
-.header_search_field, .header_search_field:before, .header_search_field:after {
-  box-shadow: none !important;
-  border:none !important;
-  border-color: #FFFFFF;
 }
 
 .predictive-search__heading {
