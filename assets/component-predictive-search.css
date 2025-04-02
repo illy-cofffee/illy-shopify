@@ -24,7 +24,7 @@
 .predictive-search__results-groups-wrapper {
   display: flex;
   border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
-  padding-bottom: 1rem;
+  padding: 2.5rem;
 }
 
 @media screen and (max-width: 749px) {
@@ -32,6 +32,10 @@
     right: 0;
     left: 0;
     top: 100%;
+  }
+
+  .predictive-search__results-groups-wrapper {
+    padding: 0.5rem;
   }
 
   .predictive-search__results-groups-wrapper {
@@ -44,6 +48,9 @@
      * This causes the gap to render and look like a big top margin */
     gap: 2rem;
   }
+  .search-modal__form {
+    width:90%;
+  }
 }
 
 @media screen and (min-width: 750px) {
@@ -55,6 +62,7 @@
   .header predictive-search {
     position: relative;
   }
+  
 }
 
 predictive-search[open] .predictive-search,
@@ -91,7 +99,7 @@ predictive-search[loading] .predictive-search {
 }
 
 .predictive-search__heading {
-  border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  /* border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08); */
   margin: 0 2rem;
   padding: 1.5rem 0 0.75rem;
   color: rgba(var(--color-foreground), 0.7);
@@ -130,8 +138,8 @@ predictive-search[loading] .predictive-search__results-groups-wrapper ~ .predict
 .predictive-search__list-item:hover > *,
 .predictive-search__item[aria-selected='true'],
 .predictive-search__item:hover {
-  color: rgb(var(--color-foreground));
-  background-color: rgba(var(--color-foreground), 0.04);
+  /* color: rgb(var(--color-foreground));
+  background-color: rgba(var(--color-foreground), 0.04); */
 }
 
 .predictive-search__list-item[aria-selected='true'] .predictive-search__item-heading,
@@ -142,7 +150,7 @@ predictive-search[loading] .predictive-search__results-groups-wrapper ~ .predict
 
 .predictive-search__item {
   display: flex;
-  padding: 1rem 2rem;
+  padding: 0.2rem 2rem;
   text-align: left;
   text-decoration: none;
   width: 100%;
