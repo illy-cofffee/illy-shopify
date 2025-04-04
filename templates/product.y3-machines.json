@@ -1,0 +1,295 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "collapsible_tab_darjU9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Features",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.features | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_cD6xJA": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Flavour Profile",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.flavour_profile | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_p3cDfi": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Origin",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.origin.value }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_kwm8PN": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Brewing",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.brewing_recommendations | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_BRxFx9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Material & Design",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.material_design | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_kDzaFN": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Care & Maintenance",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.care_maintenance | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_LGxAAQ": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Warranty & Support",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.warranty | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_g96R9H": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Compatible Machines",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.compatible_machines | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_UMk76W": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Compatible Products",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.compatible_products | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_whJe8b": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Design & Craftmanship",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.design_craftmanship | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_Gkd4LE": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Limited Addition",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.limited_edition | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "complementary_tPwmpL": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pairs well with",
+            "make_collapsible_row": false,
+            "icon": "price_tag",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": true
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "description",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "collapsible_tab_darjU9",
+        "collapsible_tab_cD6xJA",
+        "collapsible_tab_p3cDfi",
+        "collapsible_tab_kwm8PN",
+        "collapsible_tab_BRxFx9",
+        "collapsible_tab_kDzaFN",
+        "collapsible_tab_LGxAAQ",
+        "collapsible_tab_g96R9H",
+        "collapsible_tab_UMk76W",
+        "collapsible_tab_whJe8b",
+        "collapsible_tab_Gkd4LE",
+        "complementary_tPwmpL"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-3",
+        "media_size": "medium",
+        "constrain_to_viewport": false,
+        "media_fit": "cover",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "product_key_features_zpzR3T": {
+      "type": "product-key-features",
+      "settings": {}
+    },
+    "product_video_B7gAnT": {
+      "type": "product-video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "{{ product.metafields.custom.product_video_id.value }}",
+        "cover_image": "",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "scheme-3",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_kNnJWq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_96eAay": {
+          "type": "heading",
+          "settings": {
+            "heading": "Quality meets sustainability",
+            "heading_size": "h1"
+          }
+        },
+        "text_FExbdE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We have spent decades working with coffee growers to support them in meeting the highest standards of quality and sustainability, in more than 30 countries around the world. Researching and experimenting with raw materials is an ongoing process, especially with ongoing climate change. Once our coffee is processed, each coffee bean undergoes yet another round of selection, ensuring that every sip of our coffee maintains the exceptional quality we're known for. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_96eAay",
+        "text_FExbdE"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_dPWbPV": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/coffee-beans-growing.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product_key_features_zpzR3T",
+    "product_video_B7gAnT",
+    "rich_text_kNnJWq",
+    "image_banner_dPWbPV",
+    "related-products"
+  ]
+}
