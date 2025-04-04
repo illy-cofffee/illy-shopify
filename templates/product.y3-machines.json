@@ -297,7 +297,7 @@
           "settings": {
             "caption": "",
             "heading": "Product Manual",
-            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel tincidunt risus.</p>",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel tincidunt risus. </p>",
             "button_label": "Discover More",
             "button_link": "#"
           }
