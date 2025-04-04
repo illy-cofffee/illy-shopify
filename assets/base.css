@@ -1233,6 +1233,9 @@ button.shopify-payment-button__button--unbranded {
   -webkit-appearance: none;
   appearance: none;
   background-color: rgba(var(--color-button), var(--alpha-button-background));
+  font-family: "Museo Sans 700";
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
 }
 
 .button:before,
