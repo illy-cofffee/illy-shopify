@@ -278,6 +278,51 @@
         "show_text_below": true
       }
     },
+    "multirow_dXRjV9": {
+      "type": "multirow",
+      "blocks": {
+        "row_KFJEkV": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/ILL002-23_illy_y3.3_1080x1080GROUP_BEIGE_BG_273f9040-a363-48ee-a72a-3269850cca66.jpg",
+            "caption": "",
+            "heading": "Video Tutorials",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel tincidunt risus.</p>",
+            "button_label": "Discover more",
+            "button_link": "#"
+          }
+        },
+        "row_kf9Lcy": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Product Manual",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vel tincidunt risus.</p>",
+            "button_label": "Discover More",
+            "button_link": "#"
+          }
+        }
+      },
+      "block_order": [
+        "row_KFJEkV",
+        "row_kf9Lcy"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-1",
+        "row_color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -303,6 +348,7 @@
     "product_video_B7gAnT",
     "rich_text_kNnJWq",
     "image_banner_dPWbPV",
+    "multirow_dXRjV9",
     "related-products"
   ]
 }
