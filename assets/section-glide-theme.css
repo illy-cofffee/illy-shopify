@@ -194,6 +194,10 @@
 
 .glideslider-button {
   margin-top: 3rem;
+  font-family: "Museo Sans 500";
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .align-top-left {
