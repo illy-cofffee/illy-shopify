@@ -74,6 +74,15 @@
           font-display:swap;
       }
 
+      @font-face {
+        font-family: "Museo Sans 700";
+          src: url( '{{ "Museo_Sans_700.woff" | asset_url }}' ) format("woff"),
+              url( '{{ "Museo_Sans_500.ttf" | asset_url }}' ) format("truetype");
+          font-weight:normal;
+          font-style:normal;
+          font-display:swap;
+      }
+
       {% for scheme in settings.color_schemes -%}
         {% assign scheme_classes = scheme_classes | append: ', .color-' | append: scheme.id %}
         {% if forloop.index == 1 -%}
