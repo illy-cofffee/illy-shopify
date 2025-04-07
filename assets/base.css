@@ -1203,7 +1203,7 @@ button.shopify-payment-button__button--unbranded {
   --border-opacity: calc(1 - var(--buttons-border-opacity));
   border-radius: var(--buttons-radius-outset);
   position: relative;
-  font-family: "Museo Sans 700";
+  font-family: "Museo Sans 500";
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
@@ -1233,7 +1233,7 @@ button.shopify-payment-button__button--unbranded {
   -webkit-appearance: none;
   appearance: none;
   background-color: rgba(var(--color-button), var(--alpha-button-background));
-  font-family: "Museo Sans 700";
+  font-family: "Museo Sans 500";
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
