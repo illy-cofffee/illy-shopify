@@ -2774,7 +2774,6 @@ details[open] > .header__submenu {
   margin-left: -1.2rem;
   grid-area: navigation;
   display: none;
-  font-family: "Museo Sans 500";
 }
 
 .header--top-center .header__inline-menu,
@@ -2807,6 +2806,7 @@ details[open] > .header__submenu {
 .header__menu-item {
   padding: 1.2rem;
   text-decoration: none;
+  font-family: "Museo Sans 500";
   color: rgba(var(--color-foreground));
 }
 
