@@ -56,9 +56,10 @@
   /*transform: translateX(-50%);*/
 }
 .glide__bullet {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: #000000;
+  border: 1px solid #000000;
   width: 40px;
-  height: 2px;
+  height: 4px;
   margin: 0 5px;
   padding: 0;
   cursor: pointer;
