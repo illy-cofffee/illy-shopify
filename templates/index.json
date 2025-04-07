@@ -125,6 +125,61 @@
         "feature_3_description": "Torem ipsum dolor sit amet, consectetur adipiscing elit.",
         "feature_3_image": "shopify://shop_images/icon-subscribe-save.svg"
       }
+    },
+    "multirow_zeVNBj": {
+      "type": "multirow",
+      "blocks": {
+        "row_NEbkVi": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_gjrrw7": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_JDrw6b": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_NEbkVi",
+        "row_gjrrw7",
+        "row_JDrw6b"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -132,6 +187,7 @@
     "featured_collection",
     "video_rt3R4t",
     "mosaic_tiles_EtGmJ4",
-    "key_features_yNRFdL"
+    "key_features_yNRFdL",
+    "multirow_zeVNBj"
   ]
 }
