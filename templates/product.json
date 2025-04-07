@@ -81,6 +81,15 @@
             "page": ""
           }
         },
+        "collapsible_tab_Gkd4LE": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Sustainability",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.limited_edition | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
         "collapsible_tab_kwm8PN": {
           "type": "collapsible_tab",
           "settings": {
@@ -144,15 +153,6 @@
             "page": ""
           }
         },
-        "collapsible_tab_Gkd4LE": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Limited Addition",
-            "icon": "none",
-            "content": "<p>{{ product.metafields.custom.limited_edition | metafield_tag }}</p>",
-            "page": ""
-          }
-        },
         "complementary_rCYMpF": {
           "type": "complementary",
           "settings": {
@@ -179,6 +179,7 @@
         "collapsible_tab_darjU9",
         "collapsible_tab_cD6xJA",
         "collapsible_tab_p3cDfi",
+        "collapsible_tab_Gkd4LE",
         "collapsible_tab_kwm8PN",
         "collapsible_tab_BRxFx9",
         "collapsible_tab_kDzaFN",
@@ -186,7 +187,6 @@
         "collapsible_tab_g96R9H",
         "collapsible_tab_UMk76W",
         "collapsible_tab_whJe8b",
-        "collapsible_tab_Gkd4LE",
         "complementary_rCYMpF"
       ],
       "settings": {
