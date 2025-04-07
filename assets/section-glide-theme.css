@@ -6,7 +6,7 @@
   position: absolute;
   display: block;
   border:none;
-  top: 90%;
+  top: 91%;
   z-index: 2;
   color: white;
   text-transform: uppercase;
@@ -49,7 +49,7 @@
 .glide__bullets {
   position: absolute;
   z-index: 2;
-  bottom: 2em;
+  bottom: 2.5em;
   left: 2em;
   display: none;
   list-style: none;
