@@ -364,6 +364,7 @@ a.product__text {
 }
 
 .product-form__buttons {
+  padding-top:24px;
   max-width: 44rem;
 }
 
