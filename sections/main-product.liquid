@@ -111,7 +111,7 @@
                   </a>
                 </div>
               {%- when 'price' -%}
-                <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
+                <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }} class="product__price">
                   {%- render 'price',
                     product: product,
                     use_variant: true,

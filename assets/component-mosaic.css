@@ -75,12 +75,10 @@
     left: 24px;
     color: white;
     text-decoration: none;
-    font-family: Arial, sans-serif;
+    font-family: "Museo Sans 500";
     z-index: 1;
 }
 
-.link-with-chevron {
-}
 
 /* Mobile styles */
 @media screen and (max-width: 768px) {

@@ -20,10 +20,18 @@
             "text": "Enjoy Free Shipping on Orders Over $100",
             "link": ""
           }
+        },
+        "announcement_8gKTDB": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_8gKTDB"
       ],
       "settings": {
         "color_scheme": "scheme-e589886c-8295-49d0-818f-d5960d640fd4",
