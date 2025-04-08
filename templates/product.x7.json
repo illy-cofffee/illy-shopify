@@ -55,7 +55,7 @@
           "settings": {
             "heading": "Details",
             "icon": "none",
-            "content": "<p>{{ product.metafields.custom.details | metafield_tag }}</p>",
+            "content": "<p></p>",
             "page": ""
           }
         },
