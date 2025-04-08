@@ -253,6 +253,35 @@
         "show_text_below": true
       }
     },
+    "image_banner_AXRnjW": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_wenm3w": {
+          "type": "heading",
+          "settings": {
+            "heading": "A Delicious Espresso that’s a Sustainable Choice, with Our Compostable E.S.E. Pods",
+            "heading_size": "h1",
+            "h1-title": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_wenm3w"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/img_05_2x_743f32c3-1c92-49dc-9be6-65d9de6a9898.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "rich_text_Vj77rB": {
       "type": "rich-text",
       "blocks": {
@@ -366,6 +395,7 @@
     "product_key_features_zpzR3T",
     "product_video_N3Qg48",
     "image_banner_qqqgBw",
+    "image_banner_AXRnjW",
     "rich_text_Vj77rB",
     "image_banner_ebJJYn",
     "collapsible_content_LmKfQF",
