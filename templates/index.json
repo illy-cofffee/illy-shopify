@@ -7,7 +7,7 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
+{
   "sections": {
     "glide_slider_VJ3Ncd": {
       "type": "glide-slider",
@@ -75,9 +75,9 @@
         "show_description": false,
         "description_style": "body",
         "collection": "best-sellers",
-        "products_to_show": 6,
-        "columns_desktop": 6,
-        "full_width": true,
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
         "show_view_all": true,
         "view_all_style": "outline",
         "enable_desktop_slider": true,
