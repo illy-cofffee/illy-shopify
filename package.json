@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/illy-coffee/illy-shopify.git/issues"
   },
-  "homepage": "https://github.com/illy-coffee/illy-shopify.git#readme"
+  "homepage": "https://github.com/illy-coffee/illy-shopify.git#readme",
+  "dependencies": {
+    "@shopify/cli": "^3.77.1"
+  }
 }

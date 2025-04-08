@@ -20,10 +20,18 @@
             "text": "Free Shipping On Orders $50+",
             "link": ""
           }
+        },
+        "announcement_8gKTDB": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_8gKTDB"
       ],
       "settings": {
         "color_scheme": "scheme-4",
@@ -42,7 +50,7 @@
         "menu": "main-menu",
         "menu_type_desktop": "mega",
         "sticky_header_type": "on-scroll-up",
-        "show_line_separator": true,
+        "show_line_separator": false,
         "color_scheme": "scheme-1",
         "menu_color_scheme": "scheme-1",
         "enable_country_selector": false,
