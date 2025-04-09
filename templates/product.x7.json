@@ -145,6 +145,64 @@
         "padding_bottom": 36
       }
     },
+    "image_banner_6qq9Vz": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_d8ApdA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Make Rich Espresso or Creamy Cappuccino all with the Ease of the Exclusive Iperespresso System",
+            "heading_size": "h1",
+            "h1-title": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_d8ApdA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/img_04_e888d78c-ca2c-4ce6-a1a1-266900d1d81f.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_abqbmb": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_xjbgCy": {
+          "type": "heading",
+          "settings": {
+            "heading": "Luca Trazzi's Unmistakably Retro Design",
+            "heading_size": "h1",
+            "h1-title": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_xjbgCy"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/img_05_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "related-products": {
       "type": "related-products",
       "settings": {
@@ -167,6 +225,8 @@
   "order": [
     "main",
     "product_video_B7gAnT",
+    "image_banner_6qq9Vz",
+    "image_banner_abqbmb",
     "related-products"
   ]
 }
