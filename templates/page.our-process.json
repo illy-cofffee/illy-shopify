@@ -73,7 +73,7 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/img_02.jpg",
-            "caption": "THOUGHTFUL SELECTION",
+            "caption": "Thoughtful Selection",
             "heading": "Our Relationship With The Growers",
             "text": "<p>To make our coffee, we select the finest Arabica coffee plants, grown sustainably by our farmers in over 20 countries around the world. Nurturing enduring partnerships with them, rooted in shared values and mutual growth, is key. It's through collaborative efforts that we attain our exceptional results.</p>",
             "button_label": "",
@@ -84,7 +84,7 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/img_03_2x_5b308519-206c-4af9-999e-d0061e72348a.jpg",
-            "caption": "THE COFFEE BEANS",
+            "caption": "The Coffee Beans",
             "heading": "Hand-Picked Perfection",
             "text": "<p>We meticulously select only the finest Arabica coffee beans for our coffee, a testament to our decades-long partnership with growers who prioritize sustainability and quality. Our commitment to excellence is an ongoing journey, involving continuous research and experimentation with raw materials. After processing, each coffee bean undergoes yet another round of selection. This stringent process ensures that every sip of our coffee maintains the exceptional quality we're known for. </p>",
             "button_label": "",
@@ -106,7 +106,7 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/img_04.jpg",
-            "caption": "THE ILLY BLEND",
+            "caption": "The illy Blend",
             "heading": "Consistency in Every Sip",
             "text": "<p>Our commitment to quality and consistency shines through in the illy blend. Wherever you enjoy it, you can count on the same exceptional taste. This is achieved by applying the illy method, which harmoniously blends nine types of Arabica coffee sourced from the finest farms in South and Central America, India, and Africa.</p>",
             "button_label": "",
