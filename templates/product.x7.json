@@ -185,6 +185,10 @@
         "padding_bottom": 36
       }
     },
+    "product_key_features_j9jcNQ": {
+      "type": "product-key-features",
+      "settings": {}
+    },
     "image_banner_6qq9Vz": {
       "type": "image-banner",
       "blocks": {
@@ -298,6 +302,7 @@
   },
   "order": [
     "main",
+    "product_key_features_j9jcNQ",
     "product_video_B7gAnT",
     "image_banner_6qq9Vz",
     "image_banner_abqbmb",
