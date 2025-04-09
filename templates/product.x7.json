@@ -144,7 +144,7 @@
       "type": "product-video",
       "settings": {
         "heading": "",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "enable_video_looping": false,
         "video_url": "{{ product.metafields.custom.product_video_id.value }}",
         "cover_image": "",
