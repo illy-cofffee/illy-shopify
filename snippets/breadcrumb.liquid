@@ -42,7 +42,7 @@
 
 
 {% case template %}
-  {% when 'product' %}
+  {% when template contains 'product' %}
     <nav class="breadcrumbs page-width" role="navigation" aria-label="breadcrumbs">
       <ol class="breadcrumbs__list">
         <li class="breadcrumbs__item">
@@ -79,9 +79,9 @@
 <script>
   const collectionTitle = sessionStorage.getItem( 'collection_title' );
   const collectionUrl = sessionStorage.getItem( 'collection_url' );
-
+  
   if (collectionTitle && collectionUrl) {  
-    const container = document.querySelector('.parent__collection');
+    const container = document.querySelector('parent__collection');
     const link = document.createElement('a');
     link.href = collectionUrl; 
     link.textContent = collectionTitle; 

@@ -226,7 +226,7 @@
           "type": "heading",
           "settings": {
             "heading": "Quality meets sustainability",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_FExbdE": {
@@ -256,7 +256,7 @@
           "type": "heading",
           "settings": {
             "heading": "To Make Our Coffee, We Select Only The Finest Arabica Coffee Beans, with Zero Defects.",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "h1-title": false
           }
         }
@@ -310,7 +310,7 @@
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "text_style": "body",
         "button_style": "secondary",
         "desktop_content_position": "middle",
