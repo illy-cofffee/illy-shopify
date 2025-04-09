@@ -7,20 +7,10 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "disabled": true,
       "settings": {
         "padding_top": 36,
@@ -33,8 +23,7 @@
         "heading_cUikHK": {
           "type": "heading",
           "settings": {
-            "heading": "Contact us",
-            "heading": "Contact us",
+            "heading": "Contact illy",
             "heading_size": "h1"
           }
         },
@@ -63,7 +52,7 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "color_scheme": "scheme-3",
+        "right_column_content": "<p><strong>Phone</strong><br/>02 9699 2211</p><p><strong>Fax</strong><br/>02 9699 1051</p><p><strong>Email</strong><br/>info@illy.com.au</p><p><strong>Address</strong><br/>B1, 2-8 McPherson Street<br/>Banksmeadow NSW 2019</p>",
         "color_scheme": "scheme-3",
         "padding_top": 24,
         "padding_bottom": 36
