@@ -23,8 +23,9 @@
         "heading_46TXbR": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>illy easy with E.S.E. pods</strong>",
-            "heading_size": "h0"
+            "heading": "illy easy with E.S.E. pods",
+            "heading_size": "h0",
+            "h1-title": true
           }
         },
         "text_cPXEQG": {
@@ -55,8 +56,8 @@
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-2",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -70,7 +71,8 @@
           "type": "heading",
           "settings": {
             "heading": "How To Adjust The Coffee Machine Temperature",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "h1-title": false
           }
         },
         "text_HYe3cW": {
@@ -115,7 +117,8 @@
           "type": "heading",
           "settings": {
             "heading": "How to Program The Volumes On Your Coffee Machine",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "h1-title": false
           }
         },
         "text_me63Pz": {
@@ -160,7 +163,8 @@
           "type": "heading",
           "settings": {
             "heading": "How to reset Your Coffee Machine",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "h1-title": false
           }
         },
         "text_ncC9Ha": {
@@ -205,7 +209,8 @@
           "type": "heading",
           "settings": {
             "heading": "How To Set Up Your Coffee Machine",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "h1-title": false
           }
         },
         "text_G6Xqgq": {
@@ -250,7 +255,8 @@
           "type": "heading",
           "settings": {
             "heading": "How To Descale Your Coffee Machine",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "h1-title": false
           }
         },
         "text_r7tzc6": {
