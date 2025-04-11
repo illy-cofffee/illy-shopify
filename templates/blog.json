@@ -16,7 +16,7 @@
           "type": "heading",
           "settings": {
             "heading": "News",
-            "heading_size": "h1",
+            "heading_size": "h0",
             "h1-title": true
           }
         },
