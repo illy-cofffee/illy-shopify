@@ -25,7 +25,7 @@
           "settings": {
             "heading": "Moka",
             "heading_size": "h0",
-            "h1-title": false
+            "h1-title": true
           }
         },
         "text_HVdV49": {
@@ -43,7 +43,7 @@
       "settings": {
         "image": "shopify://shop_images/img_01_dbaaaa5b-51e7-4e13-b00f-9a3f6e88de8e.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -84,7 +84,7 @@
           "settings": {
             "image": "shopify://shop_images/img_02_2x_164fde4c-05ab-4e80-bede-f0ea3d9ac60d.jpg",
             "caption": "",
-            "heading": "FRENCH PRESS INSTRUCTIONS",
+            "heading": "French Press Instructions",
             "text": "<ol><li>Fill the base chamber with cold water up to the level of the valve. Insert the filter.</li><li>Completely fill the filter with ground coffee, but don’t pack it down.</li><li>Make sure the filter and rubber gasket are in place. Screw the two chambers tightly together.</li><li>Place the moka pot on the stove. Warning: keep the heat low.</li><li>Remove pot from heat just when coffee starts to gurgle, before it starts to rise and bubble. You’ll be sure to extract only the best parts of the coffee.</li><li>Mix the coffee with a spoon before pouring into cups.</li><li>Rinse the coffee maker with hot water and let dry thoroughly before screwing chambers back together.</li></ol>",
             "button_label": "",
             "button_link": ""
@@ -117,7 +117,8 @@
           "type": "heading",
           "settings": {
             "heading": "What is a Moka Pot?",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "h1-title": false
           }
         },
         "text_Wkh3mP": {
