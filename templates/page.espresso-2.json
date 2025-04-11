@@ -25,7 +25,7 @@
           "settings": {
             "heading": "Espresso",
             "heading_size": "h0",
-            "h1-title": false
+            "h1-title": true
           }
         },
         "text_HVdV49": {
@@ -43,7 +43,7 @@
       "settings": {
         "image": "shopify://shop_images/img_01_5b36d113-d8d9-4aab-b956-4355c2c1575d.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
