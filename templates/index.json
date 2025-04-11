@@ -8,7 +8,6 @@
  * ------------------------------------------------------------
  */
 {
-{
   "sections": {
     "glide_slider_VJ3Ncd": {
       "type": "glide-slider",
@@ -28,10 +27,42 @@
             "color_background_main": "#d12420",
             "color_text_main": "#ffffff"
           }
+        },
+        "glide_slider_item_DCcEpR": {
+          "type": "glide-slider-item",
+          "disabled": true,
+          "settings": {
+            "glide-slider-item-header": "<p>Enter header...</p>",
+            "description": "",
+            "alignment": "align-top-left",
+            "button_link": "",
+            "button_label": "Show more",
+            "button_style": "solid",
+            "disclaimer_text": "",
+            "color_background_main": "#d12420",
+            "color_text_main": "#ffffff"
+          }
+        },
+        "glide_slider_item_F7KqXf": {
+          "type": "glide-slider-item",
+          "disabled": true,
+          "settings": {
+            "glide-slider-item-header": "<p>Enter header...</p>",
+            "description": "",
+            "alignment": "align-top-left",
+            "button_link": "",
+            "button_label": "Show more",
+            "button_style": "solid",
+            "disclaimer_text": "",
+            "color_background_main": "#d12420",
+            "color_text_main": "#ffffff"
+          }
         }
       },
       "block_order": [
-        "glide_slider_item_4Pd9mz"
+        "glide_slider_item_4Pd9mz",
+        "glide_slider_item_DCcEpR",
+        "glide_slider_item_F7KqXf"
       ],
       "settings": {
         "h1-title": true
@@ -46,9 +77,6 @@
         "show_description": false,
         "description_style": "body",
         "collection": "best-sellers",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -114,7 +142,7 @@
     "mosaic_tiles_cgAxKH": {
       "type": "mosaic-tiles",
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-3",
         "image_large": "shopify://shop_images/67726aa25eec5bfac7e29887_jpg_eec15230-2c91-489b-b218-a3c304def30e.webp",
         "image_large_url": "shopify://pages/quality",
         "image_large_link_text": "Quality",
