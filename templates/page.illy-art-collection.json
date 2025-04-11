@@ -24,8 +24,8 @@
           "type": "heading",
           "settings": {
             "heading": "illy Art Collection: 30 years of beauty",
-            "heading_size": "hxl",
-            "h1-title": false
+            "heading_size": "h0",
+            "h1-title": true
           }
         }
       },
@@ -35,7 +35,7 @@
       "settings": {
         "image": "shopify://shop_images/img_01_2x_44bf6fbd-3809-4c95-9b53-83852dd7208c.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -53,7 +53,8 @@
           "type": "heading",
           "settings": {
             "heading": "A History of Beauty",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "h1-title": false
           }
         },
         "text_pRCkhM": {
