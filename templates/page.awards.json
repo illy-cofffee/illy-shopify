@@ -43,7 +43,7 @@
       "settings": {
         "image": "shopify://shop_images/677fde6e2c24c2a1f54065a3_jpg.webp",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
