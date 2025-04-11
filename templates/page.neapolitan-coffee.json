@@ -25,7 +25,7 @@
           "settings": {
             "heading": "Discover Neapolitan Coffee",
             "heading_size": "h0",
-            "h1-title": false
+            "h1-title": true
           }
         }
       },
@@ -35,7 +35,7 @@
       "settings": {
         "image": "shopify://shop_images/img_01_a6883ddf-9511-4ad3-974e-e36473ace11d.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
