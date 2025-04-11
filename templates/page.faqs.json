@@ -17,6 +17,50 @@
         "padding_bottom": 28
       }
     },
+    "rich_text_FXX8Ep": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Wba6F6": {
+          "type": "heading",
+          "settings": {
+            "heading": "FAQs",
+            "heading_size": "h1",
+            "h1-title": true
+          }
+        },
+        "text_XPHfXV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Below are some frequently asked questions about illy products. If you cannot find the answer you're looking for, please <a href=\"/pages/contact\" title=\"Contact\">contact us</a>.</p>"
+          }
+        },
+        "button_JMQ7Dh": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Wba6F6",
+        "text_XPHfXV",
+        "button_JMQ7Dh"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "collapsible_content_jfW7AY": {
       "type": "collapsible-content",
       "blocks": {
@@ -215,7 +259,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "FAQs",
+        "heading": "",
         "heading_size": "h1",
         "heading_alignment": "left",
         "layout": "none",
@@ -231,6 +275,7 @@
   },
   "order": [
     "main",
+    "rich_text_FXX8Ep",
     "collapsible_content_jfW7AY"
   ]
 }
