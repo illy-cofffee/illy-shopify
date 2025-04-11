@@ -24,7 +24,8 @@
           "type": "heading",
           "settings": {
             "heading": "Recycling",
-            "heading_size": "hxl"
+            "heading_size": "h0",
+            "h1-title": true
           }
         },
         "text_hpTGj4": {
