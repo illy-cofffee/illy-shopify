@@ -25,7 +25,7 @@
           "settings": {
             "heading": "A History of Quality",
             "heading_size": "h0",
-            "h1-title": false
+            "h1-title": true
           }
         },
         "text_pFKFQW": {
@@ -43,7 +43,7 @@
       "settings": {
         "image": "shopify://shop_images/img_01_2x_29568962-30ad-4ff4-a336-e2556a29f6ac.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
