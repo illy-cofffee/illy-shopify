@@ -25,7 +25,7 @@
           "settings": {
             "heading": "Quality Loves Details",
             "heading_size": "h0",
-            "h1-title": false
+            "h1-title": true
           }
         },
         "text_Nt9M9e": {
@@ -55,7 +55,7 @@
       "settings": {
         "image": "shopify://shop_images/67726ae2d172213d08555b5d_jpg.webp",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
