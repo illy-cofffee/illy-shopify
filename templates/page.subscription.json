@@ -17,7 +17,7 @@
           "settings": {
             "heading": "illy Coffee Subscriptions",
             "heading_size": "h0",
-            "h1-title": false
+            "h1-title": true
           }
         },
         "text_3GfeMe": {
@@ -47,10 +47,10 @@
       "settings": {
         "image": "shopify://shop_images/img_01_2x_4985071c-3dbe-415b-b4db-e5e8b9e07b23.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-left",
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
         "show_text_box": true,
-        "desktop_content_alignment": "left",
+        "desktop_content_alignment": "center",
         "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
@@ -73,7 +73,8 @@
           "type": "heading",
           "settings": {
             "heading": "Signing Up is Simple",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "h1-title": false
           }
         }
       },
