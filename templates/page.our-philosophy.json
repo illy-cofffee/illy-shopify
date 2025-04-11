@@ -25,7 +25,7 @@
           "settings": {
             "heading": "Be Sustainable, B-Corp, Be Better",
             "heading_size": "h0",
-            "h1-title": false
+            "h1-title": true
           }
         },
         "text_FegnA4": {
@@ -43,7 +43,7 @@
       "settings": {
         "image": "shopify://shop_images/664c50667658eb000872408e_jpg_9d97c675-449b-47f9-a552-26f49276250a.webp",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -61,7 +61,8 @@
           "type": "heading",
           "settings": {
             "heading": "Our Four Pillars",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "h1-title": false
           }
         },
         "text_yg4HCW": {
