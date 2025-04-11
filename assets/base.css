@@ -2517,7 +2517,6 @@ input[type='checkbox'] {
   display: flex;
   grid-area: icons;
   justify-self: end;
-  padding-right: 0.8rem;
 }
 
 .header__icons .shopify-app-block {
@@ -3781,19 +3780,19 @@ button[disabled] {
 }
 
 .announcement-bar, .announcement-bar__announcement {
-  justify-content: left;
-  align-content: left;
+  justify-content: center;
+  align-content: center;
 }
 
 .announcement-bar__message {
-  text-align: left; 
+  text-align: center; 
   margin-left: 3em;
   margin-right: 3em;
 }
 
 .announcement-bar__link {
-  justify-content: left;
-  align-items: left;
+  justify-content: center;
+  align-items: center;
 }
 
 .header {
