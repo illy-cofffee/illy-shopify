@@ -50,6 +50,14 @@
     assign fetch_priority = 'high'
   endif
 -%}
+<style>
+.button_outline_white {
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: transparent !important;
+}
+</style>
+
 
 <div
   id="Banner-{{ section.id }}"
@@ -144,7 +152,7 @@
                   {% else %}
                     href="{{ block.settings.button_link_1 }}"
                   {% endif %}
-                  class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
+                  class="button button-outline-white"
                 >
                   {{- block.settings.button_label_1 | escape -}}
                 </a>
@@ -156,7 +164,7 @@
                   {% else %}
                     href="{{ block.settings.button_link_2 }}"
                   {% endif %}
-                  class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}"
+                  class="button button-outline-white"
                 >
                   {{- block.settings.button_label_2 | escape -}}
                 </a>
