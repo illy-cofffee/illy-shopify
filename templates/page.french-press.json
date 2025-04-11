@@ -25,13 +25,13 @@
           "settings": {
             "heading": "What is a French Press?",
             "heading_size": "h0",
-            "h1-title": false
+            "h1-title": true
           }
         },
         "text_HVdV49": {
           "type": "text",
           "settings": {
-            "text": "HOW TO USE A FRENCH PRESS TO MAKE THE PERFECT COFFEE",
+            "text": "How to use a french press to make the perfect coffee",
             "text_style": "body"
           }
         }
@@ -43,7 +43,7 @@
       "settings": {
         "image": "shopify://shop_images/65ae96cb7863250008e0489c_png.png",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -61,7 +61,8 @@
           "type": "heading",
           "settings": {
             "heading": "The French Press is a cylindrical pot with a plunger and built-in filter screen that presses hot water through ground coffee: that’s the simple beauty of the French press, creating an earthy, rich taste in your daily cup of coffee.",
-            "heading_size": "h1"
+            "heading_size": "h2",
+            "h1-title": false
           }
         }
       },
@@ -85,7 +86,7 @@
           "settings": {
             "image": "shopify://shop_images/img_02_2x_c4e5f8ce-4dd3-4031-936e-c39d7543c8fc.jpg",
             "caption": "",
-            "heading": "FRENCH PRESS INSTRUCTIONS",
+            "heading": "French Press instructions",
             "text": "<ol><li>Start by placing the French Press on a dry, flat surface. Hold the handle firmly, then pull out the plunger.</li><li>Next, add a heaping tablespoon (7-8 grams) of medium-coarse grinds to the pot per 6.7 oz (200 ml) of water. Or a 1:12 coffee grind to water ratio</li><li>Then, pour hot water—not quite boiling (at or about 200° Fahrenheit)—into the pot, and gently stir.</li><li>Now, carefully reinsert the plunger into the pot, stopping just above the water and ground coffee (do not plunge yet), and let stand for 3-4 minutes.</li><li>Lastly, press the plunger down slowly, exerting steady pressure.</li><li>After each use, wash the pot with water and mild detergent, and dry thoroughly.</li></ol>",
             "button_label": "",
             "button_link": ""
@@ -169,7 +170,8 @@
           "type": "heading",
           "settings": {
             "heading": "How to Choose your Coffee for a French Press",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "h1-title": false
           }
         }
       },
@@ -215,7 +217,7 @@
         "section_color_scheme": "",
         "row_color_scheme": "",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
@@ -226,7 +228,8 @@
           "type": "heading",
           "settings": {
             "heading": "Call It What You Will",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "h1-title": false
           }
         },
         "text_Wkh3mP": {
@@ -243,7 +246,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
