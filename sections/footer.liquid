@@ -29,14 +29,13 @@
 
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}">
   <div class="footer color-scheme-3 gradient section-sections--16942282571827__footer-padding">
-    <div class="footer__content-top page-width">
+    <div class="page-width">
       <div
         class="footer-block--newsletter{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
         {% if settings.animations_reveal_on_scroll %}
           data-cascade
         {% endif %}
       >
-        {%- if section.settings.newsletter_enable -%}
           <div class="footer-newsletter">
             <div class="newsletter-header">
               {%- if section.settings.newsletter_heading != blank -%}
@@ -126,7 +125,6 @@
             {%- endform -%}
             </div>
           </div>
-        {%- endif -%}
 
         {%- if shop.features.follow_on_shop? and section.settings.enable_follow_on_shop -%}
           <div class="footer__follow-on-shop">
@@ -288,7 +286,7 @@
     {% if settings.animations_reveal_on_scroll %}
       data-cascade
     {% endif %}
-  >
+   >
     <div class="footer__content-bottom-wrapper page-width">
       <div class="footer__column footer__localization isolate">
         {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
@@ -316,29 +314,27 @@
         {%- endif -%}
       </div>
       <div class="footer__column footer__column--info">
-        <div class="footer-block__bottom" style="border 1px solid red">
+        <div class="footer-block__bottom" style="display: flex; justify-content: space-between; width: 100%;">
           {%- if section.settings.show_social and has_social_icons -%}
-            <div class="social-column">
+            <div class="social-column" style="flex: 1;">
               {%- render 'social-icons', class: 'footer__list-social' -%}
             </div>
-        {%- endif -%}
-        {%- if section.settings.payment_enable -%}
-          <div class="payment-column">
-            <div class="footer__payment">
-              <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
-              <ul class="list list-payment" role="list">
-                {%- for type in shop.enabled_payment_types -%}
-                  <li class="list-payment__item">
-                    {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
-                  </li>
-                {%- endfor -%}
-              </ul>
+          {%- endif -%}
+          {%- if section.settings.payment_enable -%}
+            <div class="payment-column" style="flex: 1; text-align: right;">
+              <div class="footer__payment">
+                <span class="visually-hidden">{{ 'sections.footer.payment' | t }}</span>
+                <ul class="list list-payment" role="list">
+                  {%- for type in shop.enabled_payment_types -%}
+                    <li class="list-payment__item">
+                      {{ type | payment_type_svg_tag: class: 'icon icon--full-color' }}
+                    </li>
+                  {%- endfor -%}
+                </ul>
+              </div>
             </div>
-          </div>
-        {%- endif -%}
+          {%- endif -%}
         </div>
-
-       
       </div>
     </div>
     <div class="footer__content-bottom-wrapper page-width{% if section.settings.enable_country_selector == false and section.settings.enable_language_selector == false %} footer__content-bottom-wrapper--center{% endif %}">

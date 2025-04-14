@@ -2,8 +2,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding-top:36px;
-  padding-bottom:36px;
+  /* padding: 2rem; */
 }
 
 .newsletter-header {
@@ -56,7 +55,7 @@
     justify-content: flex-start;
   }
 
-  .footer-block__newsletter{
+  .footer-block--newsletter{
     flex-direction: row;
   }
   .footer-newsletter{
@@ -68,6 +67,14 @@
     justify-content: center;
     min-width: 450px;
   }
+}
+
+@media screen and (max-width: 750px) {
+
+  .footer-block--newsletter{
+    padding:2rem;
+  }
+
 }
 
 .newsletter-form__button {
