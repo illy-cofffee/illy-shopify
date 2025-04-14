@@ -3,10 +3,11 @@
 }
 
 .footer:not(.color-scheme-1) {
-  border-top: 1px solid #DADADA;
+  border-top: none;
 }
 
 .footer__content-top {
+  padding-bottom: 5rem;
   display: block;
 }
 
@@ -26,9 +27,10 @@
   }
 
   .footer__content-top {
-    padding-bottom: 3rem;
+    padding:3rem;
+    /* padding-bottom: 3rem;
     padding-left: calc(4rem / var(--font-body-scale));
-    padding-right: calc(4rem / var(--font-body-scale));
+    padding-right: calc(4rem / var(--font-body-scale)); */
   }
 }
 
@@ -52,6 +54,7 @@
 .footer__content-bottom-wrapper {
   display: flex;
   width: 100%;
+  padding-bottom: 5rem;
 }
 
 @media screen and (max-width: 749px) {
@@ -172,21 +175,13 @@
 }
 
 .footer__list-social.list-social:only-child {
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .footer-block__newsletter {
-  display:flex;
-  flex-direction: column;
-  gap: 2rem;
-  width: 100%;
-  margin: 3rem auto;
+  text-align: center;
+  flex-grow: 1;
 }
-
-@media screen and (min-width: 768px) {
-  .footer-block__newsletter {
-      flex-direction: row;
-  }
 
 .newsletter-form__field-wrapper {
   max-width: 36rem;
@@ -228,6 +223,31 @@
   }
 }
 
+@media screen and (max-width: 749px) {
+  /*
+    On a small screen we want all the items to be centered
+    because they will be stacked.
+   */
+  .footer-block--newsletter {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .footer__list-social.list-social,
+  .footer__follow-on-shop,
+  .footer-block__newsletter {
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-block__newsletter {
+    flex-direction: column;
+  }
+}
+
 @media screen and (min-width: 750px) {
   .footer-block__newsletter + .footer__list-social {
     margin-top: 0;
@@ -249,7 +269,7 @@
 
 .footer__localization h2 {
   margin: 1rem 1rem 0.5rem;
-  color: rgba(var(--color-foreground));
+  color: rgba(var(--color-foreground), 0.75);
 }
 
 @media screen and (min-width: 750px) {
@@ -301,7 +321,7 @@
 
 @media screen and (min-width: 750px) {
   .footer-block__details-content {
-    margin-bottom: 3rem;
+    margin-bottom: 0;
   }
 
   .footer-block__details-content > p,
@@ -320,7 +340,7 @@
 
 .footer-block__details-content .list-menu__item--link,
 .copyright__content a {
-  color: rgba(var(--color-foreground));
+  color: rgba(var(--color-foreground), 0.75);
 }
 
 .footer-block__details-content .list-menu__item--active {
@@ -391,6 +411,7 @@
 
 .footer-block__image-wrapper img {
   display: block;
+  height: auto;
   max-width: 100%;
 }
 

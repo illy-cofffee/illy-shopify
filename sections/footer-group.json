@@ -44,7 +44,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-1",
-        "newsletter_enable": true,
+        "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "newsletter_subtext": "Sign up to receive all the latest news and special offers",
         "enable_follow_on_shop": true,
