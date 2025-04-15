@@ -1,0 +1,362 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "square"
+          }
+        },
+        "appstle_subscription_appstle_subscription_product_page_widget_gj4z3V": {
+          "type": "shopify://apps/appstle-subscription/blocks/appstle-subscription-product-page-widget/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
+          "settings": {}
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true
+          }
+        },
+        "collapsible_tab_darjU9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Features",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.features | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_cD6xJA": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Flavour Profile",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.flavour_profile | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_p3cDfi": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Origin",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.origin.value }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_Gkd4LE": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Sustainability",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.limited_edition | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_kwm8PN": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Brewing",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.brewing_recommendations | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_BRxFx9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Material & Design",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.material_design | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_kDzaFN": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Care & Maintenance",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.care_maintenance | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_LGxAAQ": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Warranty & Support",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.warranty | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible_tab_g96R9H": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Compatible Machines",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.compatible_machines | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_UMk76W": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Compatible Products",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.compatible_products | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_whJe8b": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Design & Craftmanship",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.design_craftmanship | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "complementary_rCYMpF": {
+          "type": "complementary",
+          "settings": {
+            "block_heading": "Pair this with",
+            "make_collapsible_row": false,
+            "icon": "none",
+            "product_list_limit": 10,
+            "products_per_page": 3,
+            "pagination_style": "counter",
+            "image_ratio": "square",
+            "enable_quick_add": true
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "description",
+        "variant_picker",
+        "appstle_subscription_appstle_subscription_product_page_widget_gj4z3V",
+        "quantity_selector",
+        "buy_buttons",
+        "collapsible_tab_darjU9",
+        "collapsible_tab_cD6xJA",
+        "collapsible_tab_p3cDfi",
+        "collapsible_tab_Gkd4LE",
+        "collapsible_tab_kwm8PN",
+        "collapsible_tab_BRxFx9",
+        "collapsible_tab_kDzaFN",
+        "collapsible_tab_LGxAAQ",
+        "collapsible_tab_g96R9H",
+        "collapsible_tab_UMk76W",
+        "collapsible_tab_whJe8b",
+        "complementary_rCYMpF"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-3",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "cover",
+        "gallery_layout": "stacked",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "product_key_features_zpzR3T": {
+      "type": "product-key-features",
+      "settings": {}
+    },
+    "product_video_N3Qg48": {
+      "type": "product-video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "{{ product.metafields.custom.product_video_id.value }}",
+        "cover_image": "",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "scheme-1",
+        "padding_top": 80,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_TdgCyr": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_iQtWNc": {
+          "type": "heading",
+          "settings": {
+            "heading": "A Flawless Espresso with The Ease Of Single Serve Capsules For Our Exclusive Iperespresso System",
+            "heading_size": "h1",
+            "h1-title": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_iQtWNc"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/img_02_4924947f-4a90-4a5f-be91-452c87ecba6f.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_qqqgBw": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_tjNKXP": {
+          "type": "heading",
+          "settings": {
+            "heading": "To Make Our Coffee, We Select Only The Finest Arabica Coffee Beans, with Zero Defects.",
+            "heading_size": "h1",
+            "h1-title": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_tjNKXP"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/img_03_2x_2ae498ab-06a1-4dc3-99be-4dd4db13294b.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_Vj77rB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VntbfF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Quality meets sustainability",
+            "heading_size": "h1"
+          }
+        },
+        "text_RBJ9my": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We have spent decades working with coffee growers to support them in meeting the highest standards of quality and sustainability, in more than 30 countries around the world. Researching and experimenting with raw materials is an ongoing process, especially with ongoing climate change. Once our coffee is processed, each coffee bean undergoes yet another round of selection, ensuring that every sip of our coffee maintains the exceptional quality we're known for. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VntbfF",
+        "text_RBJ9my"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_ebJJYn": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/coffee-beans-growing.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "bottom-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product_key_features_zpzR3T",
+    "product_video_N3Qg48",
+    "image_banner_TdgCyr",
+    "image_banner_qqqgBw",
+    "rich_text_Vj77rB",
+    "image_banner_ebJJYn",
+    "related-products"
+  ]
+}
