@@ -17,6 +17,23 @@
         "padding_bottom": 28
       }
     },
+    "image_banner_HPRWPt": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/content-asset_FAQ_1980x250_b34508d0-659f-46bc-b1f4-ecfb0e34f190.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "rich_text_FXX8Ep": {
       "type": "rich-text",
       "blocks": {
@@ -53,8 +70,8 @@
         "button_JMQ7Dh"
       ],
       "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "scheme-3",
         "full_width": true,
         "padding_top": 40,
@@ -275,6 +292,7 @@
   },
   "order": [
     "main",
+    "image_banner_HPRWPt",
     "rich_text_FXX8Ep",
     "collapsible_content_jfW7AY"
   ]
