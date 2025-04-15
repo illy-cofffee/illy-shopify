@@ -23,6 +23,7 @@
         },
         "announcement_8gKTDB": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Welcome to our store",
             "link": ""
@@ -34,7 +35,7 @@
         "announcement_8gKTDB"
       ],
       "settings": {
-        "color_scheme": "scheme-e589886c-8295-49d0-818f-d5960d640fd4",
+        "color_scheme": "scheme-5",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": true,
