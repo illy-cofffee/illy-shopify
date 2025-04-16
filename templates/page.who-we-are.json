@@ -77,11 +77,95 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "multirow_PtTKBX": {
+      "type": "multirow",
+      "blocks": {
+        "row_HmRJNw": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/65968928f148b40007d66616_jpg.webp",
+            "caption": "",
+            "heading": "",
+            "text": "<p><strong>MISSION</strong><br/>Our mission is to delight you with the very best coffee nature can offer, enhanced by technology and enjoyed within the beauty of art.</p><p></p><p><strong>VISION</strong><br/>We strive to be the world reference for coffee culture and excellence. An innovative company, leader of the high-end segment, offering unique experiences.</p><p></p><p><strong>VALUES</strong><br/>Ethics, intended as long-term value creation, through sustainability, transparency and people development. Excellence, intended as love for beauty, goodness and the well-made.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_pi6RxH": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/665880a0da90c10008e4a584_png.png",
+            "caption": "",
+            "heading": "Sustainable Business Model",
+            "text": "<p>Since our founding in 1933, we have directed our strategies towards a sustainable business model, integrating economic and financial objectives with social and environmental aspects.</p><p>For us, the virtuous circle of sustainability starts in countries that produce the coffee through a sustainable procurement strategy focused on four fundamental pillars:</p><ul><li>Select and work directly with the best Arabica coffee producers;</li><li>Transfer knowledge to them, investing in an ongoing training programme and also through visits to the plantations by technicians and agronomists;</li><li>Acknowledge, including economically, the superior quality achieved and encourage a continuous process of improvement;</li><li>Build a community based on solid and lasting human relationships, aimed at fostering a culture of excellence.</li></ul>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_wHMBMK": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/6745fcb24d43ea023a6e0a45_jpg.jpg",
+            "caption": "",
+            "heading": "Benefit Corporation",
+            "text": "<p>In 2019, we strengthened our commitment as a stakeholder company by becoming a Benefit Corporation, making explicit in our bylaws our commitment to operate responsibly, sustainably, inclusively and transparently, pursuing specific purposes of common benefit in the following three areas:</p><ul><li>The creation of economic value for stakeholders: contributing to reducing the risks in the coffee supply chain linked to climate change, also through sustainable investments from a socio-economic point of view and global initiatives and partnerships</li><li>The pursuit of well-being, understood as health and happiness: promoting the improvement of quality of life and social development in the areas where coffee is grown, fostering a virtuous circle between those who produce it and those who consume it;</li><li>The circular economy and the regeneration of the biosphere: minimising the consumption of natural resources and promoting regenerative agronomic practices aimed at the conservation of biodiversity and the renewal of ecosystems.</li></ul>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_PnPaJg": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/6745fc264c89a95d91fb90f0_jpg.jpg",
+            "caption": "",
+            "heading": "B-Corp®",
+            "text": "<p>We are the first Italian company in the coffee sector to obtain the B Corp® certification, awarded to companies that are committed to meeting rigorous social and environmental performance standards, advocating for an inclusive, equitable and regenerative economic system.</p><p>A B Corp® is a company that, while doing business, produces positive effects on the environment, community and people. The B Corp® movement includes 4,600+ companies in 71 countries, 140+ in Italy.</p><p><br/>B Corps® form a global movement, which aims to spread the more evolved paradigm of business, that of creating value. The way we all operate, at whatever level, from today will serve as an example and stimulus for those who believe in this model.</p><p><br/>Our journey as a B Corp®, focusses on engaging and continually evolving five key areas for positive impact: governance, people, community, environment and consumers.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_bbqeCj": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/665889b8f2e3db0008c64fe3_png.png",
+            "caption": "",
+            "heading": "Certification Notice",
+            "text": "<p>“Certified B Corporation” is a trademark licensed by B Lab, a private non-profit organization, to companies like ours that have successfully completed the B Impact Assessment (“BIA”) and therefore meet the requirements set by B Lab for social and environmental performance, accountability, and transparency. It is specified that B Lab is not a conformity assessment body as defined by Regulation (EU) No 765/2008, nor is it a national, European, or international standardization body as per Regulation (EU) No 1025/2012. The criteria of the BIA are distinct and independent from the harmonized standards resulting from ISO norms or other standardization bodies, and they are not ratified by national or European public institutions.<br/><br/></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_HmRJNw",
+        "row_pi6RxH",
+        "row_wHMBMK",
+        "row_PnPaJg",
+        "row_bbqeCj"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "image_banner_kf89Dn",
-    "rich_text_64YW9w"
+    "rich_text_64YW9w",
+    "multirow_PtTKBX"
   ]
 }
