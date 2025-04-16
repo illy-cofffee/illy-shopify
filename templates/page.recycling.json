@@ -55,10 +55,10 @@
         "row_Ggi4DL": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "button_label": "Button label",
+            "caption": "",
+            "heading": "Sustainability",
+            "text": "<p>Recycling your illy iperespresso capsules is completely free and very easy.</p><p>illy Australia is collaborating with Sell and Parker Australia to maximise the recyclability of our products.</p><p>As an ethical sustainable coffee brand, illy seeks to minimise the packaging we use to recycle our products.</p><p>To this end, we suggest you repack used illy iperespresso capsules into their original packaging and send to the recycler via Australia Post.</p><p>Illy Capsule Recycling Program</p><p>Sell and Parker</p><p>23 Tattersall Road</p><p>Kings Park NSW 2148<br/><br/></p>",
+            "button_label": "Download the pre-paid Australia Post shipping label here",
             "button_link": ""
           }
         },
