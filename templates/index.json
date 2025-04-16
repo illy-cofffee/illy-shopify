@@ -30,7 +30,6 @@
         },
         "glide_slider_item_DCcEpR": {
           "type": "glide-slider-item",
-          "disabled": true,
           "settings": {
             "glide-slider-item-header": "<p>Enter header...</p>",
             "description": "",
@@ -45,7 +44,6 @@
         },
         "glide_slider_item_F7KqXf": {
           "type": "glide-slider-item",
-          "disabled": true,
           "settings": {
             "glide-slider-item-header": "<p>Enter header...</p>",
             "description": "",
