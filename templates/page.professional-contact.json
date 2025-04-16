@@ -17,11 +17,11 @@
         "padding_bottom": 28
       }
     },
-    "contact_form_qaL9J9": {
-      "type": "contact-form",
-      "name": "t:sections.contact-form.presets.name",
+    "professionals_contact_form_dBiP4N": {
+      "type": "professionals-contact-form",
+      "name": "Professionals Contact Form",
       "settings": {
-        "heading": "<strong>ENTER THE WORLD OF ILLY PROFESSIONALS </strong>",
+        "heading": "Contact Us",
         "heading_size": "h1",
         "right_column_content": "<p>Add your content here for the right column. This could include additional information, images, or other content.</p>",
         "color_scheme": "",
@@ -32,6 +32,6 @@
   },
   "order": [
     "main",
-    "contact_form_qaL9J9"
+    "professionals_contact_form_dBiP4N"
   ]
 }
