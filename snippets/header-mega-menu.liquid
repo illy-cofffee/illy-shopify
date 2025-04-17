@@ -66,12 +66,10 @@
                       {%- endif -%}
                     </li>
                   {%- endfor -%}
-                {% if link.title == "Shop" %}
+                {% if link.title == "Coffee" %}
                   {% if section.settings.show_promotion_1 or section.settings.show_promotion_2 %}
-                    
                     {% assign sizes = '(max-width: 1280px) calc((100vw - 100px) / 4), 320px"' %}
-                    {% assign sizes = sizes | prepend: 'sizes="(max-width: 474px) calc(100vw - 40px), (max-width: 1023px) 335px, ' %}
-                  
+                    {% assign sizes = sizes | prepend: 'sizes="(max-width: 474px) calc(100vw - 40px), (max-width: 1023px) 335px, ' %} 
                   <li>
                     <div class="menu-promo-container">
                   {%- if section.settings.show_promotion_1 -%}
@@ -86,10 +84,7 @@
                           </div>
                         {%- endunless -%}
                     </a>
-                            
-          
                   {%- endif -%}
-          
                   {%- if section.settings.show_promotion_2 -%}
                     <a href="{{ section.settings.promotion_url_2 }}" class="menu-promo-column-one" style="background-image:url('{{ section.settings.promotion_image_2 | image_url }}')">
                       {%- unless section.settings.promotion_linktext_2 == empty -%}
@@ -101,13 +96,84 @@
                         </div>
                       {%- endunless -%}       
                     </a>
-    
                   {%- endif -%}
-                </div>
+                    </div>
+                  </li>
+                {% endif %}
+              {% endif %}
 
+              {% if link.title == "Machines" %}
+                {% if section.settings.show_promotion_3 or section.settings.show_promotion_4 %}
+                  {% assign sizes = '(max-width: 1280px) calc((100vw - 100px) / 4), 320px"' %}
+                  {% assign sizes = sizes | prepend: 'sizes="(max-width: 474px) calc(100vw - 40px), (max-width: 1023px) 335px, ' %} 
+                <li>
+                  <div class="menu-promo-container">
+                {%- if section.settings.show_promotion_3 -%}
+                  <a href="{{ section.settings.promotion_url_3 }}" class="menu-promo-column-one" style="background-image:url('{{ section.settings.promotion_image_3 | image_url }}')">       
+                      {%- unless section.settings.promotion_linktext_3 == empty -%}
+                        <div class="menu-promo-link">
+                        
+                          {{ section.settings.promotion_linktext_3 }}
+                          <span class="svg-wrapper">
+                              {{- 'icon-chevron-right.svg' | inline_asset_content -}}
+                          </span>
+                        </div>
+                      {%- endunless -%}
+                  </a>
+                {%- endif -%}
+                {%- if section.settings.show_promotion_4 -%}
+                  <a href="{{ section.settings.promotion_url_4 }}" class="menu-promo-column-one" style="background-image:url('{{ section.settings.promotion_image_4 | image_url }}')">
+                    {%- unless section.settings.promotion_linktext_4 == empty -%}
+                      <div class="menu-promo-link">
+                        {{ section.settings.promotion_linktext_4 }}
+                        <span class="svg-wrapper">
+                            {{- 'icon-chevron-right.svg' | inline_asset_content -}}
+                        </span>
+                      </div>
+                    {%- endunless -%}       
+                  </a>
+                {%- endif -%}
+                  </div>
                 </li>
               {% endif %}
-              {% endif %}
+            {% endif %}
+
+            {% if link.title == "Gifts & Accessories" %}
+              {% if section.settings.show_promotion_5 or section.settings.show_promotion_6 %}
+                {% assign sizes = '(max-width: 1280px) calc((100vw - 100px) / 4), 320px"' %}
+                {% assign sizes = sizes | prepend: 'sizes="(max-width: 474px) calc(100vw - 40px), (max-width: 1023px) 335px, ' %} 
+              <li>
+                <div class="menu-promo-container">
+              {%- if section.settings.show_promotion_5 -%}
+                <a href="{{ section.settings.promotion_url_5 }}" class="menu-promo-column-one" style="background-image:url('{{ section.settings.promotion_image_5 | image_url }}')">       
+                    {%- unless section.settings.promotion_linktext_5 == empty -%}
+                      <div class="menu-promo-link">
+                      
+                        {{ section.settings.promotion_linktext_5 }}
+                        <span class="svg-wrapper">
+                            {{- 'icon-chevron-right.svg' | inline_asset_content -}}
+                        </span>
+                      </div>
+                    {%- endunless -%}
+                </a>
+              {%- endif -%}
+              {%- if section.settings.show_promotion_6 -%}
+                <a href="{{ section.settings.promotion_url_6 }}" class="menu-promo-column-one" style="background-image:url('{{ section.settings.promotion_image_6 | image_url }}')">
+                  {%- unless section.settings.promotion_linktext_6 == empty -%}
+                    <div class="menu-promo-link">
+                      {{ section.settings.promotion_linktext_6 }}
+                      <span class="svg-wrapper">
+                          {{- 'icon-chevron-right.svg' | inline_asset_content -}}
+                      </span>
+                    </div>
+                  {%- endunless -%}       
+                </a>
+              {%- endif -%}
+                </div>
+              </li>
+            {% endif %}
+          {% endif %}
+
                 </ul>
               </div>
             </details>
