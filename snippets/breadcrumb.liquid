@@ -51,7 +51,7 @@
         <li class="breadcrumbs__item parent__collection">
           {% for collection in product.collections %}
             {% if collection.url %}
-              {% if collection.title != "All products" %}
+              {% if collection.title != "All products" and collection.title != "Best Sellers" %}
                 <span>{{ collection.title | link_to: collection.url, class: 'breadcrumbs__link'}}</span>
                 {% break %} <!-- Only show first collection -->
               {% endif %}
