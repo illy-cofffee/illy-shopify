@@ -48,17 +48,6 @@
         "padding_bottom": 24
       }
     },
-    "form": {
-      "type": "contact-form",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "right_column_content": "<p><strong>Phone</strong><br/>02 9699 2211</p><p><strong>Fax</strong><br/>02 9699 1051</p><p><strong>Email</strong><br/>info@illy.com.au</p><p><strong>Address</strong><br/>B1, 2-8 McPherson Street<br/>Banksmeadow NSW 2019</p>",
-        "color_scheme": "scheme-3",
-        "padding_top": 24,
-        "padding_bottom": 36
-      }
-    },
     "professionals_contact_form_eq9LbY": {
       "type": "professionals-contact-form",
       "name": "Professionals Contact Form",
@@ -66,7 +55,7 @@
         "heading": "Contact Us",
         "heading_size": "h1",
         "right_column_content": "<p>Add your content here for the right column. This could include additional information, images, or other content.</p>",
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -75,7 +64,6 @@
   "order": [
     "main",
     "rich_text_Lc7R8h",
-    "form",
     "professionals_contact_form_eq9LbY"
   ]
 }
