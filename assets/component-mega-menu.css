@@ -37,7 +37,7 @@
 .mega-menu__list {
   display: grid;
   gap: 1.8rem 4rem;
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   list-style: none;
 }
 
@@ -54,6 +54,10 @@
 
 .mega-menu__link--level-2 {
   font-family: "Museo Sans 500";
+  text-align: left;
+}
+.mega-menu__link--level-3 {
+  text-align: left;
 }
 
 .header--top-center .mega-menu__list {
@@ -109,4 +113,58 @@
 
 .mega-menu__list .list-unstyled {
   padding-inline-start: 0px;
+}
+
+.mega-menu__columns {
+  display: flex;
+  gap: 2rem;
+  padding-inline-end:90px;
+}
+
+.mega-menu__links-column {
+  flex: 1;
+}
+
+.mega-menu__promo-column {
+  flex: 0 0 400px;
+  max-width: 400px;
+}
+
+.menu-promo-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.menu-promo-column-one {
+  width: 200px; 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  padding: 1rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.menu-promo-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+@media screen and (max-width: 749px) {
+  .mega-menu__columns {
+    flex-direction: column;
+  }
+  
+  .mega-menu__promo-column {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .menu-promo-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

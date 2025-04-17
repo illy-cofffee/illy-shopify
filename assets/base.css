@@ -2395,7 +2395,7 @@ input[type='checkbox'] {
 
   .header--middle-left {
     grid-template-areas: 'heading navigation icons';
-    grid-template-columns: auto auto 1fr;
+    grid-template-columns: auto 1fr auto;
     column-gap: 2rem;
   }
 
@@ -2793,6 +2793,7 @@ details[open] > .header__submenu {
 
   .header--middle-left .header__inline-menu {
     margin-left: 0;
+    text-align: center;
   }
 }
 
@@ -3900,4 +3901,19 @@ iframe {
 
 .predictive-search__heading {
   border:0px;
+}
+
+/* Bundles styling */
+
+.bndlr-sections-container .bndlr-product.bndlr-sectioned-product {
+  border-radius: 0px !important;
+  background:transparent !important;
+}
+
+.bndlr-product.bndlr-sectioned-product  {
+  box-shadow: none !important;
+}
+
+.bndlr-product-qn-container a {
+  text-decoration: none;
 }
