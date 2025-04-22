@@ -64,7 +64,8 @@
           "type": "heading",
           "settings": {
             "heading": "{{ collection.title }}",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "h1-title": true
           }
         },
         "text_9pqYUF": {
