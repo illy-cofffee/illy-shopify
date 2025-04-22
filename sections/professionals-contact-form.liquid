@@ -39,6 +39,16 @@
     justify-content: flex-start;
   }
 
+  .field[data-field="address"], .field[data-field="is_open"] {
+    grid-column: 1 / -1;
+  }
+
+  .field[data-field="is_open"] {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
   .radio-group {
     display: flex;
     gap: 2rem;
@@ -50,7 +60,57 @@
     align-items: center;
     gap: 0.5rem;
   }
-{%- endstyle -%}
+
+  /* Select dropdown styling */
+  .field select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23333' d='M6 8.825L1.175 4 2.238 2.938 6 6.7l3.763-3.762L10.825 4z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 12px;
+    padding-right: 2.5rem;
+    cursor: pointer;
+  }
+
+  .field select:focus {
+    outline: none;
+    box-shadow: 0 0 0 1px rgba(var(--color-foreground), 0.2);
+  }
+
+  .field select option {
+    padding: 0.5rem;
+  }
+
+  .field select:invalid {
+    color: rgba(var(--color-foreground), 0.5);
+  }
+
+  .field select option:first-child {
+    color: rgba(var(--color-foreground), 0.5);
+  }
+
+  .field select option:not(:first-child) {
+    color: rgb(var(--color-foreground));
+  }
+
+  .is_open:after, .is_open:hover.is_open:after {
+    border:0px;
+    box-shadow: none;
+  }
+  
+  .open-label {
+    height:40px;
+  }
+  .open-label label {
+    left:0px;
+  }
+
+  .first-option {
+    font-size: 1.2rem;
+  }
+  {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="contact page-width page-width section-{{ section.id }}-padding">
@@ -95,37 +155,6 @@
           {%- endif -%}
 
           <div class="contact__fields">
-            <div class="field">
-              <select class="field__input" id="ProfessionalsContactForm-country" name="contact[country]" required>
-                <option value="">Select Country</option>
-                <option value="US">United States</option>
-                <option value="CA">Canada</option>
-                <option value="UK">United Kingdom</option>
-                <option value="AU">Australia</option>
-                <option value="NZ">New Zealand</option>
-                <option value="DE">Germany</option>
-                <option value="FR">France</option>
-                <option value="IT">Italy</option>
-                <option value="ES">Spain</option>
-                <option value="JP">Japan</option>
-              </select>
-              <label class="field__label" for="ProfessionalsContactForm-country">Country <span aria-hidden="true">*</span></label>
-            </div>
-
-            <div class="field">
-              <input class="field__input" type="text" id="ProfessionalsContactForm-city" name="contact[city]" required>
-              <label class="field__label" for="ProfessionalsContactForm-city">City <span aria-hidden="true">*</span></label>
-            </div>
-
-            <div class="field">
-              <input class="field__input" type="text" id="ProfessionalsContactForm-postcode" name="contact[postcode]" required>
-              <label class="field__label" for="ProfessionalsContactForm-postcode">Post Code <span aria-hidden="true">*</span></label>
-            </div>
-
-            <div class="field">
-              <input class="field__input" type="text" id="ProfessionalsContactForm-address" name="contact[address]" required>
-              <label class="field__label" for="ProfessionalsContactForm-address">Address <span aria-hidden="true">*</span></label>
-            </div>
 
             <div class="field">
               <input class="field__input" type="text" id="ProfessionalsContactForm-name" name="contact[name]" required>
@@ -146,10 +175,30 @@
               <input class="field__input" type="email" id="ProfessionalsContactForm-email" name="contact[email]" required>
               <label class="field__label" for="ProfessionalsContactForm-email">Email <span aria-hidden="true">*</span></label>
             </div>
+            
+            <div class="field" data-field="address">
+              <input class="field__input" type="text" id="ProfessionalsContactForm-address" name="contact[address]" required>
+              <label class="field__label" for="ProfessionalsContactForm-address">Address <span aria-hidden="true">*</span></label>
+            </div>
 
             <div class="field">
-              <select class="field__input" id="ProfessionalsContactForm-activity" name="contact[activity_type]" required>
-                <option value="">Select Activity Type</option>
+              <input class="field__input" type="text" id="ProfessionalsContactForm-country" name="contact[country]" required>
+              <label class="field__label" for="ProfessionalsContactForm-country">Country <span aria-hidden="true">*</span></label>
+            </div>
+
+            <div class="field">
+              <input class="field__input" type="text" id="ProfessionalsContactForm-city" name="contact[city]" required>
+              <label class="field__label" for="ProfessionalsContactForm-city">City <span aria-hidden="true">*</span></label>
+            </div>
+
+            <div class="field">
+              <input class="field__input" type="text" id="ProfessionalsContactForm-postcode" name="contact[postcode]" required>
+              <label class="field__label" for="ProfessionalsContactForm-postcode">Post Code <span aria-hidden="true">*</span></label>
+            </div>
+
+            <div class="field">
+              <select class="field__input select" id="ProfessionalsContactForm-activity" name="contact[activity_type]" required>
+                <option value="" class="first-option">Select Activity Type</option>
                 <option value="Bar/Bakery/Pastry/Ice Cream Shop">Bar/Bakery/Pastry/Ice Cream Shop</option>
                 <option value="Restaurant">Restaurant</option>
                 <option value="Hotel">Hotel</option>
@@ -161,7 +210,7 @@
             </div>
 
             <div class="field">
-              <select class="field__input" id="ProfessionalsContactForm-coffees" name="contact[coffees_per_day]" required>
+              <select class="field__input select" id="ProfessionalsContactForm-coffees" name="contact[coffees_per_day]" required>
                 <option value="">Select Number of Coffees</option>
                 <option value="0-89">0-89</option>
                 <option value="90-150">90-150</option>
@@ -171,28 +220,26 @@
             </div>
 
             <div class="field">
-              <div class="radio-group">
-                <div class="radio-option">
-                  <input type="radio" id="ProfessionalsContactForm-open-yes" name="contact[is_open]" value="Yes" required>
-                  <label for="ProfessionalsContactForm-open-yes">Yes</label>
-                </div>
-                <div class="radio-option">
-                  <input type="radio" id="ProfessionalsContactForm-open-no" name="contact[is_open]" value="No" required>
-                  <label for="ProfessionalsContactForm-open-no">No</label>
-                </div>
-              </div>
-              <label class="field__label">Is it already open? <span aria-hidden="true">*</span></label>
-            </div>
-
-            <div class="field">
-              <input class="field__input" type="text" id="ProfessionalsContactForm-sign" name="contact[point_of_sale_sign]" required>
-              <label class="field__label" for="ProfessionalsContactForm-sign">Point of Sale Sign <span aria-hidden="true">*</span></label>
-            </div>
-
-            <div class="field">
               <input class="field__input" type="text" id="ProfessionalsContactForm-supplier" name="contact[current_supplier]" required>
               <label class="field__label" for="ProfessionalsContactForm-supplier">Current Supplier <span aria-hidden="true">*</span></label>
             </div>
+
+            <div class="field is_open" data-field="is_open">
+              <div class="open-label"><label class="field__label">Is it already open? <span aria-hidden="true">*</span></label></div>
+              <div class="open-radio-group">
+                <div class="radio-group">
+                  <div class="radio-option">
+                    <input type="radio" id="ProfessionalsContactForm-open-yes" name="contact[is_open]" value="Yes" required>
+                    <label for="ProfessionalsContactForm-open-yes">Yes</label>
+                  </div>
+                  <div class="radio-option">
+                    <input type="radio" id="ProfessionalsContactForm-open-no" name="contact[is_open]" value="No" required>
+                    <label for="ProfessionalsContactForm-open-no">No</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
 
           <div class="contact__button">
