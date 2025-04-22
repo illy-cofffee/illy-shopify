@@ -21,7 +21,7 @@
 {%- endif -%}
 
 {%- if section.settings.menu_type_desktop != "drawer" -%}
-  @media screen and (min-width: 990px) {
+  @media screen and (min-width: 1122px) {
     header-drawer {
       display: none;
     }
@@ -43,11 +43,6 @@
   }
 }
 
-@media screen and (min-width: 990px) {
-  .header {
-    
-  }
-}
 {%- endstyle -%}
 
 <script src="{{ 'cart-notification.js' | asset_url }}" defer="defer"></script>
