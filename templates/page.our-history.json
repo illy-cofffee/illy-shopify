@@ -25,14 +25,13 @@
           "settings": {
             "heading": "A History of Innovation",
             "heading_size": "h1",
-            "h1-title": false
+            "h1-title": true
           }
         }
       },
       "block_order": [
         "heading_iK3MNp"
       ],
-      "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/hystorical_illy_coffee_machine.jpg",
         "image_overlay_opacity": 0,
@@ -60,7 +59,6 @@
       "block_order": [
         "text_M4HVNM"
       ],
-      "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -351,7 +349,6 @@
         "column_h9JfDA",
         "column_yjjVLD"
       ],
-      "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "",
         "heading_size": "h1",
