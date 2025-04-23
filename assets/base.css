@@ -3904,21 +3904,6 @@ iframe {
   border:0px;
 }
 
-/* Bundles styling */
-
-.bndlr-sections-container .bndlr-product.bndlr-sectioned-product {
-  border-radius: 0px !important;
-  background:transparent !important;
-}
-
-.bndlr-product.bndlr-sectioned-product  {
-  box-shadow: none !important;
-}
-
-.bndlr-product-qn-container a {
-  text-decoration: none;
-}
-
 /* header styles*/
 
 header-drawer {
