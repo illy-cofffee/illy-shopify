@@ -19,7 +19,6 @@
     },
     "image_banner_HPRWPt": {
       "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/content-asset_FAQ_1980x250_b34508d0-659f-46bc-b1f4-ecfb0e34f190.jpg",
         "image_overlay_opacity": 0,
@@ -134,7 +133,6 @@
         "column_XP7BzM",
         "column_cRy4r4"
       ],
-      "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -353,7 +351,7 @@
         "heading": "Coffee",
         "heading_size": "h1",
         "heading_alignment": "left",
-        "layout": "none",
+        "layout": "section",
         "color_scheme": "scheme-3",
         "container_color_scheme": "",
         "open_first_collapsible_row": false,
