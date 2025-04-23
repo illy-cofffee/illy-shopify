@@ -38,6 +38,40 @@
     flex-direction: column;
     justify-content: flex-start;
   }
+
+  .field select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23333' d='M6 8.825L1.175 4 2.238 2.938 6 6.7l3.763-3.762L10.825 4z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 12px;
+    padding-right: 2.5rem;
+    cursor: pointer;
+  }
+
+  .field select:focus {
+    outline: none;
+    box-shadow: 0 0 0 1px rgba(var(--color-foreground), 0.2);
+  }
+
+  .field select option {
+    padding: 0.5rem;
+  }
+
+  .field select:invalid {
+    color: rgba(var(--color-foreground), 0.5);
+  }
+
+  .field select option:first-child {
+    color: rgba(var(--color-foreground), 0.5);
+  }
+
+  .field select option:not(:first-child) {
+    color: rgb(var(--color-foreground));
+  }
+ 
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
@@ -84,15 +118,22 @@
           <div class="contact__fields">
             <div class="field">
               <input
-                class="field__input"
+                class="field__input field--with-error"
                 autocomplete="name"
                 type="text"
                 id="ContactForm-name"
                 name="contact[{{ 'templates.contact.form.name' | t }}]"
                 value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
+                aria-required="true"
+                {% if form.errors contains 'name' %}
+                  aria-invalid="true"
+                  aria-describedby="ContactForm-name-error"
+                {% endif %}
                 placeholder="{{ 'templates.contact.form.name' | t }}"
               >
-              <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
+              <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}
+                <span aria-hidden="true">*</span>
+              </label>
             </div>
             <div class="field field--with-error">
               <input
@@ -143,17 +184,59 @@
             <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
           </div>
           <div class="field">
+            <select class="field__input select" id="ContactForm-state" name="contact[state]" required style="padding: 0.8rem 1.5rem 0.8rem 2rem;">
+              <option value="" class="first-option">Select State</option>
+              <option value="ACT">ACT</option>
+              <option value="NSW">NSW</option>
+              <option value="VIC">VIC</option>
+              <option value="QLD">QLD</option>
+              <option value="SA">SA</option>
+              <option value="WA">WA</option>
+              <option value="TAS">TAS</option>
+              <option value="NT">NT</option>
+            </select>
+            {% comment %} <label class="field__label" for="ContactForm-state">State <span aria-hidden="true">*</span></label> {% endcomment %}
+          </div>
+
+          <div class="field">
+            <select class="field__input select" id="ContactForm-reason" name="contact[reason]" required style="padding: 0.8rem 1.5rem 0.8rem 2rem;">
+              <option value="" class="first-option">Select Reason</option>
+              <option value="Existing Order">Existing Order</option>
+              <option value="Product Information">Product Information</option>
+              <option value="Product Return">Product Return</option>
+              <option value="Other">Other</option>
+            </select>
+            {% comment %} <label class="field__label" for="ContactForm-state">State <span aria-hidden="true">*</span></label> {% endcomment %}
+          </div>
+
+          <div class="field">
+            <input
+              class="field__input"
+              type="text"
+              id="ContactForm-orderno"
+              name="contact[orderno]"
+              value=""
+              aria-required="false"
+              placeholder=""
+            >
+            <label class="field__label" for="ContactForm-orderno">Order Number</label>
+          </div>
+          
+          <div class="field">
             <textarea
               rows="10"
               id="ContactForm-body"
               class="text-area field__input"
               name="contact[{{ 'templates.contact.form.comment' | t }}]"
               placeholder="{{ 'templates.contact.form.comment' | t }}"
+              required
+              aria-required="true"
             >
               {{- form.body -}}
             </textarea>
             <label class="form__label field__label" for="ContactForm-body">
               {{- 'templates.contact.form.comment' | t -}}
+              <span aria-hidden="true">*</span>
             </label>
           </div>
           <div class="contact__button">
