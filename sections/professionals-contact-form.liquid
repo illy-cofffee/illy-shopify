@@ -13,6 +13,10 @@
     }
   }
 
+  .contact__grid {
+    max-width:800px;
+  }
+
   .heading_underline {
     border-bottom: 1px solid #DADADA;
     padding-bottom: 1rem;
@@ -21,24 +25,6 @@
     width:100%;
   }
   
-  .contact__grid {
-    display: grid;
-    gap: 5rem;
-    width:100%;
-  }
-
-  @media screen and (min-width: 750px) {
-    .contact__grid {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
-
-  .contact__right-column {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-  }
-
   .field[data-field="address"], .field[data-field="is_open"] {
     grid-column: 1 / -1;
   }
@@ -74,42 +60,7 @@
     cursor: pointer;
   }
 
-  .field select:focus {
-    outline: none;
-    box-shadow: 0 0 0 1px rgba(var(--color-foreground), 0.2);
-  }
-
-  .field select option {
-    padding: 0.5rem;
-  }
-
-  .field select:invalid {
-    color: rgba(var(--color-foreground), 0.5);
-  }
-
-  .field select option:first-child {
-    color: rgba(var(--color-foreground), 0.5);
-  }
-
-  .field select option:not(:first-child) {
-    color: rgb(var(--color-foreground));
-  }
-
-  .is_open:after, .is_open:hover.is_open:after {
-    border:0px;
-    box-shadow: none;
-  }
-  
-  .open-label {
-    height:40px;
-  }
-  .open-label label {
-    left:0px;
-  }
-
-  .first-option {
-    font-size: 1.2rem;
-  }
+ 
   {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
@@ -123,7 +74,6 @@
     {%- endif -%}
     
     <div class="contact__grid">
-      <div class="contact__left-column">
         <h3 class="heading_underline">Professionals Contact Form</h3>
         {%- liquid
           assign contact_form_class = 'isolate'
@@ -155,49 +105,160 @@
           {%- endif -%}
 
           <div class="contact__fields">
-
             <div class="field">
-              <input class="field__input" type="text" id="ProfessionalsContactForm-name" name="contact[name]" required>
-              <label class="field__label" for="ProfessionalsContactForm-name">Name <span aria-hidden="true">*</span></label>
+              <input
+                class="field__input field--with-error"
+                autocomplete="name"
+                type="text"
+                id="ProfessionalsContactForm-name"
+                name="contact[{{ 'templates.contact.form.name' | t }}]"
+                value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
+                aria-required="true"
+                {% if form.errors contains 'name' %}
+                  aria-invalid="true"
+                  aria-describedby="ProfessionalsContactForm-name-error"
+                {% endif %}
+                placeholder="{{ 'templates.contact.form.name' | t }}"
+              >
+              <label class="field__label" for="ProfessionalsContactForm-name">{{ 'templates.contact.form.name' | t }}
+                <span aria-hidden="true">*</span>
+              </label>
             </div>
-
-            <div class="field">
-              <input class="field__input" type="text" id="ProfessionalsContactForm-surname" name="contact[surname]" required>
-              <label class="field__label" for="ProfessionalsContactForm-surname">Surname <span aria-hidden="true">*</span></label>
+            <div class="field field--with-error">
+              <input
+                autocomplete="email"
+                type="email"
+                id="ProfessionalsContactForm-email"
+                class="field__input"
+                name="contact[email]"
+                spellcheck="false"
+                autocapitalize="off"
+                value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+                aria-required="true"
+                {% if form.errors contains 'email' %}
+                  aria-invalid="true"
+                  aria-describedby="ProfessionalsContactForm-email-error"
+                {% endif %}
+                placeholder="{{ 'templates.contact.form.email' | t }}"
+              >
+              <label class="field__label" for="ProfessionalsContactForm-email">
+                {{- 'templates.contact.form.email' | t }}
+                <span aria-hidden="true">*</span></label
+              >
+              {%- if form.errors contains 'email' -%}
+                <small class="contact__field-error" id="ProfessionalsContactForm-email-error">
+                  <span class="visually-hidden">{{ 'accessibility.error' | t }}</span>
+                  <span class="form__message">
+                    <span class="svg-wrapper">
+                      {{- 'icon-error.svg' | inline_asset_content -}}
+                    </span>
+                    {{- form.errors.translated_fields.email | capitalize }}
+                    {{ form.errors.messages.email -}}
+                  </span>
+                </small>
+              {%- endif -%}
             </div>
-
             <div class="field">
-              <input class="field__input" type="tel" id="ProfessionalsContactForm-phone" name="contact[phone]" required>
-              <label class="field__label" for="ProfessionalsContactForm-phone">Telephone <span aria-hidden="true">*</span></label>
+              <input
+                autocomplete="business_name"
+                type="text"
+                id="ProfessionalsContactForm-business_name"
+                class="field__input"
+                name="contact[business_name]"
+                spellcheck="false"
+                autocapitalize="off"
+                aria-required="true"
+                placeholder=""
+              >
+              <label class="field__label" for="ProfessionalsContactForm-business_name">
+                Business Name
+              </label>
             </div>
-
             <div class="field">
-              <input class="field__input" type="email" id="ProfessionalsContactForm-email" name="contact[email]" required>
-              <label class="field__label" for="ProfessionalsContactForm-email">Email <span aria-hidden="true">*</span></label>
+              <input
+                type="tel"
+                id="ProfessionalsContactForm-phone"
+                class="field__input"
+                autocomplete="tel"
+                name="contact[{{ 'templates.contact.form.phone' | t }}]"
+                pattern="[0-9\-]*"
+                value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
+                placeholder="{{ 'templates.contact.form.phone' | t }}"
+              >
+              <label class="field__label" for="ProfessionalsContactForm-phone">Phone Number</label>
             </div>
             
+
             <div class="field" data-field="address">
-              <input class="field__input" type="text" id="ProfessionalsContactForm-address" name="contact[address]" required>
-              <label class="field__label" for="ProfessionalsContactForm-address">Address <span aria-hidden="true">*</span></label>
+              <input
+                autocomplete="address"
+                type="text"
+                id="ProfessionalsContactForm-address"
+                class="field__input"
+                name="contact[address]"
+                spellcheck="false"
+                autocapitalize="off"
+                aria-required="true"
+                placeholder=""
+              >
+              <label class="field__label" for="ProfessionalsContactForm-address">
+                Address
+              </label>
             </div>
 
             <div class="field">
-              <input class="field__input" type="text" id="ProfessionalsContactForm-country" name="contact[country]" required>
-              <label class="field__label" for="ProfessionalsContactForm-country">Country <span aria-hidden="true">*</span></label>
+              <input
+                autocomplete="city"
+                type="text"
+                id="ProfessionalsContactForm-city"
+                class="field__input"
+                name="contact[city]"
+                spellcheck="false"
+                autocapitalize="off"
+                aria-required="true"
+                placeholder=""
+              >
+              <label class="field__label" for="ProfessionalsContactForm-city">
+                City
+              </label>
             </div>
 
             <div class="field">
-              <input class="field__input" type="text" id="ProfessionalsContactForm-city" name="contact[city]" required>
-              <label class="field__label" for="ProfessionalsContactForm-city">City <span aria-hidden="true">*</span></label>
+              <input
+                autocomplete="country"
+                type="text"
+                id="ProfessionalsContactForm-country"
+                class="field__input"
+                name="contact[country]"
+                spellcheck="false"
+                autocapitalize="off"
+                aria-required="true"
+                placeholder=""
+              >
+              <label class="field__label" for="ProfessionalsContactForm-country">
+                Country
+              </label>
+            </div>
+            
+            <div class="field">
+              <input
+                autocomplete="postcode"
+                type="text"
+                id="ProfessionalsContactForm-postcode"
+                class="field__input"
+                name="contact[postcode]"
+                spellcheck="false"
+                autocapitalize="off"
+                aria-required="true"
+                placeholder=""
+              >
+              <label class="field__label" for="ProfessionalsContactForm-postcode">
+                Post Code
+              </label>
             </div>
 
             <div class="field">
-              <input class="field__input" type="text" id="ProfessionalsContactForm-postcode" name="contact[postcode]" required>
-              <label class="field__label" for="ProfessionalsContactForm-postcode">Post Code <span aria-hidden="true">*</span></label>
-            </div>
-
-            <div class="field">
-              <select class="field__input select" id="ProfessionalsContactForm-activity" name="contact[activity_type]" required>
+              <select class="field__input select" id="ProfessionalsContactForm-activity" name="contact[activity_type]" required style="padding: 0.8rem 1.5rem 0.8rem 2rem;">
                 <option value="" class="first-option">Select Activity Type</option>
                 <option value="Bar/Bakery/Pastry/Ice Cream Shop">Bar/Bakery/Pastry/Ice Cream Shop</option>
                 <option value="Restaurant">Restaurant</option>
@@ -206,26 +267,54 @@
                 <option value="Home Appliance Store">Home Appliance Store</option>
                 <option value="Office">Office</option>
               </select>
-              <label class="field__label" for="ProfessionalsContactForm-activity">Activity Type <span aria-hidden="true">*</span></label>
+              {% comment %} <label class="field__label" for="ProfessionalsContactForm-activity">Activity Type <span aria-hidden="true">*</span></label> {% endcomment %}
             </div>
 
             <div class="field">
-              <select class="field__input select" id="ProfessionalsContactForm-coffees" name="contact[coffees_per_day]" required>
+              <select class="field__input select" id="ProfessionalsContactForm-coffees" name="contact[coffees_per_day]" required style="padding: 0.8rem 1.5rem 0.8rem 2rem;">
                 <option value="">Select Number of Coffees</option>
                 <option value="0-89">0-89</option>
                 <option value="90-150">90-150</option>
                 <option value=">150">>150</option>
               </select>
-              <label class="field__label" for="ProfessionalsContactForm-coffees">Number of Coffees per Day <span aria-hidden="true">*</span></label>
+              {% comment %} <label class="field__label" for="ProfessionalsContactForm-coffees">Number of Coffees per Day <span aria-hidden="true">*</span></label> {% endcomment %}
             </div>
 
             <div class="field">
-              <input class="field__input" type="text" id="ProfessionalsContactForm-supplier" name="contact[current_supplier]" required>
-              <label class="field__label" for="ProfessionalsContactForm-supplier">Current Supplier <span aria-hidden="true">*</span></label>
+              <input
+                autocomplete="kgweek"
+                type="text"
+                id="ProfessionalsContactForm-kgweek"
+                class="field__input"
+                name="contact[kgweek]"
+                spellcheck="false"
+                autocapitalize="off"
+                aria-required="true"
+                placeholder=""
+              >
+              <label class="field__label" for="ProfessionalsContactForm-kgweek">
+                How may kg per week?
+              </label>
             </div>
 
+            <div class="field">
+              <input
+                autocomplete="current_supplier"
+                type="text"
+                id="ProfessionalsContactForm-current_supplier"
+                class="field__input"
+                name="contact[current_supplier]"
+                spellcheck="false"
+                autocapitalize="off"
+                aria-required="true"
+                placeholder=""
+              >
+              <label class="field__label" for="ProfessionalsContactForm-current_supplier">
+                Current Supplier
+              </label>
+            </div>
+            <div style="grid-column: 1 / -1;margin-bottom: 1rem;">Is it already open? </div>
             <div class="field is_open" data-field="is_open">
-              <div class="open-label"><label class="field__label">Is it already open? <span aria-hidden="true">*</span></label></div>
               <div class="open-radio-group">
                 <div class="radio-group">
                   <div class="radio-option">
@@ -249,16 +338,6 @@
           </div>
         {%- endform -%}
       </div>
-
-      <div class="contact__right-column">
-        <h3 class="heading_underline">Contact details</h3>
-        {%- if section.settings.right_column_content != blank -%}
-          <div class="rte">
-            {{ section.settings.right_column_content }}
-          </div>
-        {%- endif -%}
-      </div>
-    </div>
   </div>
 </div>
 
