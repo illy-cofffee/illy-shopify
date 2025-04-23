@@ -39,7 +39,7 @@
             "heading": "Not an illy client?",
             "text": "<p>Fill out the form and the illy professional team will contact you as soon as possible. </p>",
             "button_label": "Contact Us",
-            "button_link": ""
+            "button_link": "shopify://pages/professional-contact"
           }
         }
       },
