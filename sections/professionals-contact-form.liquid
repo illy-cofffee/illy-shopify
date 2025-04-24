@@ -96,6 +96,10 @@
             </div>
             <ul class="form-status-list caption-large" role="list">
               <li>
+                <a href="#ProfessionalsContactForm-name" class="link">
+                  {{ form.errors.translated_fields.name | capitalize }}
+                  {{ form.errors.messages.name }}
+                </a>
                 <a href="#ProfessionalsContactForm-email" class="link">
                   {{ form.errors.translated_fields.email | capitalize }}
                   {{ form.errors.messages.email }}
@@ -114,6 +118,7 @@
                 name="contact[{{ 'templates.contact.form.name' | t }}]"
                 value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
                 aria-required="true"
+                required
                 {% if form.errors contains 'name' %}
                   aria-invalid="true"
                   aria-describedby="ProfessionalsContactForm-name-error"
@@ -123,6 +128,18 @@
               <label class="field__label" for="ProfessionalsContactForm-name">{{ 'templates.contact.form.name' | t }}
                 <span aria-hidden="true">*</span>
               </label>
+              {%- if form.errors contains 'name' -%}
+                <small class="contact__field-error" id="ProfessionalsContactForm-name-error">
+                  <span class="visually-hidden">{{ 'accessibility.error' | t }}</span>
+                  <span class="form__message">
+                    <span class="svg-wrapper">
+                      {{- 'icon-error.svg' | inline_asset_content -}}
+                    </span>
+                    {{- form.errors.translated_fields.name | capitalize }}
+                    {{ form.errors.messages.name -}}
+                  </span>
+                </small>
+              {%- endif -%}
             </div>
             <div class="field field--with-error">
               <input
@@ -135,6 +152,7 @@
                 autocapitalize="off"
                 value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
                 aria-required="true"
+                required
                 {% if form.errors contains 'email' %}
                   aria-invalid="true"
                   aria-describedby="ProfessionalsContactForm-email-error"
@@ -168,10 +186,11 @@
                 spellcheck="false"
                 autocapitalize="off"
                 aria-required="true"
+                required
                 placeholder=""
               >
               <label class="field__label" for="ProfessionalsContactForm-business_name">
-                Business Name
+                Business Name <span aria-hidden="true">*</span>
               </label>
             </div>
             <div class="field">
@@ -183,9 +202,13 @@
                 name="contact[{{ 'templates.contact.form.phone' | t }}]"
                 pattern="[0-9\-]*"
                 value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
+                aria-required="true"
+                required
                 placeholder="{{ 'templates.contact.form.phone' | t }}"
               >
-              <label class="field__label" for="ProfessionalsContactForm-phone">Phone Number</label>
+              <label class="field__label" for="ProfessionalsContactForm-phone">Phone Number
+                <span aria-hidden="true">*</span>
+              </label>
             </div>
             
 
@@ -199,10 +222,11 @@
                 spellcheck="false"
                 autocapitalize="off"
                 aria-required="true"
+                required
                 placeholder=""
               >
               <label class="field__label" for="ProfessionalsContactForm-address">
-                Address
+                Address <span aria-hidden="true">*</span>
               </label>
             </div>
 
@@ -216,10 +240,11 @@
                 spellcheck="false"
                 autocapitalize="off"
                 aria-required="true"
+                required
                 placeholder=""
               >
               <label class="field__label" for="ProfessionalsContactForm-city">
-                City
+                City <span aria-hidden="true">*</span>
               </label>
             </div>
 
@@ -233,10 +258,12 @@
                 spellcheck="false"
                 autocapitalize="off"
                 aria-required="true"
+                required
                 placeholder=""
               >
               <label class="field__label" for="ProfessionalsContactForm-country">
                 Country
+                <span aria-hidden="true">*</span>
               </label>
             </div>
             
@@ -250,16 +277,18 @@
                 spellcheck="false"
                 autocapitalize="off"
                 aria-required="true"
+                required
                 placeholder=""
               >
               <label class="field__label" for="ProfessionalsContactForm-postcode">
                 Post Code
+                <span aria-hidden="true">*</span>
               </label>
             </div>
 
             <div class="field">
               <select class="field__input select" id="ProfessionalsContactForm-activity" name="contact[activity_type]" required style="padding: 0.8rem 1.5rem 0.8rem 2rem;">
-                <option value="" class="first-option">Select Activity Type</option>
+                <option value="" class="first-option">Select Activity Type <span aria-hidden="true">*</span></option>
                 <option value="Bar/Bakery/Pastry/Ice Cream Shop">Bar/Bakery/Pastry/Ice Cream Shop</option>
                 <option value="Restaurant">Restaurant</option>
                 <option value="Hotel">Hotel</option>
@@ -272,7 +301,7 @@
 
             <div class="field">
               <select class="field__input select" id="ProfessionalsContactForm-coffees" name="contact[coffees_per_day]" required style="padding: 0.8rem 1.5rem 0.8rem 2rem;">
-                <option value="">Select Number of Coffees</option>
+                <option value="">Select Number of Coffees <span aria-hidden="true">*</span></option>
                 <option value="0-89">0-89</option>
                 <option value="90-150">90-150</option>
                 <option value=">150">>150</option>
@@ -290,10 +319,11 @@
                 spellcheck="false"
                 autocapitalize="off"
                 aria-required="true"
+                required
                 placeholder=""
               >
               <label class="field__label" for="ProfessionalsContactForm-kgweek">
-                How may kg per week?
+                How may kg per week? <span aria-hidden="true">*</span>
               </label>
             </div>
 
@@ -307,14 +337,15 @@
                 spellcheck="false"
                 autocapitalize="off"
                 aria-required="true"
+                required
                 placeholder=""
               >
               <label class="field__label" for="ProfessionalsContactForm-current_supplier">
-                Current Supplier
+                Current Supplier <span aria-hidden="true">*</span>
               </label>
             </div>
-            <div style="grid-column: 1 / -1;margin-bottom: 1rem;">Is it already open? </div>
-            <div class="field is_open" data-field="is_open">
+            <div style="grid-column: 1 / -1;margin-bottom: 1rem;">Is it already open? <span aria-hidden="true">*</span></div>
+            
               <div class="open-radio-group">
                 <div class="radio-group">
                   <div class="radio-option">
@@ -326,7 +357,7 @@
                     <label for="ProfessionalsContactForm-open-no">No</label>
                   </div>
                 </div>
-              </div>
+            
             </div>
 
           </div>
