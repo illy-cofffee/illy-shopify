@@ -47,7 +47,7 @@
         "text_XPHfXV": {
           "type": "text",
           "settings": {
-            "text": "<p>Below are some frequently asked questions about illy products. If you cannot find the answer you're looking for, please <a href=\"/pages/contact\" title=\"Contact\">contact us</a>.</p><p><a href=\"#machines\" title=\"#machines-faq\">Machines</a></p>"
+            "text": "<p>Below are some frequently asked questions about illy products. If you cannot find the answer you're looking for, please <a href=\"/pages/contact\" title=\"Contact\">contact us</a>.</p><p><a href=\"#machines-faq\" title=\"machines-faq\">Machines</a></p>"
           }
         },
         "button_JMQ7Dh": {
