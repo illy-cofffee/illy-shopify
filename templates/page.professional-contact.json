@@ -20,11 +20,11 @@
     "professionals_contact_form_dBiP4N": {
       "type": "professionals-contact-form",
       "settings": {
-        "heading": "<strong>ENTER THE WORLD OF ILLY PROFESSIONALS</strong>",
+        "heading": "Enter the world of illy Professionals",
         "heading_size": "h1",
         "right_column_content": "<p>Add your content here for the right column. This could include additional information, images, or other content.</p>",
         "color_scheme": "scheme-3",
-        "padding_top": 36,
+        "padding_top": 80,
         "padding_bottom": 36
       }
     }
