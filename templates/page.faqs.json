@@ -93,7 +93,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p><a href=\"#machines\" title=\"#machines\">Machines</a></p>",
+            "text": "<p><a href=\"#machines\" title=\"#machines-faq\">Machines</a></p>",
             "link_label": "",
             "link": "#machines"
           }
