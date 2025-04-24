@@ -35,6 +35,9 @@
           {%- else -%}
             <h2 class="visually-hidden">{{ 'accessibility.collapsible_content_title' | t }}</h2>
           {% endif %}
+          {%- if section.settings.anchor_name != blank -%}
+            <a name="{{ section.settings.anchor_name }}" class="scroll-trigger" data-scroll-target="{{ section.settings.anchor_name }}"></a>
+          {% endif %}
         </div>
         <div class="grid grid--1-col grid--2-col-tablet collapsible-content__grid{% if section.settings.desktop_layout == 'image_second' %} collapsible-content__grid--reverse{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
           {%- if section.settings.image != blank -%}
@@ -282,6 +285,12 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
+    },
+    {
+      "type": "text",
+      "id": "anchor_name",
+      "label": "Anchor Name",
+      "info": "Enter the name of the anchor for the collapsible content"
     }
   ],
   "blocks": [
@@ -514,3 +523,18 @@
   ]
 }
 {% endschema %}
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+        if (targetElement) {
+          targetElement.scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+  });
+</script>

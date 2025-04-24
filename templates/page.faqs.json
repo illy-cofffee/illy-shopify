@@ -93,9 +93,9 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Machines</p>",
+            "text": "<p><a href=\"#machines\" title=\"#machines\">Machines</a></p>",
             "link_label": "",
-            "link": ""
+            "link": "#machines"
           }
         },
         "column_icrBhc": {
@@ -133,6 +133,9 @@
         "column_XP7BzM",
         "column_cRy4r4"
       ],
+      "custom_css": [
+        ".background-none .multicolumn-list .multicolumn-card__info,.background-none .multicolumn-list:not(.slider) .center .multicolumn-card__info {padding-left: 0;}"
+      ],
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -146,7 +149,7 @@
         "color_scheme": "scheme-3",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
+        "padding_top": 32,
         "padding_bottom": 36
       }
     },
@@ -358,7 +361,70 @@
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "anchor_name": "coffee"
+      }
+    },
+    "collapsible_content_6hwMXM": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_T4nEzx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_QwD3dx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_rHt8Ly": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_qXQX9d": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_T4nEzx",
+        "collapsible_row_QwD3dx",
+        "collapsible_row_rHt8Ly",
+        "collapsible_row_qXQX9d"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Machines",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "section",
+        "color_scheme": "scheme-3",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "anchor_name": "machines"
       }
     }
   },
@@ -367,6 +433,7 @@
     "image_banner_HPRWPt",
     "rich_text_FXX8Ep",
     "multicolumn_be7bQd",
-    "collapsible_content_jfW7AY"
+    "collapsible_content_jfW7AY",
+    "collapsible_content_6hwMXM"
   ]
 }
