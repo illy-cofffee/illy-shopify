@@ -51,7 +51,7 @@
         <li class="breadcrumbs__item parent__collection">
           {% for collection in product.collections %}
             {% if collection.url %}
-              {% if collection.title != "All products" and collection.title != "Best Sellers" %}
+              {% if collection.title != "All products" and collection.title != "Best Sellers" and collection.title != "Coffee" and collection.title != "All Coffee Machines"%}
                 <span>{{ collection.title | link_to: collection.url, class: 'breadcrumbs__link'}}</span>
                 {% break %} <!-- Only show first collection -->
               {% endif %}
@@ -79,9 +79,8 @@
 <script>
   const collectionTitle = sessionStorage.getItem( 'collection_title' );
   const collectionUrl = sessionStorage.getItem( 'collection_url' );
-  
   if (collectionTitle && collectionUrl) {  
-    const container = document.querySelector('parent__collection');
+    const container = document.querySelector('.parent__collection');
     const link = document.createElement('a');
     link.href = collectionUrl; 
     link.textContent = collectionTitle; 
