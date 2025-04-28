@@ -100,3 +100,11 @@
     min-height: 20rem;
   }
 }
+
+.collection-hero__text-wrapper {
+  text-align:center;
+}
+.collection-hero__description {
+  text-align: center;
+  margin: 0 auto;
+}
