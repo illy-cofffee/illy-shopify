@@ -40,7 +40,6 @@
 
 </style>
 
-
 {% case template %}
 {% when template contains 'product' %}
   <nav class="breadcrumbs page-width" role="navigation" aria-label="breadcrumbs">
@@ -60,7 +59,7 @@
       </li>
     </ol>
   </nav>
-{% when 'collection' %}
+{% when template contains 'collection' %}
 {% comment %} don't include {% endcomment %}
 
 {% else %}
