@@ -17,6 +17,22 @@
         "color_scheme": "scheme-2"
       }
     },
+    "image_banner_3n3Tmj": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -37,22 +53,6 @@
         "padding_bottom": 36
       }
     },
-    "two_column_images_GaJHeq": {
-      "type": "two-column-images",
-      "settings": {
-        "left_col_subhead": "A taste of art",
-        "left_col_title": "illy Art Collection",
-        "left_col_image": "shopify://shop_images/art-collection.jpg",
-        "left_col_url": "shopify://collections/art-collection",
-        "left_col_link_text": "Discover More",
-        "right_col_subhead": "The secrets of coffee",
-        "right_col_title": "Preparation",
-        "right_col_image": "shopify://shop_images/coffee-preparation.jpg",
-        "right_col_url": "#",
-        "right_col_link_text": "Discover More",
-        "color_scheme": "scheme-60b36b58-2f08-4afa-91c3-558e5bc3ebe4"
-      }
-    },
     "rich_text_4axEyB": {
       "type": "rich-text",
       "blocks": {
@@ -60,7 +60,8 @@
           "type": "heading",
           "settings": {
             "heading": "Talk about your brand",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "h1-title": false
           }
         },
         "text_mrrhRV": {
@@ -97,9 +98,9 @@
     }
   },
   "order": [
+    "image_banner_3n3Tmj",
     "banner",
     "product-grid",
-    "two_column_images_GaJHeq",
     "rich_text_4axEyB"
   ]
 }
