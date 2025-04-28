@@ -13,8 +13,11 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-{%- endstyle -%}
 
+  html {
+   scroll-behavior: smooth;
+  }
+{%- endstyle -%}
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="collapsible-content collapsible-{{ section.settings.layout }}-layout isolate{% if section.settings.layout == 'section' %} page-width{% elsif section.settings.layout == 'none' %} content-container content-container--full-width{% endif %}">
     <div class="collapsible-content__wrapper section-{{ section.id }}-padding{% if section.settings.layout == 'section' %} content-container color-{{ section.settings.container_color_scheme }} gradient{% endif %}">
@@ -36,7 +39,7 @@
             <h2 class="visually-hidden">{{ 'accessibility.collapsible_content_title' | t }}</h2>
           {% endif %}
           {%- if section.settings.anchor_name != blank -%}
-            <a name="{{ section.settings.anchor_name }}" class="scroll-trigger" data-scroll-target="{{ section.settings.anchor_name }}"></a>
+            <div id="{{ section.settings.anchor_name }}-faq" class="scroll-trigger" data-scroll-target="{{ section.settings.anchor_name }}-faq"></div>
           {% endif %}
         </div>
         <div class="grid grid--1-col grid--2-col-tablet collapsible-content__grid{% if section.settings.desktop_layout == 'image_second' %} collapsible-content__grid--reverse{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
@@ -532,6 +535,7 @@
         const targetId = this.getAttribute('href');
         const targetElement = document.querySelector(targetId);
         if (targetElement) {
+          alert("yes");
           targetElement.scrollIntoView({ behavior: 'smooth' });
         }
       });
