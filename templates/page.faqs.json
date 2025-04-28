@@ -84,7 +84,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p><a href=\"#coffee-faq\" title=\"#coffee-faq\">Coffee</a></p>",
+            "text": "<p><a href=\"#coffee\" title=\"#coffee\">Coffee</a></p>",
             "link_label": "",
             "link": ""
           }
@@ -93,7 +93,7 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p><a href=\"#machines\" title=\"#machines-faq\">Machines</a></p>",
+            "text": "<p><a href=\"#machines\" title=\"#machines\">Machines</a></p>",
             "link_label": "",
             "link": "#machines"
           }
