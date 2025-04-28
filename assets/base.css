@@ -3813,7 +3813,7 @@ button[disabled] {
 
 @media (max-width: 1128px) {
   .header {
-    padding-left: 0px !important;
+    padding: 5px !important;
     padding-right: 1rem !important;
     grid-template-areas: "heading icons left-icons";
     grid-template-columns: 2fr 1fr auto;
