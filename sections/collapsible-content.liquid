@@ -33,11 +33,11 @@
             </p>
           {% endif %}
           {%- if section.settings.heading != blank -%}
-            <h2 class="collapsible-content__heading inline-richtext {{ section.settings.heading_size }}"  {%- if section.settings.anchor_name != blank -%} id="{{ section.settings.anchor_name }}-faq"{% endif %}>
+            <h2 class="collapsible-content__heading inline-richtext {{ section.settings.heading_size }}"  {%- if section.settings.anchor_name != blank -%} id="{{ section.settings.anchor_name }}"{% endif %}>
               {{ section.settings.heading }}
             </h2>
           {%- else -%}
-            <h2 class="visually-hidden" {%- if section.settings.anchor_name != blank -%} id="{{ section.settings.anchor_name }}-faq"{% endif %}>{{ 'accessibility.collapsible_content_title' | t }}</h2>
+            <h2 class="visually-hidden" {%- if section.settings.anchor_name != blank -%} id="{{ section.settings.anchor_name }}"{% endif %}>{{ 'accessibility.collapsible_content_title' | t }}</h2>
           {% endif %}          
         </div>
         <div class="grid grid--1-col grid--2-col-tablet collapsible-content__grid{% if section.settings.desktop_layout == 'image_second' %} collapsible-content__grid--reverse{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
