@@ -2463,6 +2463,8 @@ input[type='checkbox'] {
 .header__heading-logo {
   height: auto;
   max-width: 100%;
+  padding-right:10px;
+  border-right: 1px  solid #000000;
 }
 
 .header__heading-logo-wrapper {
@@ -3776,11 +3778,6 @@ button[disabled] {
   background-color: #F6F0EC;
 }
 
-.header {
-  padding: 0px;
-  max-width: 100%;
-}
-
 .announcement-bar, .announcement-bar__announcement {
   justify-content: center;
   align-content: center;
@@ -3798,7 +3795,7 @@ button[disabled] {
 }
 
 .header {
-  padding: 0px;
+  padding: 3px;
   max-width: 100%;
 }
 
@@ -3808,16 +3805,7 @@ button[disabled] {
 
 @media (min-width: 1129px) {
 
-  .header.page-width,
-  .utility-bar__grid.page-width {
-    padding-left: 0;
-  }
-  .header:not(.drawer-menu).page-width {
-    padding-left: 0;
-  }
-  .header__heading-link {
-    padding: 0;
-  }
+
   .header--middle-left .header__heading-link, .header--top-left .header__heading-link {
     margin-left: 0;
   }
@@ -3918,7 +3906,7 @@ header-drawer {
 }
 
 .b-corp-logo {
-  height: 55px;
+  height: 50px;
   width: auto;
 }
 
