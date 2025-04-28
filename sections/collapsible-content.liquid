@@ -1,5 +1,6 @@
 {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
 {{ 'collapsible-content.css' | asset_url | stylesheet_tag }}
+{{ 'scroll-offset.js' | asset_url | script_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -32,15 +33,12 @@
             </p>
           {% endif %}
           {%- if section.settings.heading != blank -%}
-            <h2 class="collapsible-content__heading inline-richtext {{ section.settings.heading_size }}">
+            <h2 class="collapsible-content__heading inline-richtext {{ section.settings.heading_size }}"  {%- if section.settings.anchor_name != blank -%} id="{{ section.settings.anchor_name }}-faq"{% endif %}>
               {{ section.settings.heading }}
             </h2>
           {%- else -%}
-            <h2 class="visually-hidden">{{ 'accessibility.collapsible_content_title' | t }}</h2>
-          {% endif %}
-          {%- if section.settings.anchor_name != blank -%}
-            <div id="{{ section.settings.anchor_name }}-faq" class="scroll-trigger" data-scroll-target="{{ section.settings.anchor_name }}-faq"></div>
-          {% endif %}
+            <h2 class="visually-hidden" {%- if section.settings.anchor_name != blank -%} id="{{ section.settings.anchor_name }}-faq"{% endif %}>{{ 'accessibility.collapsible_content_title' | t }}</h2>
+          {% endif %}          
         </div>
         <div class="grid grid--1-col grid--2-col-tablet collapsible-content__grid{% if section.settings.desktop_layout == 'image_second' %} collapsible-content__grid--reverse{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
           {%- if section.settings.image != blank -%}
@@ -526,19 +524,3 @@
   ]
 }
 {% endschema %}
-
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function(e) {
-        e.preventDefault();
-        const targetId = this.getAttribute('href');
-        const targetElement = document.querySelector(targetId);
-        if (targetElement) {
-          alert("yes");
-          targetElement.scrollIntoView({ behavior: 'smooth' });
-        }
-      });
-    });
-  });
-</script>
