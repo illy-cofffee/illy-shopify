@@ -1,0 +1,169 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_ix93V8": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_nhj8wp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Moka",
+            "heading_size": "h0",
+            "h1-title": true
+          }
+        },
+        "text_HVdV49": {
+          "type": "text",
+          "settings": {
+            "text": "All About Making Moka Coffee",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nhj8wp",
+        "text_HVdV49"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/img_01_dbaaaa5b-51e7-4e13-b00f-9a3f6e88de8e.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-2",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_pAqqkz": {
+      "type": "rich-text",
+      "blocks": {
+        "text_BUrE49": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In Italy a Caffè Moka is quite different from, say, calling for a Mocha coffee in America. To sound alike is not to taste alike, coffee-style. For making moka, the chocolate syrup is nowhere in sight. </p><p>Small, two-chambered moka pots sit on many Italian stovetops, easy to use and producing a full-bodied coffee, rich in aroma. Many have an hourglass shape, but you can find moka pots in a variety of styles, all based on the same operating principle. Water is heated in a lower chamber. Vapor pressure approaching two atmospheres pushes the water up through ground coffee in a filter, which collects in the upper chamber as liquid coffee.</p><p>It’s really that simple, but it does take some practice, a careful eye and the right grind, never too fine. Use a low flame, and be sure not to overheat to coffee.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_BUrE49"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multirow_pdRGQY": {
+      "type": "multirow",
+      "blocks": {
+        "row_ij7pYd": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_02_2x_164fde4c-05ab-4e80-bede-f0ea3d9ac60d.jpg",
+            "caption": "",
+            "heading": "French Press Instructions",
+            "text": "<ol><li>Fill the base chamber with cold water up to the level of the valve. Insert the filter.</li><li>Completely fill the filter with ground coffee, but don’t pack it down.</li><li>Make sure the filter and rubber gasket are in place. Screw the two chambers tightly together.</li><li>Place the moka pot on the stove. Warning: keep the heat low.</li><li>Remove pot from heat just when coffee starts to gurgle, before it starts to rise and bubble. You’ll be sure to extract only the best parts of the coffee.</li><li>Mix the coffee with a spoon before pouring into cups.</li><li>Rinse the coffee maker with hot water and let dry thoroughly before screwing chambers back together.</li></ol>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_ij7pYd"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_Rit8EH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wcLGVa": {
+          "type": "heading",
+          "settings": {
+            "heading": "What is a Moka Pot?",
+            "heading_size": "h1",
+            "h1-title": false
+          }
+        },
+        "text_Wkh3mP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Moka pots were invented in 1930s Italy. The name refers to the city of Mocha, Yemen, for many centuries a center of coffee excellence.</p><p>Every moka pot consists of a cylinder (bottom chamber), a filter funnel, a collector (top chamber) with a second removable filter, held in place by a rubber gasket.  The seal and removable filter should be changed periodically.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wcLGVa",
+        "text_Wkh3mP"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_wbyF9A": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/img_03_2x_0b65772a-10d7-4dba-a2e9-4aeba9e387a9.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_ix93V8",
+    "rich_text_pAqqkz",
+    "multirow_pdRGQY",
+    "rich_text_Rit8EH",
+    "image_banner_wbyF9A"
+  ]
+}

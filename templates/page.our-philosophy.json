@@ -1,0 +1,344 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_BRYXXN": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_eeF7qJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Be Sustainable, B-Corp, Be Better",
+            "heading_size": "h0",
+            "h1-title": true
+          }
+        },
+        "text_FegnA4": {
+          "type": "text",
+          "settings": {
+            "text": "A single, important detail has remained at the heart of our dedication to quality: our commitment to sustainability",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_eeF7qJ",
+        "text_FegnA4"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/664c50667658eb000872408e_jpg_9d97c675-449b-47f9-a552-26f49276250a.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_pDwhzf": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_qbNwHM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Four Pillars",
+            "heading_size": "h1",
+            "h1-title": false
+          }
+        },
+        "text_yg4HCW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The quality of illy coffee is a direct result of the collaborative relationship between the company and our outstanding coffee producers. The illycaffè sustainable supply chain is based on a system of direct relationships with suppliers, which is built upon four pillars:</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qbNwHM",
+        "text_yg4HCW"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "slideshow_QFM6DT": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_iPzzGR": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/img_02_2x_94b044e1-9b05-4814-bd5b-b8ddf9e991de.jpg",
+            "heading": "01",
+            "heading_size": "h1",
+            "subheading": "Selecting and working directly with the finest producers of Arabica Coffee",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_bteqB3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/img_03.jpg",
+            "heading": "02",
+            "heading_size": "h1",
+            "subheading": "Sharing knowledge with the, training them in high-quality, sustainable cultivation through the University of Coffee and daily work in the field with specialists agronomists.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_Vbd6mq": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/img_04_2x_1.jpg",
+            "heading": "03",
+            "heading_size": "h1",
+            "subheading": "Rewarding them for producing quality by paying them above-market rates, thereby encouraging constant improvement and ensuring sustainable production.",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_q8b8HK": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/img_05_2x_1.jpg",
+            "heading": "04",
+            "heading_size": "h1",
+            "subheading": "Creating a community of illy producers who meet virtually on their dedicated platform, Circolo illy",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_iPzzGR",
+        "slide_bteqB3",
+        "slide_Vbd6mq",
+        "slide_q8b8HK"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "multirow_Fdc6NV": {
+      "type": "multirow",
+      "blocks": {
+        "row_3WgPYh": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_06_2x_0841d3c7-2a04-4db9-9952-b2516dc83ee0.jpg",
+            "caption": "",
+            "heading": "Benefit Corporation",
+            "text": "<p>Since 2019, our legal status has been that of a Benefit Corporation, or B Corp, reasserting our choice to seek continued growth by promoting a different way of doing business based on a strategy aimed at the common good. We are focused on three areas of intervention, which have been incorporated into our articles of association. The first refers to a responsible value chain and sustainable agriculture. Our approach consists of analyzing and improving impacts throughout the coffee supply chain, conducting research in the field and sharing knowledge, as well as supporting integrated farming to preserve and improve the sustainable quality of the coffee. The second is linked to quality of life, pursued through the principles of economic, social, and environmental sustainability and by promoting global partnerships targeting this goal. Finally, the third area relates to the circular economy and its benefits for the planet, involving improvements to energy efficiency and the consumption of resources in order to gradually reduce emissions throughout the chain. </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_m4GgBf": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/664c4ff1f3db55000852f6d0_jpg.webp",
+            "caption": "",
+            "heading": "Sustainable Since The Beginning, B-Corp Since 2021",
+            "text": "<p>Since our beginnings, a single, important detail has remained at the heart of our dedication to <strong>quality</strong>: our commitment to <strong>sustainability</strong>. A promise we will never stop making with every choice – from production to caring for the <strong>environment</strong> and <strong>communities</strong> – that allowed us, in <strong>2021</strong>, to become the first Italian coffee company to receive B Corp certification.</p><p> </p><p>Only <strong>3%</strong> of applicant companies reach this goal. We are proud to uphold this, further improving our brand and allowing our business model to be recognised for the <strong>positive value</strong> it generates for both the <strong>environment</strong> and the <strong>community</strong>, because being <strong>sustainable</strong> is a <strong>commitment</strong> that we will keep making, again and again.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_94QtAT": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/66477de1f1a41e0008ac80ab_jpg.webp",
+            "caption": "",
+            "heading": "We became a B-Corp in 2021, and we’re excited to share that we've now achieved an even higher score!",
+            "text": "<p>Now that we’ve received our new B Lab certification with a <strong>score of 90.4 points</strong>, we can confirm that we have an <strong>even more positive social and environmental impact </strong>on the world than ever.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_jCQpAD": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/66477e0e7658eb0008723fb4_jpg.webp",
+            "caption": "",
+            "heading": "Renewing The Effort For Renewable Energy",
+            "text": "<p><strong>95.5% </strong>of the <strong>electricity </strong>that we used in <strong>2023 </strong>came from <strong>renewable sources</strong>. In our Italian offices, that figure reached <strong>100%.</strong></p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_RD6FU9": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/66477e407658eb0008723fb5_jpg.webp",
+            "caption": "",
+            "heading": "We Are All-Inclusive",
+            "text": "<h4>1,188+ Employees</h4><h4>43,6% Female employees</h4>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_fQH6G9": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/66477e7ca0856f00081c3606_jpg.webp",
+            "caption": "",
+            "heading": "We Share Our Knowledge",
+            "text": "<p>In 2023, we had <strong>2,383 stakeholders </strong>involved throughout the green <strong>coffee supply chain </strong>and provided <strong>345 hours of training </strong>to enhance <strong>skills </strong>at all levels in our sector. <strong>Quality </strong>is born out of <strong>competence</strong>.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_8jYiP6": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/665889b8f2e3db0008c64fe3_png.webp",
+            "caption": "",
+            "heading": "Certification Notice",
+            "text": "<p>“Certified B Corporation” is a trademark licensed by B Lab, a private non-profit organization, to companies like ours that have successfully completed the B Impact Assessment (“BIA”) and therefore meet the requirements set by B Lab for social and environmental performance, accountability, and transparency. It is specified that B Lab is not a conformity assessment body as defined by Regulation (EU) No 765/2008, nor is it a national, European, or international standardization body as per Regulation (EU) No 1025/2012. The criteria of the BIA are distinct and independent from the harmonized standards resulting from ISO norms or other standardization bodies, and they are not ratified by national or European public institutions.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_3WgPYh",
+        "row_m4GgBf",
+        "row_94QtAT",
+        "row_jCQpAD",
+        "row_RD6FU9",
+        "row_fQH6G9",
+        "row_8jYiP6"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_eFaMAA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_K3z8NQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "illy Coffee Subscription",
+            "heading_size": "h1"
+          }
+        },
+        "text_edNLJE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Never run out of your favorite coffee again—subscribe to <strong>illy coffee</strong> and enjoy fresh beans, capsules, pods or ground coffee delivered straight to your door, right when you need it.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_PXXrTb": {
+          "type": "button",
+          "settings": {
+            "button_label": "Subscribe Now",
+            "button_link": "shopify://collections/coffee",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_K3z8NQ",
+        "text_edNLJE",
+        "button_PXXrTb"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/HOME_PROMO_MOBILE_x2_c3523519-3656-48e3-a661-4a38dc32ffe4.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_BRYXXN",
+    "rich_text_pDwhzf",
+    "slideshow_QFM6DT",
+    "multirow_Fdc6NV",
+    "image_with_text_eFaMAA"
+  ]
+}

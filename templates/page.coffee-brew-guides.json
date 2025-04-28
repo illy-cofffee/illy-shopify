@@ -1,0 +1,266 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_rJqpgJ": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_wM93zc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Coffee Brew Guides",
+            "heading_size": "h0",
+            "h1-title": true
+          }
+        },
+        "text_XUcarz": {
+          "type": "text",
+          "settings": {
+            "text": "Discover our tips for getting <strong>the best out of our coffee.</strong>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_wM93zc",
+        "text_XUcarz"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/img_01_cb01b832-bb64-42b5-9b7a-a7f2e48d1f92.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_MBip6T": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_CDJpYj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Guides For The Best Coffee Preparations",
+            "heading_size": "h1",
+            "h1-title": false
+          }
+        },
+        "text_8MrHV9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From espresso to cappuccino and from the moka pot to the French press, choose your favorite brew method and follow the steps for a perfect cup of coffee.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CDJpYj",
+        "text_8MrHV9"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_CLknaT": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_qPmzx6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_02_2x_8fa5bd3d-c6d7-4989-b42a-795052bcc600.jpg",
+            "title": "French Press",
+            "text": "<p>The French-style coffee pot. The simplest way to make a drip style coffee with an bold, rich taste.</p>",
+            "link_label": "Find Out More",
+            "link": "shopify://pages/what-is-a-french-press"
+          }
+        },
+        "column_pEHE7r": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/65c351db7863250008e069c7_jpg_dcb1cd38-a2b5-4b41-886e-72d73e743fe0.jpg",
+            "title": "Drip Coffee",
+            "text": "<p>Aromatic and rich in flavor: find out how to make a delicious drip coffee.</p><p></p><p></p>",
+            "link_label": "Find Out More",
+            "link": "shopify://pages/what-is-drip-coffee"
+          }
+        },
+        "column_DenjDt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_04_49d2448c-9bd8-438c-b4b0-33cb3f5df624.jpg",
+            "title": "Espresso",
+            "text": "<p>Espresso by name, express by nature: prepared on the spot to be enjoyed immediately. Find out how to make the perfect one.</p>",
+            "link_label": "Find Out More",
+            "link": "shopify://pages/how-to-make-an-espresso"
+          }
+        },
+        "column_k9mggV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_05_af98a297-ca40-4126-84e9-c29821d45f60.jpg",
+            "title": "Cappuccino",
+            "text": "<p>If you want to make a masterful cappuccino in your own home, you’ve come to the right place.</p>",
+            "link_label": "Find Out More",
+            "link": "shopify://blogs/recipes/cappuccino"
+          }
+        }
+      },
+      "block_order": [
+        "column_qPmzx6",
+        "column_pEHE7r",
+        "column_DenjDt",
+        "column_k9mggV"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_mYUjKp": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Rrn47V": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_04_2x_157f5c21-2d36-4e2e-b5f4-cd535996c654.jpg",
+            "title": "Moka",
+            "text": "<p>Learn how to make traditional the Italian stovetop method of moka coffee right at home. </p>",
+            "link_label": "Find Out More",
+            "link": "shopify://pages/what-is-a-moka-pot"
+          }
+        },
+        "column_CzNRt6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_02_885fbfbc-8ca9-4a59-beee-d83c6ba9bb85.jpg",
+            "title": "Neapolitan Coffee",
+            "text": "<p>All the secrets of a true classic. Also known as the “cuccumella”, the Neapolitan coffee pot results in a particularly flavorful coffee.</p>",
+            "link_label": "Find Out More",
+            "link": "shopify://pages/discover-neapolitan-coffee"
+          }
+        },
+        "column_CRR3QY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/65e1e2baf187dd00093ab3b9_jpg.webp",
+            "title": "Turkish Coffee",
+            "text": "<p>Discover the rich history and aroma of a triditional turkish coffee.</p>",
+            "link_label": "Find Out More",
+            "link": "shopify://pages/how-to-make-turkish-coffee"
+          }
+        }
+      },
+      "block_order": [
+        "column_Rrn47V",
+        "column_CzNRt6",
+        "column_CRR3QY"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "portrait",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_gBBwkz": {
+      "type": "multirow",
+      "blocks": {
+        "row_EE3HBY": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/677265195eec5bfac7e2946f_jpg.webp",
+            "caption": "From Selection to Cup",
+            "heading": "Quality Loves Details",
+            "text": "<p>To make our coffee,we select only the finest Arabica coffee beans, with zero flaws.</p>",
+            "button_label": "Find Out More",
+            "button_link": "shopify://pages/coffee-origins-and-processing"
+          }
+        },
+        "row_WyYUYx": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_10_2x_fd5cc0ec-6bca-4c3f-91ea-d3ec1db11fe1.jpg",
+            "caption": "An Unmistakable taste",
+            "heading": "Our Coffee",
+            "text": "<p>Discover Classico, Intenso, and Forte, the three roasting profiles of our unique blend, or the individual aromatic notes of our different coffee origins with Arabica Selection single origins.</p>",
+            "button_label": "Find Out More",
+            "button_link": "shopify://collections/coffee"
+          }
+        }
+      },
+      "block_order": [
+        "row_EE3HBY",
+        "row_WyYUYx"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-1",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_rJqpgJ",
+    "rich_text_MBip6T",
+    "multicolumn_CLknaT",
+    "multicolumn_mYUjKp",
+    "multirow_gBBwkz"
+  ]
+}

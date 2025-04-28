@@ -24,7 +24,8 @@
           "type": "heading",
           "settings": {
             "heading": "illy for Restaurants & Cafes",
-            "heading_size": "h1"
+            "heading_size": "h0",
+            "h1-title": true
           }
         },
         "text_XaNaJQ": {
@@ -43,10 +44,10 @@
         "image": "shopify://shop_images/restaurants-header.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
-        "desktop_content_position": "middle-left",
+        "desktop_content_position": "middle-center",
         "show_text_box": true,
-        "desktop_content_alignment": "left",
-        "color_scheme": "",
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -172,10 +173,10 @@
         "title": "Our solutions",
         "heading_size": "h1",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "columns_desktop": 3,
         "column_alignment": "left",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "Contact us",
         "button_link": "",
         "color_scheme": "scheme-1",

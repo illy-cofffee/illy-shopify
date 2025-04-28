@@ -1,0 +1,133 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_hbeRiD": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_9K9DVx": {
+          "type": "heading",
+          "settings": {
+            "heading": "illy Art Collection: 30 Years of Beauty",
+            "heading_size": "h0",
+            "h1-title": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_9K9DVx"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/img_01_2x_b895f076-6111-4431-af6d-333160ee87af.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false
+      }
+    },
+    "rich_text_EALQxT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ykp9iR": {
+          "type": "heading",
+          "settings": {
+            "heading": "A History of Beauty",
+            "heading_size": "h1",
+            "h1-title": false
+          }
+        },
+        "text_iXGHyd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In 1992, a group of artists expressed their creativity on the surface of the coffee cup designed by Matteo Thun for illy. This marked the birth of the illy Art Collection, which transformed an object of everyday use into a white canvas on which 125 artists of international fame, from great maestros to young talents, have tested their skills over the years. Thirty years later, the leading names in contemporary art continue to find inspiration in the white porcelain surface. Together, we have created a unique collection of small works of art in the shape of a cup.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ykp9iR",
+        "text_iXGHyd"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multirow_txfpMd": {
+      "type": "multirow",
+      "blocks": {
+        "row_48FtB9": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_02_2x_eb4b9c07-6d98-47be-9411-eeccb306ac78.jpg",
+            "caption": "",
+            "heading": "",
+            "text": "<p>This interest in beauty has motivated illycaffè’s contribution to promoting art and culture by supporting artists, institutions and international exhibits. Seeking out new beauty, finding it, sharing it and celebrating it: these are the goals that set our entrepreneurial culture apart. We have been partners of the Venice Biennale since 2003, one of the world’s most important and prestigious international exhibitions of contemporary art, organised every two years by the Biennale Foundation. </p><p>We also support leading international contemporary art fairs, like Turin’s Artissima, ArcoMadrid, Asia Now, Paris International and Frieze, which has exhibited in London, New York, Los Angeles and Seoul</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_KJq3x4": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_03_2x_2d89332b-399a-40d8-a601-5859ed985663.jpg",
+            "caption": "",
+            "heading": "",
+            "text": "<p>We want to offer up-and-coming young artists a concrete opportunity to boost their visibility, experiment and grow through scholarships and exhibition projects. </p><p>That’s why, since 2001, we’ve backed Present Future: the award presented by Artissima to the project deemed the most intriguing of all those displayed in the section of the art fair dedicated to emerging talents. </p><p>What’s more, since 2007 we’ve presented the illy SustainArt prize at ARCOmadrid with the aim of boosting the careers of young creatives at an international level, offering them a concrete opportunity for visibility, experimentation and growth. </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_48FtB9",
+        "row_KJq3x4"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_hbeRiD",
+    "rich_text_EALQxT",
+    "multirow_txfpMd"
+  ]
+}

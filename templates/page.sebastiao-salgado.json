@@ -1,0 +1,184 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "video_YPYTUa": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://www.youtube.com/watch?v=X73m3lUZ_f0",
+        "cover_image": "shopify://shop_images/65d723a5eac68d00080e9918-img012xjpg-1dc8bd5f_jpg.webp",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_jVafy4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pnBNhY": {
+          "type": "heading",
+          "settings": {
+            "heading": "A JOURNEY THROUGH COFFEE-GROWING COUNTRIES WITH SEBASTIÃO SALGADO",
+            "heading_size": "h1"
+          }
+        },
+        "text_eCnEmR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Brazil, India, Indonesia, Ethiopia, Guatemala, China, Colombia, Costa Rica, El Salvador and Tanzania: a journey through the main countries from which illy acquires its coffee.</p><p> </p><p>The remarkable outcome of the collaboration between photographer Sebastião Salgado and illy, this is the most significant report ever dedicated to the world of coffee. It's founded on our shared commitment to sustainable development. For illy, this is a principle of the utmost importance and is the approach the company has chosen to maintain its unbeatable quality.</p><p> </p><p>At the heart of Salgado’s photographs are the people we collaborate with — their gazes, demeanor, and the dignity they bring to their work, taking center stage. These photographs serve as a continuous reminder of our profound gratitude to the earth and the 25 million families across 70+ countries who work cultivating coffee. Coffee-growers are our closest allies in the extraordinary challenge of producing the world’s finest coffee. Together, we uphold mutual respect and collaborate for the benefit of all involved.</p><p> </p><p>Salgado was born in 1944 in Minas Gerais, Brazil’s coffee-growing region. After university, he moved to Paris and then London, where he worked as an economist for the International Coffee Organization. His interest in coffee soon became his focus in life. In 1973 he began his career as a photographer, which would lead him to document the lives of Latin American and African farmers and their migrations.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pnBNhY",
+        "text_eCnEmR"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "slideshow_CBY9fM": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_9C7Hrc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/img_06_2x_1.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_7mWFME": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/img_08_2x_ddb8b782-7e97-4bcf-87eb-4c1e061b6804.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_6M7fYY": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/img_07_2x_1.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_9HiyG7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/img_09_2x_2e086a82-e612-44d1-8bbf-5a4f7bd4bd2c.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_fbgyaA": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/img_05_2x_2.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_9C7Hrc",
+        "slide_7mWFME",
+        "slide_6M7fYY",
+        "slide_9HiyG7",
+        "slide_fbgyaA"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "large",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_YPYTUa",
+    "rich_text_jVafy4",
+    "slideshow_CBY9fM"
+  ]
+}

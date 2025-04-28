@@ -1,0 +1,376 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_kf89Dn": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_iK3MNp": {
+          "type": "heading",
+          "settings": {
+            "heading": "A History of Innovation",
+            "heading_size": "h1",
+            "h1-title": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_iK3MNp"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/hystorical_illy_coffee_machine.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_64YW9w": {
+      "type": "rich-text",
+      "blocks": {
+        "text_M4HVNM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Francesco Illy founded illycaffè in 1933, where he began to revolutionize coffee preperation, starting with invention of the illetta in 1935 which is considered the blueprint for modern espresso machines. In the 1940's, his innovative pressurized packaging method enabled illy’s initial exports to Sweden and Holland. Today, Francesco Illy’s packaging method remains the standard for preserving and enhancing coffee’s freshness during transport and storage.</p><p> </p><p>Ernesto, Francesco’s son, earned a doctorate in chemistry and joined the company in the late 1940's. His passion for learning gave rise to illy’s formal scientific and technological research efforts, starting with an in-house laboratory dedicated to coffee chemistry.  In the 1950s, he spear-headed the illy's expansion into homes, selling smaller cans of ground coffee. In 1965 he moved the company to its current Via Flavia headquarters, still in Trieste.</p><p> </p><p>In 1974, Dr. Illy intoduced yet another coffee innovation to the market with ESE, the first pre-measured espresso pods, making café-quality espresso simple and easy at home or a cafe.  In 1988, he introduced and patented a photo-chromatic means to identify the highest quality beans, one by one, right at the source.</p><p> </p><p>The 1990s saw the creation of the illy Art Collection, a new logo by renowned pop-artist James Rosenquist, and establishment of the Brazil Award, recognizing excellence in coffee cultivation. Today, illy is synonymous with premium Italian coffee in over 140 countries worldwide under the guidance of Ernesto’s son, Andrea Illy, who continues the tradition of innovation and coffee excellence.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_M4HVNM"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_LeiVKk": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_zpMhNY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/historical_illy_coffee_logo_1933.jpg",
+            "title": "1933 THE FOUNDING OF ILLYCAFFÈ",
+            "text": "<p>Francesco Illy, of Hungarian descent, arrives in Trieste from Vienna, the city of coffee, at the end of World War I. In 1933 he founds illycaffè based on a dream: to offer the best coffee to the world.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_c9BMxh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/historical_illy_coffee_can_1934.jpg",
+            "title": "1934 PRESSURIZATION",
+            "text": "<p>illycaffè obtains a patent for the revolutionary pressurization system, still used by the company today to package its products: allowing coffee travel around the world whilst enhancing its aromas, maturing the flavors, and preserving its freshness.<br/><br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7iqpQQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/storia_illycaffe.jpg",
+            "title": "1935 ILLETTA, THE FIRST HIGH-PRESSURE ESPRESSO MACHINE",
+            "text": "<p>Illetta, the precursor to modern espresso machines, is created with a patented system of separate heating and water pressure elements.<br/><br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NUinEP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/historical_illy_coffee_can_1957.jpg",
+            "title": "1957 QUALITY AT HOME",
+            "text": "<p>A new production department allows illy to create a small can for home consumption while maintaining the coffee quality anf freshness.<br/><br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_x6x79F": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/illy_coffee_pods_arabica_blend.jpg",
+            "title": "1974 THE FIRST SINGLE-SERVING SYSTEM ON THE MARKET",
+            "text": "<p>illycaffè industrializes, for the first time, pods, single-serving portions of ground and tampted coffee, that allows everyone to create the perfect espresso with ease: a radical innovation in the history of coffee, which paved the way for the internationalization of the company.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_npHLqp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/usa_map_coffee.jpg",
+            "title": "1980 ILLYCAFFÈ IN THE UNITED STATES",
+            "text": "<p>illycaffè enters the US market as the first Italian roaster to export the culture of espresso overseas.<br/><br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_B96X7Y": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/illy_coffee_beans.jpg",
+            "title": "1982 QUALITY IN EVERY SINGLE BEAN",
+            "text": "<p>illycaffè patents a digital coffee sorting machine, which analyzes the color and shape of the coffee beans to ensure every single one of them is perfect.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_3QbhtV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_02_7dd69e3c-f677-40f4-aaac-b081b232f77f.jpg",
+            "title": "1991 THE COFFEE QUALITY AWARD",
+            "text": "<p>First edition of the Prêmio Ernesto Illy de Qualidade do Café Sustentável para Espresso in Brazil, established by illycaffè to develop sustainable coffee quality.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KmrEPg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/illy_art_collection_project.jpg",
+            "title": "1992 THE ILLY ART COLLECTION",
+            "text": "<p>The illy Art Collection project is born, transforming the everyday coffee cup into a blank canvas, inviting contemporary artists to use it to express their creativity. The iconic illy cup designed by Matteo Thun has been enriched over the years with the works of masters and new talents, becoming the largest collection of everyday art objects in the world.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_THtheE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/illy_espresso_coffee_machine_x1_ffcabc62-0cf5-464b-a92d-6720259d2bae.jpg",
+            "title": "1995 X1, DESIGN AND TECHNOLOGY FOR ESPRESSO",
+            "text": "<p>The launch of the X1 home espresso machine, 60 years after Illetta, which is still a style icon today.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_EUJWNE": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/illy_logo_james_rosenquist.jpg",
+            "title": "1996 JAMES ROSENQUIST AND THE NEW LOGO",
+            "text": "<p>The new illy logo is born from the brush of legendary American pop artist James Rosenquist as an expression uniqueness.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_G3e33f": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/illy_universita_del_caffe_logo.jpg",
+            "title": "1999 L'UNIVERSITÀ DEL CAFFÈ",
+            "text": "<p>The Università del Caffè is founded as a pillar of excellence developed to spread the culture of quality coffee around the world through training, research, and innovation.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_GtQDGL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/illy_art_collection_coffee_cup_2002.jpg",
+            "title": "2002 SEBASTIÃO SALGADO",
+            "text": "<p>An encounter with the great photographer Sebastião Salgado led to a journey through coffee paradises to pay tribute to the women and men who grow it. The photography project lasted 14 years in 10 countries, culminating in the exhibition, Scent of a Dream.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CewwHn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/mobile_with_illy_cups.jpg",
+            "title": "2003 SINGLE-BRAND STORES",
+            "text": "<p>illycaffè launches espressamente illy, the authentic Italian café project that evolves into the illy Cafés in 2015.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cwmqze": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/illy_coffee_capsules_2003.jpg",
+            "title": "2006 IPERESPRESSO, THE NEXT-GENERATION ESPRESSO",
+            "text": "<p>Introduction of the iperespresso system featuring a unique two stage infusion and emulsion brewing process, covered by five international patents, to deliver coffee with an intense aroma and velvety texture.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_W7NqyR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/mitaca_illy_coffee_machine.jpg",
+            "title": "2008 MITACA",
+            "text": "<p>Acquisition of Mitaca, a company specializing in portioned office systems.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4UGV9w": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/illy_supply_chain_certification.jpg",
+            "title": "2011 THE RESPONSIBLE SUPPLY CHAIN PROCESS",
+            "text": "<p>Chairman Andrea Illy launches the idea of certifying sustainability. Issued by DNV, the certification assesses the company’s creation of social, environmental and economic value to stakeholders in the supply chain.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iBXWGP": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_2013.jpg",
+            "title": "2013 MOST ETHICAL COMPANIES",
+            "text": "<p>illycaffè is included for the first time in the list of the World's Most Ethical Companies, compiled annually by the Ethisphere Institute.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rFXTHJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/65f185aafe2ac000088696c6_jpg.webp",
+            "title": "2015 EXPO MILANO 2015",
+            "text": "<p>illy served as the official partner of EXPO Milano 2015 and ICO (International Coffee Organization), the largest celebration of coffee in history, coordinating an extraordinary program of events and curating the Coffee Cluster, the coffee pavilion visited by more than 13 million people.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6hEckT": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_2016.jpg",
+            "title": "2016 THE ERNESTO ILLY INTERNATIONAL COFFEE AWARD",
+            "text": "<p>In 2016, the Prêmio Ernesto Illy de Qualidade do Café para Espresso expanded globally with the Ernesto Illy International Coffee Award, which pays tribute to the talent and commitment of coffee farmers worldwide for producing sustainable coffee.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_7Gefjm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_03_b39aa30d-a43a-4ac2-b9c5-f569efc70331.jpg",
+            "title": "2017 THE CREATION OF A SUSTAINABILITY COMMITTEE",
+            "text": "<p>illycaffè furthered its commitment to sustainability through creating a Sustainability Committee with propositional and advisory functions to the Board of Directors on social and environmental sustainability issues.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_rLXEWc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/665d876867ef7e000823897f_jpg.webp",
+            "title": "2019 ALUMINUM COMPATIBLE CAPSULES",
+            "text": "<p>The launch of illy branded aluminum Nespresso® compatible capsules, thanks to a partnership with JDE (Jacobs Douwe Egberts).</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_NJ6jRh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_06.jpg",
+            "title": "2019 BENEFIT COMPANY",
+            "text": "<p>illycaffè adopts the status of a Benefit Corporation and amends its bylaws accordingly.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_h9JfDA": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/illy_white_coffee_cup_with_back_colour_inspiration.jpg",
+            "title": "2020 OPENING UP THE CAPITAL",
+            "text": "<p>Rhône Capital, a global private equity firm, enters illycaffè's capital with a 20% stake to contribute to international growth plans.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yjjVLD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_2021.jpg",
+            "title": "2021 B- CORP® CERTIFICATION",
+            "text": "<p>illycaffè is the first Italian coffee roaster to become B Corp® certified, which identifies those companies that operate according to high standards of social and environmental performance.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_zpMhNY",
+        "column_c9BMxh",
+        "column_7iqpQQ",
+        "column_NUinEP",
+        "column_x6x79F",
+        "column_npHLqp",
+        "column_B96X7Y",
+        "column_3QbhtV",
+        "column_KmrEPg",
+        "column_THtheE",
+        "column_EUJWNE",
+        "column_G3e33f",
+        "column_GtQDGL",
+        "column_CewwHn",
+        "column_cwmqze",
+        "column_W7NqyR",
+        "column_4UGV9w",
+        "column_iBXWGP",
+        "column_rFXTHJ",
+        "column_6hEckT",
+        "column_7Gefjm",
+        "column_rLXEWc",
+        "column_NJ6jRh",
+        "column_h9JfDA",
+        "column_yjjVLD"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_kf89Dn",
+    "rich_text_64YW9w",
+    "multicolumn_LeiVKk"
+  ]
+}

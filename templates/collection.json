@@ -11,32 +11,87 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
-        "show_collection_image": false,
+        "show_collection_image": true,
         "color_scheme": "scheme-2"
       }
     },
-    "image_banner_3n3Tmj": {
+    "image_banner_twjgc7": {
       "type": "image-banner",
-      "name": "t:sections.image-banner.presets.name",
+      "blocks": {
+        "heading_qapBqp": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "{{ collection.title }}",
+            "heading_size": "h1",
+            "h1-title": false
+          }
+        },
+        "text_UqmwVh": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_qapBqp",
+        "text_UqmwVh"
+      ],
       "settings": {
+        "image": "{{ collection.image }}",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
+        "image_height": "small",
+        "desktop_content_position": "bottom-left",
         "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
     },
+    "rich_text_jdM8RF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_CpgeqC": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.title }}",
+            "heading_size": "h1",
+            "h1-title": true
+          }
+        },
+        "text_9pqYUF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ collection.metafields.custom.collection_intro | metafield_tag }}</p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CpgeqC",
+        "text_9pqYUF"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "products_per_page": 16,
+        "products_per_page": 32,
         "columns_desktop": 4,
         "color_scheme": "scheme-3",
         "image_ratio": "adapt",
@@ -53,29 +108,65 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_4axEyB": {
-      "type": "rich-text",
+    "multirow_eWdMJE": {
+      "type": "multirow",
       "blocks": {
-        "heading_Dht3RX": {
+        "row_rbiKJd": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/illy-subscription.jpg",
+            "caption": "",
+            "heading": "illy Subscription",
+            "text": "<p>Never run out of your favourite coffee, for your daily taste experience.</p>",
+            "button_label": "Find out more",
+            "button_link": "shopify://pages/subscription"
+          }
+        }
+      },
+      "block_order": [
+        "row_rbiKJd"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_height": "small",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-1",
+        "row_color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_QQj6X6": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_YGXVYE": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1",
+            "heading": "Quality Loves Details",
+            "heading_size": "h0",
             "h1-title": false
           }
         },
-        "text_mrrhRV": {
+        "text_KXmQnP": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "To make our coffee, we select only the finest Arabica coffee beans, with zero defects.",
+            "text_style": "body"
           }
         },
-        "button_CtB4GF": {
-          "type": "button",
+        "buttons_wip9Bj": {
+          "type": "buttons",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
+            "button_label_1": "Discover More",
+            "button_link_1": "shopify://pages/coffee-origins-and-processing",
+            "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -83,24 +174,161 @@
         }
       },
       "block_order": [
-        "heading_Dht3RX",
-        "text_mrrhRV",
-        "button_CtB4GF"
+        "heading_YGXVYE",
+        "text_KXmQnP",
+        "buttons_wip9Bj"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/6765c572efbc5b14ad3583d8_jpg.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_with_text_9DPKbn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_TrtLtg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Quality Loves Details",
+            "heading_size": "h1"
+          }
+        },
+        "text_RrNKHG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Crafting the finest coffee experience</p>",
+            "text_style": "body"
+          }
+        },
+        "button_cwCYMA": {
+          "type": "button",
+          "settings": {
+            "button_label": "Discover More",
+            "button_link": "shopify://pages/coffee-origins-and-processing",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_TrtLtg",
+        "text_RrNKHG",
+        "button_cwCYMA"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/67726aa25eec5bfac7e29887_jpg_eec15230-2c91-489b-b218-a3c304def30e.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_we99tQ": {
+      "type": "multirow",
+      "blocks": {
+        "row_aY78Fh": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/HOME_PROMO_MOBILE_x2_c3523519-3656-48e3-a661-4a38dc32ffe4.webp",
+            "caption": "",
+            "heading": "illy Subscription",
+            "text": "<p>Never run out of your favourite coffee, for your daily taste experience.</p>",
+            "button_label": "Discover More",
+            "button_link": "shopify://pages/subscription"
+          }
+        },
+        "row_zji3L7": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/67726aa25eec5bfac7e29887_jpg_eec15230-2c91-489b-b218-a3c304def30e.webp",
+            "caption": "",
+            "heading": "Quality Loves Details",
+            "text": "<p>Crafting the finest coffee experience</p>",
+            "button_label": "Discover More",
+            "button_link": "shopify://pages/coffee-origins-and-processing"
+          }
+        }
+      },
+      "block_order": [
+        "row_aY78Fh",
+        "row_zji3L7"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "two_column_images_ByEriQ": {
+      "type": "two-column-images",
+      "settings": {
+        "left_col_subhead": "A Taste of Art",
+        "left_col_title": "illy Art Collection",
+        "left_col_image": "shopify://shop_images/670f7a17fb9cb5c8d3cc4eb4_jpg_0ec8ec86-7fd5-4dd7-94a0-d345d37b6a48.jpg",
+        "left_col_url": "shopify://collections/art-collection",
+        "left_col_link_text": "Discover More",
+        "right_col_subhead": "The Secrets of Coffee",
+        "right_col_title": "Preparation",
+        "right_col_image": "shopify://shop_images/coffee-preparation.jpg",
+        "right_col_url": "#",
+        "right_col_link_text": "Discover More"
+      }
+    },
+    "key_features_RLzNdA": {
+      "type": "key-features",
+      "settings": {
         "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "feature_1_title": "Ethically sourced",
+        "feature_1_description": "Torem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "feature_1_image": "shopify://shop_images/icon-ethical.svg",
+        "feature_2_title": "Free shipping over $50",
+        "feature_2_description": "Torem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "feature_2_image": "shopify://shop_images/icon-free-shipping.svg",
+        "feature_3_title": "Subscribe & save",
+        "feature_3_description": "Torem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "feature_3_image": "shopify://shop_images/icon-subscribe-save.svg"
       }
     }
   },
   "order": [
     "image_banner_3n3Tmj",
     "banner",
+    "image_banner_twjgc7",
+    "rich_text_jdM8RF",
     "product-grid",
-    "rich_text_4axEyB"
+    "multirow_eWdMJE",
+    "image_banner_QQj6X6",
+    "image_with_text_9DPKbn",
+    "multirow_we99tQ",
+    "two_column_images_ByEriQ",
+    "key_features_RLzNdA"
   ]
 }
