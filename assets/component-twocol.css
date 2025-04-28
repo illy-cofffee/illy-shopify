@@ -85,6 +85,7 @@
     text-decoration: none;
     -webkit-appearance: none;
     appearance: none;
+    text-transform: uppercase;
     min-width: calc(12rem + var(--buttons-border-width)* 2);
     min-height: calc(4.5rem + var(--buttons-border-width)* 2);
 }
