@@ -1,0 +1,150 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_ix93V8": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_nhj8wp": {
+          "type": "heading",
+          "settings": {
+            "heading": "Turkish Coffee",
+            "heading_size": "h0",
+            "h1-title": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_nhj8wp"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/img_01_fcea436f-def3-49e3-8f7f-10211657334e.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_pAqqkz": {
+      "type": "rich-text",
+      "blocks": {
+        "text_V7gaHj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mainly enjoyed throughout the Middle East, it is made in a cezve, a typical long-handled pot made from copper or brass.  Very finely ground coffee is needed to make it.</p><p><br/>Traditionally a brass grinder is used, in order to obtain a powder as fine as caster sugar.  </p><p>It is drunk from small cups, once the powder has completely settled at the bottom.</p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_V7gaHj"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multirow_pdRGQY": {
+      "type": "multirow",
+      "blocks": {
+        "row_ij7pYd": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_02_553cb131-32fc-4269-befa-b9e52b8649e1.jpg",
+            "caption": "",
+            "heading": "Preparing Turkish Coffee",
+            "text": "<ol><li>Add water to the cezve (ibrik), about 50 millilitersper cup of coffee desired</li><li>Add sugar to taste, stirring to blend it</li><li>Bring to a boil, remove from heat and add a teaspoon of coffee per cup</li><li>Boil coffee.</li><li>Remove the cevze from heat immediately after bringing to a first boil, discarding the accumulated foam, and mix well.</li><li>The coffee is boiled twice in succession, taking care to remove the cezve from the heat between one boiling and the next. The foam can either be discarded or kept before stirring it well</li><li>Allow remaining powder to settle before serving.  You can add a tablespoon of cold water to the pot after boiling twice to accelerate the process.</li></ol>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_ij7pYd"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_UfEKwz": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_kC6n4h": {
+          "type": "heading",
+          "settings": {
+            "heading": "ADDING FLAVOR",
+            "heading_size": "h0",
+            "h1-title": false
+          }
+        },
+        "text_Y3nkfK": {
+          "type": "text",
+          "settings": {
+            "text": "Many enjoy their Turkish coffee flavored with spices like cardamom and cinnamon. Simply add finely ground spices to taste.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kC6n4h",
+        "text_Y3nkfK"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/img_03_20b3c838-a64e-495e-9667-a3d8d9689e02.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_ix93V8",
+    "rich_text_pAqqkz",
+    "multirow_pdRGQY",
+    "image_banner_UfEKwz"
+  ]
+}

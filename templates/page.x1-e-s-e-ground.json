@@ -1,0 +1,401 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_qpKigU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_46TXbR": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>X1 Anniversary E.S.E. & Ground</strong>",
+            "heading_size": "h0"
+          }
+        },
+        "text_cPXEQG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>7 Video Tutorials</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_46TXbR",
+        "text_cPXEQG"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_UhbkL6": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/img_01_2x_00b1b691-0260-4d62-aa52-500bcd09ded2.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_iRwKfw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9Jrx7F": {
+          "type": "heading",
+          "settings": {
+            "heading": "How To Adjust the Coffee Machine Temperature",
+            "heading_size": "h1"
+          }
+        },
+        "text_HYe3cW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Learn how to set the ideal temperature for your coffee.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9Jrx7F",
+        "text_HYe3cW"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_bqcFdp": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/VsSbgtKpMdM",
+        "cover_image": "shopify://shop_images/65d8c2303b81380008959be3-httpsiytimgcomviszPd1OtB5IYmaxresdefaultjpg_jpeg.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_WnCNze": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Fn4NDV": {
+          "type": "heading",
+          "settings": {
+            "heading": "How to Program Volumes on Your Coffee Machine",
+            "heading_size": "h1"
+          }
+        },
+        "text_me63Pz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Learn how to choose the correct volume for your espresso and americano coffees.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Fn4NDV",
+        "text_me63Pz"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_K6qctg": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/xqK69eIemWk",
+        "cover_image": "shopify://shop_images/65d8c2a7f187dd00093aa6f7-httpsiytimgcomvi7w9OHJeFkSYmaxresdefaultjpg_jpeg.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_teTqGV": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rWifNV": {
+          "type": "heading",
+          "settings": {
+            "heading": "How to Reset Your Coffee Machine",
+            "heading_size": "h1"
+          }
+        },
+        "text_ncC9Ha": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Learn how to reset the settings on your machine.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rWifNV",
+        "text_ncC9Ha"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_hAEe4k": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/h3WZgr2reUA",
+        "cover_image": "shopify://shop_images/65d8c2b0f187dd00093aa6f8-httpsiytimgcomviTtZoq9KhKI0maxresdefaultjpg_jpeg.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_CNthK7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_YfFBdx": {
+          "type": "heading",
+          "settings": {
+            "heading": "How To Set up your Coffee Machine",
+            "heading_size": "h1"
+          }
+        },
+        "text_G6Xqgq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Learn how to make your coffee using E.S.E. pods.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YfFBdx",
+        "text_G6Xqgq"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_dhLkWF": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/21QOgWaXjdQ",
+        "cover_image": "shopify://shop_images/65d8c2ba3b81380008959be4-httpsiytimgcomvi8AwFsbIamkwmaxresdefaultjpg_jpeg.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_Ntrawn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_NWBtKW": {
+          "type": "heading",
+          "settings": {
+            "heading": "How To Set up your Coffee Machine",
+            "heading_size": "h1"
+          }
+        },
+        "text_nbrPiW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Learn how to make your coffee using ground coffee.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NWBtKW",
+        "text_nbrPiW"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_xjTBPm": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/9-0HpsUNUJw",
+        "cover_image": "shopify://shop_images/65d8c3913b81380008959be9-httpsiytimgcomvi4aebgeCL_bQmaxresdefaultjpg_jpeg.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_YxtFnq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_F9AUGp": {
+          "type": "heading",
+          "settings": {
+            "heading": "How To Make A Cappuccino",
+            "heading_size": "h1"
+          }
+        },
+        "text_zDT9Xb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Learn how to make it in a few simple steps.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_F9AUGp",
+        "text_zDT9Xb"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_QAgbnC": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/AOUgaS-zZIU",
+        "cover_image": "shopify://shop_images/65d8c3e0eac68d00080ea313-httpsiytimgcomviMHhPNgBzfC8maxresdefaultjpg_jpeg.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_LEPCPK": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8pcAKb": {
+          "type": "heading",
+          "settings": {
+            "heading": "How To Descale Your Coffee Machine",
+            "heading_size": "h1"
+          }
+        },
+        "text_zJDFwE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Learn how to remove limescale</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8pcAKb",
+        "text_zJDFwE"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "video_XWrkEb": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video_url": "https://youtu.be/R5UpX5Q0BJ8",
+        "cover_image": "shopify://shop_images/65d8c2c93b81380008959be5-httpsiytimgcomviC4QQv3B4iT0maxresdefaultjpg_jpeg.jpg",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_qpKigU",
+    "image_banner_UhbkL6",
+    "rich_text_iRwKfw",
+    "video_bqcFdp",
+    "rich_text_WnCNze",
+    "video_K6qctg",
+    "rich_text_teTqGV",
+    "video_hAEe4k",
+    "rich_text_CNthK7",
+    "video_dhLkWF",
+    "rich_text_Ntrawn",
+    "video_xjTBPm",
+    "rich_text_YxtFnq",
+    "video_QAgbnC",
+    "rich_text_LEPCPK",
+    "video_XWrkEb"
+  ]
+}

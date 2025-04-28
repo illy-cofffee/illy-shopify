@@ -1,0 +1,104 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_W8hw8Q": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_kMqrbE": {
+          "type": "heading",
+          "settings": {
+            "heading": "iPerEspresso Recycling",
+            "heading_size": "h0",
+            "h1-title": true
+          }
+        },
+        "text_hpTGj4": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kMqrbE",
+        "text_hpTGj4"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multirow_qUHcMw": {
+      "type": "multirow",
+      "blocks": {
+        "row_Ggi4DL": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/250116_recycle_square.jpg",
+            "caption": "",
+            "heading": "Sustainability",
+            "text": "<p>Recycling your illy iperespresso capsules is completely free and very easy.</p><p>illy Australia is collaborating with Sell and Parker Australia to maximise the recyclability of our products.</p><p>As an ethical sustainable coffee brand, illy seeks to minimise the packaging we use to recycle our products.</p><p>To this end, we suggest you repack used illy iperespresso capsules into their original packaging and send to the recycler via Australia Post.</p><p>Illy Capsule Recycling Program</p><p>Sell and Parker</p><p>23 Tattersall Road</p><p>Kings Park NSW 2148<br/><br/></p>",
+            "button_label": "Download the pre-paid Australia Post shipping label here",
+            "button_link": "https://cdn.shopify.com/s/files/1/0638/9058/7699/files/ILL008-23_Illy_Shipping_Label_a4.pdf?v=1744766145"
+          }
+        },
+        "row_A6M6Az": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/20210429-iperespresso-gamma-capsule-alt-800x600.jpg",
+            "caption": "",
+            "heading": "The iPerEspresso Recycling Process",
+            "text": "<ol><li>Drain the used capsules in a colander or sink to minimise excess water.</li><li>Load used capsules into the original illy capsule tin.</li><li>Repack the 6 tins of used capsules into the original carton.</li><li>Print of the pre-paid Australia Post label from the illy website.</li><li>Post box via Australia Post.</li></ol><h2><br/>What happens to the waste?</h2><p>Once collected, the illy iperespresso capsules are processed to separate the coffee grounds from the plastic. The plastic is then melted down in order to be remoulded to make new recycled products, including furniture and playground equipment!</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_Ggi4DL",
+        "row_A6M6Az"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-2",
+        "row_color_scheme": "scheme-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_W8hw8Q",
+    "multirow_qUHcMw"
+  ]
+}

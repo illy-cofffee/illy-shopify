@@ -1,0 +1,133 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_L94b8b": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_PeiYXc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sustainability",
+            "heading_size": "hxl",
+            "h1-title": true
+          }
+        },
+        "text_4Ly39y": {
+          "type": "text",
+          "settings": {
+            "text": "From bean to cup, our commitment to have a positive impact on the planet guides every facet of our operations.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PeiYXc",
+        "text_4Ly39y"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/67726b2cd172213d08555b94_jpg.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multirow_wXrCQJ": {
+      "type": "multirow",
+      "blocks": {
+        "row_g4FNja": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_02_2x_7404f26e-1ea5-4411-8985-e67f1160f502.jpg",
+            "caption": "illy Values",
+            "heading": "Our Philosophy",
+            "text": "<p>The guiding principle of doing business for us is the creation of economic, social and environmental value for everyone involved along the production chain.</p>",
+            "button_label": "Learn More",
+            "button_link": "shopify://pages/our-philosophy"
+          }
+        },
+        "row_MXAajD": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_03_2x_5ad3d376-b797-4d74-8a3c-b11155272864.jpg",
+            "caption": "Projects",
+            "heading": "Stories of Sustainability",
+            "text": "<p>Quality and sustainability are paths of continuous improvement, to be made together.</p>",
+            "button_label": "Learn More",
+            "button_link": "shopify://pages/sustainability-stories"
+          }
+        },
+        "row_bTqjzM": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/677fddf2104ca2b2acccdce4_jpg.jpg",
+            "caption": "Awards",
+            "heading": "Our Awards",
+            "text": "<p>We celebrate sustainable raw material quality together.</p>",
+            "button_label": "Learn More",
+            "button_link": ""
+          }
+        },
+        "row_a7RgJW": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_05_2x_1fcc7ee8-ac09-49e5-960f-d9142be1547d.jpg",
+            "caption": "Sebastião Salgado",
+            "heading": "Journey to Coffee Growing Countries with Sebastião Salgado",
+            "text": "<p>A story of shared values.</p>",
+            "button_label": "Learn More",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_g4FNja",
+        "row_MXAajD",
+        "row_bTqjzM",
+        "row_a7RgJW"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_L94b8b",
+    "multirow_wXrCQJ"
+  ]
+}

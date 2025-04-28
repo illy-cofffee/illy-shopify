@@ -9,6 +9,43 @@
  */
 {
   "sections": {
+    "image_banner_pTwT44": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_dkDJHY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Recipes to Inspire",
+            "heading_size": "h0",
+            "h1-title": true
+          }
+        },
+        "text_aGN4Qf": {
+          "type": "text",
+          "settings": {
+            "text": "From classic espresso pairings to indulgent desserts, explore our world of coffee-inspired recipes.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dkDJHY",
+        "text_aGN4Qf"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Artboard_1_7fe754a9-37fa-4294-96f9-2956dc7fd83c.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "bottom-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "main": {
       "type": "main-blog",
       "settings": {
@@ -17,12 +54,13 @@
         "image_height": "small",
         "show_date": false,
         "show_author": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 60,
+        "padding_bottom": 80
       }
     }
   },
   "order": [
+    "image_banner_pTwT44",
     "main"
   ]
 }

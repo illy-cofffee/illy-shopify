@@ -7,434 +7,433 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
- {
-    "sections": {
-      "main": {
-        "type": "main-page",
-        "disabled": true,
-        "settings": {
-          "padding_top": 28,
-          "padding_bottom": 28
-        }
-      },
-      "image_banner_HPRWPt": {
-        "type": "image-banner",
-        "settings": {
-          "image": "shopify://shop_images/content-asset_FAQ_1980x250_b34508d0-659f-46bc-b1f4-ecfb0e34f190.jpg",
-          "image_overlay_opacity": 0,
-          "image_height": "adapt",
-          "desktop_content_position": "middle-center",
-          "show_text_box": true,
-          "desktop_content_alignment": "center",
-          "color_scheme": "",
-          "image_behavior": "none",
-          "mobile_content_alignment": "center",
-          "stack_images_on_mobile": true,
-          "show_text_below": true
-        }
-      },
-      "rich_text_FXX8Ep": {
-        "type": "rich-text",
-        "blocks": {
-          "heading_Wba6F6": {
-            "type": "heading",
-            "settings": {
-              "heading": "FAQs",
-              "heading_size": "h1",
-              "h1-title": true
-            }
-          },
-          "text_XPHfXV": {
-            "type": "text",
-            "settings": {
-              "text": "<p>Below are some frequently asked questions about illy products. If you cannot find the answer you're looking for, please <a href=\"/pages/contact\" title=\"Contact\">contact us</a>.</p>"
-            }
-          },
-          "button_JMQ7Dh": {
-            "type": "button",
-            "disabled": true,
-            "settings": {
-              "button_label": "Button label",
-              "button_link": "",
-              "button_style_secondary": false,
-              "button_label_2": "",
-              "button_link_2": "",
-              "button_style_secondary_2": false
-            }
-          }
-        },
-        "block_order": [
-          "heading_Wba6F6",
-          "text_XPHfXV",
-          "button_JMQ7Dh"
-        ],
-        "settings": {
-          "desktop_content_position": "left",
-          "content_alignment": "left",
-          "color_scheme": "scheme-3",
-          "full_width": true,
-          "padding_top": 40,
-          "padding_bottom": 0
-        }
-      },
-      "multicolumn_be7bQd": {
-        "type": "multicolumn",
-        "blocks": {
-          "column_jAjj9W": {
-            "type": "column",
-            "settings": {
-              "title": "",
-              "text": "<p><a href=\"#coffee-faq\" title=\"#coffee-faq\">Coffee</a></p>",
-              "link_label": "",
-              "link": ""
-            }
-          },
-          "column_izhQAH": {
-            "type": "column",
-            "settings": {
-              "title": "",
-              "text": "<p><a href=\"#machines\" title=\"#machines-faq\">Machines</a></p>",
-              "link_label": "",
-              "link": "#machines"
-            }
-          },
-          "column_icrBhc": {
-            "type": "column",
-            "settings": {
-              "title": "",
-              "text": "<p>Art Collection</p>",
-              "link_label": "",
-              "link": ""
-            }
-          },
-          "column_XP7BzM": {
-            "type": "column",
-            "settings": {
-              "title": "",
-              "text": "<p>Subscriptions</p>",
-              "link_label": "",
-              "link": ""
-            }
-          },
-          "column_cRy4r4": {
-            "type": "column",
-            "settings": {
-              "title": "",
-              "text": "<p>Support</p>",
-              "link_label": "",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "column_jAjj9W",
-          "column_izhQAH",
-          "column_icrBhc",
-          "column_XP7BzM",
-          "column_cRy4r4"
-        ],
-        "custom_css": [
-          ".background-none .multicolumn-list .multicolumn-card__info,.background-none .multicolumn-list:not(.slider) .center .multicolumn-card__info {padding-left: 0;}"
-        ],
-        "settings": {
-          "title": "",
-          "heading_size": "h1",
-          "image_width": "full",
-          "image_ratio": "adapt",
-          "columns_desktop": 5,
-          "column_alignment": "left",
-          "background_style": "none",
-          "button_label": "",
-          "button_link": "",
-          "color_scheme": "scheme-3",
-          "columns_mobile": "1",
-          "swipe_on_mobile": false,
-          "padding_top": 32,
-          "padding_bottom": 36
-        }
-      },
-      "collapsible_content_jfW7AY": {
-        "type": "collapsible-content",
-        "blocks": {
-          "collapsible_row_6yT4hj": {
-            "type": "collapsible_row",
-            "settings": {
-              "heading": "When can I expect my illycaffee order?",
-              "icon": "none",
-              "row_content": "<p>Your order will be processed within 5 business days and then despatched via Australia Post. Australia Post will send you an email to update you on your delivery schedule. PLEASE NOTE: Due to staff shortages and large number of orders at this time of year, order processing and despatch can take up to two weeks. Delivery via Australia Post will be additional to this time frame and communicated via Australia Post once they receive your parcel.</p>",
-              "page": ""
-            }
-          },
-          "collapsible_row_kcHKjf": {
-            "type": "collapsible_row",
-            "settings": {
-              "heading": "Can iperEspresso capsules be recycled?",
-              "icon": "none",
-              "row_content": "<p>Yes, <em>illy </em>has partnered with leading industry organisations to provide an innovative solution to recycle iperEspresso coffee capsules. By collecting your used capsules and mailing them in to be recycled, you’ll be diverting waste from landfills. <a href=\"https://fmayerillystage.commerce.vision/recycling\" target=\"_blank\">Learn More.</a></p>",
-              "page": ""
-            }
-          },
-          "collapsible_row_i9qFe4": {
-            "type": "collapsible_row",
-            "settings": {
-              "heading": "How long will an unopened can of illy stay fresh?",
-              "icon": "none",
-              "row_content": "<p>An unopened can of <em>illy </em>ground coffee will remain fresh for at least two years due to <em>illy's </em>proprietary patented pressurized system that extracts air from the can and replaces it with inert gasses at a higher-than-atmospheric level of pressure. This method guarantees a longer preservation time, maintaining flavour and aroma for over 24 months. At the same time it 'ages' the coffee, improving its aroma over time by causing its volatile aroma compounds to bind with the oils that are contained in the beans. Simple vacuum packing cannot achieve this flavour transformation. The positive pressure exerted by<em>illy's</em>method actually forces these aroma compounds back into the coffee whereas vacuum packing lets them seep out. The effect of<em>illy's</em>aging process is similar in many ways to the development of complex flavours when a fine red wine is aged under proper conditions.</p>",
-              "page": ""
-            }
-          },
-          "collapsible_row_cgmC7X": {
-            "type": "collapsible_row",
-            "settings": {
-              "heading": "How can I determine the expiration date of a can of illy?",
-              "icon": "none",
-              "row_content": "<p>The expiration date is marked on the bottom of the can.</p>",
-              "page": ""
-            }
-          },
-          "collapsible_row_Wa7HhN": {
-            "type": "collapsible_row",
-            "settings": {
-              "heading": "How long will illy stay fresh after the can is opened?",
-              "icon": "none",
-              "row_content": "<p>A room-temperature can of <em>illy </em>will remain at optimum freshness for 7 days after opening. After 7 days flavour will begin to deteriorate due to natural oxidation from exposure to air.</p>",
-              "page": ""
-            }
-          },
-          "collapsible_row_KXmpkY": {
-            "type": "collapsible_row",
-            "settings": {
-              "heading": "How should I store an opened can of illy?",
-              "icon": "none",
-              "row_content": "<p>If the entire can will be consumed within 7 days, room temperature storage is recommended. If the coffee will not be consumed within 7 days, we recommend refrigerated storage, allowing the coffee to return to room temperature before use. It is important to refrigerate the can immediately after opening in this case to retain optimum flavour.</p>",
-              "page": ""
-            }
-          },
-          "collapsible_row_4z87ib": {
-            "type": "collapsible_row",
-            "settings": {
-              "heading": "How much illy should I use?",
-              "icon": "none",
-              "row_content": "<p>For espresso, use 7 grams of <em>illy </em>per shot (about 1oz). For auto-drip brewed coffee, start with 7 grams of <em>illy </em>per 8 ounce cup. You may need to adjust to taste as the parameters (water turbulence and temperature) of each coffee maker differ somewhat. You can take the guess-work out of espresso by using E.S.E. pre-measured, pre-tamped servings (pods).</p>",
-              "page": ""
-            }
-          },
-          "collapsible_row_4YG6jt": {
-            "type": "collapsible_row",
-            "settings": {
-              "heading": "How much caffeine is in illy?",
-              "icon": "none",
-              "row_content": "<p><em>illy </em>uses only the finest Arabica beans available, and Arabica coffee is naturally lower in caffeine than the cheaper and lower quality Robusta variety. An average 1 oz. <em>illy </em>espresso will contain approximately 60 milligrams of caffeine. Brewed <em>illy </em>coffee will contain less than 15 mg caffeine for each gram of coffee used.</p>",
-              "page": ""
-            }
-          },
-          "collapsible_row_8d7AQF": {
-            "type": "collapsible_row",
-            "settings": {
-              "heading": "What is the difference between medium roast and dark roast in illy?",
-              "icon": "none",
-              "row_content": "<p><em>illy </em>medium roast coffee is a bit more mild while <em>illy </em>dark roast has a more intense and robust coffee flavour due to a slightly longer roasting time and slightly higher roasting temperature. Some people find the dark roast better for coffee preparations that involve milk, such as cappuccinos and lattes. Both medium and dark roast are suitable for espresso and brewed coffee preparation and the choice is a matter of personal preference.</p>",
-              "page": ""
-            }
-          },
-          "collapsible_row_EprGAK": {
-            "type": "collapsible_row",
-            "settings": {
-              "heading": "Is illy Kosher Certified and if so, who certifies illy Kosher?",
-              "icon": "none",
-              "row_content": "<p>Yes, Union of Orthodox Jewish Congregation of America.</p>",
-              "page": ""
-            }
-          },
-          "collapsible_row_CmkCPx": {
-            "type": "collapsible_row",
-            "settings": {
-              "heading": "What is illy's position on organic coffee?",
-              "icon": "none",
-              "row_content": "<p><em>illycaffè</em> maintains a complex high quality blend of 100% Arabica beans from around the world. We work directly with nearly 900 growers on 4 continents to source sustainably grown coffee. Certified organic coffee accounts for approximately 4% of world production and we cannot guarantee that 100% of the 9 different Arabica varieties in our blend will be certified at all times. In addition, <em>illy caffè</em> tests the green coffee (before roasting) for up to 80 different chemicals to insure that our coffee is safe and pure.</p><p><em>illy's</em> demand for the highest quality beans is rarely met through organic coffee. Because <em>illy</em> is a single blend composed of beans from 7 to 9 growing regions, some organics may be present in the blend if they meet our rigid quality standards. Organic coffee has a very low yield per hectare-about 6 to 8 bags per hectare. This low yield is not compensated for by a proportionally higher price, so the farmer makes less, not more. Furthermore, and quite importantly, the cultivation of so-called organic coffee depletes the soil of its nutrients without sufficiently replacing them. Unless the farmer rigorously practices proper soil analysis and management and adds enough phosphorus (which coffee needs to grow well) the plants are weak and highly susceptible to insect and fungus attack. Few farmers maintain their soil at the high level necessary to produce the best beans. The process can lead to an irreversible deterioration in the quality of the soil. As part of our ISO 9001 certification we test every coffee lot we purchase for the presence of pesticide residue-testing for 36 different types. No coffee with pesticide residue is purchased by <em>illy</em>.</p>",
-              "page": ""
-            }
-          },
-          "collapsible_row_tjYxtP": {
-            "type": "collapsible_row",
-            "settings": {
-              "heading": "What does illy do to protect the environment?",
-              "icon": "none",
-              "row_content": "<p><em>illy </em>actively follows a policy of environmental stability and development and is very sensitive to environmental issues in all our activities. We believe industry has an ethical responsibility to develop and pursue practices that protect the ecosystems. This extends from respecting the regulations governing production plants and waste disposal, to the company's decision to adopt recyclable containers and the use of recycled cardboard. Our environmentally-friendly cardboard outer packaging is 100% recyclable and offers convenient pod dispensing.<em>illy’</em>s cans and tins are made from 100% recyclable metal. <em>illy </em>strives for 0% emissions from our plants, and all materials used in the production process are recyclable. Our iperEspresso capsules are created from recyclable plastic, as it is the only material with the mechanical characteristics needed to optimise the extraction of the blend and obtain an excellent product. It is important to use these materials in order to ensure that the capsule can withstand high operating pressure during extraction. <em>illy </em>strives to maintain sustainable practices in everything we do and is a strong advocate of recycling waste products. While our capsule is made from recyclable material, we are currently working on a means by which consumers can open the capsule and clean it out in order for it to be recycled after use. Furthermore, <em>illy </em>has been working to design new technologies to achieve a balance between protecting the environment and promoting good business.</p>",
-              "page": ""
-            }
-          },
-          "collapsible_row_EW8zJi": {
-            "type": "collapsible_row",
-            "settings": {
-              "heading": "How does illy preserve the freshness of coffee?",
-              "icon": "none",
-              "row_content": "<p>Roasted coffee can lose up to 40 percent of its vital aromas after only eight hours of contact with air – an issue that the common vacuum packaging method can’t adequately address. Coffee packed in soft bags suffers an even tougher fate. <em>illy</em> pioneered another way, using a remarkably effective, natural pressurisation technology – patented throughout the world, and exclusive to <em>illy</em>. The process of natural pressurisation for packaging coffee in our iconic recyclable cans preserves the freshness of the coffee – you can actually hear the sound of fresh coffee every time you open a can!</p><p>Freshly roasted <em>illy</em> coffee is placed in recyclable cans, along with natural, inert nitrogen, under pressure. The process traps essential aromas and protects them for more than a year. Just like fine wine maturing in the bottle, <em>illy</em> coffee is refined in its pressurized environment, becoming yet rounder than when first packaged as naturally emerging oils mingle with one another.</p><p>The can, which is 100% recyclable, allows us to pressurize the coffee and preserve the volatile aromas. The common bags that offer any protection from the atmosphere cannot withstand this pressure and they are made of multiple layers of plastic and aluminum that are not recyclable with today’s technology.</p>",
-              "page": ""
-            }
-          },
-          "collapsible_row_3LBmpE": {
-            "type": "collapsible_row",
-            "settings": {
-              "heading": "How is illy coffee decaffeinated?",
-              "icon": "none",
-              "row_content": "<p><em>illy </em>coffee is decaffeinated with the CO2 method, a process using two natural elements – water and carbon dioxide (sparkling water). This process is considered the safest method to decaffeinate coffee while maintaining its quality.</p>",
-              "page": ""
-            }
-          },
-          "collapsible_row_zzNGN8": {
-            "type": "collapsible_row",
-            "settings": {
-              "heading": "What coffee should I use for Espresso?",
-              "icon": "none",
-              "row_content": "<p>Espresso preparation requires a very evenly ground fine grind coffee almost a powder. We recommend our Ground Coffee for espresso or grinding <em>illy </em>Whole Bean Coffee in a quality burr grinder set to fine/espresso grind. For more details on how to prepare a perfect espresso, <a href=\"https://www.illy.com/en-us/coffee/coffee-preparation/how-to-make-espresso-coffee\" target=\"_blank\">visit this link</a>.</p>",
-              "page": ""
-            }
-          },
-          "collapsible_row_4Up8FB": {
-            "type": "collapsible_row",
-            "settings": {
-              "heading": "How do I use an illy E.S.E. pod?",
-              "icon": "none",
-              "row_content": "<p>Each E.S.E. serving contains 7 grams of coffee; the exact amount needed for a 1 oz. shot of espresso. Do not re-use pods. 1. Switch on the E.S.E. espresso machine and let it heat. For the best results, we suggest you warm the cups as well. 2. Place the E.S.E. serving in the specially designed filter holder with the writing facing up. It is very important to handle the E.S.E. pod as little as possible and only by its edges, as the oils from your skin can compromise the quality. It is especially important not to touch the coffee area of the pod. Place the filter holder in its housing and switch on. Allow the water to run through it for about 20 seconds. 3. At the end of this step, remove used serving, and reinsert the filter holder.</p>",
-              "page": ""
-            }
-          },
-          "collapsible_row_LfEhNJ": {
-            "type": "collapsible_row",
-            "settings": {
-              "heading": "What coffee should I use for Drip/Brewed Coffee?",
-              "icon": "none",
-              "row_content": "<p>Auto-drip coffeemakers work best with a medium grind coffee and <em>illy </em>ground coffee for drip coffeemakers is specially ground for this preparation method. Alternatively, you can grind whole bean coffee using a medium/drip setting in a high-quality burr grinder. For more details on how to prepare perfect drip coffee,  <a href=\"https://www.illy.com/en-us/coffee/coffee-preparation/how-to-make-brewed-coffee\" target=\"_blank\">visit this link.</a></p>",
-              "page": ""
-            }
-          },
-          "collapsible_row_T6GkGz": {
-            "type": "collapsible_row",
-            "settings": {
-              "heading": "What coffee should I use for French Press?",
-              "icon": "none",
-              "row_content": "<p>For French press preparation use <em>illy </em>ground coffee for drip coffeemakers. The grind is courser than that used for espresso and is optimal for both drip coffeemakers and French press. To see step by step instructions on French press preparation, <a href=\"https://www.illy.com/en-us/coffee/coffee-preparation/how-to-use-a-french-press\" target=\"_blank\">visit this link.</a></p>",
-              "page": ""
-            }
-          },
-          "collapsible_row_3aFDHz": {
-            "type": "collapsible_row",
-            "settings": {
-              "heading": "What coffee should I use for moka pot/stovetop preparation?",
-              "icon": "none",
-              "row_content": "<p>Moka pot stovetop coffee preparation requires a grind courser than espresso but less course than drip and French press. <em>illy </em>Moka grind is ground specifically to work with moka pots to yield optimal results. To see step by step instructions on moka pot preparation, <a href=\"https://www.illy.com/en-us/coffee/coffee-preparation/how-to-make-moka-coffee\" target=\"_blank\">visit this link</a>.</p>",
-              "page": ""
-            }
-          }
-        },
-        "block_order": [
-          "collapsible_row_6yT4hj",
-          "collapsible_row_kcHKjf",
-          "collapsible_row_i9qFe4",
-          "collapsible_row_cgmC7X",
-          "collapsible_row_Wa7HhN",
-          "collapsible_row_KXmpkY",
-          "collapsible_row_4z87ib",
-          "collapsible_row_4YG6jt",
-          "collapsible_row_8d7AQF",
-          "collapsible_row_EprGAK",
-          "collapsible_row_CmkCPx",
-          "collapsible_row_tjYxtP",
-          "collapsible_row_EW8zJi",
-          "collapsible_row_3LBmpE",
-          "collapsible_row_zzNGN8",
-          "collapsible_row_4Up8FB",
-          "collapsible_row_LfEhNJ",
-          "collapsible_row_T6GkGz",
-          "collapsible_row_3aFDHz"
-        ],
-        "settings": {
-          "caption": "",
-          "heading": "Coffee",
-          "heading_size": "h1",
-          "heading_alignment": "left",
-          "layout": "section",
-          "color_scheme": "scheme-3",
-          "container_color_scheme": "",
-          "open_first_collapsible_row": false,
-          "image_ratio": "adapt",
-          "desktop_layout": "image_second",
-          "padding_top": 0,
-          "padding_bottom": 36,
-          "anchor_name": "coffee"
-        }
-      },
-      "collapsible_content_6hwMXM": {
-        "type": "collapsible-content",
-        "blocks": {
-          "collapsible_row_T4nEzx": {
-            "type": "collapsible_row",
-            "settings": {
-              "heading": "Collapsible row",
-              "icon": "check_mark",
-              "row_content": "",
-              "page": ""
-            }
-          },
-          "collapsible_row_QwD3dx": {
-            "type": "collapsible_row",
-            "settings": {
-              "heading": "Collapsible row",
-              "icon": "check_mark",
-              "row_content": "",
-              "page": ""
-            }
-          },
-          "collapsible_row_rHt8Ly": {
-            "type": "collapsible_row",
-            "settings": {
-              "heading": "Collapsible row",
-              "icon": "check_mark",
-              "row_content": "",
-              "page": ""
-            }
-          },
-          "collapsible_row_qXQX9d": {
-            "type": "collapsible_row",
-            "settings": {
-              "heading": "Collapsible row",
-              "icon": "check_mark",
-              "row_content": "",
-              "page": ""
-            }
-          }
-        },
-        "block_order": [
-          "collapsible_row_T4nEzx",
-          "collapsible_row_QwD3dx",
-          "collapsible_row_rHt8Ly",
-          "collapsible_row_qXQX9d"
-        ],
-        "settings": {
-          "caption": "",
-          "heading": "Machines",
-          "heading_size": "h1",
-          "heading_alignment": "left",
-          "layout": "section",
-          "color_scheme": "scheme-3",
-          "container_color_scheme": "",
-          "open_first_collapsible_row": false,
-          "image_ratio": "adapt",
-          "desktop_layout": "image_second",
-          "padding_top": 36,
-          "padding_bottom": 36,
-          "anchor_name": "machines"
-        }
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
       }
     },
-    "order": [
-      "main",
-      "image_banner_HPRWPt",
-      "rich_text_FXX8Ep",
-      "multicolumn_be7bQd",
-      "collapsible_content_jfW7AY",
-      "collapsible_content_6hwMXM"
-    ]
-  }
-  
+    "image_banner_HPRWPt": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify://shop_images/content-asset_FAQ_1980x250_b34508d0-659f-46bc-b1f4-ecfb0e34f190.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_FXX8Ep": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Wba6F6": {
+          "type": "heading",
+          "settings": {
+            "heading": "FAQs",
+            "heading_size": "h1",
+            "h1-title": true
+          }
+        },
+        "text_XPHfXV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Below are some frequently asked questions about illy products. If you cannot find the answer you're looking for, please <a href=\"/pages/contact\" title=\"Contact\">contact us</a>.</p>"
+          }
+        },
+        "button_JMQ7Dh": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Wba6F6",
+        "text_XPHfXV",
+        "button_JMQ7Dh"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_be7bQd": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_jAjj9W": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><a href=\"#coffee-faq\" title=\"#coffee-faq\">Coffee</a></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_izhQAH": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><a href=\"#machines\" title=\"#machines-faq\">Machines</a></p>",
+            "link_label": "",
+            "link": "#machines"
+          }
+        },
+        "column_icrBhc": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Art Collection</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XP7BzM": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Subscriptions</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cRy4r4": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Support</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_jAjj9W",
+        "column_izhQAH",
+        "column_icrBhc",
+        "column_XP7BzM",
+        "column_cRy4r4"
+      ],
+      "custom_css": [
+        ".background-none .multicolumn-list .multicolumn-card__info,.background-none .multicolumn-list:not(.slider) .center .multicolumn-card__info {padding-left: 0;}"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 32,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_jfW7AY": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_6yT4hj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "When can I expect my illycaffee order?",
+            "icon": "none",
+            "row_content": "<p>Your order will be processed within 5 business days and then despatched via Australia Post. Australia Post will send you an email to update you on your delivery schedule. PLEASE NOTE: Due to staff shortages and large number of orders at this time of year, order processing and despatch can take up to two weeks. Delivery via Australia Post will be additional to this time frame and communicated via Australia Post once they receive your parcel.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_kcHKjf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can iperEspresso capsules be recycled?",
+            "icon": "none",
+            "row_content": "<p>Yes, <em>illy </em>has partnered with leading industry organisations to provide an innovative solution to recycle iperEspresso coffee capsules. By collecting your used capsules and mailing them in to be recycled, you’ll be diverting waste from landfills. <a href=\"https://fmayerillystage.commerce.vision/recycling\" target=\"_blank\">Learn More.</a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_i9qFe4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long will an unopened can of illy stay fresh?",
+            "icon": "none",
+            "row_content": "<p>An unopened can of <em>illy </em>ground coffee will remain fresh for at least two years due to <em>illy's </em>proprietary patented pressurized system that extracts air from the can and replaces it with inert gasses at a higher-than-atmospheric level of pressure. This method guarantees a longer preservation time, maintaining flavour and aroma for over 24 months. At the same time it 'ages' the coffee, improving its aroma over time by causing its volatile aroma compounds to bind with the oils that are contained in the beans. Simple vacuum packing cannot achieve this flavour transformation. The positive pressure exerted by<em>illy's</em>method actually forces these aroma compounds back into the coffee whereas vacuum packing lets them seep out. The effect of<em>illy's</em>aging process is similar in many ways to the development of complex flavours when a fine red wine is aged under proper conditions.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cgmC7X": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I determine the expiration date of a can of illy?",
+            "icon": "none",
+            "row_content": "<p>The expiration date is marked on the bottom of the can.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Wa7HhN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How long will illy stay fresh after the can is opened?",
+            "icon": "none",
+            "row_content": "<p>A room-temperature can of <em>illy </em>will remain at optimum freshness for 7 days after opening. After 7 days flavour will begin to deteriorate due to natural oxidation from exposure to air.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_KXmpkY": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How should I store an opened can of illy?",
+            "icon": "none",
+            "row_content": "<p>If the entire can will be consumed within 7 days, room temperature storage is recommended. If the coffee will not be consumed within 7 days, we recommend refrigerated storage, allowing the coffee to return to room temperature before use. It is important to refrigerate the can immediately after opening in this case to retain optimum flavour.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4z87ib": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much illy should I use?",
+            "icon": "none",
+            "row_content": "<p>For espresso, use 7 grams of <em>illy </em>per shot (about 1oz). For auto-drip brewed coffee, start with 7 grams of <em>illy </em>per 8 ounce cup. You may need to adjust to taste as the parameters (water turbulence and temperature) of each coffee maker differ somewhat. You can take the guess-work out of espresso by using E.S.E. pre-measured, pre-tamped servings (pods).</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4YG6jt": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How much caffeine is in illy?",
+            "icon": "none",
+            "row_content": "<p><em>illy </em>uses only the finest Arabica beans available, and Arabica coffee is naturally lower in caffeine than the cheaper and lower quality Robusta variety. An average 1 oz. <em>illy </em>espresso will contain approximately 60 milligrams of caffeine. Brewed <em>illy </em>coffee will contain less than 15 mg caffeine for each gram of coffee used.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_8d7AQF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is the difference between medium roast and dark roast in illy?",
+            "icon": "none",
+            "row_content": "<p><em>illy </em>medium roast coffee is a bit more mild while <em>illy </em>dark roast has a more intense and robust coffee flavour due to a slightly longer roasting time and slightly higher roasting temperature. Some people find the dark roast better for coffee preparations that involve milk, such as cappuccinos and lattes. Both medium and dark roast are suitable for espresso and brewed coffee preparation and the choice is a matter of personal preference.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_EprGAK": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is illy Kosher Certified and if so, who certifies illy Kosher?",
+            "icon": "none",
+            "row_content": "<p>Yes, Union of Orthodox Jewish Congregation of America.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_CmkCPx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is illy's position on organic coffee?",
+            "icon": "none",
+            "row_content": "<p><em>illycaffè</em> maintains a complex high quality blend of 100% Arabica beans from around the world. We work directly with nearly 900 growers on 4 continents to source sustainably grown coffee. Certified organic coffee accounts for approximately 4% of world production and we cannot guarantee that 100% of the 9 different Arabica varieties in our blend will be certified at all times. In addition, <em>illy caffè</em> tests the green coffee (before roasting) for up to 80 different chemicals to insure that our coffee is safe and pure.</p><p><em>illy's</em> demand for the highest quality beans is rarely met through organic coffee. Because <em>illy</em> is a single blend composed of beans from 7 to 9 growing regions, some organics may be present in the blend if they meet our rigid quality standards. Organic coffee has a very low yield per hectare-about 6 to 8 bags per hectare. This low yield is not compensated for by a proportionally higher price, so the farmer makes less, not more. Furthermore, and quite importantly, the cultivation of so-called organic coffee depletes the soil of its nutrients without sufficiently replacing them. Unless the farmer rigorously practices proper soil analysis and management and adds enough phosphorus (which coffee needs to grow well) the plants are weak and highly susceptible to insect and fungus attack. Few farmers maintain their soil at the high level necessary to produce the best beans. The process can lead to an irreversible deterioration in the quality of the soil. As part of our ISO 9001 certification we test every coffee lot we purchase for the presence of pesticide residue-testing for 36 different types. No coffee with pesticide residue is purchased by <em>illy</em>.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_tjYxtP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What does illy do to protect the environment?",
+            "icon": "none",
+            "row_content": "<p><em>illy </em>actively follows a policy of environmental stability and development and is very sensitive to environmental issues in all our activities. We believe industry has an ethical responsibility to develop and pursue practices that protect the ecosystems. This extends from respecting the regulations governing production plants and waste disposal, to the company's decision to adopt recyclable containers and the use of recycled cardboard. Our environmentally-friendly cardboard outer packaging is 100% recyclable and offers convenient pod dispensing.<em>illy’</em>s cans and tins are made from 100% recyclable metal. <em>illy </em>strives for 0% emissions from our plants, and all materials used in the production process are recyclable. Our iperEspresso capsules are created from recyclable plastic, as it is the only material with the mechanical characteristics needed to optimise the extraction of the blend and obtain an excellent product. It is important to use these materials in order to ensure that the capsule can withstand high operating pressure during extraction. <em>illy </em>strives to maintain sustainable practices in everything we do and is a strong advocate of recycling waste products. While our capsule is made from recyclable material, we are currently working on a means by which consumers can open the capsule and clean it out in order for it to be recycled after use. Furthermore, <em>illy </em>has been working to design new technologies to achieve a balance between protecting the environment and promoting good business.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_EW8zJi": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does illy preserve the freshness of coffee?",
+            "icon": "none",
+            "row_content": "<p>Roasted coffee can lose up to 40 percent of its vital aromas after only eight hours of contact with air – an issue that the common vacuum packaging method can’t adequately address. Coffee packed in soft bags suffers an even tougher fate. <em>illy</em> pioneered another way, using a remarkably effective, natural pressurisation technology – patented throughout the world, and exclusive to <em>illy</em>. The process of natural pressurisation for packaging coffee in our iconic recyclable cans preserves the freshness of the coffee – you can actually hear the sound of fresh coffee every time you open a can!</p><p>Freshly roasted <em>illy</em> coffee is placed in recyclable cans, along with natural, inert nitrogen, under pressure. The process traps essential aromas and protects them for more than a year. Just like fine wine maturing in the bottle, <em>illy</em> coffee is refined in its pressurized environment, becoming yet rounder than when first packaged as naturally emerging oils mingle with one another.</p><p>The can, which is 100% recyclable, allows us to pressurize the coffee and preserve the volatile aromas. The common bags that offer any protection from the atmosphere cannot withstand this pressure and they are made of multiple layers of plastic and aluminum that are not recyclable with today’s technology.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3LBmpE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How is illy coffee decaffeinated?",
+            "icon": "none",
+            "row_content": "<p><em>illy </em>coffee is decaffeinated with the CO2 method, a process using two natural elements – water and carbon dioxide (sparkling water). This process is considered the safest method to decaffeinate coffee while maintaining its quality.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_zzNGN8": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What coffee should I use for Espresso?",
+            "icon": "none",
+            "row_content": "<p>Espresso preparation requires a very evenly ground fine grind coffee almost a powder. We recommend our Ground Coffee for espresso or grinding <em>illy </em>Whole Bean Coffee in a quality burr grinder set to fine/espresso grind. For more details on how to prepare a perfect espresso, <a href=\"https://www.illy.com/en-us/coffee/coffee-preparation/how-to-make-espresso-coffee\" target=\"_blank\">visit this link</a>.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4Up8FB": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I use an illy E.S.E. pod?",
+            "icon": "none",
+            "row_content": "<p>Each E.S.E. serving contains 7 grams of coffee; the exact amount needed for a 1 oz. shot of espresso. Do not re-use pods. 1. Switch on the E.S.E. espresso machine and let it heat. For the best results, we suggest you warm the cups as well. 2. Place the E.S.E. serving in the specially designed filter holder with the writing facing up. It is very important to handle the E.S.E. pod as little as possible and only by its edges, as the oils from your skin can compromise the quality. It is especially important not to touch the coffee area of the pod. Place the filter holder in its housing and switch on. Allow the water to run through it for about 20 seconds. 3. At the end of this step, remove used serving, and reinsert the filter holder.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_LfEhNJ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What coffee should I use for Drip/Brewed Coffee?",
+            "icon": "none",
+            "row_content": "<p>Auto-drip coffeemakers work best with a medium grind coffee and <em>illy </em>ground coffee for drip coffeemakers is specially ground for this preparation method. Alternatively, you can grind whole bean coffee using a medium/drip setting in a high-quality burr grinder. For more details on how to prepare perfect drip coffee,  <a href=\"https://www.illy.com/en-us/coffee/coffee-preparation/how-to-make-brewed-coffee\" target=\"_blank\">visit this link.</a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_T6GkGz": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What coffee should I use for French Press?",
+            "icon": "none",
+            "row_content": "<p>For French press preparation use <em>illy </em>ground coffee for drip coffeemakers. The grind is courser than that used for espresso and is optimal for both drip coffeemakers and French press. To see step by step instructions on French press preparation, <a href=\"https://www.illy.com/en-us/coffee/coffee-preparation/how-to-use-a-french-press\" target=\"_blank\">visit this link.</a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3aFDHz": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What coffee should I use for moka pot/stovetop preparation?",
+            "icon": "none",
+            "row_content": "<p>Moka pot stovetop coffee preparation requires a grind courser than espresso but less course than drip and French press. <em>illy </em>Moka grind is ground specifically to work with moka pots to yield optimal results. To see step by step instructions on moka pot preparation, <a href=\"https://www.illy.com/en-us/coffee/coffee-preparation/how-to-make-moka-coffee\" target=\"_blank\">visit this link</a>.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_6yT4hj",
+        "collapsible_row_kcHKjf",
+        "collapsible_row_i9qFe4",
+        "collapsible_row_cgmC7X",
+        "collapsible_row_Wa7HhN",
+        "collapsible_row_KXmpkY",
+        "collapsible_row_4z87ib",
+        "collapsible_row_4YG6jt",
+        "collapsible_row_8d7AQF",
+        "collapsible_row_EprGAK",
+        "collapsible_row_CmkCPx",
+        "collapsible_row_tjYxtP",
+        "collapsible_row_EW8zJi",
+        "collapsible_row_3LBmpE",
+        "collapsible_row_zzNGN8",
+        "collapsible_row_4Up8FB",
+        "collapsible_row_LfEhNJ",
+        "collapsible_row_T6GkGz",
+        "collapsible_row_3aFDHz"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Coffee",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "section",
+        "color_scheme": "scheme-3",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
+        "padding_bottom": 36,
+        "anchor_name": "coffee"
+      }
+    },
+    "collapsible_content_6hwMXM": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_T4nEzx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_QwD3dx": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_rHt8Ly": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_qXQX9d": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_T4nEzx",
+        "collapsible_row_QwD3dx",
+        "collapsible_row_rHt8Ly",
+        "collapsible_row_qXQX9d"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Machines",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "section",
+        "color_scheme": "scheme-3",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "anchor_name": "machines"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_HPRWPt",
+    "rich_text_FXX8Ep",
+    "multicolumn_be7bQd",
+    "collapsible_content_jfW7AY",
+    "collapsible_content_6hwMXM"
+  ]
+}

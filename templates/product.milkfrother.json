@@ -81,15 +81,6 @@
             "page": ""
           }
         },
-        "collapsible_tab_Gkd4LE": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Sustainability",
-            "icon": "none",
-            "content": "<p>{{ product.metafields.custom.limited_edition | metafield_tag }}</p>",
-            "page": ""
-          }
-        },
         "collapsible_tab_kwm8PN": {
           "type": "collapsible_tab",
           "settings": {
@@ -153,6 +144,15 @@
             "page": ""
           }
         },
+        "collapsible_tab_Gkd4LE": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Limited Addition",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.limited_edition | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
         "complementary_rCYMpF": {
           "type": "complementary",
           "settings": {
@@ -179,7 +179,6 @@
         "collapsible_tab_darjU9",
         "collapsible_tab_cD6xJA",
         "collapsible_tab_p3cDfi",
-        "collapsible_tab_Gkd4LE",
         "collapsible_tab_kwm8PN",
         "collapsible_tab_BRxFx9",
         "collapsible_tab_kDzaFN",
@@ -187,6 +186,7 @@
         "collapsible_tab_g96R9H",
         "collapsible_tab_UMk76W",
         "collapsible_tab_whJe8b",
+        "collapsible_tab_Gkd4LE",
         "complementary_rCYMpF"
       ],
       "settings": {
@@ -219,147 +219,9 @@
         "cover_image": "",
         "description": "",
         "full_width": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 80,
-        "padding_bottom": 36
-      }
-    },
-    "video_8Uwckk": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https://vimeo.com/1073105848?share=copy",
-        "cover_image": "shopify://shop_images/Screenshot_2025-04-07_171221.png",
-        "description": "",
-        "full_width": false,
         "color_scheme": "scheme-3",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_banner_qqqgBw": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_tjNKXP": {
-          "type": "heading",
-          "settings": {
-            "heading": "Modern Design with a Compact Footprint and the Ease of the Exclusive iPerEspresso System",
-            "heading_size": "h1",
-            "h1-title": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_tjNKXP"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/img_01_fa5bced6-e08a-48dc-b7cd-95dfa39ffcb9.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "image_banner_hx96mG": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_giAgLb": {
-          "type": "heading",
-          "settings": {
-            "heading": "Piero Lissoni's design in a wide variety of colours",
-            "heading_size": "h1",
-            "h1-title": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_giAgLb"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/img_02_2x_ac083eb9-b85f-48bd-b188-11787e6f6410.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "rich_text_Vj77rB": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_VntbfF": {
-          "type": "heading",
-          "settings": {
-            "heading": "Quality meets sustainability",
-            "heading_size": "h1"
-          }
-        },
-        "text_RBJ9my": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We have spent decades working with coffee growers to support them in meeting the highest standards of quality and sustainability, in more than 30 countries around the world. Researching and experimenting with raw materials is an ongoing process, especially with ongoing climate change. Once our coffee is processed, each coffee bean undergoes yet another round of selection, ensuring that every sip of our coffee maintains the exceptional quality we're known for. </p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_VntbfF",
-        "text_RBJ9my"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "multirow_3Qazec": {
-      "type": "multirow",
-      "blocks": {
-        "row_tfxWP9": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/67475b244d43ea023a6f2ae1_jpg.jpg",
-            "caption": "",
-            "heading": "Maximum Enjoyment in a Few Simple Steps",
-            "text": "<p>Everything you need to know to get the most out of your coffee machine<br/><br/></p>",
-            "button_label": "Discover The Tutorials",
-            "button_link": "shopify://pages/illy-y3-3-iperespresso-machine-tutorials"
-          }
-        }
-      },
-      "block_order": [
-        "row_tfxWP9"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h2",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "scheme-3",
-        "row_color_scheme": "scheme-3",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 80
       }
     },
     "related-products": {
@@ -379,17 +241,114 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "multirow_gkVMeB": {
+      "type": "multirow",
+      "blocks": {
+        "row_FB4LJ4": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/HOME_PROMO_MOBILE_x2_2fd6d64a-f975-47cb-8951-ebbeb6ad2802.webp",
+            "caption": "",
+            "heading": "illy Subscription",
+            "text": "<p>Never run out of your favourite coffee, for your daily taste experience.</p>",
+            "button_label": "Discover More",
+            "button_link": "shopify://pages/subscription"
+          }
+        }
+      },
+      "block_order": [
+        "row_FB4LJ4"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-1",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 80
+      }
+    },
+    "image_banner_iwkfwF": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_y4QBkU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Coffee For Your Recipes",
+            "heading_size": "h1",
+            "h1-title": false
+          }
+        },
+        "text_wTp6zF": {
+          "type": "text",
+          "settings": {
+            "text": "Let your creativity run wild and choose the right coffee for your favorite milk-based recipes.",
+            "text_style": "body"
+          }
+        },
+        "buttons_6atfG7": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Discover More",
+            "button_link_1": "shopify://collections/coffee",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_y4QBkU",
+        "text_wTp6zF",
+        "buttons_6atfG7"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/img_03_2x_677f3ea1-4de7-41d1-8396-d4ba325b3fbf.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "two_column_images_6neGpN": {
+      "type": "two-column-images",
+      "settings": {
+        "left_col_subhead": "A Taste of Art",
+        "left_col_title": "illy Art Collection",
+        "left_col_image": "shopify://shop_images/670f7a17fb9cb5c8d3cc4eb4_jpg_0ec8ec86-7fd5-4dd7-94a0-d345d37b6a48.jpg",
+        "left_col_url": "shopify://collections/art-collection",
+        "left_col_link_text": "Discover More",
+        "right_col_subhead": "The Secrets of Coffee",
+        "right_col_title": "Preparation",
+        "right_col_image": "shopify://shop_images/img_10_2x_fd5cc0ec-6bca-4c3f-91ea-d3ec1db11fe1.jpg",
+        "right_col_url": "shopify://collections/coffee",
+        "right_col_link_text": "Discover More"
+      }
     }
   },
   "order": [
     "main",
     "product_key_features_zpzR3T",
     "product_video_N3Qg48",
-    "video_8Uwckk",
-    "image_banner_qqqgBw",
-    "image_banner_hx96mG",
-    "rich_text_Vj77rB",
-    "multirow_3Qazec",
-    "related-products"
+    "related-products",
+    "multirow_gkVMeB",
+    "image_banner_iwkfwF",
+    "two_column_images_6neGpN"
   ]
 }

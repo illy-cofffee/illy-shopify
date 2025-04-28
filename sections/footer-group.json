@@ -14,21 +14,21 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "link_list_Eew7qz": {
+        "link_list_7cg4pe": {
           "type": "link_list",
           "settings": {
-            "heading": "Quick links",
+            "heading": "Company",
             "menu": "footer"
           }
         },
-        "link_list_wwWiCb": {
+        "link_list_xQebUL": {
           "type": "link_list",
           "settings": {
-            "heading": "Need help?",
+            "heading": "Assistance",
             "menu": "footer-menu-2"
           }
         },
-        "image_tXgPpf": {
+        "image_xex9ic": {
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/b-corp-logo.svg",
@@ -38,15 +38,15 @@
         }
       },
       "block_order": [
-        "link_list_Eew7qz",
-        "link_list_wwWiCb",
-        "image_tXgPpf"
+        "link_list_7cg4pe",
+        "link_list_xQebUL",
+        "image_xex9ic"
       ],
       "settings": {
         "color_scheme": "scheme-1",
         "newsletter_enable": false,
-        "newsletter_heading": "Subscribe to our emails",
-        "newsletter_subtext": "Sign up to receive all the latest news and special offers",
+        "newsletter_heading": "Join the FAMilly",
+        "newsletter_subtext": "Sign up for our newsletter to enjoy <strong>10% off </strong>your first purchase, plus early access to exclusive offers, new products, and of course, those coffee moments worth sharing.",
         "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": true,

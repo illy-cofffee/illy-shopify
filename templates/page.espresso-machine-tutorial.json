@@ -1,0 +1,133 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_zbz3gJ": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_97TAah": {
+          "type": "heading",
+          "settings": {
+            "heading": "Maximum Enjoyment in a Few Simple Steps",
+            "heading_size": "h0",
+            "h1-title": true
+          }
+        },
+        "text_HwkmLc": {
+          "type": "text",
+          "settings": {
+            "text": "Everything you need to know to get the most out of your coffee machine.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_97TAah",
+        "text_HwkmLc"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/img_01_2x_9c6bb94c-dc28-408c-953f-fd58f3997adf.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multirow_DdkGky": {
+      "type": "multirow",
+      "blocks": {
+        "row_XVWzLa": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_02_2x_32df9b8b-acd2-4b96-930f-3e40a125eb74.jpg",
+            "caption": "",
+            "heading": "X7.1 Iperespresso",
+            "text": "<p>4 Tutorials</p>",
+            "button_label": "Find Out More",
+            "button_link": "shopify://pages/illy-x7-1-iperespresso-machine-tutorials"
+          }
+        },
+        "row_4NwV6X": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_03_2x_b2a1e3ef-5685-46fa-9464-7f881c672223.jpg",
+            "caption": "",
+            "heading": "Y3.3 Iperespresso",
+            "text": "<p>5 Tutorials</p>",
+            "button_label": "Find Out More",
+            "button_link": "shopify://pages/illy-y3-3-iperespresso-machine-tutorials"
+          }
+        },
+        "row_3C47f9": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_05_2x_179d48ae-8395-4c6a-9c02-e0b533ab3b1b.jpg",
+            "caption": "",
+            "heading": "illy Easy with E.S.E. pods",
+            "text": "<p>5 Tutorials </p>",
+            "button_label": "Find Out More",
+            "button_link": "shopify://pages/illy-easy-machine-tutorials"
+          }
+        },
+        "row_KjM6e9": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_06_2x_6d0ddfc0-d0f1-46e2-99c4-42a060d99e41.jpg",
+            "caption": "",
+            "heading": "X1 Anniversary E.S.E. & Ground",
+            "text": "<p>7 Tutorials</p>",
+            "button_label": "Find Out More",
+            "button_link": "shopify://pages/illy-anniversary-x1-ground-ese-machine-tutorials"
+          }
+        }
+      },
+      "block_order": [
+        "row_XVWzLa",
+        "row_4NwV6X",
+        "row_3C47f9",
+        "row_KjM6e9"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-3",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_zbz3gJ",
+    "multirow_DdkGky"
+  ]
+}

@@ -81,15 +81,6 @@
             "page": ""
           }
         },
-        "collapsible_tab_Gkd4LE": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Sustainability",
-            "icon": "none",
-            "content": "<p>{{ product.metafields.custom.limited_edition | metafield_tag }}</p>",
-            "page": ""
-          }
-        },
         "collapsible_tab_kwm8PN": {
           "type": "collapsible_tab",
           "settings": {
@@ -153,6 +144,15 @@
             "page": ""
           }
         },
+        "collapsible_tab_Gkd4LE": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Limited Addition",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.custom.limited_edition | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
         "complementary_rCYMpF": {
           "type": "complementary",
           "settings": {
@@ -179,7 +179,6 @@
         "collapsible_tab_darjU9",
         "collapsible_tab_cD6xJA",
         "collapsible_tab_p3cDfi",
-        "collapsible_tab_Gkd4LE",
         "collapsible_tab_kwm8PN",
         "collapsible_tab_BRxFx9",
         "collapsible_tab_kDzaFN",
@@ -187,6 +186,7 @@
         "collapsible_tab_g96R9H",
         "collapsible_tab_UMk76W",
         "collapsible_tab_whJe8b",
+        "collapsible_tab_Gkd4LE",
         "complementary_rCYMpF"
       ],
       "settings": {
@@ -224,142 +224,80 @@
         "padding_bottom": 36
       }
     },
-    "video_8Uwckk": {
+    "collapsible_content_LmKfQF": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_RUMk3i": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I purchase past illy Art Collections?",
+            "icon": "none",
+            "row_content": "<p>illy Art Collections are released as signed and numbered limited editions. Once a collection sells out, it is no longer available for purchase. These collections are highly sought after worldwide, with many collectors eager to buy, sell, or trade past editions.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rEnBh4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I get a replacement cup for one that has broken?",
+            "icon": "none",
+            "row_content": "<p>illy Art Collections are sold as complete signed and numbered sets, so individual cups and saucers cannot be replaced.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_UfWnLK": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "I saw an illy Art Series Cup at a restaurant, how can I purchase this collection?",
+            "icon": "none",
+            "row_content": "<p>All available collections for sale can be found in the Artist Cups section of the illy e-store. If you've spotted a cup elsewhere, it may be from an older collection or a special release exclusive to restaurants.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_HYP9F6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where can I see all the illy cup collections, past and present?",
+            "icon": "none",
+            "row_content": "<p>Visit this <a href=\"/pages/illy-art-collection\" title=\"illy Art Collection\">link</a></p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_RUMk3i",
+        "collapsible_row_rEnBh4",
+        "collapsible_row_UfWnLK",
+        "collapsible_row_HYP9F6"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-3",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "video_PDNqNJ": {
       "type": "video",
       "settings": {
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https://vimeo.com/1073105848?share=copy",
-        "cover_image": "shopify://shop_images/Screenshot_2025-04-07_171221.png",
+        "video": "shopify://files/videos/2019_Illy_PillarsUSA_Art_video_30-_1080p.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
-        "color_scheme": "scheme-3",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_banner_qqqgBw": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_tjNKXP": {
-          "type": "heading",
-          "settings": {
-            "heading": "Modern Design with a Compact Footprint and the Ease of the Exclusive iPerEspresso System",
-            "heading_size": "h1",
-            "h1-title": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_tjNKXP"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/img_01_fa5bced6-e08a-48dc-b7cd-95dfa39ffcb9.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "image_banner_hx96mG": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_giAgLb": {
-          "type": "heading",
-          "settings": {
-            "heading": "Piero Lissoni's design in a wide variety of colours",
-            "heading_size": "h1",
-            "h1-title": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_giAgLb"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/img_02_2x_ac083eb9-b85f-48bd-b188-11787e6f6410.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "rich_text_Vj77rB": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_VntbfF": {
-          "type": "heading",
-          "settings": {
-            "heading": "Quality meets sustainability",
-            "heading_size": "h1"
-          }
-        },
-        "text_RBJ9my": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We have spent decades working with coffee growers to support them in meeting the highest standards of quality and sustainability, in more than 30 countries around the world. Researching and experimenting with raw materials is an ongoing process, especially with ongoing climate change. Once our coffee is processed, each coffee bean undergoes yet another round of selection, ensuring that every sip of our coffee maintains the exceptional quality we're known for. </p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_VntbfF",
-        "text_RBJ9my"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
         "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "multirow_3Qazec": {
-      "type": "multirow",
-      "blocks": {
-        "row_tfxWP9": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/67475b244d43ea023a6f2ae1_jpg.jpg",
-            "caption": "",
-            "heading": "Maximum Enjoyment in a Few Simple Steps",
-            "text": "<p>Everything you need to know to get the most out of your coffee machine<br/><br/></p>",
-            "button_label": "Discover The Tutorials",
-            "button_link": "shopify://pages/illy-y3-3-iperespresso-machine-tutorials"
-          }
-        }
-      },
-      "block_order": [
-        "row_tfxWP9"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h2",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "scheme-3",
-        "row_color_scheme": "scheme-3",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "related-products": {
@@ -385,11 +323,8 @@
     "main",
     "product_key_features_zpzR3T",
     "product_video_N3Qg48",
-    "video_8Uwckk",
-    "image_banner_qqqgBw",
-    "image_banner_hx96mG",
-    "rich_text_Vj77rB",
-    "multirow_3Qazec",
+    "collapsible_content_LmKfQF",
+    "video_PDNqNJ",
     "related-products"
   ]
 }

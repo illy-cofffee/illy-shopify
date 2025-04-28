@@ -9,6 +9,55 @@
  */
 {
   "sections": {
+    "image_banner_dLHJwf": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_ftiiRe": {
+          "type": "heading",
+          "settings": {
+            "heading": "illy Coffee Subscriptions",
+            "heading_size": "h0",
+            "h1-title": true
+          }
+        },
+        "text_3GfeMe": {
+          "type": "text",
+          "settings": {
+            "text": "Never run out of your favorite coffee again—subscribe to <strong>illy coffee</strong> and enjoy fresh beans, capsules, pods or ground coffee delivered straight to your door, right when you need it.",
+            "text_style": "body"
+          }
+        },
+        "buttons_e6NjCa": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Subscribe Now",
+            "button_link_1": "shopify://collections/coffee",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ftiiRe",
+        "text_3GfeMe",
+        "buttons_e6NjCa"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/img_01_2x_4985071c-3dbe-415b-b4db-e5e8b9e07b23.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -17,57 +66,132 @@
         "padding_bottom": 28
       }
     },
-    "image_banner_ib4TCt": {
-      "type": "image-banner",
+    "rich_text_Krz7Qz": {
+      "type": "rich-text",
       "blocks": {
-        "heading_6Dg77d": {
+        "heading_QPYmgd": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Signing Up is Simple",
             "heading_size": "h1",
             "h1-title": false
-          }
-        },
-        "text_cHFnRQ": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "buttons_3ReLGX": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Link here",
-            "button_link_1": "shopify://pages/our-coffees",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_6Dg77d",
-        "text_cHFnRQ",
-        "buttons_3ReLGX"
+        "heading_QPYmgd"
       ],
       "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-60b36b58-2f08-4afa-91c3-558e5bc3ebe4",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "key_features_M8fhhG": {
+      "type": "key-features",
+      "settings": {
+        "color_scheme": "",
+        "feature_1_title": "Choose Your Coffee",
+        "feature_1_description": "Select your favorite coffee & mix and match your selections to tailor your subscription to your unique tastes. You can change your coffee selection anytime.",
+        "feature_1_image": "shopify://shop_images/6564a063d304080008c690cf_png.png",
+        "feature_2_title": "Set Your Own Schedule",
+        "feature_2_description": "Decide how often you'd like to receive your coffee deliveries. You can change your frequency whenever you like & pause anytime.",
+        "feature_2_image": "shopify://shop_images/65649f3024e21700080547f4_png.png",
+        "feature_3_title": "Exclusive Member Benefits",
+        "feature_3_description": "Save 20% on Coffee Subscriptions",
+        "feature_3_image": "shopify://shop_images/65d4952beac68d00080e95b4_png.png"
+      }
+    },
+    "collapsible_content_FcRcpa": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_kpPhAf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Why Subscribe?",
+            "icon": "none",
+            "row_content": "<p>Our subscription program is designed with your flexibility and convenience in mind, allowing you to choose the quantity of our 100% Arabica coffee that suits you best. We want to ensure you never run out of your favorite coffee, giving you the freedom to set your own delivery schedule. Plus, subscribers enjoy a discount on every recurring order, making it even easier to keep your coffee supply replenished.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_FQb3mq": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I manage my subscription?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_3cBFEP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I cancel my subscription?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_UkBjNb": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Does my subscription have a commitment?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_dXefEf": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I make changes to my address or payment information for my Coffee subscription?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_3EFPGj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is there a minimum number of coffees I need to buy on an illy subscription?",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_kpPhAf",
+        "collapsible_row_FQb3mq",
+        "collapsible_row_3cBFEP",
+        "collapsible_row_UkBjNb",
+        "collapsible_row_dXefEf",
+        "collapsible_row_3EFPGj"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Coffee Subscription FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 80
       }
     }
   },
   "order": [
+    "image_banner_dLHJwf",
     "main",
-    "image_banner_ib4TCt"
+    "rich_text_Krz7Qz",
+    "key_features_M8fhhG",
+    "collapsible_content_FcRcpa"
   ]
 }

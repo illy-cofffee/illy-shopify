@@ -54,10 +54,10 @@
       ],
       "settings": {}
     },
-    "featured_blog_FnePwQ": {
+    "featured_blog_B7yrXH": {
       "type": "featured-blog",
       "settings": {
-        "heading": "More receipes",
+        "heading": "More recipes",
         "heading_size": "h2",
         "blog": "recipes",
         "post_limit": 3,
@@ -74,6 +74,6 @@
   },
   "order": [
     "main",
-    "featured_blog_FnePwQ"
+    "featured_blog_B7yrXH"
   ]
 }
