@@ -2464,7 +2464,7 @@ input[type='checkbox'] {
   height: auto;
   max-width: 100%;
   padding-right:10px;
-  border-right: 1px  solid #000000;
+  border-right: 1px  solid rgba(0, 0, 0, 0.08);
 }
 
 .header__heading-logo-wrapper {
@@ -3796,6 +3796,7 @@ button[disabled] {
 
 .header {
   padding: 3px;
+  padding-left:1rem;
   max-width: 100%;
 }
 
@@ -3813,12 +3814,18 @@ button[disabled] {
 
 @media (max-width: 1128px) {
   .header {
-    padding: 5px !important;
+    padding: 10px !important;
     padding-right: 1rem !important;
     grid-template-areas: "heading icons left-icons";
     grid-template-columns: 2fr 1fr auto;
     align-items: center;
   }
+
+  .header__heading-logo {
+    max-height: 50px;
+    padding-right: 3px;
+  }
+
   .header--mobile-left {
     grid-template-columns: 2fr 1fr auto;
   }
@@ -3827,6 +3834,9 @@ button[disabled] {
   }
   .header__icon--cart {
     margin-right: 1.1rem;
+  }
+  .b-corp-logo {
+    max-height: 50px;
   }
 
 }
