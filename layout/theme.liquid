@@ -355,7 +355,7 @@
     {% sections 'header-group' %}
 
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
-      {% if template.name == 'product' or template.name == 'collection' %}
+      {% if template.name == 'product'%}
         {%  render 'breadcrumb' %}
        {%- endif -%}
       {{ content_for_layout }}

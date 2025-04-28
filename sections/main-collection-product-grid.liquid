@@ -38,6 +38,7 @@
 
 <script>
 {% if template.name == 'collection' %}
+  hello
   sessionStorage.removeItem('collection_title');
   sessionStorage.removeItem('collection_url'); 
   sessionStorage.setItem('collection_title', {{ collection.title | json }});
