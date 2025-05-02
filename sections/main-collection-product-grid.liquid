@@ -38,13 +38,14 @@
 
 <script>
 {% if template.name == 'collection' %}
-  hello
   sessionStorage.removeItem('collection_title');
   sessionStorage.removeItem('collection_url'); 
   sessionStorage.setItem('collection_title', {{ collection.title | json }});
   sessionStorage.setItem('collection_url', {{ collection.url | json }});
 {% endif %}
 </script>
+
+{%  render 'breadcrumb' %}
 
 <div class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
   {%- paginate collection.products by section.settings.products_per_page -%}
