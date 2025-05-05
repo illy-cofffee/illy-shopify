@@ -26,7 +26,7 @@
             "image": "shopify://shop_images/65d71c4ff187dd00093a9c8d_jpg.jpg",
             "caption": "",
             "heading": "Reserved area",
-            "text": "<p>Log in to access exclusive services for illy professional</p>",
+            "text": "<p>Log in to access Exclusive Services for illy professional.</p>",
             "button_label": "Login",
             "button_link": "https://mayers.com.au/"
           }
@@ -36,8 +36,8 @@
           "settings": {
             "image": "shopify://shop_images/65d71c4ceac68d00080e9901_jpg.jpg",
             "caption": "",
-            "heading": "Not an illy client?",
-            "text": "<p>Fill out the form and the illy professional team will contact you as soon as possible. </p>",
+            "heading": "Not an illy Client?",
+            "text": "<p>Fill out the form and the illy Professional Team will contact you as soon as possible. </p>",
             "button_label": "Contact Us",
             "button_link": "shopify://pages/professional-contact"
           }
