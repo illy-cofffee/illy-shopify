@@ -23,7 +23,7 @@
         "left_col_subhead": "Products, equipment and solutions to help your business grow every day. Discover what we can do for you.",
         "left_col_title": "The Benefits Reserved for illy Clients",
         "left_col_image": "shopify://shop_images/img_01_2f2d24c1-1994-4ef9-a8a7-e97afd0d8353.jpg",
-        "left_col_url": "",
+        "left_col_url": "shopify://pages/professional-contact",
         "left_col_link_text": "Contact Us",
         "right_col_subhead": "illy brings taste and beauty to every professional environment, making every coffee break enjoyable, whatever your company.",
         "right_col_title": "The Unique illy Experience, at Your Desk",
@@ -43,7 +43,7 @@
             "heading": "QUALITY",
             "text": "",
             "button_label": "Find Out More",
-            "button_link": ""
+            "button_link": "shopify://pages/quality"
           }
         },
         "row_DGUcYh": {
@@ -54,7 +54,7 @@
             "heading": "SUSTAINABILITY",
             "text": "",
             "button_label": "Find Out More",
-            "button_link": ""
+            "button_link": "shopify://pages/sustainability"
           }
         },
         "row_RXCXmV": {
@@ -65,7 +65,7 @@
             "heading": "ART",
             "text": "",
             "button_label": "Find Out More",
-            "button_link": ""
+            "button_link": "shopify://pages/art"
           }
         }
       },
@@ -103,7 +103,8 @@
           "type": "heading",
           "settings": {
             "heading": "ENTER THE WORLD OF ILLY",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "h1-title": false
           }
         }
       },
@@ -142,7 +143,8 @@
           "type": "heading",
           "settings": {
             "heading": "ENTER THE WORLD OF ILLY PROFESSIONALS",
-            "heading_size": "h0"
+            "heading_size": "h0",
+            "h1-title": false
           }
         },
         "text_3EgjtW": {
