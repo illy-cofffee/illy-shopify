@@ -1,0 +1,341 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_BBtz7f": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_wJaxjX": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Quality That Strengthens Your Business",
+            "heading_size": "h0",
+            "h1-title": false
+          }
+        },
+        "text_B9Fb6A": {
+          "type": "text",
+          "settings": {
+            "text": "Discover Our Offer",
+            "text_style": "body"
+          }
+        },
+        "buttons_r7jfWT": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Contact Us",
+            "button_link_1": "shopify://pages/professional-contact",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_wJaxjX",
+        "text_B9Fb6A",
+        "buttons_r7jfWT"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/img_01_37a6b320-c616-40ef-8933-12fd5f3eddc2.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-014badbe-27d7-4789-aefd-0d5c011ae800",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_bihV3k": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Ymei3n": {
+          "type": "heading",
+          "settings": {
+            "heading": "CHOOSE YOUR BUSINESS AND DISCOVER HOW TO GROW WITH ILLY",
+            "heading_size": "h1",
+            "h1-title": false
+          }
+        },
+        "text_yYQiLf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every establishment has specific needs to make it to milestone moments: we work hard to offer services tailored to all of them. </p><p><br/>We’ve built up a diverse offering for all professionals that work with us: baristas, pastry chefs, and restaurant and hotel owners. </p><p><br/>We provide each of them with specific solutions, tailor-made for the unique needs of their business. </p><p><br/>Our goal is to guarantee top-quality goods and services, so as to support the growth and success of anybody around the world that serves illy coffe<br/><br/></p>"
+          }
+        },
+        "button_ffRbKa": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact Us",
+            "button_link": "shopify://pages/professional-contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Ymei3n",
+        "text_yYQiLf",
+        "button_ffRbKa"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_XdrMUy": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_TnAQ9n": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_06_2x_29df6c0e-2697-4d49-a8b7-61ff85990ca5.jpg",
+            "title": "Cafes",
+            "text": "<p>Serve coffee that matches the passion and craft behind your café, exceptional quality in every cup, made to elevate every sip and every moment</p>",
+            "link_label": "Find Out More",
+            "link": "shopify://pages/professional-contact"
+          }
+        },
+        "column_CFRFcF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_07_2x_f40b0b71-5e41-4cf0-909c-77889c244086.jpg",
+            "title": "Bakeries & Ice-Cream Parlours",
+            "text": "<p>Enhance every moment with coffee of exceptional quality—crafted to complement the sweetness and artistry of your pastries and gelato.</p>",
+            "link_label": "Find Out More",
+            "link": "shopify://pages/professional-contact"
+          }
+        },
+        "column_wdnaqr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_08_5241fb6a-bcd3-45ec-b037-b3f2bc8c1007.jpg",
+            "title": "Restaurants",
+            "text": "<p>Discover the cutting-edge technology and refined craftsmanship that ensure every cup is as exquisite as the dishes you serve.</p>",
+            "link_label": "Find Out More",
+            "link": "shopify://pages/professional-contact"
+          }
+        },
+        "column_aagdJj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_09_cb156f56-b78e-427f-9ee0-8e7bfe467fac.jpg",
+            "title": "Hotels",
+            "text": "<p>Elevate the guest experience with coffee of exceptional quality, crafted to make every cup as refined and memorable as your hospitality.</p>",
+            "link_label": "Find Out More",
+            "link": "shopify://pages/professional-contact"
+          }
+        }
+      },
+      "block_order": [
+        "column_TnAQ9n",
+        "column_CFRFcF",
+        "column_wdnaqr",
+        "column_aagdJj"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Our Tailor-Made Solutions For Your Business",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_JVR3tP": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_RMkVw4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_06_b99c958e-0e59-476a-ab48-3f3dc1ec75d9.jpg",
+            "title": "illy caffè",
+            "text": "<p>Our franchise project: the coffee shop we create together with you, down to the smallest detail.</p>",
+            "link_label": "Find Out More",
+            "link": "shopify://pages/professional-contact"
+          }
+        }
+      },
+      "block_order": [
+        "column_RMkVw4"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Partnership",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_EnLRGE": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_zzJbdQ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_07.jpg",
+            "title": "Grocery Stores",
+            "text": "<p>Discover illy’s dedicated solutions for you.</p>",
+            "link_label": "Find Out More",
+            "link": "shopify://pages/professional-contact"
+          }
+        },
+        "column_W7P7jY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_08_2x_c32f1ab0-6461-4f70-92e2-1e9dec6fd1e1.jpg",
+            "title": "Specialised & Household Appliance Shops",
+            "text": "<p>Discover our offer for your shop.</p>",
+            "link_label": "Find Out More",
+            "link": "shopify://pages/professional-contact"
+          }
+        }
+      },
+      "block_order": [
+        "column_zzJbdQ",
+        "column_W7P7jY"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Shops",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_eWtrgx": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_RyfBbY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_09_2x_7a9fc1fb-4862-4765-b608-fecf84d4b3bc.jpg",
+            "title": "Assistance",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_N9dV8t": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_10_2x_d3098de9-c79d-4e86-ada5-41c8b366602e.jpg",
+            "title": "Maintenance",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qLiw3M": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_11_2x_0fb2036b-b2e7-476d-bb79-0a27f48ad26f.jpg",
+            "title": "Training & Consulting",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pGTTgL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_12_2x_79a023fb-84f5-4a21-8e8e-48a0833ff459.jpg",
+            "title": "Image & Communication",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_RyfBbY",
+        "column_N9dV8t",
+        "column_qLiw3M",
+        "column_pGTTgL"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Services for you",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_BBtz7f",
+    "rich_text_bihV3k",
+    "multicolumn_XdrMUy",
+    "multicolumn_JVR3tP",
+    "multicolumn_EnLRGE",
+    "multicolumn_eWtrgx"
+  ]
+}
