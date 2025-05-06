@@ -23,7 +23,7 @@
         "heading_wJaxjX": {
           "type": "heading",
           "settings": {
-            "heading": "The Quality That Strengthens Your Business",
+            "heading": "illy and Hotels, to Savour a Relaxing Moment",
             "heading_size": "h0",
             "h1-title": false
           }
@@ -54,7 +54,7 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/img_01_37a6b320-c616-40ef-8933-12fd5f3eddc2.jpg",
+        "image": "shopify://shop_images/img_01_2x_61a9473b-5e9c-43e7-8a54-a671d630fd19.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -73,7 +73,7 @@
         "heading_Ymei3n": {
           "type": "heading",
           "settings": {
-            "heading": "CHOOSE YOUR BUSINESS AND DISCOVER HOW TO GROW WITH ILLY",
+            "heading": "The Perfect Coffee For Every Guest, Every Time",
             "heading_size": "h1",
             "h1-title": false
           }
@@ -81,7 +81,7 @@
         "text_yYQiLf": {
           "type": "text",
           "settings": {
-            "text": "<p>Every establishment has specific needs to make it to milestone moments: we work hard to offer services tailored to all of them. </p><p><br/>We’ve built up a diverse offering for all professionals that work with us: baristas, pastry chefs, and restaurant and hotel owners. </p><p><br/>We provide each of them with specific solutions, tailor-made for the unique needs of their business. </p><p><br/>Our goal is to guarantee top-quality goods and services, so as to support the growth and success of anybody around the world that serves illy coffe<br/><br/></p>"
+            "text": "<p>Our dedicated programm allows hotels to serve the perfect coffee for all tastes, at any time and in (almost) any setting. </p><p>From dawn’s first rays to the dead of night, and from the breakfast room to the lounge, it’s always the right time and place for a coffee when you’re in a hotel; and every single cup counts. We’ve come up with different solutions to allow both large accommodation facilities and boutique hotels to prepare espressos, americano coffees and all other coffee-based specialities in any situation, as efficiently and with as little waste as possible. </p><p>All while satisfying the desires of every guest. <br/><br/></p>"
           }
         },
         "button_ffRbKa": {
@@ -111,151 +111,214 @@
         "padding_bottom": 52
       }
     },
-    "multicolumn_XdrMUy": {
-      "type": "multicolumn",
+    "key_features_UrEhJY": {
+      "type": "key-features",
+      "name": "Key Features",
+      "settings": {
+        "color_scheme": "",
+        "feature_1_title": "INTERNATIONAL BRAND",
+        "feature_1_description": "A brand known & loved all over the world for the quality of its products.",
+        "feature_2_title": "CONSULTING",
+        "feature_2_description": "Customized paths of professional development.",
+        "feature_3_title": "FULL COFFEE PROGRAM",
+        "feature_3_description": "The right products, preparations and tools to ensure an excellent cup for your guests."
+      }
+    },
+    "multirow_RmkBpY": {
+      "type": "multirow",
       "blocks": {
-        "column_TnAQ9n": {
-          "type": "column",
+        "row_D6YJih": {
+          "type": "row",
           "settings": {
-            "image": "shopify://shop_images/img_06_2x_29df6c0e-2697-4d49-a8b7-61ff85990ca5.jpg",
-            "title": "Cafes",
-            "text": "<p>Serve coffee that matches the passion and craft behind your café, exceptional quality in every cup, made to elevate every sip and every moment</p>",
-            "link_label": "Find Out More",
-            "link": "shopify://pages/professional-contact"
-          }
-        },
-        "column_CFRFcF": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/img_07_2x_f40b0b71-5e41-4cf0-909c-77889c244086.jpg",
-            "title": "Bakeries & Ice-Cream Parlours",
-            "text": "<p>Enhance every moment with coffee of exceptional quality—crafted to complement the sweetness and artistry of your pastries and gelato.</p>",
-            "link_label": "Find Out More",
-            "link": "shopify://pages/professional-contact"
-          }
-        },
-        "column_wdnaqr": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/img_08_5241fb6a-bcd3-45ec-b037-b3f2bc8c1007.jpg",
-            "title": "Restaurants",
-            "text": "<p>Discover the cutting-edge technology and refined craftsmanship that ensure every cup is as exquisite as the dishes you serve.</p>",
-            "link_label": "Find Out More",
-            "link": "shopify://pages/professional-contact"
-          }
-        },
-        "column_aagdJj": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/img_09_cb156f56-b78e-427f-9ee0-8e7bfe467fac.jpg",
-            "title": "Hotels",
-            "text": "<p>Elevate the guest experience with coffee of exceptional quality, crafted to make every cup as refined and memorable as your hospitality.</p>",
-            "link_label": "Find Out More",
-            "link": "shopify://pages/professional-contact"
+            "image": "shopify://shop_images/img_02_2x_3140abc2-b446-427c-86cc-1047ac7a4d1f.jpg",
+            "caption": "",
+            "heading": "A blend that's unique, just like your hotel.",
+            "text": "<p>The offer for hotels puts forwards different solutions to meet the specific needs of every single location, at every single moment of the day and for every single guest. </p><p>A flawless coffee, every time, to guarantee high standards of service and quality. </p>",
+            "button_label": "",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "column_TnAQ9n",
-        "column_CFRFcF",
-        "column_wdnaqr",
-        "column_aagdJj"
+        "row_D6YJih"
       ],
-      "name": "t:sections.multicolumn.presets.name",
+      "name": "t:sections.multirow.presets.name",
       "settings": {
-        "title": "Our Tailor-Made Solutions For Your Business",
+        "image_height": "medium",
+        "desktop_image_width": "medium",
         "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-3",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "multicolumn_JVR3tP": {
-      "type": "multicolumn",
+    "rich_text_j7YRT9": {
+      "type": "rich-text",
       "blocks": {
-        "column_RMkVw4": {
-          "type": "column",
+        "heading_nigAmP": {
+          "type": "heading",
           "settings": {
-            "image": "shopify://shop_images/img_06_b99c958e-0e59-476a-ab48-3f3dc1ec75d9.jpg",
-            "title": "illy caffè",
-            "text": "<p>Our franchise project: the coffee shop we create together with you, down to the smallest detail.</p>",
-            "link_label": "Find Out More",
-            "link": "shopify://pages/professional-contact"
+            "heading": "Our Finest Coffee, Just For You",
+            "heading_size": "h0",
+            "h1-title": false
           }
         }
       },
       "block_order": [
-        "column_RMkVw4"
+        "heading_nigAmP"
       ],
-      "name": "t:sections.multicolumn.presets.name",
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "title": "Partnership",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 1,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "scheme-3",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multirow_kLG4gh": {
+      "type": "multirow",
+      "blocks": {
+        "row_w997xD": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_03_2x_5a554855-b6fc-42f2-9d87-6855cc6684ca.jpg",
+            "caption": "",
+            "heading": "Sales Contact Person",
+            "text": "<p>Your sales contact person is your first and most important point of reference. They will visit you regularly, not just to take product orders, but also to give you an opportunity to make minor or major adjustments to improve quality. Essentially, your illy contact person is a coffee consultant, ready and willing to share their technical expertise and experience with you in order to help you improve. Our sales network is also organised so that we can act swiftly whenever you need us.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_mhmWQw": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_04_2x_665bb08b-8bbc-4b73-af1f-b8d8a74fc1f5.jpg",
+            "caption": "",
+            "heading": "Quality Promoter",
+            "text": "<p>The Quality Promoter is the figure within our company that exclusively handles quality. Even before the start of our collaboration, they will organise customised training courses on illy coffee and how to prepare it in your store, for all those who will operate the coffee machine. What’s more, they can take action at your request whenever there are specific needs related to the quality of the product.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_w997xD",
+        "row_mhmWQw"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-3",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "multicolumn_EnLRGE": {
-      "type": "multicolumn",
+    "rich_text_HxT86T": {
+      "type": "rich-text",
       "blocks": {
-        "column_zzJbdQ": {
-          "type": "column",
+        "heading_XCQrF6": {
+          "type": "heading",
           "settings": {
-            "image": "shopify://shop_images/img_07.jpg",
-            "title": "Grocery Stores",
-            "text": "<p>Discover illy’s dedicated solutions for you.</p>",
-            "link_label": "Find Out More",
-            "link": "shopify://pages/professional-contact"
-          }
-        },
-        "column_W7P7jY": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/img_08_2x_c32f1ab0-6461-4f70-92e2-1e9dec6fd1e1.jpg",
-            "title": "Specialised & Household Appliance Shops",
-            "text": "<p>Discover our offer for your shop.</p>",
-            "link_label": "Find Out More",
-            "link": "shopify://pages/professional-contact"
+            "heading": "Discover Dedicated Solutions For You",
+            "heading_size": "h0",
+            "h1-title": false
           }
         }
       },
       "block_order": [
-        "column_zzJbdQ",
-        "column_W7P7jY"
+        "heading_XCQrF6"
       ],
-      "name": "t:sections.multicolumn.presets.name",
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "title": "Shops",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 2,
-        "column_alignment": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "scheme-3",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multirow_C7yaej": {
+      "type": "multirow",
+      "blocks": {
+        "row_tCc4ij": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Coffee Beans",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_pyEDmU": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Iperespresso Professional",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_VF8T4A": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "Cold Brew",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_T8heNB": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "illy Crema",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_tCc4ij",
+        "row_pyEDmU",
+        "row_VF8T4A",
+        "row_T8heNB"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-3",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -327,15 +390,123 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "multirow_Gkd7YM": {
+      "type": "multirow",
+      "blocks": {
+        "row_wwUnra": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/img_17_2x_aef5f69d-26cf-4bfa-b722-d985f92fe14a.jpg",
+            "caption": "",
+            "heading": "The right coffee for every occasion",
+            "text": "<p>From breakfast to the mid-morning break, whether in boardrooms or lunch rooms, by the poolside, at the café or in the bedrooms, there are an almost infinite number of opportunities to enjoy a coffee in hotels, and every one has to be just perfect.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_wwUnra"
+      ],
+      "name": "t:sections.multirow.presets.name",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-3",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_XdrMUy": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_TnAQ9n": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_06_2x_29df6c0e-2697-4d49-a8b7-61ff85990ca5.jpg",
+            "title": "Cafes",
+            "text": "<p>Serve coffee that matches the passion and craft behind your café, exceptional quality in every cup, made to elevate every sip and every moment</p>",
+            "link_label": "Find Out More",
+            "link": "shopify://pages/professional-contact"
+          }
+        },
+        "column_CFRFcF": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_07_2x_f40b0b71-5e41-4cf0-909c-77889c244086.jpg",
+            "title": "Bakeries & Ice-Cream Parlours",
+            "text": "<p>Enhance every moment with coffee of exceptional quality—crafted to complement the sweetness and artistry of your pastries and gelato.</p>",
+            "link_label": "Find Out More",
+            "link": "shopify://pages/professional-contact"
+          }
+        },
+        "column_wdnaqr": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_08_5241fb6a-bcd3-45ec-b037-b3f2bc8c1007.jpg",
+            "title": "Restaurants",
+            "text": "<p>Discover the cutting-edge technology and refined craftsmanship that ensure every cup is as exquisite as the dishes you serve.</p>",
+            "link_label": "Find Out More",
+            "link": "shopify://pages/professional-contact"
+          }
+        },
+        "column_aagdJj": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/img_09_cb156f56-b78e-427f-9ee0-8e7bfe467fac.jpg",
+            "title": "Hotels",
+            "text": "<p>Elevate the guest experience with coffee of exceptional quality, crafted to make every cup as refined and memorable as your hospitality.</p>",
+            "link_label": "Find Out More",
+            "link": "shopify://pages/professional-contact"
+          }
+        }
+      },
+      "block_order": [
+        "column_TnAQ9n",
+        "column_CFRFcF",
+        "column_wdnaqr",
+        "column_aagdJj"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "Our Tailor-Made Solutions For Your Business",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "image_banner_BBtz7f",
     "rich_text_bihV3k",
-    "multicolumn_XdrMUy",
-    "multicolumn_JVR3tP",
-    "multicolumn_EnLRGE",
-    "multicolumn_eWtrgx"
+    "key_features_UrEhJY",
+    "multirow_RmkBpY",
+    "rich_text_j7YRT9",
+    "multirow_kLG4gh",
+    "rich_text_HxT86T",
+    "multirow_C7yaej",
+    "multicolumn_eWtrgx",
+    "multirow_Gkd7YM",
+    "multicolumn_XdrMUy"
   ]
 }
