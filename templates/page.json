@@ -17,188 +17,208 @@
         "padding_bottom": 28
       }
     },
-    "collapsible_content_9Lrwrz": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_bamaRh": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_kJ7Kk7": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_iBmydt": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_x949xR": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_kzFtQx": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_bamaRh",
-        "collapsible_row_kJ7Kk7",
-        "collapsible_row_iBmydt",
-        "collapsible_row_x949xR",
-        "collapsible_row_kzFtQx"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "Collapsible content",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "section",
-        "color_scheme": "scheme-3",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "anchor_name": "coffee"
-      }
-    },
-    "collapsible_content_BiNHWz": {
-      "type": "collapsible-content",
-      "blocks": {
-        "collapsible_row_z8DpTb": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_zVEwH4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_j6QcHD": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_Qxic84": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "collapsible_row_z8DpTb",
-        "collapsible_row_zVEwH4",
-        "collapsible_row_j6QcHD",
-        "collapsible_row_Qxic84"
-      ],
-      "settings": {
-        "caption": "",
-        "heading": "Collapsible content",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "section",
-        "color_scheme": "scheme-3",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "anchor_name": "machines"
-      }
-    },
     "rich_text_XF9AWa": {
       "type": "rich-text",
       "blocks": {
         "heading_qd8jG3": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1",
+            "heading": "Instruction and Maintenance Manuals for illy Coffee Machines",
+            "heading_size": "hxl",
             "h1-title": false
-          }
-        },
-        "text_erQwQF": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
-        },
-        "button_dD7CcW": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "heading_qd8jG3",
-        "text_erQwQF",
-        "button_dD7CcW"
+        "heading_qd8jG3"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "image_banner_WpjUXk": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/img_09_2x_a1df0eb2-cefa-468b-acb9-af9921d57971.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_dkiGfp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GUWYkR": {
+          "type": "heading",
+          "settings": {
+            "heading": "iperEspresso Capsule + E.S.E Machine Manuals",
+            "heading_size": "h0",
+            "h1-title": false
+          }
+        },
+        "text_nFV3CH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To verify the model of your machine, check the label which can be found under the base of the machine.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GUWYkR",
+        "text_nFV3CH"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_iWEeee": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_Ji3wEC": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/65dc4755f187dd00093aa7ae_png.webp",
+            "title": "X1 IPERESPRESSO 1935",
+            "text": "<p><a href=\"https://www.illy.com/content/dam/product/machines/home/illy/ipso/x1-anniversary/user-manual/X1%20Anniversary%201935.pdf\" target=\"_blank\" title=\"https://www.illy.com/content/dam/product/machines/home/illy/ipso/x1-anniversary/user-manual/X1%20Anniversary%201935.pdf\">Download Manual</a></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_xNwL3h": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/65dc47553b81380008959c8b_png.webp",
+            "title": "X1 IPERESPRESSO ANNIVERSARY ECO MODE",
+            "text": "<p><a href=\"https://www.illy.com/content/dam/product/machines/home/illy/ipso/x1-anniversary-eco-mode/user-manual/full-version-digital/100256501_00_User%20Manual_integrale_X1Ann.IPSOEcoMode_13_06_22.pdf\" target=\"_blank\" title=\"https://www.illy.com/content/dam/product/machines/home/illy/ipso/x1-anniversary-eco-mode/user-manual/full-version-digital/100256501_00_User%20Manual_integrale_X1Ann.IPSOEcoMode_13_06_22.pdf\">Download Manual</a></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_yNPTcG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/65dc4755eac68d00080ea3bd_png.webp",
+            "title": "X7 IPERESPRESSO",
+            "text": "<p><a href=\"https://www.illy.com/content/dam/product/machines/home/illy/ipso/x7-(old-model)/user-manual/X7-ITA.pdf\" target=\"_blank\" title=\"https://www.illy.com/content/dam/product/machines/home/illy/ipso/x7-(old-model)/user-manual/X7-ITA.pdf\">Download Manual</a></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CWH4FJ": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/65dc4755eac68d00080ea3bd_png.png",
+            "title": "X7.1 IPERESPRESSO up to serial number XXXX17085609",
+            "text": "<p><a href=\"https://www.illy.com/content/dam/product/machines/home/illy/ipso/x7-1/user-manual/old-(old-descaling-procedure)/X7.1%20vecchia%20decalcificazione.pdf\" target=\"_blank\" title=\"https://www.illy.com/content/dam/product/machines/home/illy/ipso/x7-1/user-manual/old-(old-descaling-procedure)/X7.1%20vecchia%20decalcificazione.pdf\">Download Manual</a></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_pHWD9Y": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/65dc4755eac68d00080ea3bd_png_83a93072-9f7c-40c7-a053-cfbe518987bf.png",
+            "title": "X7.1 IPERESPRESSO up to serial number XXXX1708660001",
+            "text": "<p><a href=\"https://www.illy.com/content/dam/product/machines/home/illy/ipso/x7-1/user-manual/last-(new-descaling-procedure)/X7.1%20nuova%20decalcificazione.pdf\" target=\"_blank\" title=\"https://www.illy.com/content/dam/product/machines/home/illy/ipso/x7-1/user-manual/last-(new-descaling-procedure)/X7.1%20nuova%20decalcificazione.pdf\">Download Manual</a></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_cq9qh3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/65dc4755eac68d00080ea3bb_png.png",
+            "title": "Y3.2 IPERESPRESSO",
+            "text": "<p><a href=\"https://www.illy.com/content/dam/product/machines/home/illy/ipso/y-3-2/user-manual/Y3.2.pdf\" target=\"_blank\" title=\"https://www.illy.com/content/dam/product/machines/home/illy/ipso/y-3-2/user-manual/Y3.2.pdf\">Download Manual</a></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dRCt6x": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/65dc47553b81380008959c86_png.png",
+            "title": "Y3.3 IPERESPRESSO",
+            "text": "<p><a href=\"https://www.illy.com/content/dam/product/machines/home/illy/ipso/y3-3/manuals/Y3.3%20versione%20integrale_web.pdf\" target=\"_blank\" title=\"https://www.illy.com/content/dam/product/machines/home/illy/ipso/y3-3/manuals/Y3.3%20versione%20integrale_web.pdf\">Download Manual</a></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JXmqdw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/65dc47553b81380008959c88_png.png",
+            "title": "ILLY ESE / EASY",
+            "text": "<p><a href=\"https://www.illy.com/content/dam/product/machines/home/illy/ese/illy-easy/manual/16233E_EASY%20coffee%20machine%20integrale_STD_web.pdf\" target=\"_blank\" title=\"https://www.illy.com/content/dam/product/machines/home/illy/ese/illy-easy/manual/16233E_EASY%20coffee%20machine%20integrale_STD_web.pdf\">Download Manual</a></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eni4KG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/65dc4755f187dd00093aa7ae_png.png",
+            "title": "X1 E.S.E. & GROUND",
+            "text": "<p><a href=\"https://www.illy.com/content/dam/product/machines/home/illy/ese-%26-ground/x1-anniversary-ese%26ground/illy/manuals/X1AnniversaryESE%26Ground_UserManual_Fullversion.pdf\" target=\"_blank\" title=\"https://www.illy.com/content/dam/product/machines/home/illy/ese-%26-ground/x1-anniversary-ese%26ground/illy/manuals/X1AnniversaryESE%26Ground_UserManual_Fullversion.pdf\">Download Manual</a></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_Ji3wEC",
+        "column_xNwL3h",
+        "column_yNPTcG",
+        "column_CWH4FJ",
+        "column_pHWD9Y",
+        "column_cq9qh3",
+        "column_dRCt6x",
+        "column_JXmqdw",
+        "column_eni4KG"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
     "rich_text_XF9AWa",
-    "collapsible_content_9Lrwrz",
-    "collapsible_content_BiNHWz"
+    "image_banner_WpjUXk",
+    "rich_text_dkiGfp",
+    "multicolumn_iWEeee"
   ]
 }
