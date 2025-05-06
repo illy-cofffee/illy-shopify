@@ -104,7 +104,7 @@
             "title": "",
             "text": "<p>Art Collection</p>",
             "link_label": "",
-            "link": ""
+            "link": "#artcollection"
           }
         },
         "column_XP7BzM": {
@@ -156,21 +156,12 @@
     "collapsible_content_jfW7AY": {
       "type": "collapsible-content",
       "blocks": {
-        "collapsible_row_6yT4hj": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "When can I expect my illycaffee order?",
-            "icon": "none",
-            "row_content": "<p>Your order will be processed within 5 business days and then despatched via Australia Post. Australia Post will send you an email to update you on your delivery schedule. PLEASE NOTE: Due to staff shortages and large number of orders at this time of year, order processing and despatch can take up to two weeks. Delivery via Australia Post will be additional to this time frame and communicated via Australia Post once they receive your parcel.</p>",
-            "page": ""
-          }
-        },
         "collapsible_row_kcHKjf": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Can iperEspresso capsules be recycled?",
             "icon": "none",
-            "row_content": "<p>Yes, <em>illy </em>has partnered with leading industry organisations to provide an innovative solution to recycle iperEspresso coffee capsules. By collecting your used capsules and mailing them in to be recycled, you’ll be diverting waste from landfills. <a href=\"https://fmayerillystage.commerce.vision/recycling\" target=\"_blank\">Learn More.</a></p>",
+            "row_content": "<p>Yes, <em>illy </em>has partnered with leading industry organisations to provide an innovative solution to recycle iperEspresso coffee capsules. By collecting your used capsules and mailing them in to be recycled, you’ll be diverting waste from landfills.</p>",
             "page": ""
           }
         },
@@ -179,7 +170,7 @@
           "settings": {
             "heading": "How long will an unopened can of illy stay fresh?",
             "icon": "none",
-            "row_content": "<p>An unopened can of <em>illy </em>ground coffee will remain fresh for at least two years due to <em>illy's </em>proprietary patented pressurized system that extracts air from the can and replaces it with inert gasses at a higher-than-atmospheric level of pressure. This method guarantees a longer preservation time, maintaining flavour and aroma for over 24 months. At the same time it 'ages' the coffee, improving its aroma over time by causing its volatile aroma compounds to bind with the oils that are contained in the beans. Simple vacuum packing cannot achieve this flavour transformation. The positive pressure exerted by<em>illy's</em>method actually forces these aroma compounds back into the coffee whereas vacuum packing lets them seep out. The effect of<em>illy's</em>aging process is similar in many ways to the development of complex flavours when a fine red wine is aged under proper conditions.</p>",
+            "row_content": "<p>An unopened can of <em>illy </em>ground coffee will remain fresh for at least two years due to <em>illy's </em>proprietary patented pressurized system that extracts air from the can and replaces it with inert gasses at a higher-than-atmospheric level of pressure. This method guarantees a longer preservation time, maintaining flavour and aroma for over 24 months. At the same time it 'ages' the coffee, improving its aroma over time by causing its volatile aroma compounds to bind with the oils that are contained in the beans. Simple vacuum packing cannot achieve this flavour transformation. The positive pressure exerted by <em>illy's </em>method actually forces these aroma compounds back into the coffee whereas vacuum packing lets them seep out. The effect of <em>illy's </em>aging process is similar in many ways to the development of complex flavours when a fine red wine is aged under proper conditions.</p>",
             "page": ""
           }
         },
@@ -215,7 +206,7 @@
           "settings": {
             "heading": "How much illy should I use?",
             "icon": "none",
-            "row_content": "<p>For espresso, use 7 grams of <em>illy </em>per shot (about 1oz). For auto-drip brewed coffee, start with 7 grams of <em>illy </em>per 8 ounce cup. You may need to adjust to taste as the parameters (water turbulence and temperature) of each coffee maker differ somewhat. You can take the guess-work out of espresso by using E.S.E. pre-measured, pre-tamped servings (pods).</p>",
+            "row_content": "<p>For espresso, use 7 grams of <em>illy </em>per shot. For auto-drip brewed coffee, start with 7 grams of <em>illy </em>per 8 ounce cup. You may need to adjust to taste as the parameters (water turbulence and temperature) of each coffee maker differ somewhat. You can take the guess-work out of espresso by using E.S.E. pre-measured, pre-tamped servings (pods).</p>",
             "page": ""
           }
         },
@@ -329,7 +320,6 @@
         }
       },
       "block_order": [
-        "collapsible_row_6yT4hj",
         "collapsible_row_kcHKjf",
         "collapsible_row_i9qFe4",
         "collapsible_row_cgmC7X",
@@ -371,36 +361,45 @@
         "collapsible_row_T4nEzx": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "How can I get service for my espresso machine?",
+            "icon": "none",
+            "row_content": "<p>Please contact out Customer Care Team for assistance and information.</p>",
             "page": ""
           }
         },
         "collapsible_row_QwD3dx": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "How do I decalcify my espresso machine? How often?",
+            "icon": "none",
+            "row_content": "<p>We recommend once a month to clean the machine and the head of the machine and handle (coffee residue tends to build up under the metal screen in the handle). You may need to decalcify more or less often depending on how frequently you use your machine and the mineral composition of the water you are using.  You can view and purchase recommended cleaning products by Cafetto on our website.<br/><br/></p>",
             "page": ""
           }
         },
         "collapsible_row_rHt8Ly": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "My steam wand is no longer working. Who can assist me in getting it fixed?",
+            "icon": "none",
+            "row_content": "<p>The steam wand is very sensitive and any milk residue left after steaming milk can cause a problem if the wand isn't cleaned immediately after each use. To clean a clogged wand, first try running machine cleaner through the machine and steam arm. If that doesn't do the trick, you can try soaking the wand in boiling water with a little cleaning solution dissolved in it. You can also try using a pin to dislodge any solid milk plugs. After soaking the wand, run hot water through it if your machine has a hot water mode, otherwise run steam through it, being careful not to burn yourself.<br/><br/></p>",
             "page": ""
           }
         },
         "collapsible_row_qXQX9d": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
+            "heading": "Can my current espresso machine use illy E.S.E. pods?",
+            "icon": "none",
+            "row_content": "<p>Any espresso machines that is E.S.E. compatible can use illy E.S.E. servings (pods). Many machines have E.S.E. pod handles that can be purchased from the machine manufacturer if the machine did not come with an E.S.E. handle.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_haQ3jy": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where are illy's machines made?",
+            "icon": "none",
+            "row_content": "<p>Some of our home espresso machines, are made in Italy (example: the Francis Francis X1) and others are made in China (examples: Y1 and X7). In both cases, it's our intention to deliver the highest quality machines to our customers. Each machine undergoes rigorous testing to ensure it meets our exacting quality standards to produce the highest quality espresso.<br/><br/></p>",
             "page": ""
           }
         }
@@ -409,7 +408,8 @@
         "collapsible_row_T4nEzx",
         "collapsible_row_QwD3dx",
         "collapsible_row_rHt8Ly",
-        "collapsible_row_qXQX9d"
+        "collapsible_row_qXQX9d",
+        "collapsible_row_haQ3jy"
       ],
       "settings": {
         "caption": "",
@@ -426,6 +426,69 @@
         "padding_bottom": 36,
         "anchor_name": "machines"
       }
+    },
+    "collapsible_content_JqqkDR": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_gEJEPm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I purchase past illy Collections?",
+            "icon": "none",
+            "row_content": "<p>illy art collections are produced as signed and numbered limited editions. Once a collection is sold out, it is no longer available for sale. illy Collections are widely collected throughout the world and many collectors are willing to sell or trade past collections.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_PqMCtp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I get a replacement cup for one that has broken?",
+            "icon": "none",
+            "row_content": "<p>illy Art Collections are sold as complete signed and numbered sets, therefore it is not possible to replace a single cup.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4HhhiY": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "I saw an illy cup at a restaurant. How can I purchase this collection?",
+            "icon": "none",
+            "row_content": "<p>All Collections currently available for sale are posted in the Artist Cups section of the illy e-store. You may have seen a cup from an older collection in the restaurant, or one that was released to restaurants only.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_M9Pyie": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where can I see all the illy cup collections, past and present?",
+            "icon": "none",
+            "row_content": "<p>Visit this link.<a href=\"/pages/illy-art-collection\" target=\"_blank\" title=\"illy Art Collection\">illy Art Collection</a></p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_gEJEPm",
+        "collapsible_row_PqMCtp",
+        "collapsible_row_4HhhiY",
+        "collapsible_row_M9Pyie"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Art Collections",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "section",
+        "color_scheme": "scheme-3",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "anchor_name": ""
+      }
     }
   },
   "order": [
@@ -434,6 +497,7 @@
     "rich_text_FXX8Ep",
     "multicolumn_be7bQd",
     "collapsible_content_jfW7AY",
-    "collapsible_content_6hwMXM"
+    "collapsible_content_6hwMXM",
+    "collapsible_content_JqqkDR"
   ]
 }
