@@ -97,8 +97,9 @@
         "column_QBDRbz": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/65dc4755f187dd00093aa7ae_png_0087b60d-d894-4384-95c0-a3778e4f45a4.webp",
+            "title": "X1 IPERESPRESSO 1935",
+            "text": "<p><a href=\"https://www.illy.com/content/dam/product/machines/home/illy/ipso/x1-anniversary/user-manual/X1%20Anniversary%201935.pdf\" target=\"_blank\" title=\"https://www.illy.com/content/dam/product/machines/home/illy/ipso/x1-anniversary/user-manual/X1%20Anniversary%201935.pdf\">Download Manual</a></p>",
             "link_label": "",
             "link": ""
           }
@@ -106,8 +107,9 @@
         "column_iUefd6": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/65dc47553b81380008959c8b_png_bc52973f-3c91-4bdb-af8a-1aaa2f2f5d50.webp",
+            "title": "X1 IPERESPRESSO ANNIVERSARY ECO  MODE",
+            "text": "<p>Download Manual</p>",
             "link_label": "",
             "link": ""
           }
@@ -115,8 +117,39 @@
         "column_rjzQem": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "image": "shopify://shop_images/65dc4755eac68d00080ea3bd_png_9f3b2d47-3145-4510-b738-35056591a68f.webp",
+            "title": "X7 IPERESPRESSO",
+            "text": "<p>Download Manual</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_wanEJt": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/65dc47553b81380008959c86_png.webp",
+            "title": "Y3.3 IPERESPRESSO",
+            "text": "<p>Download Manual</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_hGy7LW": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/65dc47553b81380008959c88_png.webp",
+            "title": "ILLY ESE / EASY",
+            "text": "<p>Download Manual</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_gMecVD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/65dc4755f187dd00093aa7ae_png_843005fe-dcf1-4818-808e-73bd5d92ba99.webp",
+            "title": "X1 E.S.E. & GROUND",
+            "text": "<p>Download Manual</p>",
             "link_label": "",
             "link": ""
           }
@@ -125,7 +158,10 @@
       "block_order": [
         "column_QBDRbz",
         "column_iUefd6",
-        "column_rjzQem"
+        "column_rjzQem",
+        "column_wanEJt",
+        "column_hGy7LW",
+        "column_gMecVD"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -134,8 +170,8 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
+        "column_alignment": "center",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
         "color_scheme": "",
