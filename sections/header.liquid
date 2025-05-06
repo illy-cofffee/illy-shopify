@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="{{ 'component-list-menu.css' | asset_url }}" media="print" onload="this.media='all'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.shopify.com https://cdn.shopifycdn.net; style-src 'self' 'unsafe-inline' https://cdn.shopify.com https://cdn.shopifycdn.net; img-src 'self' data: https: blob:; font-src 'self' data: https:; connect-src 'self' https://cdn.shopify.com https://cdn.shopifycdn.net; frame-src 'self' https://cdn.shopify.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests;">
 <link rel="stylesheet" href="{{ 'component-search.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-menu-drawer.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-cart-notification.css' | asset_url }}" media="print" onload="this.media='all'">
@@ -99,7 +100,7 @@
                   sizes: sizes,
                   preload: true
                 }}
-                <img src="//illy-au.myshopify.com/cdn/shop/files/b-corp-logo.svg?v=1741666268&amp" alt="" loading="lazy" height="50" width="29.74" class="b-corp-logo">
+                <img src="/cdn/shop/files/b-corp-logo.svg?v=1741666268&amp" alt="" loading="lazy" height="50" width="29.74" class="b-corp-logo">
               </div>
               
             {%- else -%}
