@@ -489,6 +489,59 @@
         "padding_bottom": 36,
         "anchor_name": ""
       }
+    },
+    "collapsible_content_t6tDkF": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_eBFa9p": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I contact an illy Customer Care Specialist?",
+            "icon": "none",
+            "row_content": "<p>To contact illy regarding the status of an order, or with questions about our merchandise, please send an email to info@illy.com.au or +02 9699 2211 Monday through Friday between the hours of 9:00 a.m. and 5:00 p.m. A.E.S.T. Please have your order number handy to help us serve you better.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_mGMnV9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is illy's return policy?",
+            "icon": "none",
+            "row_content": "<p>Click Here: <a href=\"/policies/refund-policy\" title=\"Refund Policy\">Return Policy</a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_YmgCnp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What are my shipping options?",
+            "icon": "none",
+            "row_content": "<p>Click Here: Shipping</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_eBFa9p",
+        "collapsible_row_mGMnV9",
+        "collapsible_row_YmgCnp"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Support",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "layout": "section",
+        "color_scheme": "scheme-3",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "anchor_name": ""
+      }
     }
   },
   "order": [
@@ -498,6 +551,7 @@
     "multicolumn_be7bQd",
     "collapsible_content_jfW7AY",
     "collapsible_content_6hwMXM",
-    "collapsible_content_JqqkDR"
+    "collapsible_content_JqqkDR",
+    "collapsible_content_t6tDkF"
   ]
 }
