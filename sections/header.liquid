@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="{{ 'component-list-menu.css' | asset_url }}" media="print" onload="this.media='all'">
 {% assign nonce = 'nonce-' | append: section.id | append: '-' | append: 'shopify' %}
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'nonce-{{ nonce }}' 'strict-dynamic' 'unsafe-eval'; style-src 'self' 'unsafe-inline' https://cdn.shopify.com https://cdn.shopifycdn.net; img-src 'self' data: https: blob:; font-src 'self' data: https:; connect-src 'self' https://cdn.shopify.com https://cdn.shopifycdn.net; frame-src 'self' https://cdn.shopify.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests;">
+{% assign style_nonce = 'nonce-' | append: section.id | append: '-' | append: 'shopify-style' %}
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'nonce-{{ nonce }}' 'strict-dynamic' 'unsafe-eval'; style-src 'nonce-{{ style_nonce }}' 'self' https://cdn.shopify.com https://cdn.shopifycdn.net; img-src 'self' data: https: blob:; font-src 'self' data: https:; connect-src 'self' https://cdn.shopify.com https://cdn.shopifycdn.net; frame-src 'self' https://cdn.shopify.com; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests;">
 <link rel="stylesheet" href="{{ 'component-search.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-menu-drawer.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-cart-notification.css' | asset_url }}" media="print" onload="this.media='all'">
@@ -14,8 +15,7 @@
 {%- endif -%}
 
 
-{%- style -%}
-
+<style nonce="{{ style_nonce }}">
 {%- if section.settings.sticky_header_type == 'reduce-logo-size' -%}
   .scrolled-past-header .header__heading-logo-wrapper {
     width: 75%;
@@ -44,8 +44,7 @@
     margin-bottom: {{ section.settings.margin_bottom }}px;
   }
 }
-
-{%- endstyle -%}
+</style>
 
 <script src="{{ 'cart-notification.js' | asset_url }}" defer="defer" nonce="{{ nonce }}"></script>
 
