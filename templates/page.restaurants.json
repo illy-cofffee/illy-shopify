@@ -178,7 +178,7 @@
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "Contact us",
-        "button_link": "",
+        "button_link": "shopify://pages/professional-contact",
         "color_scheme": "scheme-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
