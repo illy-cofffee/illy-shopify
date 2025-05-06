@@ -16,9 +16,86 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_ymFWJr": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iwbkqw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Instruction and Maintenance Manuals for illy Coffee Machines",
+            "heading_size": "hxl",
+            "h1-title": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_iwbkqw"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_banner_8x7cTw": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/img_09_2x_6eba7317-1f5b-4c1f-8665-7ddb9c5f0411.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_FUejC4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pGpFwk": {
+          "type": "heading",
+          "settings": {
+            "heading": "iperEspresso Capsule Machine Manuals",
+            "heading_size": "h0",
+            "h1-title": false
+          }
+        },
+        "text_fjDH9a": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To verify the model of your machine, check the label which can be found under the base of the machine.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pGpFwk",
+        "text_fjDH9a"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_ymFWJr",
+    "image_banner_8x7cTw",
+    "rich_text_FUejC4"
   ]
 }
