@@ -222,14 +222,14 @@
       "type": "key-features",
       "settings": {
         "color_scheme": "",
-        "feature_1_title": "Ethically sourced",
-        "feature_1_description": "Torem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "feature_1_title": "Quality Loves Details",
+        "feature_1_description": "We Select Only The 1% of Beans with Zero Defects",
         "feature_1_image": "shopify://shop_images/icon-ethical.svg",
-        "feature_2_title": "Free shipping over $50",
-        "feature_2_description": "Torem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "feature_2_title": "Free Shipping",
+        "feature_2_description": "Orders Over $100",
         "feature_2_image": "shopify://shop_images/icon-free-shipping.svg",
-        "feature_3_title": "Subscribe & save",
-        "feature_3_description": "Torem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "feature_3_title": "Subscribe & Save",
+        "feature_3_description": "Never Run Out of Coffee Again!",
         "feature_3_image": "shopify://shop_images/icon-subscribe-save.svg"
       }
     }
