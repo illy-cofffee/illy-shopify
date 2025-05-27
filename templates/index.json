@@ -28,12 +28,12 @@
             "color_text_main": "#ffffff"
           }
         },
-        "glide_slider_item_DCcEpR": {
+        "glide_slider_item_Djcd8t": {
           "type": "glide-slider-item",
           "settings": {
-            "glide-slider-item-header": "<p>Enter header...</p>",
-            "image": "shopify://shop_images/hero-banner_1440_740.png",
-            "description": "",
+            "glide-slider-item-header": "<p>Your Machine, Our Mastery</p>",
+            "image": "shopify://shop_images/glider-banner-example.png",
+            "description": "<p>Classico, Intenso, Forte, Decaffeinato & Lungo.</p><p>Choose the taste of your favorite coffee in compatible capsules.</p>",
             "alignment": "align-top-left",
             "button_link": "",
             "button_label": "Show more",
@@ -60,7 +60,7 @@
       },
       "block_order": [
         "glide_slider_item_4Pd9mz",
-        "glide_slider_item_DCcEpR",
+        "glide_slider_item_Djcd8t",
         "glide_slider_item_F7KqXf"
       ],
       "settings": {
