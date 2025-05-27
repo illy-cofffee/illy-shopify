@@ -32,6 +32,7 @@
           "type": "glide-slider-item",
           "settings": {
             "glide-slider-item-header": "<p>Enter header...</p>",
+            "image": "shopify://shop_images/hero-banner_1440_740.png",
             "description": "",
             "alignment": "align-top-left",
             "button_link": "",
