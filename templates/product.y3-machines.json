@@ -39,10 +39,6 @@
             "swatch_shape": "square"
           }
         },
-        "appstle_subscription_appstle_subscription_product_page_widget_gj4z3V": {
-          "type": "shopify://apps/appstle-subscription/blocks/appstle-subscription-product-page-widget/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
-          "settings": {}
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -53,6 +49,10 @@
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
+        },
+        "essential_upsell_app_block_rNTJtY": {
+          "type": "shopify://apps/essential-upsell/blocks/app-block/50627fd9-24fd-4250-8614-accc12826d80",
+          "settings": {}
         },
         "collapsible_tab_darjU9": {
           "type": "collapsible_tab",
@@ -173,9 +173,9 @@
         "price",
         "description",
         "variant_picker",
-        "appstle_subscription_appstle_subscription_product_page_widget_gj4z3V",
         "quantity_selector",
         "buy_buttons",
+        "essential_upsell_app_block_rNTJtY",
         "collapsible_tab_darjU9",
         "collapsible_tab_cD6xJA",
         "collapsible_tab_p3cDfi",
@@ -304,7 +304,8 @@
           "type": "heading",
           "settings": {
             "heading": "Quality meets sustainability",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "h1-title": false
           }
         },
         "text_RBJ9my": {
