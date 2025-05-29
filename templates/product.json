@@ -50,6 +50,10 @@
             "show_gift_card_recipient": true
           }
         },
+        "recharge_subscriptions_subscription_widget_v2_ygC7qb": {
+          "type": "shopify://apps/recharge-subscriptions/blocks/subscription-widget-v2/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {}
+        },
         "collapsible_tab_darjU9": {
           "type": "collapsible_tab",
           "settings": {
@@ -171,6 +175,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "recharge_subscriptions_subscription_widget_v2_ygC7qb",
         "collapsible_tab_darjU9",
         "collapsible_tab_cD6xJA",
         "collapsible_tab_p3cDfi",
