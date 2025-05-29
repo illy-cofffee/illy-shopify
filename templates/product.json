@@ -60,20 +60,6 @@
             "product": "{{product}}"
           }
         },
-        "subscriptions_app_block_XKrABF": {
-          "type": "shopify://apps/subscriptions/blocks/app-block/a3bfe9ec-96f8-4508-a003-df608a36d2ad",
-          "settings": {
-            "color_text_title": "#6D7175",
-            "color_text_body": "#6D7175",
-            "dividers_color": "#8F8D8D",
-            "bacgkround_color": "#FFFFFF",
-            "border_thickness": 1,
-            "border_radius": 0,
-            "supporting_text_title": "Purchase options",
-            "subscription_policy_url": "",
-            "product": "{{product}}"
-          }
-        },
         "collapsible_tab_darjU9": {
           "type": "collapsible_tab",
           "settings": {
@@ -197,7 +183,6 @@
         "buy_buttons",
         "recharge_subscriptions_subscription_widget_v2_ygC7qb",
         "seal_subscriptions_subscription_widget_yK8Axi",
-        "subscriptions_app_block_XKrABF",
         "collapsible_tab_darjU9",
         "collapsible_tab_cD6xJA",
         "collapsible_tab_p3cDfi",
