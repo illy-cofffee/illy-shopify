@@ -178,7 +178,7 @@
         "heading_8tikR6": {
           "type": "heading",
           "settings": {
-            "heading": "Find A Venue",
+            "heading": "Find <em>illy </em>Near You",
             "heading_size": "h1"
           }
         },
@@ -211,8 +211,8 @@
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-3",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-1",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
