@@ -40,6 +40,7 @@
         "heading_NDNHiH",
         "text_f3Bgxq"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image_overlay_opacity": 0,
