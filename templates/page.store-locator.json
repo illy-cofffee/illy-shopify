@@ -264,6 +264,7 @@
         "text_HinyxA",
         "buttons_XW9Ldm"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image_overlay_opacity": 0,
