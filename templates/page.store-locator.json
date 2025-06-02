@@ -219,7 +219,7 @@
     "custom_liquid_zhL9pc": {
       "type": "custom-liquid",
       "custom_css": [
-        "@media screen and (min-width: 750px) {#MainContent stockist-store-locator:empty, stockist-store-locator:empty {padding: 50px; }}"
+        "@media screen and (min-width: 750px) {#MainContent stockist-store-locator:empty, stockist-store-locator:empty {padding: 0 50px 50px 50px; }}"
       ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
