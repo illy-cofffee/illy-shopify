@@ -163,7 +163,7 @@
         "blog": "news",
         "post_limit": 4,
         "columns_desktop": 4,
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-1",
         "show_image": true,
         "show_date": false,
         "show_author": false,
@@ -172,24 +172,71 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_Yim3Xm": {
+    "image_with_text_w77A7P": {
       "type": "image-with-text",
       "blocks": {
-        "heading_dFPQVL": {
+        "heading_8tikR6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Find A Venue",
+            "heading_size": "h1"
+          }
+        },
+        "text_xtQwfA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover cafés, restaurants, and venues serving illy coffee. Whether you're after a quick espresso or a leisurely cappuccino, your perfect illy moment is just around the corner.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_d8gJ8R": {
+          "type": "button",
+          "settings": {
+            "button_label": "Find A Venue",
+            "button_link": "shopify://pages/store-locator",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_8tikR6",
+        "text_xtQwfA",
+        "button_d8gJ8R"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/KHT_GastroContent_27.05.2021-10.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_EfWLDM": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ChbznB": {
           "type": "heading",
           "settings": {
             "heading": "illy Coffee Subscriptions",
             "heading_size": "h1"
           }
         },
-        "text_CCLtC8": {
+        "text_QhbkRK": {
           "type": "text",
           "settings": {
             "text": "<p>Never run out of your favorite coffee again—subscribe to <strong>illy coffee</strong> and enjoy fresh beans, capsules, pods or ground coffee delivered straight to your door, right when you need it.</p>",
             "text_style": "body"
           }
         },
-        "button_MNaQUN": {
+        "button_VzfmMR": {
           "type": "button",
           "settings": {
             "button_label": "Subscribe Now",
@@ -199,9 +246,9 @@
         }
       },
       "block_order": [
-        "heading_dFPQVL",
-        "text_CCLtC8",
-        "button_MNaQUN"
+        "heading_ChbznB",
+        "text_QhbkRK",
+        "button_VzfmMR"
       ],
       "settings": {
         "image": "shopify://shop_images/HOME_PROMO_MOBILE_x2_672d5d39-daf9-4fe0-95bb-f2f8318d6391.jpg",
@@ -209,7 +256,7 @@
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
+        "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
         "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-1",
@@ -242,7 +289,8 @@
     "featured_collection_xQQRtg",
     "mosaic_tiles_cgAxKH",
     "featured_blog_tdgBzm",
-    "image_with_text_Yim3Xm",
+    "image_with_text_w77A7P",
+    "image_with_text_EfWLDM",
     "key_features_JecgFt"
   ]
 }
