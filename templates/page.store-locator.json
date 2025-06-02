@@ -23,16 +23,15 @@
         "heading_qd8jG3": {
           "type": "heading",
           "settings": {
-            "heading": "Instruction and Maintenance Manuals for illy Coffee Machines",
-            "heading_size": "hxl",
-            "h1-title": false
+            "heading": "Find a location to enjoy illy",
+            "heading_size": "h0",
+            "h1-title": true
           }
         }
       },
       "block_order": [
         "heading_qd8jG3"
       ],
-      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -220,7 +219,7 @@
     "custom_liquid_zhL9pc": {
       "type": "custom-liquid",
       "custom_css": [
-        "@media screen and (min-width:750px) {#MainContent stockist-store-locator:empty,stockist-store-locator:empty {margin: 50px;}}"
+        "@media screen and (min-width: 750px) {#MainContent stockist-store-locator:empty, stockist-store-locator:empty {padding: 50px; }}"
       ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
@@ -228,6 +227,55 @@
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 0
+      }
+    },
+    "image_banner_KLnqh9": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_RfjEYC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1",
+            "h1-title": false
+          }
+        },
+        "text_HinyxA": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_XW9Ldm": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_RfjEYC",
+        "text_HinyxA",
+        "buttons_XW9Ldm"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
@@ -237,6 +285,7 @@
     "image_banner_WpjUXk",
     "rich_text_dkiGfp",
     "multicolumn_iWEeee",
-    "custom_liquid_zhL9pc"
+    "custom_liquid_zhL9pc",
+    "image_banner_KLnqh9"
   ]
 }
