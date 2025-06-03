@@ -20,7 +20,7 @@
             "mobile_image": "shopify://shop_images/glider-banner-mob-example.jpg",
             "description": "<p>Discover Arabica Selection Brasile Cerrado Mineiro, Our First 100% Certified Coffee From Regenerative Agriculture.</p>",
             "alignment": "align-middle-left",
-            "button_link": "#",
+            "button_link": "shopify://products/brazil-arabica-coffee-beans-250g",
             "button_label": "Learn More",
             "button_style": "solid",
             "disclaimer_text": "",
