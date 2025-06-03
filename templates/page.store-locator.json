@@ -1,0 +1,159 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_fwJEDP": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_NDNHiH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Find illy Near You",
+            "heading_size": "h1",
+            "h1-title": false
+          }
+        },
+        "text_f3Bgxq": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Discover the closest cafés, restaurants, and venues serving illy coffee. </strong>Whether you're after a quick espresso on the go or a relaxed cappuccino with friends, your perfect illy moment is just around the corner. Use our venue finder to explore locations offering the signature illy experience—crafted with care, served with style.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NDNHiH",
+        "text_f3Bgxq"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_QBz3eT": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Dcqzk3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Find illy Near You",
+            "heading_size": "h1",
+            "h1-title": false
+          }
+        },
+        "text_6zJcRj": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Discover the closest cafés, restaurants, and venues serving illy coffee.</strong><br/><br/>Whether you're after a quick espresso on the go or a relaxed cappuccino, your perfect illy moment is just around the corner. Use our venue finder to explore locations offering a premium illy experience.<br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Dcqzk3",
+        "text_6zJcRj"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "custom_liquid_zhL9pc": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<!-- Start Stockist.co widget -->\n<div class=\"page-width\"><stockist-store-locator data-stockist-widget-tag=\"map_r3mjzxvq\">\n  Loading store locator from <a href=\"https://stockist.co\">Stockist store locator</a>...\n</stockist-store-locator>\n<script async src=\"https://stockist.co/embed/v1/widget.min.js\"></script>\n</div>\n<!-- End Stockist.co widget -->",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "image_banner_KLnqh9": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_RfjEYC": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1",
+            "h1-title": false
+          }
+        },
+        "text_HinyxA": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_XW9Ldm": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_RfjEYC",
+        "text_HinyxA",
+        "buttons_XW9Ldm"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_fwJEDP",
+    "rich_text_QBz3eT",
+    "custom_liquid_zhL9pc",
+    "image_banner_KLnqh9"
+  ]
+}
