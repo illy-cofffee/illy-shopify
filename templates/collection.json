@@ -272,6 +272,7 @@
     },
     "key_features_RLzNdA": {
       "type": "key-features",
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "feature_1_title": "Ethically sourced",
