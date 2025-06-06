@@ -350,8 +350,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/65a6657d9d605c0008aa872e_jpg.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Andrea Berton",
+            "text": "<p>Ristorante BERTON, Milan</p><p>1 Michelin star</p>",
             "link_label": "",
             "link": ""
           }
@@ -360,8 +360,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/659ebe1df148b40007d66b55_jpg.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Rupert Blease",
+            "text": "<p>Restaurant LORD STANLEY, San Francisco</p><p>1 Michelin star</p>",
             "link_label": "",
             "link": ""
           }
@@ -370,8 +370,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/659ebe19acd48a00083d9145_jpg.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Eugenio Boer",
+            "text": "<p>Restaurant BU:R, Milan</p>",
             "link_label": "",
             "link": ""
           }
@@ -380,8 +380,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/659ebe1b177218000811b008_jpg.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Massimo Bottura",
+            "text": "<p>Restaurant OSTERIA FRANCESCANA, Modena</p><p>3 Michelin stars and Green star</p>",
             "link_label": "",
             "link": ""
           }
@@ -390,8 +390,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/659ebdd1177218000811affa_jpg.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Ricard Camarena",
+            "text": "<p>RICARD CAMARENA restaurant, Bomba Gens</p><p>Centre d’Art, Valencia</p><p>2 Michelin star and 1 Green star</p>",
             "link_label": "",
             "link": ""
           }
@@ -400,8 +400,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/659eadd1acd48a00083d90b6_jpg.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Riccardo Gaspari",
+            "text": "<p>Restaurant SANBRITE, Cortina</p><p>1 Michelin star and Green star</p>",
             "link_label": "",
             "link": ""
           }
@@ -410,8 +410,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/659ebe1eacd48a00083d9151_jpg.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Viki Geunes",
+            "text": "<p>Restaurant ZILTE, Antwerp</p><p>3 Michelin stars</p>",
             "link_label": "",
             "link": ""
           }
@@ -420,8 +420,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/659ebe19177218000811b002_jpg.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Daniele Lippi",
+            "text": "<p>Restaurant ACQUOLINA at Hotel The First, Rome</p><p>2 Michelin stars</p>",
             "link_label": "",
             "link": ""
           }
@@ -430,8 +430,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/659ebe18f148b40007d66b44_jpg.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Caterina Ceraudo",
+            "text": "<p>Restaurant DATTILO, Strongoli</p><p>1 Michelin star and Green star</p>",
             "link_label": "",
             "link": ""
           }
@@ -440,8 +440,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/659ebe1bf148b40007d66b4f_jpg.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Matteo Metullio & Davide De Pra",
+            "text": "<p>Restaurant HARRY'S PICCOLO, Trieste</p><p>2 Michelin stars</p>",
             "link_label": "",
             "link": ""
           }
@@ -450,8 +450,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/659ebe1c177218000811b009_jpg.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Chantelle Nicholson",
+            "text": "<p>APRICITY Restaurant, London</p><p>1 Michelin Green Star</p>",
             "link_label": "",
             "link": ""
           }
@@ -460,8 +460,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/659ebe1a177218000811b006_jpg.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Felipe Rodrigues",
+            "text": "<p>Rosewood Complex, São Paulo</p><p>1 Michelin star</p>",
             "link_label": "",
             "link": ""
           }
@@ -509,7 +509,7 @@
         "column_Uh9VfR": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/65a7b02567f0bb0008b3c3f7_jpg.jpg",
+            "image": "shopify://shop_images/65a7b02567f0bb0008b3c3f7_jpg_9f670b8c-08e7-46df-aa2c-e10d0a26e1af.jpg",
             "title": "Ciccio Sultano",
             "text": "<p>Restaurant DUOMO, Ragusa Ibla</p><p>2 Michelin stars</p>",
             "link_label": "",
@@ -529,7 +529,7 @@
         "column_fkfMTf": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/65a79f1167f0bb0008b3c3c2_jpg.jpg",
+            "image": "shopify://shop_images/65a79f1167f0bb0008b3c3c2_jpg_2a88aff1-0f58-4f12-9d4a-e06412dc259e.jpg",
             "title": "Roberto Tonola",
             "text": "<p>Restaurant LANTERNA VERDE, Chiavenna</p><p>1 Michelin star and Green star</p>",
             "link_label": "",
