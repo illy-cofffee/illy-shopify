@@ -330,8 +330,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/659ebe17177218000811affc_jpg.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Andrea Aprea",
+            "text": "<p>Restaurant ANDREA APREA, Milan</p><p>2 Michelin stars</p>",
             "link_label": "",
             "link": ""
           }
@@ -340,8 +340,8 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/659ebe1aacd48a00083d9146_jpg.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "title": "Francesco Apreda",
+            "text": "<p>Restaurant IDYLIO BY APREDA at The Pantheon Iconic</p><p>Rome Hotel, Rome</p><p>1 Michelin star</p>",
             "link_label": "",
             "link": ""
           }
