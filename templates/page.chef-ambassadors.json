@@ -44,16 +44,48 @@
     },
     "image_banner_WpjUXk": {
       "type": "image-banner",
-      "disabled": true,
+      "blocks": {
+        "heading_GwLUPH": {
+          "type": "heading",
+          "settings": {
+            "heading": "Daniele Lippi is the new illy Chef Ambassador",
+            "heading_size": "h0",
+            "h1-title": false
+          }
+        },
+        "text_wjDmEW": {
+          "type": "text",
+          "settings": {
+            "text": " Innovation, quality, sustainability: when excellences come together.",
+            "text_style": "body"
+          }
+        },
+        "buttons_tpbTQF": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Find Out More",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_GwLUPH",
+        "text_wjDmEW",
+        "buttons_tpbTQF"
+      ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/img_09_2x_a1df0eb2-cefa-468b-acb9-af9921d57971.jpg",
+        "image": "shopify://shop_images/6601324dfda68500093f97fa_jpg.jpg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
