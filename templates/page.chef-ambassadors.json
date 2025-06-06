@@ -256,14 +256,14 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>THE SPECIAL PROJECT</strong>",
-            "heading_size": "h1",
+            "heading_size": "h0",
             "h1-title": false
           }
         },
         "text_JmUFKC": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>illy Chef Ambassador</strong> is the unique and distinctive project with which <strong>illy</strong> collaborates with the <strong>best in class chefs</strong> who also have a<strong> love of high quality coffee</strong>.</p><p> </p><p>The illy company - whose aim since 1933 has been ‘to offer the<strong> best coffee in the world</strong>’ in a <strong>single blend</strong>, composed of <strong>9 of the best qualities of pure Arabica from 9 different origins</strong> - has created a series of <strong>personal blends, each one different and created with each Chef</strong>, together with a shortlist of starred and sustainable chefs, the Ambassadors.</p><p> </p><p>Thanks to the invention of the <strong>Personal Blender</strong> - a <strong>machine patented by illy</strong>, the prototype of which was presented at the Coffee Pavilion at <strong>Expo Milano 2015</strong> - and with the consultancy of the University of Coffee, each Chef was able to combine the 9 ingredients of the illy blend in different quantities and proportions, each <strong>creating a unique, highly personal coffee</strong> in line with the values of absolute quality and sustainability that are the hallmarks of our brand.</p>"
+            "text": "<p><strong>illy Chef Ambassador</strong> is the unique and distinctive project with which <strong>illy</strong> collaborates with the <strong>best in class chefs</strong> who also have a<strong> love of high quality coffee</strong>.</p><p></p><p>The illy company - whose aim since 1933 has been ‘to offer the<strong> best coffee in the world</strong>’ in a <strong>single blend</strong>, composed of <strong>9 of the best qualities of pure Arabica from 9 different origins</strong> - has created a series of <strong>personal blends, each one different and created with each Chef</strong>, together with a shortlist of starred and sustainable chefs, the Ambassadors.</p><p></p><p>Thanks to the invention of the <strong>Personal Blender</strong> - a <strong>machine patented by illy</strong>, the prototype of which was presented at the Coffee Pavilion at <strong>Expo Milano 2015</strong> - and with the consultancy of the University of Coffee, each Chef was able to combine the 9 ingredients of the illy blend in different quantities and proportions, each <strong>creating a unique, highly personal coffee</strong> in line with the values of absolute quality and sustainability that are the hallmarks of our brand.</p>"
           }
         }
       },
@@ -278,7 +278,7 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 0
       }
     },
     "rich_text_J4D3TH": {
@@ -287,7 +287,7 @@
         "text_nMgNF4": {
           "type": "text",
           "settings": {
-            "text": "<p>The bespoke <strong>blend</strong> created by the Chef was also produced <strong>to enhance the style of cuisine produced by each Chef</strong> on the basis of sensory, taste and aroma preferences: coffees to offer the customers of each restaurant for a unique and unrepeatable <strong>experience.</strong></p><p> </p><p><strong>Every top class Chef </strong>has a <strong>top class menu</strong>: from today, thanks to illy, also a great coffee, different for each great cuisine and characterized by <strong>very personal and different notes</strong>.<br/>From 2020, the <strong>Chef Ambassador project</strong> includes <strong>two categories</strong> of Chefs: the <strong>Sustainable Chefs</strong>, to whom the Michelin Guide assigns the <strong>Green Star</strong>, and the<strong> illy Masters of Excellence</strong>, the <strong>great starred Chefs</strong>.</p>"
+            "text": "<p>The bespoke <strong>blend</strong> created by the Chef was also produced <strong>to enhance the style of cuisine produced by each Chef</strong> on the basis of sensory, taste and aroma preferences: coffees to offer the customers of each restaurant for a unique and unrepeatable <strong>experience.</strong></p><p></p><p><strong>Every top class Chef </strong>has a <strong>top class menu</strong>: from today, thanks to illy, also a great coffee, different for each great cuisine and characterized by <strong>very personal and different notes</strong>.<br/>From 2020, the <strong>Chef Ambassador project</strong> includes <strong>two categories</strong> of Chefs: the <strong>Sustainable Chefs</strong>, to whom the Michelin Guide assigns the <strong>Green Star</strong>, and the<strong> illy Masters of Excellence</strong>, the <strong>great starred Chefs</strong>.</p>"
           }
         },
         "heading_YDUwBP": {
