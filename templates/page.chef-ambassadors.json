@@ -248,6 +248,336 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_i4rtXi": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_76xxdU": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>THE SPECIAL PROJECT</strong>",
+            "heading_size": "h1",
+            "h1-title": false
+          }
+        },
+        "text_JmUFKC": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>illy Chef Ambassador</strong> is the unique and distinctive project with which <strong>illy</strong> collaborates with the <strong>best in class chefs</strong> who also have a<strong> love of high quality coffee</strong>.</p><p> </p><p>The illy company - whose aim since 1933 has been ‘to offer the<strong> best coffee in the world</strong>’ in a <strong>single blend</strong>, composed of <strong>9 of the best qualities of pure Arabica from 9 different origins</strong> - has created a series of <strong>personal blends, each one different and created with each Chef</strong>, together with a shortlist of starred and sustainable chefs, the Ambassadors.</p><p> </p><p>Thanks to the invention of the <strong>Personal Blender</strong> - a <strong>machine patented by illy</strong>, the prototype of which was presented at the Coffee Pavilion at <strong>Expo Milano 2015</strong> - and with the consultancy of the University of Coffee, each Chef was able to combine the 9 ingredients of the illy blend in different quantities and proportions, each <strong>creating a unique, highly personal coffee</strong> in line with the values of absolute quality and sustainability that are the hallmarks of our brand.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_76xxdU",
+        "text_JmUFKC"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_J4D3TH": {
+      "type": "rich-text",
+      "blocks": {
+        "text_nMgNF4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The bespoke <strong>blend</strong> created by the Chef was also produced <strong>to enhance the style of cuisine produced by each Chef</strong> on the basis of sensory, taste and aroma preferences: coffees to offer the customers of each restaurant for a unique and unrepeatable <strong>experience.</strong></p><p> </p><p><strong>Every top class Chef </strong>has a <strong>top class menu</strong>: from today, thanks to illy, also a great coffee, different for each great cuisine and characterized by <strong>very personal and different notes</strong>.<br/>From 2020, the <strong>Chef Ambassador project</strong> includes <strong>two categories</strong> of Chefs: the <strong>Sustainable Chefs</strong>, to whom the Michelin Guide assigns the <strong>Green Star</strong>, and the<strong> illy Masters of Excellence</strong>, the <strong>great starred Chefs</strong>.</p>"
+          }
+        },
+        "heading_YDUwBP": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong> FIND OUT MORE ABOUT THE CHEFS</strong>",
+            "heading_size": "h1",
+            "h1-title": false
+          }
+        }
+      },
+      "block_order": [
+        "text_nMgNF4",
+        "heading_YDUwBP"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_AeVcEw": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_68wtA6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/65c9fb49ba873400082b3376_jpeg.jpg",
+            "title": "Antonia Klugmann",
+            "text": "<p>Restaurant L’ARGINE A VENCÒ, Dolegna del Collio</p><p>1 Michelin star</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_QYcCLH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/659ebe17177218000811affc_jpg.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_eXzKV7": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/659ebe1aacd48a00083d9146_jpg.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4dBcnk": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/65a6657d9d605c0008aa872e_jpg.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_XEaAwY": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/659ebe1df148b40007d66b55_jpg.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_tYrtjh": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/659ebe19acd48a00083d9145_jpg.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DgCDyy": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/659ebe1b177218000811b008_jpg.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_LFihNg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/659ebdd1177218000811affa_jpg.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_aL4Kga": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/659eadd1acd48a00083d90b6_jpg.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_CYxTNw": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/659ebe1eacd48a00083d9151_jpg.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_iLBiL4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/659ebe19177218000811b002_jpg.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_fMy4bg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/659ebe18f148b40007d66b44_jpg.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6FDBTc": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/659ebe1bf148b40007d66b4f_jpg.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_timJVq": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/659ebe1c177218000811b009_jpg.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_JUiK66": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/659ebe1a177218000811b006_jpg.jpg",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_QccVzg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/659ebe1cf148b40007d66b50_jpg.jpg",
+            "title": "Niko Romito",
+            "text": "<p>Restaurant REALE, Castel di Sangro</p><p>3 Michelin stars</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_D4n3fx": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/659ebe1c177218000811b00a_jpg.jpg",
+            "title": "Nino Rossi",
+            "text": "<p>Restaurant QAFIZ, Santa Cristina d’Aspromonte</p><p>1 Michelin star</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_EjYCN3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/659ebe1df148b40007d66b53_jpg.jpg",
+            "title": "Piergiorgio Siviero",
+            "text": "<p>Restaurant LAZZARO 1915, Pontelongo</p><p>1 Michelin star and Green star</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_F9n7mD": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/659ebe19177218000811b003_jpg.jpg",
+            "title": "Domenico Stile",
+            "text": "<p>Restaurant Enoteca LA TORRE, Rome</p><p>2 Michelin stars</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_Uh9VfR": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/65a7b02567f0bb0008b3c3f7_jpg.jpg",
+            "title": "Ciccio Sultano",
+            "text": "<p>Restaurant DUOMO, Ragusa Ibla</p><p>2 Michelin stars</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_4Fxaqg": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/65a7a495f148b40007d68737_jpg.jpg",
+            "title": "Luigi Taglienti",
+            "text": "<p>Restaurant IO LUIGI TAGLIENTI, Piacenza</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_fkfMTf": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/65a79f1167f0bb0008b3c3c2_jpg.jpg",
+            "title": "Roberto Tonola",
+            "text": "<p>Restaurant LANTERNA VERDE, Chiavenna</p><p>1 Michelin star and Green star</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_68wtA6",
+        "column_QYcCLH",
+        "column_eXzKV7",
+        "column_4dBcnk",
+        "column_XEaAwY",
+        "column_tYrtjh",
+        "column_DgCDyy",
+        "column_LFihNg",
+        "column_aL4Kga",
+        "column_CYxTNw",
+        "column_iLBiL4",
+        "column_fMy4bg",
+        "column_6FDBTc",
+        "column_timJVq",
+        "column_JUiK66",
+        "column_QccVzg",
+        "column_D4n3fx",
+        "column_EjYCN3",
+        "column_F9n7mD",
+        "column_Uh9VfR",
+        "column_4Fxaqg",
+        "column_fkfMTf"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -255,6 +585,9 @@
     "rich_text_XF9AWa",
     "image_banner_WpjUXk",
     "rich_text_dkiGfp",
-    "multicolumn_iWEeee"
+    "multicolumn_iWEeee",
+    "rich_text_i4rtXi",
+    "rich_text_J4D3TH",
+    "multicolumn_AeVcEw"
   ]
 }
