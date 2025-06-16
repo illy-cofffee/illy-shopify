@@ -80,6 +80,16 @@
     "multicolumn_xhc7LQ": {
       "type": "multicolumn",
       "blocks": {
+        "column_FGhUT9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/6821ecf155f9ac3121274570_png.png",
+            "title": "2025",
+            "text": "<h4>Sun Calero</h4>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "column_WbpTPq": {
           "type": "column",
           "settings": {
@@ -562,6 +572,7 @@
         }
       },
       "block_order": [
+        "column_FGhUT9",
         "column_WbpTPq",
         "column_fJchFp",
         "column_68yXCw",
