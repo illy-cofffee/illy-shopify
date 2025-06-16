@@ -77,19 +77,44 @@
         "padding_bottom": 52
       }
     },
-    "multicolumn_xhc7LQ": {
+    "multicolumn_TqbV4w": {
       "type": "multicolumn",
       "blocks": {
-        "column_FGhUT9": {
+        "column_b9zmm3": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/6821ecf155f9ac3121274570_png.png",
+            "image": "shopify://shop_images/6821ecf155f9ac3121274570_png_7f2a4f72-6a24-4bab-9c43-b05edc26edc2.png",
             "title": "2025",
             "text": "<h4>Sun Calero</h4>",
             "link_label": "",
             "link": ""
           }
-        },
+        }
+      },
+      "block_order": [
+        "column_b9zmm3"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_xhc7LQ": {
+      "type": "multicolumn",
+      "blocks": {
         "column_WbpTPq": {
           "type": "column",
           "settings": {
@@ -572,7 +597,6 @@
         }
       },
       "block_order": [
-        "column_FGhUT9",
         "column_WbpTPq",
         "column_fJchFp",
         "column_68yXCw",
@@ -2033,6 +2057,7 @@
     "main",
     "image_banner_hT86QA",
     "rich_text_t6yXyH",
+    "multicolumn_TqbV4w",
     "multicolumn_xhc7LQ",
     "multicolumn_GFXUVU",
     "multicolumn_pJLC8Y",
