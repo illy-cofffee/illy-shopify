@@ -47,7 +47,7 @@
         "newsletter_enable": false,
         "newsletter_heading": "Join the FAMilly",
         "newsletter_subtext": "Sign up for our newsletter to enjoy <strong>10% off </strong>your first purchase, plus early access to exclusive offers, new products, and of course, those coffee moments worth sharing.",
-        "enable_follow_on_shop": true,
+        "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": true,
         "enable_language_selector": true,
