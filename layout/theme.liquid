@@ -344,6 +344,7 @@
         
     </head>
   
+<script src="{{ 'loop_bundle.js' | asset_url }}"></script>
     <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
       <script src="{{ 'section-glide.js' | asset_url }}"></script>
       <a class="skip-to-content-link button visually-hidden" href="#MainContent">
@@ -360,6 +361,11 @@
         {% if template.name == 'product'%}
           {%  render 'breadcrumb' %}
          {%- endif -%}
+
+    {%- if request.path contains 'loop_subscriptions/bundle' -%}
+      {% render 'loop_loader' %}
+    {%- endif -%}
+  
         {{ content_for_layout }}
       </main>
   
