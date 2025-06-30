@@ -43,6 +43,10 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "loop_subscriptions_loop_widget_p68kzr": {
+          "type": "shopify://apps/loop-subscriptions/blocks/loop_widget/267a7c64-5cb3-4552-b817-5485165f0a0b",
+          "settings": {}
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -134,6 +138,10 @@
             "content": "<p>{{ product.metafields.custom.warranty | metafield_tag }}</p>",
             "page": ""
           }
+        },
+        "loop_subscriptions_loop_widget_AdVNKc": {
+          "type": "shopify://apps/loop-subscriptions/blocks/loop_widget/267a7c64-5cb3-4552-b817-5485165f0a0b",
+          "settings": {}
         }
       },
       "block_order": [
@@ -143,6 +151,7 @@
         "description",
         "variant_picker",
         "quantity_selector",
+        "loop_subscriptions_loop_widget_p68kzr",
         "buy_buttons",
         "collapsible_tab_darjU9",
         "collapsible_tab_KhhmzW",
@@ -152,7 +161,8 @@
         "collapsible_tab_4xTQtq",
         "collapsible_tab_bQJbgL",
         "collapsible_tab_B9PUC4",
-        "collapsible_tab_rMPr48"
+        "collapsible_tab_rMPr48",
+        "loop_subscriptions_loop_widget_AdVNKc"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -170,6 +180,10 @@
         "padding_bottom": 12
       }
     },
+    "product_key_features_j9jcNQ": {
+      "type": "product-key-features",
+      "settings": {}
+    },
     "product_video_B7gAnT": {
       "type": "product-video",
       "settings": {
@@ -184,10 +198,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "product_key_features_j9jcNQ": {
-      "type": "product-key-features",
-      "settings": {}
     },
     "image_banner_6qq9Vz": {
       "type": "image-banner",
