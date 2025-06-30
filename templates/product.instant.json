@@ -39,12 +39,12 @@
             "swatch_shape": "square"
           }
         },
-        "appstle_subscription_appstle_subscription_product_page_widget_gj4z3V": {
-          "type": "shopify://apps/appstle-subscription/blocks/appstle-subscription-product-page-widget/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
-          "settings": {}
-        },
         "quantity_selector": {
           "type": "quantity_selector",
+          "settings": {}
+        },
+        "loop_subscriptions_loop_widget_mfgtiD": {
+          "type": "shopify://apps/loop-subscriptions/blocks/loop_widget/267a7c64-5cb3-4552-b817-5485165f0a0b",
           "settings": {}
         },
         "buy_buttons": {
@@ -173,8 +173,8 @@
         "price",
         "description",
         "variant_picker",
-        "appstle_subscription_appstle_subscription_product_page_widget_gj4z3V",
         "quantity_selector",
+        "loop_subscriptions_loop_widget_mfgtiD",
         "buy_buttons",
         "collapsible_tab_darjU9",
         "collapsible_tab_cD6xJA",
