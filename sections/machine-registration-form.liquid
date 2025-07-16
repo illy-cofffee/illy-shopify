@@ -38,22 +38,48 @@
     cursor: pointer;
   }
 
+  /* Grid layout for form fields */
+  .contact__fields {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .contact__fields .field.full-width {
+    grid-column: 1 / -1;
+  }
+
   /* Conditional field styling */
   .conditional-fields {
     display: none;
     margin-top: 1rem;
+    grid-column: 1 / -1;
   }
 
   .conditional-fields.show {
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
   }
 
-  .conditional-fields h4 {
+  .conditional-fields h3 {
     margin-top: 0;
     margin-bottom: 1rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #333;
     font-weight: 600;
+    grid-column: 1 / -1;
+  }
+
+  /* Responsive design */
+  @media screen and (max-width: 749px) {
+    .contact__fields {
+      grid-template-columns: 1fr;
+    }
+    
+    .conditional-fields.show {
+      grid-template-columns: 1fr;
+    }
   }
 
 {%- endstyle -%}
@@ -104,7 +130,8 @@
           {%- endif -%}
 
           <div class="contact__fields">
-            <div class="field">
+            <!-- Row 1: Name (full width) -->
+            <div class="field full-width">
               <input
                 class="field__input field--with-error"
                 autocomplete="name"
@@ -137,6 +164,7 @@
               {%- endif -%}
             </div>
 
+            <!-- Row 2: Email and Phone -->
             <div class="field field--with-error">
               <input
                 autocomplete="email"
@@ -191,6 +219,7 @@
               </label>
             </div>
 
+            <!-- Row 3: Machine Type and Serial Number -->
             <div class="field">
               <select class="field__input select" id="MachineRegistrationForm-machine-type" name="contact[machine_type]" required style="padding: 0.8rem 1.5rem 0.8rem 2rem;">
                 <option value="">Select Machine Type <span aria-hidden="true">*</span></option>
@@ -217,6 +246,7 @@
               </label>
             </div>
 
+            <!-- Row 4: Date of Purchase and How Obtained -->
             <div class="field">
               <input
                 type="date"
@@ -244,7 +274,7 @@
 
             <!-- Conditional fields for in-store retailer -->
             <div id="instore-fields" class="conditional-fields">
-              <h4>Store Information</h4>
+              <h3>Store Information</h3>
               <div class="field">
                 <input
                   type="text"
@@ -273,7 +303,7 @@
 
             <!-- Conditional fields for online retailer -->
             <div id="online-fields" class="conditional-fields">
-              <h4>Website Information</h4>
+              <h3>Website Information</h3>
               <div class="field">
                 <input
                   type="text"
