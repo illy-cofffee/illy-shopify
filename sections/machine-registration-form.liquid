@@ -38,6 +38,27 @@
     cursor: pointer;
   }
 
+  /* Conditional field styling */
+  .conditional-fields {
+    display: none;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: #f8f8f8;
+    border-radius: 0.5rem;
+    border-left: 3px solid #007acc;
+  }
+
+  .conditional-fields.show {
+    display: block;
+  }
+
+  .conditional-fields h4 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: #333;
+  }
+
 {%- endstyle -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
@@ -184,6 +205,104 @@
               </select>
             </div>
 
+            <div class="field">
+              <input
+                type="text"
+                id="MachineRegistrationForm-serial-number"
+                class="field__input"
+                name="contact[machine_serial_number]"
+                aria-required="true"
+                required
+                placeholder="Machine Serial Number"
+              >
+              <label class="field__label" for="MachineRegistrationForm-serial-number">Machine Serial Number
+                <span aria-hidden="true">*</span>
+              </label>
+            </div>
+
+            <div class="field">
+              <input
+                type="date"
+                id="MachineRegistrationForm-purchase-date"
+                class="field__input"
+                name="contact[purchase_date]"
+                aria-required="true"
+                required
+              >
+              <label class="field__label" for="MachineRegistrationForm-purchase-date">Date of Purchase
+                <span aria-hidden="true">*</span>
+              </label>
+            </div>
+
+            <div class="field">
+              <select class="field__input select" id="MachineRegistrationForm-how-obtained" name="contact[how_obtained]" required style="padding: 0.8rem 1.5rem 0.8rem 2rem;">
+                <option value="">How was the machine obtained? <span aria-hidden="true">*</span></option>
+                <option value="purchased from illy.com.au">Purchased from illy.com.au</option>
+                <option value="purchased from another retailer (in-store)">Purchased from another retailer (in-store)</option>
+                <option value="purchased from another retailer (online)">Purchased from another retailer (online)</option>
+                <option value="received as a gift">Received as a gift</option>
+                <option value="other, please specify">Other, please specify</option>
+              </select>
+            </div>
+
+            <!-- Conditional fields for in-store retailer -->
+            <div id="instore-fields" class="conditional-fields">
+              <h4>Store Information</h4>
+              <div class="field">
+                <input
+                  type="text"
+                  id="MachineRegistrationForm-store-name"
+                  class="field__input"
+                  name="contact[store_name]"
+                  placeholder="Store Name"
+                >
+                <label class="field__label" for="MachineRegistrationForm-store-name">Store Name
+                  <span aria-hidden="true">*</span>
+                </label>
+              </div>
+              <div class="field">
+                <input
+                  type="text"
+                  id="MachineRegistrationForm-store-address"
+                  class="field__input"
+                  name="contact[store_address]"
+                  placeholder="Store Address"
+                >
+                <label class="field__label" for="MachineRegistrationForm-store-address">Store Address
+                  <span aria-hidden="true">*</span>
+                </label>
+              </div>
+            </div>
+
+            <!-- Conditional fields for online retailer -->
+            <div id="online-fields" class="conditional-fields">
+              <h4>Website Information</h4>
+              <div class="field">
+                <input
+                  type="text"
+                  id="MachineRegistrationForm-website-name"
+                  class="field__input"
+                  name="contact[website_name]"
+                  placeholder="Website Name"
+                >
+                <label class="field__label" for="MachineRegistrationForm-website-name">Website Name
+                  <span aria-hidden="true">*</span>
+                </label>
+              </div>
+              <div class="field">
+                <input
+                  type="url"
+                  id="MachineRegistrationForm-website-url"
+                  class="field__input"
+                  name="contact[website_url]"
+                  placeholder="Website URL"
+                >
+                <label class="field__label" for="MachineRegistrationForm-website-url">Website URL
+                  <span aria-hidden="true">*</span>
+                </label>
+              </div>
+            </div>
+
           </div>
 
           <div class="contact__button">
@@ -195,6 +314,50 @@
       </div>
   </div>
 </div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const howObtainedSelect = document.getElementById('MachineRegistrationForm-how-obtained');
+    const instoreFields = document.getElementById('instore-fields');
+    const onlineFields = document.getElementById('online-fields');
+    
+    // Fields that should be required when visible
+    const storeNameField = document.getElementById('MachineRegistrationForm-store-name');
+    const storeAddressField = document.getElementById('MachineRegistrationForm-store-address');
+    const websiteNameField = document.getElementById('MachineRegistrationForm-website-name');
+    const websiteUrlField = document.getElementById('MachineRegistrationForm-website-url');
+    
+    function toggleConditionalFields() {
+      const selectedValue = howObtainedSelect.value;
+      
+      // Hide all conditional fields and remove required attribute
+      instoreFields.classList.remove('show');
+      onlineFields.classList.remove('show');
+      
+      storeNameField.removeAttribute('required');
+      storeAddressField.removeAttribute('required');
+      websiteNameField.removeAttribute('required');
+      websiteUrlField.removeAttribute('required');
+      
+      // Show relevant fields based on selection
+      if (selectedValue === 'purchased from another retailer (in-store)') {
+        instoreFields.classList.add('show');
+        storeNameField.setAttribute('required', 'required');
+        storeAddressField.setAttribute('required', 'required');
+      } else if (selectedValue === 'purchased from another retailer (online)') {
+        onlineFields.classList.add('show');
+        websiteNameField.setAttribute('required', 'required');
+        websiteUrlField.setAttribute('required', 'required');
+      }
+    }
+    
+    // Add event listener to the dropdown
+    howObtainedSelect.addEventListener('change', toggleConditionalFields);
+    
+    // Initialize on page load
+    toggleConditionalFields();
+  });
+</script>
 
 {% schema %}
 {
