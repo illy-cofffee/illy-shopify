@@ -17,19 +17,13 @@
         "padding_bottom": 28
       }
     },
-    "1751266159252ffc2d": {
-      "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "machine_registration_form_qhk366": {
+    "machine_registration_form_tixccT": {
       "type": "machine-registration-form",
       "name": "Machine Registration Form",
       "settings": {
-        "heading": "Register your illy Coffee Machine",
+        "heading": "Machine Registration",
         "heading_size": "h1",
-        "color_scheme": "scheme-3",
+        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -37,7 +31,6 @@
   },
   "order": [
     "main",
-    "1751266159252ffc2d",
-    "machine_registration_form_qhk366"
+    "machine_registration_form_tixccT"
   ]
 }
