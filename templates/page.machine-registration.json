@@ -17,11 +17,28 @@
         "padding_bottom": 28
       }
     },
+    "image_banner_aQR4XJ": {
+      "type": "image-banner",
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/white-machine-subscriptionp-hero_website_1440x490_cb4e94ea-02e8-4de8-9b1d-4e404eb1f7fe.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "machine_registration_form_tixccT": {
       "type": "machine-registration-form",
       "name": "Machine Registration Form",
       "settings": {
-        "heading": "Machine Registration",
+        "heading": "",
         "heading_size": "h1",
         "color_scheme": "",
         "padding_top": 36,
@@ -31,6 +48,7 @@
   },
   "order": [
     "main",
+    "image_banner_aQR4XJ",
     "machine_registration_form_tixccT"
   ]
 }
