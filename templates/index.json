@@ -30,6 +30,7 @@
         },
         "glide_slider_item_Djcd8t": {
           "type": "glide-slider-item",
+          "disabled": true,
           "settings": {
             "glide-slider-item-header": "<p>Your Machine, Our Mastery</p>",
             "image": "shopify://shop_images/glider-banner-example.png",
@@ -46,13 +47,13 @@
         "glide_slider_item_F7KqXf": {
           "type": "glide-slider-item",
           "settings": {
-            "glide-slider-item-header": "<p>Enter header...</p>",
+            "glide-slider-item-header": "<p>Never run out. Subscribe to illy.</p>",
             "image": "shopify://shop_images/67596edfbd7e4dd726db9946.webp",
-            "description": "",
+            "description": "<p>Choose Coffee Only or Machine & Coffee – the subscription that ensures illy is always within reach.</p>",
             "alignment": "align-top-left",
-            "button_link": "",
-            "button_label": "Show more",
-            "button_style": "solid",
+            "button_link": "shopify://pages/subscription",
+            "button_label": "Subscribe Now",
+            "button_style": "outline",
             "disclaimer_text": "",
             "color_background_main": "#d12420",
             "color_text_main": "#ffffff"
