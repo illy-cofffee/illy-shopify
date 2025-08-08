@@ -30,7 +30,6 @@
         },
         "glide_slider_item_Djcd8t": {
           "type": "glide-slider-item",
-          "disabled": true,
           "settings": {
             "glide-slider-item-header": "<p>Your Machine, Our Mastery</p>",
             "image": "shopify://shop_images/glider-banner-example.png",
