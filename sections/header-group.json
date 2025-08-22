@@ -58,6 +58,7 @@
         "promotion_linktext_2": "Subscription",
         "promotion_url_2": "shopify://pages/subscription",
         "show_promotion_3": false,
+        "promotion_image_3": "shopify://shop_images/videotutorial.jpg",
         "promotion_linktext_3": "",
         "promotion_url_3": "",
         "show_promotion_4": false,
