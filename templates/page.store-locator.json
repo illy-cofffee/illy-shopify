@@ -44,7 +44,7 @@
       "settings": {
         "image": "shopify://shop_images/2020_consumption_espresso_servizio_frontale_8688x5792p.jpg",
         "image_overlay_opacity": 20,
-        "image_height": "adapt",
+        "image_height": "small",
         "desktop_content_position": "bottom-left",
         "show_text_box": true,
         "desktop_content_alignment": "left",
