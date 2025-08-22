@@ -21,9 +21,9 @@
       "type": "image-banner",
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/65f2c30dfe2ac0000886978b_2ddef049-3ed0-42be-ac55-0bc7c8fc9ead.webp",
+        "image": "shopify://shop_images/68493519e3ab2ec58dc45d8a.webp",
         "image_overlay_opacity": 0,
-        "image_height": "adapt",
+        "image_height": "small",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
