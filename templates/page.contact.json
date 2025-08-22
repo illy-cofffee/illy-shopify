@@ -19,15 +19,36 @@
     },
     "image_banner_ikypEY": {
       "type": "image-banner",
+      "blocks": {
+        "heading_hpifdR": {
+          "type": "heading",
+          "settings": {
+            "heading": "Contact illy Australia",
+            "heading_size": "h1",
+            "h1-title": false
+          }
+        },
+        "text_3VeT8V": {
+          "type": "text",
+          "settings": {
+            "text": "We’re Here to Help.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hpifdR",
+        "text_3VeT8V"
+      ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/68493519e3ab2ec58dc45d8a.webp",
         "image_overlay_opacity": 0,
         "image_height": "small",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "bottom-left",
         "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -37,12 +58,10 @@
     "rich_text_tFDgP8": {
       "type": "rich-text",
       "blocks": {
-        "heading_cUikHK": {
-          "type": "heading",
+        "text_wmKQgV": {
+          "type": "text",
           "settings": {
-            "heading": "CUSTOMER ENQUIRIES",
-            "heading_size": "h1",
-            "h1-title": true
+            "text": "<p>Have a question about illy products, your order, or our events? Please use the form below and our team will get back to you promptly.</p>"
           }
         },
         "text_34FcxY": {
@@ -53,7 +72,7 @@
         }
       },
       "block_order": [
-        "heading_cUikHK",
+        "text_wmKQgV",
         "text_34FcxY"
       ],
       "settings": {
