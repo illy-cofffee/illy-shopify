@@ -24,33 +24,25 @@
           "type": "heading",
           "settings": {
             "heading": "Find illy Near You",
-            "heading_size": "h1",
-            "h1-title": false
-          }
-        },
-        "text_f3Bgxq": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>Discover the closest cafés, restaurants, and venues serving illy coffee. </strong>Whether you're after a quick espresso on the go or a relaxed cappuccino with friends, your perfect illy moment is just around the corner. Use our venue finder to explore locations offering the signature illy experience—crafted with care, served with style.",
-            "text_style": "body"
+            "heading_size": "h0",
+            "h1-title": true
           }
         }
       },
       "block_order": [
-        "heading_NDNHiH",
-        "text_f3Bgxq"
+        "heading_NDNHiH"
       ],
-      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
+        "image": "shopify://shop_images/2020_consumption_espresso_servizio_frontale_8688x5792p.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-left",
         "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
+        "mobile_content_alignment": "left",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
@@ -60,6 +52,7 @@
       "blocks": {
         "heading_Dcqzk3": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Find illy Near You",
             "heading_size": "h1",
