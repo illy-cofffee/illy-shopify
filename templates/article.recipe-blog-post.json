@@ -57,7 +57,7 @@
     "featured_blog_B7yrXH": {
       "type": "featured-blog",
       "settings": {
-        "heading": "More recipes",
+        "heading": "Your Next Coffee Creation:",
         "heading_size": "h2",
         "blog": "recipes",
         "post_limit": 3,
