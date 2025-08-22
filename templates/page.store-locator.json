@@ -43,7 +43,7 @@
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/2020_consumption_espresso_servizio_frontale_8688x5792p.jpg",
-        "image_overlay_opacity": 0,
+        "image_overlay_opacity": 20,
         "image_height": "adapt",
         "desktop_content_position": "bottom-left",
         "show_text_box": true,
