@@ -30,6 +30,7 @@
         },
         "glide_slider_item_Djcd8t": {
           "type": "glide-slider-item",
+          "disabled": true,
           "settings": {
             "glide-slider-item-header": "<p>Your Machine, Our Mastery</p>",
             "image": "shopify://shop_images/glider-banner-example.png",
@@ -114,7 +115,7 @@
     "featured_collection_xQQRtg": {
       "type": "featured-collection",
       "settings": {
-        "title": "Coffee Machines",
+        "title": "Our Coffee Machines",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
