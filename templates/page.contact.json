@@ -76,8 +76,8 @@
         "text_34FcxY"
       ],
       "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "scheme-3",
         "full_width": true,
         "padding_top": 40,
