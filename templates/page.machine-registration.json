@@ -19,15 +19,28 @@
     },
     "image_banner_aQR4XJ": {
       "type": "image-banner",
+      "blocks": {
+        "heading_yzXJKc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Register Your illy Machine",
+            "heading_size": "h0",
+            "h1-title": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_yzXJKc"
+      ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/65f2c30dfe2ac0000886978b.webp",
+        "image": "shopify://shop_images/67b4afcbbc404994d6361f2d.webp",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "bottom-left",
         "show_text_box": true,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-97ddc7e8-156f-4b27-8e6c-47507eb08299",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -36,6 +49,7 @@
     },
     "machine_registration_form_tixccT": {
       "type": "machine-registration-form",
+      "custom_css": [],
       "name": "Machine Registration Form",
       "settings": {
         "heading": "",
