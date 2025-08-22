@@ -27,10 +27,18 @@
             "heading_size": "h0",
             "h1-title": true
           }
+        },
+        "text_6hi7cH": {
+          "type": "text",
+          "settings": {
+            "text": "Discover the closest cafés, restaurants, and venues serving illy coffee.",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
-        "heading_NDNHiH"
+        "heading_NDNHiH",
+        "text_6hi7cH"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
@@ -62,7 +70,7 @@
         "text_6zJcRj": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Discover the closest cafés, restaurants, and venues serving illy coffee.</strong><br/><br/>Whether you're after a quick espresso on the go or a relaxed cappuccino, your perfect illy moment is just around the corner. Use our venue finder to explore locations offering a premium illy experience.<br/></p>"
+            "text": "<p>Whether you're after a quick espresso on the go or a relaxed cappuccino, your perfect illy moment is just around the corner. Use our venue finder to explore locations offering a premium illy experience.<br/></p>"
           }
         }
       },
