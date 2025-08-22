@@ -15,7 +15,7 @@
         "heading_qkr7Jp": {
           "type": "heading",
           "settings": {
-            "heading": "News",
+            "heading": "illy Newsroom",
             "heading_size": "h0",
             "h1-title": true
           }
@@ -47,6 +47,29 @@
         "show_text_below": true
       }
     },
+    "rich_text_gtaxEE": {
+      "type": "rich-text",
+      "blocks": {
+        "text_MkFEgY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Be the first to know what’s brewing. Check out our latest café collaborations, coffee events, product releases, and expert tips from the illy community.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_MkFEgY"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
     "main": {
       "type": "main-blog",
       "settings": {
@@ -62,6 +85,7 @@
   },
   "order": [
     "image_banner_iVgqJA",
+    "rich_text_gtaxEE",
     "main"
   ]
 }
