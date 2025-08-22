@@ -17,22 +17,13 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Enjoy Free Shipping on Orders Over $150",
-            "link": ""
-          }
-        },
-        "announcement_8gKTDB": {
-          "type": "announcement",
-          "disabled": true,
-          "settings": {
-            "text": "Welcome to our store",
+            "text": "Enjoy Free Shipping on Orders Over $100",
             "link": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0",
-        "announcement_8gKTDB"
+        "announcement-bar-0"
       ],
       "settings": {
         "color_scheme": "scheme-5",
