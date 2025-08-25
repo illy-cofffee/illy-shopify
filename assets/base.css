@@ -3118,8 +3118,8 @@ details-disclosure > details {
 /* Bold text styling for WYSIWYG editor */
 strong,
 b {
-  font-family: "Museo Sans 700";
-  font-weight: 700;
+  font-family: "Museo Sans 500";
+  font-weight: bold;
 }
 
 /* outline and border styling for Windows High Contrast Mode */
