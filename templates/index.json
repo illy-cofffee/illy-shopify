@@ -162,7 +162,7 @@
       "settings": {
         "heading": "Latest News",
         "heading_size": "h1",
-        "blog": "news",
+        "blog": "newsroom",
         "post_limit": 4,
         "columns_desktop": 4,
         "color_scheme": "scheme-1",
